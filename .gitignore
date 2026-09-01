@@ -17,3 +17,8 @@ results/
 *.LOCAL_SAFETY_COPY
 
 .DS_Store
+
+# Generated QA reports
+qa_v8_8_report/
+__pycache__/
+*.pyc
