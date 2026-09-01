@@ -1,0 +1,11 @@
+[
+  {
+    "run_id": "f73116e484344b738978c4760d080d1f",
+    "version": "8.7.8",
+    "current_run": true,
+    "timestamp": "2026-08-31T06:18:17.552602+00:00",
+    "phase": "discovery",
+    "message": "CURRENT_APPLICATION_MODEL_EMPTY",
+    "url": null
+  }
+]

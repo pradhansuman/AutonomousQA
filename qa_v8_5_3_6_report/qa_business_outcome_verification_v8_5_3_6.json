@@ -1,0 +1,19 @@
+{
+  "version": "8.5.2",
+  "canonical": true,
+  "journeys": 0,
+  "executed_journeys": 0,
+  "outcomes": [],
+  "observed": 0,
+  "inferred": 0,
+  "unknown": 0,
+  "network_calls": 0,
+  "ui_verified": 0,
+  "state_verified": 0,
+  "network_verified": 0,
+  "backend_verified": 0,
+  "business_verified": 0,
+  "backend_outcomes_observed": 0,
+  "backend_outcomes_unknown": 0,
+  "truth_policy": "Never claim backend/database truth without direct evidence."
+}

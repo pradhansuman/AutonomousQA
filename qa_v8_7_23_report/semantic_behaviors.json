@@ -1,0 +1,274 @@
+[
+  {
+    "behavior_id": "d50026623d5571ad4758",
+    "run_id": "9d33e25169884dfba7d4fb29ae59cbb8",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/checkboxes",
+    "surface": "https://the-internet.herokuapp.com/checkboxes",
+    "semantic": "CHECKBOX",
+    "action": "check",
+    "selector": "input",
+    "label": "input",
+    "risk": 55,
+    "status": "PASS",
+    "evidence_ids": [
+      "88e84f2cc6821caeeffb"
+    ]
+  },
+  {
+    "behavior_id": "b50846e850569258f190",
+    "run_id": "9d33e25169884dfba7d4fb29ae59cbb8",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/dropdown",
+    "surface": "https://the-internet.herokuapp.com/dropdown",
+    "semantic": "SELECT",
+    "action": "select",
+    "selector": "#dropdown",
+    "label": "Please select an option\nOption 1\nOption 2",
+    "risk": 60,
+    "status": "PASS",
+    "evidence_ids": [
+      "d0b85e1ab611bed915b8"
+    ]
+  },
+  {
+    "behavior_id": "e7a8644cc0300dda22d7",
+    "run_id": "9d33e25169884dfba7d4fb29ae59cbb8",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/dynamic_controls",
+    "surface": "https://the-internet.herokuapp.com/dynamic_controls",
+    "semantic": "CHECKBOX",
+    "action": "check",
+    "selector": "input",
+    "label": "input",
+    "risk": 55,
+    "status": "PASS",
+    "evidence_ids": [
+      "f5482f0d03dd829d6487"
+    ]
+  },
+  {
+    "behavior_id": "2197a349a8ee876d9a83",
+    "run_id": "9d33e25169884dfba7d4fb29ae59cbb8",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/dynamic_controls",
+    "surface": "https://the-internet.herokuapp.com/dynamic_controls",
+    "semantic": "BUTTON",
+    "action": "click",
+    "selector": "button",
+    "label": "Remove",
+    "risk": 50,
+    "status": "PASS",
+    "evidence_ids": [
+      "ab3206183134eb3e7889"
+    ]
+  },
+  {
+    "behavior_id": "40f98533aca86b89b256",
+    "run_id": "9d33e25169884dfba7d4fb29ae59cbb8",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/forgot_password",
+    "surface": "https://the-internet.herokuapp.com/forgot_password",
+    "semantic": "TEXT_INPUT",
+    "action": "fill",
+    "selector": "#email",
+    "label": "email",
+    "risk": 60,
+    "status": "PASS",
+    "evidence_ids": [
+      "689962bc714cbb9cb682"
+    ]
+  },
+  {
+    "behavior_id": "9defa8ae4b0355a8ce6d",
+    "run_id": "9d33e25169884dfba7d4fb29ae59cbb8",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/forgot_password",
+    "surface": "https://the-internet.herokuapp.com/forgot_password",
+    "semantic": "BUTTON",
+    "action": "click",
+    "selector": "#form_submit",
+    "label": "Retrieve password",
+    "risk": 50,
+    "status": "PASS",
+    "evidence_ids": [
+      "aa03238d56ffe44f0dc3"
+    ]
+  },
+  {
+    "behavior_id": "40e889c1f771e950f977",
+    "run_id": "9d33e25169884dfba7d4fb29ae59cbb8",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/geolocation",
+    "surface": "https://the-internet.herokuapp.com/geolocation",
+    "semantic": "BUTTON",
+    "action": "click",
+    "selector": "button",
+    "label": "Where am I?",
+    "risk": 50,
+    "status": "PASS",
+    "evidence_ids": [
+      "821b8600dff41d6973cd"
+    ]
+  },
+  {
+    "behavior_id": "0859d8b13338ee2960bf",
+    "run_id": "9d33e25169884dfba7d4fb29ae59cbb8",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/horizontal_slider",
+    "surface": "https://the-internet.herokuapp.com/horizontal_slider",
+    "semantic": "SLIDER",
+    "action": "adjust",
+    "selector": "input",
+    "label": "input",
+    "risk": 55,
+    "status": "PASS",
+    "evidence_ids": [
+      "ff2a6d31d0fe17fe2c6e"
+    ]
+  },
+  {
+    "behavior_id": "8ac27c17b067bd0f5db4",
+    "run_id": "9d33e25169884dfba7d4fb29ae59cbb8",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/inputs",
+    "surface": "https://the-internet.herokuapp.com/inputs",
+    "semantic": "TEXT_INPUT",
+    "action": "fill",
+    "selector": "input",
+    "label": "input",
+    "risk": 60,
+    "status": "FAIL",
+    "evidence_ids": [
+      "3c4ac3cfdc707e6857da"
+    ]
+  },
+  {
+    "behavior_id": "621ef7052c8c428fa371",
+    "run_id": "9d33e25169884dfba7d4fb29ae59cbb8",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/javascript_alerts",
+    "surface": "https://the-internet.herokuapp.com/javascript_alerts",
+    "semantic": "BUTTON",
+    "action": "click",
+    "selector": "button",
+    "label": "Click for JS Alert",
+    "risk": 50,
+    "status": "PASS",
+    "evidence_ids": [
+      "e836806dbbebe67ec522"
+    ]
+  },
+  {
+    "behavior_id": "d9176d5b9edf22c839a1",
+    "run_id": "9d33e25169884dfba7d4fb29ae59cbb8",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/key_presses",
+    "surface": "https://the-internet.herokuapp.com/key_presses",
+    "semantic": "TEXT_INPUT",
+    "action": "fill",
+    "selector": "#target",
+    "label": "input",
+    "risk": 60,
+    "status": "PASS",
+    "evidence_ids": [
+      "2d73d6f03f107e7681e8"
+    ]
+  },
+  {
+    "behavior_id": "711619301157116f12a4",
+    "run_id": "9d33e25169884dfba7d4fb29ae59cbb8",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/login",
+    "surface": "https://the-internet.herokuapp.com/login",
+    "semantic": "TEXT_INPUT",
+    "action": "fill",
+    "selector": "#username",
+    "label": "username",
+    "risk": 75,
+    "status": "PASS",
+    "evidence_ids": [
+      "ca103945cf0c5cfca920"
+    ]
+  },
+  {
+    "behavior_id": "16c44a7c998d943bddad",
+    "run_id": "9d33e25169884dfba7d4fb29ae59cbb8",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/login",
+    "surface": "https://the-internet.herokuapp.com/login",
+    "semantic": "TEXT_INPUT",
+    "action": "fill",
+    "selector": "#password",
+    "label": "password",
+    "risk": 75,
+    "status": "PASS",
+    "evidence_ids": [
+      "b70913af9ef72660f8f3"
+    ]
+  },
+  {
+    "behavior_id": "5b0d24933f97fd25bca5",
+    "run_id": "9d33e25169884dfba7d4fb29ae59cbb8",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/login",
+    "surface": "https://the-internet.herokuapp.com/login",
+    "semantic": "BUTTON",
+    "action": "click",
+    "selector": "button",
+    "label": "Login",
+    "risk": 65,
+    "status": "PASS",
+    "evidence_ids": [
+      "55c9bc4dc4a912d01841"
+    ]
+  },
+  {
+    "behavior_id": "d7d215dcd535e34815e4",
+    "run_id": "9d33e25169884dfba7d4fb29ae59cbb8",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/upload",
+    "surface": "https://the-internet.herokuapp.com/upload",
+    "semantic": "FILE_UPLOAD",
+    "action": "upload",
+    "selector": "#file-upload",
+    "label": "file",
+    "risk": 85,
+    "status": "PASS",
+    "evidence_ids": [
+      "8511b7c858c13773a3e7"
+    ]
+  },
+  {
+    "behavior_id": "2c1acac7704856424dd5",
+    "run_id": "9d33e25169884dfba7d4fb29ae59cbb8",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/upload",
+    "surface": "https://the-internet.herokuapp.com/upload",
+    "semantic": "TEXT_INPUT",
+    "action": "fill",
+    "selector": "#file-submit",
+    "label": "input",
+    "risk": 75,
+    "status": "FAIL",
+    "evidence_ids": [
+      "c6d103d5cc89f16ef213"
+    ]
+  }
+]

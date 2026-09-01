@@ -1,0 +1,36 @@
+{
+  "version": "8.7.12",
+  "run_id": "806f978131774d69af5bf1bfc9b5a553",
+  "target": "https://demoqa.com/",
+  "discovery_pages": 42,
+  "behavioral_surfaces": 73,
+  "covered_behaviors": 53,
+  "unknown_behaviors": 15,
+  "behavioral_coverage": 72.6027397260274,
+  "navigation_surfaces": 43,
+  "navigation_covered": 0,
+  "executions": 58,
+  "execution_pass": 53,
+  "execution_fail": 5,
+  "evidence_records": 141,
+  "legacy_state_reused": false,
+  "negative_conditions": {
+    "legacy_state_reused": false,
+    "synthetic_evidence": false,
+    "foreign_evidence": false,
+    "fabricated_backend_claims": false
+  },
+  "gates": {
+    "current_discovery": true,
+    "canonical_model": true,
+    "legacy_state_reused": true,
+    "synthetic_evidence": true,
+    "foreign_evidence": true,
+    "execution_failures": false,
+    "unknown_behaviors": false,
+    "evidence_exists": true,
+    "fabricated_backend_claims": true
+  },
+  "release_truth_gate": false,
+  "generated_at": "2026-08-31T07:55:18.994255+00:00"
+}

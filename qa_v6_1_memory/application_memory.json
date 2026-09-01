@@ -1,0 +1,412 @@
+{
+  "version": "6.1",
+  "runs": 49,
+  "urls": {
+    "https://demoqa.com/radio-button": {
+      "visits": 44,
+      "exploration_actions": 0,
+      "failures": 0,
+      "confirmed_defects": 0,
+      "not_reproduced": 0
+    },
+    "https://demoqa.com/accordian": {
+      "visits": 44,
+      "exploration_actions": 0,
+      "failures": 0,
+      "confirmed_defects": 0,
+      "not_reproduced": 0
+    },
+    "https://demoqa.com/tabs": {
+      "visits": 44,
+      "exploration_actions": 0,
+      "failures": 0,
+      "confirmed_defects": 0,
+      "not_reproduced": 0
+    },
+    "https://demoqa.com/": {
+      "visits": 44,
+      "exploration_actions": 0,
+      "failures": 0,
+      "confirmed_defects": 0,
+      "not_reproduced": 0
+    },
+    "https://demoqa.com/alertsWindows": {
+      "visits": 44,
+      "exploration_actions": 0,
+      "failures": 0,
+      "confirmed_defects": 0,
+      "not_reproduced": 0
+    },
+    "https://demoqa.com/webtables": {
+      "visits": 44,
+      "exploration_actions": 31,
+      "failures": 0,
+      "confirmed_defects": 0,
+      "not_reproduced": 0
+    },
+    "https://demoqa.com/links": {
+      "visits": 44,
+      "exploration_actions": 0,
+      "failures": 0,
+      "confirmed_defects": 0,
+      "not_reproduced": 0
+    },
+    "https://demoqa.com/date-picker": {
+      "visits": 44,
+      "exploration_actions": 0,
+      "failures": 0,
+      "confirmed_defects": 0,
+      "not_reproduced": 0
+    },
+    "https://demoqa.com/automation-practice-form": {
+      "visits": 44,
+      "exploration_actions": 39,
+      "failures": 0,
+      "confirmed_defects": 0,
+      "not_reproduced": 0
+    },
+    "https://demoqa.com/widgets": {
+      "visits": 44,
+      "exploration_actions": 0,
+      "failures": 0,
+      "confirmed_defects": 0,
+      "not_reproduced": 0
+    },
+    "https://demoqa.com/forms": {
+      "visits": 44,
+      "exploration_actions": 0,
+      "failures": 0,
+      "confirmed_defects": 0,
+      "not_reproduced": 0
+    },
+    "https://demoqa.com": {
+      "visits": 47,
+      "exploration_actions": 3,
+      "failures": 0,
+      "confirmed_defects": 0,
+      "not_reproduced": 0
+    },
+    "https://demoqa.com/interaction": {
+      "visits": 44,
+      "exploration_actions": 0,
+      "failures": 0,
+      "confirmed_defects": 0,
+      "not_reproduced": 0
+    },
+    "https://demoqa.com/frames": {
+      "visits": 44,
+      "exploration_actions": 0,
+      "failures": 0,
+      "confirmed_defects": 0,
+      "not_reproduced": 0
+    },
+    "https://demoqa.com/elements": {
+      "visits": 44,
+      "exploration_actions": 0,
+      "failures": 0,
+      "confirmed_defects": 0,
+      "not_reproduced": 0
+    },
+    "https://demoqa.com/nestedframes": {
+      "visits": 44,
+      "exploration_actions": 0,
+      "failures": 0,
+      "confirmed_defects": 0,
+      "not_reproduced": 0
+    },
+    "https://demoqa.com/progress-bar": {
+      "visits": 44,
+      "exploration_actions": 0,
+      "failures": 0,
+      "confirmed_defects": 0,
+      "not_reproduced": 0
+    },
+    "https://demoqa.com/dynamic-properties": {
+      "visits": 44,
+      "exploration_actions": 1,
+      "failures": 0,
+      "confirmed_defects": 0,
+      "not_reproduced": 0
+    },
+    "https://demoqa.com/tool-tips": {
+      "visits": 44,
+      "exploration_actions": 0,
+      "failures": 0,
+      "confirmed_defects": 0,
+      "not_reproduced": 0
+    },
+    "https://demoqa.com/browser-windows": {
+      "visits": 44,
+      "exploration_actions": 0,
+      "failures": 0,
+      "confirmed_defects": 0,
+      "not_reproduced": 0
+    },
+    "https://demoqa.com/books": {
+      "visits": 44,
+      "exploration_actions": 0,
+      "failures": 0,
+      "confirmed_defects": 0,
+      "not_reproduced": 0
+    },
+    "https://demoqa.com/auto-complete": {
+      "visits": 44,
+      "exploration_actions": 0,
+      "failures": 0,
+      "confirmed_defects": 0,
+      "not_reproduced": 0
+    },
+    "https://demoqa.com/alerts": {
+      "visits": 44,
+      "exploration_actions": 0,
+      "failures": 0,
+      "confirmed_defects": 0,
+      "not_reproduced": 0
+    },
+    "https://demoqa.com/buttons": {
+      "visits": 44,
+      "exploration_actions": 0,
+      "failures": 0,
+      "confirmed_defects": 0,
+      "not_reproduced": 0
+    },
+    "https://demoqa.com/upload-download": {
+      "visits": 44,
+      "exploration_actions": 0,
+      "failures": 0,
+      "confirmed_defects": 0,
+      "not_reproduced": 0
+    },
+    "https://demoqa.com/modal-dialogs": {
+      "visits": 44,
+      "exploration_actions": 28,
+      "failures": 0,
+      "confirmed_defects": 0,
+      "not_reproduced": 0
+    },
+    "https://demoqa.com/broken": {
+      "visits": 44,
+      "exploration_actions": 0,
+      "failures": 0,
+      "confirmed_defects": 0,
+      "not_reproduced": 0
+    },
+    "https://demoqa.com/text-box": {
+      "visits": 44,
+      "exploration_actions": 0,
+      "failures": 0,
+      "confirmed_defects": 0,
+      "not_reproduced": 0
+    },
+    "https://demoqa.com/checkbox": {
+      "visits": 44,
+      "exploration_actions": 0,
+      "failures": 0,
+      "confirmed_defects": 0,
+      "not_reproduced": 0
+    },
+    "https://demoqa.com/slider": {
+      "visits": 44,
+      "exploration_actions": 0,
+      "failures": 0,
+      "confirmed_defects": 0,
+      "not_reproduced": 0
+    },
+    "http://127.0.0.1:8765/page.html": {
+      "visits": 2,
+      "exploration_actions": 2,
+      "failures": 0,
+      "confirmed_defects": 2,
+      "not_reproduced": 0
+    }
+  },
+  "actions": {},
+  "findings": {
+    "https://demoqa.com/webtables||||": {
+      "url": "https://demoqa.com/webtables",
+      "observations": 31,
+      "last_status": "UNINVESTIGATED",
+      "history": [
+        {
+          "run": 35,
+          "status": "UNINVESTIGATED"
+        },
+        {
+          "run": 36,
+          "status": "UNINVESTIGATED"
+        },
+        {
+          "run": 38,
+          "status": "UNINVESTIGATED"
+        },
+        {
+          "run": 40,
+          "status": "UNINVESTIGATED"
+        },
+        {
+          "run": 41,
+          "status": "UNINVESTIGATED"
+        },
+        {
+          "run": 42,
+          "status": "UNINVESTIGATED"
+        },
+        {
+          "run": 44,
+          "status": "UNINVESTIGATED"
+        },
+        {
+          "run": 45,
+          "status": "UNINVESTIGATED"
+        },
+        {
+          "run": 46,
+          "status": "UNINVESTIGATED"
+        },
+        {
+          "run": 49,
+          "status": "UNINVESTIGATED"
+        }
+      ]
+    },
+    "https://demoqa.com/automation-practice-form||||": {
+      "url": "https://demoqa.com/automation-practice-form",
+      "observations": 39,
+      "last_status": "UNINVESTIGATED",
+      "history": [
+        {
+          "run": 34,
+          "status": "UNINVESTIGATED"
+        },
+        {
+          "run": 36,
+          "status": "UNINVESTIGATED"
+        },
+        {
+          "run": 37,
+          "status": "UNINVESTIGATED"
+        },
+        {
+          "run": 38,
+          "status": "UNINVESTIGATED"
+        },
+        {
+          "run": 41,
+          "status": "UNINVESTIGATED"
+        },
+        {
+          "run": 42,
+          "status": "UNINVESTIGATED"
+        },
+        {
+          "run": 43,
+          "status": "UNINVESTIGATED"
+        },
+        {
+          "run": 44,
+          "status": "UNINVESTIGATED"
+        },
+        {
+          "run": 46,
+          "status": "UNINVESTIGATED"
+        },
+        {
+          "run": 49,
+          "status": "UNINVESTIGATED"
+        }
+      ]
+    },
+    "https://demoqa.com/modal-dialogs||||": {
+      "url": "https://demoqa.com/modal-dialogs",
+      "observations": 28,
+      "last_status": "UNINVESTIGATED",
+      "history": [
+        {
+          "run": 31,
+          "status": "UNINVESTIGATED"
+        },
+        {
+          "run": 32,
+          "status": "UNINVESTIGATED"
+        },
+        {
+          "run": 35,
+          "status": "UNINVESTIGATED"
+        },
+        {
+          "run": 37,
+          "status": "UNINVESTIGATED"
+        },
+        {
+          "run": 38,
+          "status": "UNINVESTIGATED"
+        },
+        {
+          "run": 40,
+          "status": "UNINVESTIGATED"
+        },
+        {
+          "run": 41,
+          "status": "UNINVESTIGATED"
+        },
+        {
+          "run": 43,
+          "status": "UNINVESTIGATED"
+        },
+        {
+          "run": 44,
+          "status": "UNINVESTIGATED"
+        },
+        {
+          "run": 45,
+          "status": "UNINVESTIGATED"
+        }
+      ]
+    },
+    "https://demoqa.com/dynamic-properties||||": {
+      "url": "https://demoqa.com/dynamic-properties",
+      "observations": 1,
+      "last_status": "UNINVESTIGATED",
+      "history": [
+        {
+          "run": 12,
+          "status": "UNINVESTIGATED"
+        }
+      ]
+    },
+    "http://127.0.0.1:8765/page.html||||": {
+      "url": "http://127.0.0.1:8765/page.html",
+      "observations": 2,
+      "last_status": "UNINVESTIGATED",
+      "history": [
+        {
+          "run": 13,
+          "status": "UNINVESTIGATED"
+        },
+        {
+          "run": 24,
+          "status": "UNINVESTIGATED"
+        }
+      ]
+    },
+    "https://demoqa.com||||": {
+      "url": "https://demoqa.com",
+      "observations": 3,
+      "last_status": "UNINVESTIGATED",
+      "history": [
+        {
+          "run": 39,
+          "status": "UNINVESTIGATED"
+        },
+        {
+          "run": 47,
+          "status": "UNINVESTIGATED"
+        },
+        {
+          "run": 48,
+          "status": "UNINVESTIGATED"
+        }
+      ]
+    }
+  }
+}

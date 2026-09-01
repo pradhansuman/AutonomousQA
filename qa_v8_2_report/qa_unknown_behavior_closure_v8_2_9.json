@@ -1,0 +1,12 @@
+{
+  "version": "8.2.8",
+  "engine": "integrated_unknown_behavior_closure",
+  "closure": {
+    "status": "CLOSED",
+    "rounds": 4,
+    "unknown": 0
+  },
+  "behaviors_total": 101,
+  "unknown_behaviors": [],
+  "truth_rule": "Unknown behavior becomes covered only after a real execution returns PASS evidence."
+}

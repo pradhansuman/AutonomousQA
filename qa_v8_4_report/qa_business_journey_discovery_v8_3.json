@@ -1,0 +1,745 @@
+{
+  "version": "8.3",
+  "engine": "true_autonomous_business_journey_discovery",
+  "pages": 30,
+  "graph_nodes": 29,
+  "graph_edges": 657,
+  "journeys_discovered": 24,
+  "journeys": [
+    {
+      "journey_id": "J83-0017",
+      "name": "Create or manage application data",
+      "goal": "Create or manage application data",
+      "start_url": "https://demoqa.com",
+      "steps": [
+        {
+          "url": "https://demoqa.com",
+          "kind": "navigation",
+          "signals": []
+        },
+        {
+          "url": "https://demoqa.com/elements",
+          "kind": "navigation",
+          "signals": []
+        },
+        {
+          "url": "https://demoqa.com/webtables",
+          "kind": "navigation",
+          "signals": [
+            "DATA_MANAGEMENT",
+            "INTERACTION"
+          ]
+        }
+      ],
+      "signals": [
+        "DATA_MANAGEMENT",
+        "INTERACTION"
+      ],
+      "score": 63.0,
+      "confidence": "MEDIUM",
+      "status": "DISCOVERED",
+      "source": "observed_cross_page_transition"
+    },
+    {
+      "journey_id": "J83-0026",
+      "name": "Create or manage application data",
+      "goal": "Create or manage application data",
+      "start_url": "https://demoqa.com/forms",
+      "steps": [
+        {
+          "url": "https://demoqa.com/forms",
+          "kind": "navigation",
+          "signals": [
+            "FORM_SUBMISSION"
+          ]
+        },
+        {
+          "url": "https://demoqa.com/webtables",
+          "kind": "navigation",
+          "signals": [
+            "DATA_MANAGEMENT",
+            "INTERACTION"
+          ]
+        }
+      ],
+      "signals": [
+        "DATA_MANAGEMENT",
+        "FORM_SUBMISSION",
+        "INTERACTION"
+      ],
+      "score": 61.0,
+      "confidence": "MEDIUM",
+      "status": "DISCOVERED",
+      "source": "observed_cross_page_transition"
+    },
+    {
+      "journey_id": "J83-0037",
+      "name": "Authenticate and establish a user session",
+      "goal": "Authenticate and establish a user session",
+      "start_url": "https://demoqa.com/forms",
+      "steps": [
+        {
+          "url": "https://demoqa.com/forms",
+          "kind": "navigation",
+          "signals": [
+            "FORM_SUBMISSION"
+          ]
+        },
+        {
+          "url": "https://demoqa.com/books",
+          "kind": "navigation",
+          "signals": [
+            "AUTHENTICATION",
+            "INTERACTION"
+          ]
+        }
+      ],
+      "signals": [
+        "AUTHENTICATION",
+        "FORM_SUBMISSION",
+        "INTERACTION"
+      ],
+      "score": 61.0,
+      "confidence": "MEDIUM",
+      "status": "DISCOVERED",
+      "source": "observed_cross_page_transition"
+    },
+    {
+      "journey_id": "J83-0016",
+      "name": "Submit valid user information",
+      "goal": "Submit valid user information",
+      "start_url": "https://demoqa.com",
+      "steps": [
+        {
+          "url": "https://demoqa.com",
+          "kind": "navigation",
+          "signals": []
+        },
+        {
+          "url": "https://demoqa.com/elements",
+          "kind": "navigation",
+          "signals": []
+        },
+        {
+          "url": "https://demoqa.com/text-box",
+          "kind": "navigation",
+          "signals": [
+            "FORM_SUBMISSION",
+            "INTERACTION"
+          ]
+        }
+      ],
+      "signals": [
+        "FORM_SUBMISSION",
+        "INTERACTION"
+      ],
+      "score": 58.0,
+      "confidence": "MEDIUM",
+      "status": "DISCOVERED",
+      "source": "observed_cross_page_transition"
+    },
+    {
+      "journey_id": "J83-0018",
+      "name": "Transfer a file successfully",
+      "goal": "Transfer a file successfully",
+      "start_url": "https://demoqa.com",
+      "steps": [
+        {
+          "url": "https://demoqa.com",
+          "kind": "navigation",
+          "signals": []
+        },
+        {
+          "url": "https://demoqa.com/elements",
+          "kind": "navigation",
+          "signals": []
+        },
+        {
+          "url": "https://demoqa.com/upload-download",
+          "kind": "navigation",
+          "signals": [
+            "FILE_TRANSFER",
+            "INTERACTION"
+          ]
+        }
+      ],
+      "signals": [
+        "FILE_TRANSFER",
+        "INTERACTION"
+      ],
+      "score": 58.0,
+      "confidence": "MEDIUM",
+      "status": "DISCOVERED",
+      "source": "observed_cross_page_transition"
+    },
+    {
+      "journey_id": "J83-0019",
+      "name": "Submit valid user information",
+      "goal": "Submit valid user information",
+      "start_url": "https://demoqa.com",
+      "steps": [
+        {
+          "url": "https://demoqa.com",
+          "kind": "navigation",
+          "signals": []
+        },
+        {
+          "url": "https://demoqa.com/elements",
+          "kind": "navigation",
+          "signals": []
+        },
+        {
+          "url": "https://demoqa.com/automation-practice-form",
+          "kind": "navigation",
+          "signals": [
+            "FORM_SUBMISSION",
+            "INTERACTION"
+          ]
+        }
+      ],
+      "signals": [
+        "FORM_SUBMISSION",
+        "INTERACTION"
+      ],
+      "score": 58.0,
+      "confidence": "MEDIUM",
+      "status": "DISCOVERED",
+      "source": "observed_cross_page_transition"
+    },
+    {
+      "journey_id": "J83-0028",
+      "name": "Transfer a file successfully",
+      "goal": "Transfer a file successfully",
+      "start_url": "https://demoqa.com/forms",
+      "steps": [
+        {
+          "url": "https://demoqa.com/forms",
+          "kind": "navigation",
+          "signals": [
+            "FORM_SUBMISSION"
+          ]
+        },
+        {
+          "url": "https://demoqa.com/upload-download",
+          "kind": "navigation",
+          "signals": [
+            "FILE_TRANSFER",
+            "INTERACTION"
+          ]
+        }
+      ],
+      "signals": [
+        "FILE_TRANSFER",
+        "FORM_SUBMISSION",
+        "INTERACTION"
+      ],
+      "score": 56.0,
+      "confidence": "MEDIUM",
+      "status": "DISCOVERED",
+      "source": "observed_cross_page_transition"
+    },
+    {
+      "journey_id": "J83-0015",
+      "name": "Authenticate and establish a user session",
+      "goal": "Authenticate and establish a user session",
+      "start_url": "https://demoqa.com",
+      "steps": [
+        {
+          "url": "https://demoqa.com",
+          "kind": "navigation",
+          "signals": []
+        },
+        {
+          "url": "https://demoqa.com/books",
+          "kind": "navigation",
+          "signals": [
+            "AUTHENTICATION",
+            "INTERACTION"
+          ]
+        }
+      ],
+      "signals": [
+        "AUTHENTICATION",
+        "INTERACTION"
+      ],
+      "score": 55.0,
+      "confidence": "MEDIUM",
+      "status": "DISCOVERED",
+      "source": "observed_cross_page_transition"
+    },
+    {
+      "journey_id": "J83-0021",
+      "name": "Create or manage application data",
+      "goal": "Create or manage application data",
+      "start_url": "https://demoqa.com/elements",
+      "steps": [
+        {
+          "url": "https://demoqa.com/elements",
+          "kind": "navigation",
+          "signals": []
+        },
+        {
+          "url": "https://demoqa.com/webtables",
+          "kind": "navigation",
+          "signals": [
+            "DATA_MANAGEMENT",
+            "INTERACTION"
+          ]
+        }
+      ],
+      "signals": [
+        "DATA_MANAGEMENT",
+        "INTERACTION"
+      ],
+      "score": 55.0,
+      "confidence": "MEDIUM",
+      "status": "DISCOVERED",
+      "source": "observed_cross_page_transition"
+    },
+    {
+      "journey_id": "J83-0024",
+      "name": "Authenticate and establish a user session",
+      "goal": "Authenticate and establish a user session",
+      "start_url": "https://demoqa.com/elements",
+      "steps": [
+        {
+          "url": "https://demoqa.com/elements",
+          "kind": "navigation",
+          "signals": []
+        },
+        {
+          "url": "https://demoqa.com/books",
+          "kind": "navigation",
+          "signals": [
+            "AUTHENTICATION",
+            "INTERACTION"
+          ]
+        }
+      ],
+      "signals": [
+        "AUTHENTICATION",
+        "INTERACTION"
+      ],
+      "score": 55.0,
+      "confidence": "MEDIUM",
+      "status": "DISCOVERED",
+      "source": "observed_cross_page_transition"
+    },
+    {
+      "journey_id": "J83-0039",
+      "name": "Create or manage application data",
+      "goal": "Create or manage application data",
+      "start_url": "https://demoqa.com/alertsWindows",
+      "steps": [
+        {
+          "url": "https://demoqa.com/alertsWindows",
+          "kind": "navigation",
+          "signals": []
+        },
+        {
+          "url": "https://demoqa.com/webtables",
+          "kind": "navigation",
+          "signals": [
+            "DATA_MANAGEMENT",
+            "INTERACTION"
+          ]
+        }
+      ],
+      "signals": [
+        "DATA_MANAGEMENT",
+        "INTERACTION"
+      ],
+      "score": 55.0,
+      "confidence": "MEDIUM",
+      "status": "DISCOVERED",
+      "source": "observed_cross_page_transition"
+    },
+    {
+      "journey_id": "J83-0042",
+      "name": "Authenticate and establish a user session",
+      "goal": "Authenticate and establish a user session",
+      "start_url": "https://demoqa.com/alertsWindows",
+      "steps": [
+        {
+          "url": "https://demoqa.com/alertsWindows",
+          "kind": "navigation",
+          "signals": []
+        },
+        {
+          "url": "https://demoqa.com/books",
+          "kind": "navigation",
+          "signals": [
+            "AUTHENTICATION",
+            "INTERACTION"
+          ]
+        }
+      ],
+      "signals": [
+        "AUTHENTICATION",
+        "INTERACTION"
+      ],
+      "score": 55.0,
+      "confidence": "MEDIUM",
+      "status": "DISCOVERED",
+      "source": "observed_cross_page_transition"
+    },
+    {
+      "journey_id": "J83-0044",
+      "name": "Create or manage application data",
+      "goal": "Create or manage application data",
+      "start_url": "https://demoqa.com/widgets",
+      "steps": [
+        {
+          "url": "https://demoqa.com/widgets",
+          "kind": "navigation",
+          "signals": []
+        },
+        {
+          "url": "https://demoqa.com/webtables",
+          "kind": "navigation",
+          "signals": [
+            "DATA_MANAGEMENT",
+            "INTERACTION"
+          ]
+        }
+      ],
+      "signals": [
+        "DATA_MANAGEMENT",
+        "INTERACTION"
+      ],
+      "score": 55.0,
+      "confidence": "MEDIUM",
+      "status": "DISCOVERED",
+      "source": "observed_cross_page_transition"
+    },
+    {
+      "journey_id": "J83-0047",
+      "name": "Authenticate and establish a user session",
+      "goal": "Authenticate and establish a user session",
+      "start_url": "https://demoqa.com/widgets",
+      "steps": [
+        {
+          "url": "https://demoqa.com/widgets",
+          "kind": "navigation",
+          "signals": []
+        },
+        {
+          "url": "https://demoqa.com/books",
+          "kind": "navigation",
+          "signals": [
+            "AUTHENTICATION",
+            "INTERACTION"
+          ]
+        }
+      ],
+      "signals": [
+        "AUTHENTICATION",
+        "INTERACTION"
+      ],
+      "score": 55.0,
+      "confidence": "MEDIUM",
+      "status": "DISCOVERED",
+      "source": "observed_cross_page_transition"
+    },
+    {
+      "journey_id": "J83-0020",
+      "name": "Submit valid user information",
+      "goal": "Submit valid user information",
+      "start_url": "https://demoqa.com/elements",
+      "steps": [
+        {
+          "url": "https://demoqa.com/elements",
+          "kind": "navigation",
+          "signals": []
+        },
+        {
+          "url": "https://demoqa.com/text-box",
+          "kind": "navigation",
+          "signals": [
+            "FORM_SUBMISSION",
+            "INTERACTION"
+          ]
+        }
+      ],
+      "signals": [
+        "FORM_SUBMISSION",
+        "INTERACTION"
+      ],
+      "score": 50.0,
+      "confidence": "MEDIUM",
+      "status": "DISCOVERED",
+      "source": "observed_cross_page_transition"
+    },
+    {
+      "journey_id": "J83-0022",
+      "name": "Transfer a file successfully",
+      "goal": "Transfer a file successfully",
+      "start_url": "https://demoqa.com/elements",
+      "steps": [
+        {
+          "url": "https://demoqa.com/elements",
+          "kind": "navigation",
+          "signals": []
+        },
+        {
+          "url": "https://demoqa.com/upload-download",
+          "kind": "navigation",
+          "signals": [
+            "FILE_TRANSFER",
+            "INTERACTION"
+          ]
+        }
+      ],
+      "signals": [
+        "FILE_TRANSFER",
+        "INTERACTION"
+      ],
+      "score": 50.0,
+      "confidence": "MEDIUM",
+      "status": "DISCOVERED",
+      "source": "observed_cross_page_transition"
+    },
+    {
+      "journey_id": "J83-0023",
+      "name": "Submit valid user information",
+      "goal": "Submit valid user information",
+      "start_url": "https://demoqa.com/elements",
+      "steps": [
+        {
+          "url": "https://demoqa.com/elements",
+          "kind": "navigation",
+          "signals": []
+        },
+        {
+          "url": "https://demoqa.com/automation-practice-form",
+          "kind": "navigation",
+          "signals": [
+            "FORM_SUBMISSION",
+            "INTERACTION"
+          ]
+        }
+      ],
+      "signals": [
+        "FORM_SUBMISSION",
+        "INTERACTION"
+      ],
+      "score": 50.0,
+      "confidence": "MEDIUM",
+      "status": "DISCOVERED",
+      "source": "observed_cross_page_transition"
+    },
+    {
+      "journey_id": "J83-0025",
+      "name": "Submit valid user information",
+      "goal": "Submit valid user information",
+      "start_url": "https://demoqa.com/forms",
+      "steps": [
+        {
+          "url": "https://demoqa.com/forms",
+          "kind": "navigation",
+          "signals": [
+            "FORM_SUBMISSION"
+          ]
+        },
+        {
+          "url": "https://demoqa.com/text-box",
+          "kind": "navigation",
+          "signals": [
+            "FORM_SUBMISSION",
+            "INTERACTION"
+          ]
+        }
+      ],
+      "signals": [
+        "FORM_SUBMISSION",
+        "INTERACTION"
+      ],
+      "score": 50.0,
+      "confidence": "MEDIUM",
+      "status": "DISCOVERED",
+      "source": "observed_cross_page_transition"
+    },
+    {
+      "journey_id": "J83-0027",
+      "name": "Submit valid user information",
+      "goal": "Submit valid user information",
+      "start_url": "https://demoqa.com/forms",
+      "steps": [
+        {
+          "url": "https://demoqa.com/forms",
+          "kind": "navigation",
+          "signals": [
+            "FORM_SUBMISSION"
+          ]
+        },
+        {
+          "url": "https://demoqa.com/buttons",
+          "kind": "navigation",
+          "signals": [
+            "INTERACTION"
+          ]
+        }
+      ],
+      "signals": [
+        "FORM_SUBMISSION",
+        "INTERACTION"
+      ],
+      "score": 50.0,
+      "confidence": "MEDIUM",
+      "status": "DISCOVERED",
+      "source": "observed_cross_page_transition"
+    },
+    {
+      "journey_id": "J83-0029",
+      "name": "Submit valid user information",
+      "goal": "Submit valid user information",
+      "start_url": "https://demoqa.com/forms",
+      "steps": [
+        {
+          "url": "https://demoqa.com/forms",
+          "kind": "navigation",
+          "signals": [
+            "FORM_SUBMISSION"
+          ]
+        },
+        {
+          "url": "https://demoqa.com/dynamic-properties",
+          "kind": "navigation",
+          "signals": [
+            "INTERACTION"
+          ]
+        }
+      ],
+      "signals": [
+        "FORM_SUBMISSION",
+        "INTERACTION"
+      ],
+      "score": 50.0,
+      "confidence": "MEDIUM",
+      "status": "DISCOVERED",
+      "source": "observed_cross_page_transition"
+    },
+    {
+      "journey_id": "J83-0030",
+      "name": "Submit valid user information",
+      "goal": "Submit valid user information",
+      "start_url": "https://demoqa.com/forms",
+      "steps": [
+        {
+          "url": "https://demoqa.com/forms",
+          "kind": "navigation",
+          "signals": [
+            "FORM_SUBMISSION"
+          ]
+        },
+        {
+          "url": "https://demoqa.com/automation-practice-form",
+          "kind": "navigation",
+          "signals": [
+            "FORM_SUBMISSION",
+            "INTERACTION"
+          ]
+        }
+      ],
+      "signals": [
+        "FORM_SUBMISSION",
+        "INTERACTION"
+      ],
+      "score": 50.0,
+      "confidence": "MEDIUM",
+      "status": "DISCOVERED",
+      "source": "observed_cross_page_transition"
+    },
+    {
+      "journey_id": "J83-0031",
+      "name": "Submit valid user information",
+      "goal": "Submit valid user information",
+      "start_url": "https://demoqa.com/forms",
+      "steps": [
+        {
+          "url": "https://demoqa.com/forms",
+          "kind": "navigation",
+          "signals": [
+            "FORM_SUBMISSION"
+          ]
+        },
+        {
+          "url": "https://demoqa.com/browser-windows",
+          "kind": "navigation",
+          "signals": [
+            "INTERACTION"
+          ]
+        }
+      ],
+      "signals": [
+        "FORM_SUBMISSION",
+        "INTERACTION"
+      ],
+      "score": 50.0,
+      "confidence": "MEDIUM",
+      "status": "DISCOVERED",
+      "source": "observed_cross_page_transition"
+    },
+    {
+      "journey_id": "J83-0032",
+      "name": "Submit valid user information",
+      "goal": "Submit valid user information",
+      "start_url": "https://demoqa.com/forms",
+      "steps": [
+        {
+          "url": "https://demoqa.com/forms",
+          "kind": "navigation",
+          "signals": [
+            "FORM_SUBMISSION"
+          ]
+        },
+        {
+          "url": "https://demoqa.com/alerts",
+          "kind": "navigation",
+          "signals": [
+            "INTERACTION"
+          ]
+        }
+      ],
+      "signals": [
+        "FORM_SUBMISSION",
+        "INTERACTION"
+      ],
+      "score": 50.0,
+      "confidence": "MEDIUM",
+      "status": "DISCOVERED",
+      "source": "observed_cross_page_transition"
+    },
+    {
+      "journey_id": "J83-0033",
+      "name": "Submit valid user information",
+      "goal": "Submit valid user information",
+      "start_url": "https://demoqa.com/forms",
+      "steps": [
+        {
+          "url": "https://demoqa.com/forms",
+          "kind": "navigation",
+          "signals": [
+            "FORM_SUBMISSION"
+          ]
+        },
+        {
+          "url": "https://demoqa.com/modal-dialogs",
+          "kind": "navigation",
+          "signals": [
+            "INTERACTION"
+          ]
+        }
+      ],
+      "signals": [
+        "FORM_SUBMISSION",
+        "INTERACTION"
+      ],
+      "score": 50.0,
+      "confidence": "MEDIUM",
+      "status": "DISCOVERED",
+      "source": "observed_cross_page_transition"
+    }
+  ],
+  "conservative_truth_rule": "A journey is a hypothesis derived from observed navigation and UI signals; backend outcomes are not invented."
+}

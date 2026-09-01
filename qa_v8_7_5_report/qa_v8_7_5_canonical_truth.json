@@ -1,0 +1,60 @@
+{
+  "version": "8.7.5",
+  "run_id": "3d2a78d65f4343808c3bf9503d058650",
+  "target": "https://demoqa.com/",
+  "generated_at": "2026-08-31T06:08:45.509101+00:00",
+  "discovery_pages": 1,
+  "behavioral_surfaces": 0,
+  "covered_behaviors": 0,
+  "unknown_behaviors": 0,
+  "behavioral_coverage_percent": null,
+  "business_journeys": 0,
+  "journey_pass": 0,
+  "journey_fail": 0,
+  "journey_execution_coverage_percent": null,
+  "executions": 0,
+  "execution_pass": 0,
+  "execution_fail": 0,
+  "evidence_records": 1,
+  "observed_outcomes": 0,
+  "inferred_outcomes": 0,
+  "unknown_outcomes": 0,
+  "backend_verified": 0,
+  "business_verified": 0,
+  "legacy_state_reused": false,
+  "legacy_artifacts_read": [],
+  "synthetic_evidence": false,
+  "foreign_evidence": false,
+  "fabricated_backend_claims": false,
+  "truth_gates": {
+    "current_discovery": true,
+    "canonical_model": false,
+    "legacy_state_reused": true,
+    "synthetic_evidence": true,
+    "foreign_evidence": true,
+    "execution_failures": true,
+    "journey_failures": true,
+    "unknown_behaviors": true,
+    "evidence_exists": true,
+    "fabricated_backend_claims": true
+  },
+  "release_truth": "FAIL",
+  "release_blocked": true,
+  "fail_closed": true,
+  "secret_safety": {
+    "credentials": false,
+    "tokens": false,
+    "cookies": false
+  },
+  "errors": [
+    {
+      "run_id": "3d2a78d65f4343808c3bf9503d058650",
+      "version": "8.7.5",
+      "current_run": true,
+      "timestamp": "2026-08-31T06:08:45.509040+00:00",
+      "phase": "behavior_model",
+      "message": "CURRENT_BEHAVIOR_MODEL_EMPTY",
+      "url": null
+    }
+  ]
+}

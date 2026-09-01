@@ -1,0 +1,2801 @@
+[
+  {
+    "behavior_id": "c653f660103f556fe65e",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/",
+    "surface": "https://the-internet.herokuapp.com/",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"https://github.com/tourdedave/the-internet\"]",
+    "label": "https://github.com/tourdedave/the-internet",
+    "destination": "https://github.com/tourdedave/the-internet",
+    "risk": 35,
+    "status": "PASS",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/",
+      "https://the-internet.herokuapp.com/abtest",
+      "https://the-internet.herokuapp.com/broken_images",
+      "https://the-internet.herokuapp.com/challenging_dom",
+      "https://the-internet.herokuapp.com/checkboxes",
+      "https://the-internet.herokuapp.com/context_menu",
+      "https://the-internet.herokuapp.com/disappearing_elements",
+      "https://the-internet.herokuapp.com/download",
+      "https://the-internet.herokuapp.com/drag_and_drop",
+      "https://the-internet.herokuapp.com/dropdown",
+      "https://the-internet.herokuapp.com/dynamic_content",
+      "https://the-internet.herokuapp.com/dynamic_controls",
+      "https://the-internet.herokuapp.com/dynamic_loading",
+      "https://the-internet.herokuapp.com/entry_ad",
+      "https://the-internet.herokuapp.com/exit_intent",
+      "https://the-internet.herokuapp.com/floating_menu",
+      "https://the-internet.herokuapp.com/forgot_password",
+      "https://the-internet.herokuapp.com/frames",
+      "https://the-internet.herokuapp.com/geolocation",
+      "https://the-internet.herokuapp.com/horizontal_slider",
+      "https://the-internet.herokuapp.com/hovers",
+      "https://the-internet.herokuapp.com/infinite_scroll",
+      "https://the-internet.herokuapp.com/inputs",
+      "https://the-internet.herokuapp.com/javascript_alerts",
+      "https://the-internet.herokuapp.com/jqueryui/menu",
+      "https://the-internet.herokuapp.com/key_presses",
+      "https://the-internet.herokuapp.com/large",
+      "https://the-internet.herokuapp.com/login",
+      "https://the-internet.herokuapp.com/notification_message_rendered",
+      "https://the-internet.herokuapp.com/redirector",
+      "https://the-internet.herokuapp.com/shadowdom",
+      "https://the-internet.herokuapp.com/shifting_content",
+      "https://the-internet.herokuapp.com/slow",
+      "https://the-internet.herokuapp.com/status_codes",
+      "https://the-internet.herokuapp.com/tables",
+      "https://the-internet.herokuapp.com/tinymce",
+      "https://the-internet.herokuapp.com/typos",
+      "https://the-internet.herokuapp.com/upload",
+      "https://the-internet.herokuapp.com/windows"
+    ]
+  },
+  {
+    "behavior_id": "9e68a36606d32b545c4c",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/",
+    "surface": "https://the-internet.herokuapp.com/",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"/abtest\"]",
+    "label": "A/B Testing",
+    "destination": "https://the-internet.herokuapp.com/abtest",
+    "risk": 35,
+    "status": "PASS",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/"
+    ]
+  },
+  {
+    "behavior_id": "bc5fbe672f587f7974cb",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/",
+    "surface": "https://the-internet.herokuapp.com/",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"/add_remove_elements/\"]",
+    "label": "Add/Remove Elements",
+    "destination": "https://the-internet.herokuapp.com/add_remove_elements",
+    "risk": 35,
+    "status": "PASS",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/"
+    ]
+  },
+  {
+    "behavior_id": "d3865416b17202a269cc",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/",
+    "surface": "https://the-internet.herokuapp.com/",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"/basic_auth\"]",
+    "label": "Basic Auth",
+    "destination": "https://the-internet.herokuapp.com/basic_auth",
+    "risk": 35,
+    "status": "PASS",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/"
+    ]
+  },
+  {
+    "behavior_id": "33b435b85bb530bb4a31",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/",
+    "surface": "https://the-internet.herokuapp.com/",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"/broken_images\"]",
+    "label": "Broken Images",
+    "destination": "https://the-internet.herokuapp.com/broken_images",
+    "risk": 35,
+    "status": "PASS",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/"
+    ]
+  },
+  {
+    "behavior_id": "bcfa8f91d17d71184179",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/",
+    "surface": "https://the-internet.herokuapp.com/",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"/challenging_dom\"]",
+    "label": "Challenging DOM",
+    "destination": "https://the-internet.herokuapp.com/challenging_dom",
+    "risk": 35,
+    "status": "PASS",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/",
+      "https://the-internet.herokuapp.com/challenging_dom"
+    ]
+  },
+  {
+    "behavior_id": "9b7bbfb257ceb448336d",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/",
+    "surface": "https://the-internet.herokuapp.com/",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"/checkboxes\"]",
+    "label": "Checkboxes",
+    "destination": "https://the-internet.herokuapp.com/checkboxes",
+    "risk": 35,
+    "status": "PASS",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/"
+    ]
+  },
+  {
+    "behavior_id": "59903456b22736fd03e7",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/",
+    "surface": "https://the-internet.herokuapp.com/",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"/context_menu\"]",
+    "label": "Context Menu",
+    "destination": "https://the-internet.herokuapp.com/context_menu",
+    "risk": 35,
+    "status": "PASS",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/"
+    ]
+  },
+  {
+    "behavior_id": "2b54f1e263f00a5f8355",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/",
+    "surface": "https://the-internet.herokuapp.com/",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"/digest_auth\"]",
+    "label": "Digest Authentication",
+    "destination": "https://the-internet.herokuapp.com/digest_auth",
+    "risk": 35,
+    "status": "PASS",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/"
+    ]
+  },
+  {
+    "behavior_id": "86d0019860c1d33e78a6",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/",
+    "surface": "https://the-internet.herokuapp.com/",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"/disappearing_elements\"]",
+    "label": "Disappearing Elements",
+    "destination": "https://the-internet.herokuapp.com/disappearing_elements",
+    "risk": 35,
+    "status": "PASS",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/"
+    ]
+  },
+  {
+    "behavior_id": "630009b4e6a1cb8579ef",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/",
+    "surface": "https://the-internet.herokuapp.com/",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"/drag_and_drop\"]",
+    "label": "Drag and Drop",
+    "destination": "https://the-internet.herokuapp.com/drag_and_drop",
+    "risk": 35,
+    "status": "PASS",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/"
+    ]
+  },
+  {
+    "behavior_id": "a04f27cc344665a5e2c8",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/",
+    "surface": "https://the-internet.herokuapp.com/",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"/dropdown\"]",
+    "label": "Dropdown",
+    "destination": "https://the-internet.herokuapp.com/dropdown",
+    "risk": 35,
+    "status": "PASS",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/"
+    ]
+  },
+  {
+    "behavior_id": "019735ec926c082a5196",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/",
+    "surface": "https://the-internet.herokuapp.com/",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"/dynamic_content\"]",
+    "label": "Dynamic Content",
+    "destination": "https://the-internet.herokuapp.com/dynamic_content",
+    "risk": 35,
+    "status": "PASS",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/",
+      "https://the-internet.herokuapp.com/dynamic_content"
+    ]
+  },
+  {
+    "behavior_id": "87234dd8b22e2c06f0c7",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/",
+    "surface": "https://the-internet.herokuapp.com/",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"/dynamic_controls\"]",
+    "label": "Dynamic Controls",
+    "destination": "https://the-internet.herokuapp.com/dynamic_controls",
+    "risk": 35,
+    "status": "PASS",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/"
+    ]
+  },
+  {
+    "behavior_id": "d266279839c2c27a7644",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/",
+    "surface": "https://the-internet.herokuapp.com/",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"/dynamic_loading\"]",
+    "label": "Dynamic Loading",
+    "destination": "https://the-internet.herokuapp.com/dynamic_loading",
+    "risk": 35,
+    "status": "PASS",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/"
+    ]
+  },
+  {
+    "behavior_id": "dac1856759a5cc17920e",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/",
+    "surface": "https://the-internet.herokuapp.com/",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"/entry_ad\"]",
+    "label": "Entry Ad",
+    "destination": "https://the-internet.herokuapp.com/entry_ad",
+    "risk": 35,
+    "status": "PASS",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/"
+    ]
+  },
+  {
+    "behavior_id": "d0996aafce8c279afe4c",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/",
+    "surface": "https://the-internet.herokuapp.com/",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"/exit_intent\"]",
+    "label": "Exit Intent",
+    "destination": "https://the-internet.herokuapp.com/exit_intent",
+    "risk": 35,
+    "status": "PASS",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/"
+    ]
+  },
+  {
+    "behavior_id": "43f7746231ac8b73b118",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/",
+    "surface": "https://the-internet.herokuapp.com/",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"/download\"]",
+    "label": "File Download",
+    "destination": "https://the-internet.herokuapp.com/download",
+    "risk": 35,
+    "status": "PASS",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/"
+    ]
+  },
+  {
+    "behavior_id": "bbe4752b66b0e07037c2",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/",
+    "surface": "https://the-internet.herokuapp.com/",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"/upload\"]",
+    "label": "File Upload",
+    "destination": "https://the-internet.herokuapp.com/upload",
+    "risk": 35,
+    "status": "PASS",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/"
+    ]
+  },
+  {
+    "behavior_id": "aa3d069c0c35c69662dc",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/",
+    "surface": "https://the-internet.herokuapp.com/",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"/floating_menu\"]",
+    "label": "Floating Menu",
+    "destination": "https://the-internet.herokuapp.com/floating_menu",
+    "risk": 35,
+    "status": "PASS",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/",
+      "https://the-internet.herokuapp.com/floating_menu"
+    ]
+  },
+  {
+    "behavior_id": "12a1cc983f9ae6111b8c",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/",
+    "surface": "https://the-internet.herokuapp.com/",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"/forgot_password\"]",
+    "label": "Forgot Password",
+    "destination": "https://the-internet.herokuapp.com/forgot_password",
+    "risk": 35,
+    "status": "PASS",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/"
+    ]
+  },
+  {
+    "behavior_id": "8d84a1efc8e9bf9bd2e5",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/",
+    "surface": "https://the-internet.herokuapp.com/",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"/login\"]",
+    "label": "Form Authentication",
+    "destination": "https://the-internet.herokuapp.com/login",
+    "risk": 35,
+    "status": "PASS",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/"
+    ]
+  },
+  {
+    "behavior_id": "63d52208e019333753d2",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/",
+    "surface": "https://the-internet.herokuapp.com/",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"/frames\"]",
+    "label": "Frames",
+    "destination": "https://the-internet.herokuapp.com/frames",
+    "risk": 35,
+    "status": "PASS",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/"
+    ]
+  },
+  {
+    "behavior_id": "3214a1c7a2e8ae9d394b",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/",
+    "surface": "https://the-internet.herokuapp.com/",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"/geolocation\"]",
+    "label": "Geolocation",
+    "destination": "https://the-internet.herokuapp.com/geolocation",
+    "risk": 35,
+    "status": "PASS",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/"
+    ]
+  },
+  {
+    "behavior_id": "fe1b2709ad2b0cf4c1eb",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/",
+    "surface": "https://the-internet.herokuapp.com/",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"/horizontal_slider\"]",
+    "label": "Horizontal Slider",
+    "destination": "https://the-internet.herokuapp.com/horizontal_slider",
+    "risk": 35,
+    "status": "PASS",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/"
+    ]
+  },
+  {
+    "behavior_id": "476bab4c23185a9b8d41",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/",
+    "surface": "https://the-internet.herokuapp.com/",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"/hovers\"]",
+    "label": "Hovers",
+    "destination": "https://the-internet.herokuapp.com/hovers",
+    "risk": 35,
+    "status": "PASS",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/"
+    ]
+  },
+  {
+    "behavior_id": "39ab6a587f9e478464e8",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/",
+    "surface": "https://the-internet.herokuapp.com/",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"/infinite_scroll\"]",
+    "label": "Infinite Scroll",
+    "destination": "https://the-internet.herokuapp.com/infinite_scroll",
+    "risk": 35,
+    "status": "PASS",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/"
+    ]
+  },
+  {
+    "behavior_id": "bc4015c9e9c035f3461e",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/",
+    "surface": "https://the-internet.herokuapp.com/",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"/inputs\"]",
+    "label": "Inputs",
+    "destination": "https://the-internet.herokuapp.com/inputs",
+    "risk": 35,
+    "status": "PASS",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/"
+    ]
+  },
+  {
+    "behavior_id": "a9e3fb4f5527970a1310",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/",
+    "surface": "https://the-internet.herokuapp.com/",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"/jqueryui/menu\"]",
+    "label": "JQuery UI Menus",
+    "destination": "https://the-internet.herokuapp.com/jqueryui/menu",
+    "risk": 35,
+    "status": "PASS",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/"
+    ]
+  },
+  {
+    "behavior_id": "be46a2ef2d51508fdfd0",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/",
+    "surface": "https://the-internet.herokuapp.com/",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"/javascript_alerts\"]",
+    "label": "JavaScript Alerts",
+    "destination": "https://the-internet.herokuapp.com/javascript_alerts",
+    "risk": 35,
+    "status": "PASS",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/"
+    ]
+  },
+  {
+    "behavior_id": "2a0a539e3936c4c07307",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/",
+    "surface": "https://the-internet.herokuapp.com/",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"/javascript_error\"]",
+    "label": "JavaScript onload event error",
+    "destination": "https://the-internet.herokuapp.com/javascript_error",
+    "risk": 35,
+    "status": "PASS",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/"
+    ]
+  },
+  {
+    "behavior_id": "eea83b5a16782d960208",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/",
+    "surface": "https://the-internet.herokuapp.com/",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"/key_presses\"]",
+    "label": "Key Presses",
+    "destination": "https://the-internet.herokuapp.com/key_presses",
+    "risk": 35,
+    "status": "PASS",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/"
+    ]
+  },
+  {
+    "behavior_id": "e95088f2c0d8945d6bbc",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/",
+    "surface": "https://the-internet.herokuapp.com/",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"/large\"]",
+    "label": "Large & Deep DOM",
+    "destination": "https://the-internet.herokuapp.com/large",
+    "risk": 35,
+    "status": "PASS",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/"
+    ]
+  },
+  {
+    "behavior_id": "82b22321fc739bc56afa",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/",
+    "surface": "https://the-internet.herokuapp.com/",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"/windows\"]",
+    "label": "Multiple Windows",
+    "destination": "https://the-internet.herokuapp.com/windows",
+    "risk": 35,
+    "status": "PASS",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/"
+    ]
+  },
+  {
+    "behavior_id": "7af95a400146eb9093ea",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/",
+    "surface": "https://the-internet.herokuapp.com/",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"/nested_frames\"]",
+    "label": "Nested Frames",
+    "destination": "https://the-internet.herokuapp.com/nested_frames",
+    "risk": 35,
+    "status": "PASS",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/",
+      "https://the-internet.herokuapp.com/frames"
+    ]
+  },
+  {
+    "behavior_id": "183d2e3aa4ea8277c9e7",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/",
+    "surface": "https://the-internet.herokuapp.com/",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"/notification_message\"]",
+    "label": "Notification Messages",
+    "destination": "https://the-internet.herokuapp.com/notification_message",
+    "risk": 35,
+    "status": "PASS",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/",
+      "https://the-internet.herokuapp.com/notification_message_rendered"
+    ]
+  },
+  {
+    "behavior_id": "d24e53568be44ee058e8",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/",
+    "surface": "https://the-internet.herokuapp.com/",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"/redirector\"]",
+    "label": "Redirect Link",
+    "destination": "https://the-internet.herokuapp.com/redirector",
+    "risk": 35,
+    "status": "PASS",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/"
+    ]
+  },
+  {
+    "behavior_id": "ad5641aa188ea3dc6cd7",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/",
+    "surface": "https://the-internet.herokuapp.com/",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"/download_secure\"]",
+    "label": "Secure File Download",
+    "destination": "https://the-internet.herokuapp.com/download_secure",
+    "risk": 35,
+    "status": "PASS",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/"
+    ]
+  },
+  {
+    "behavior_id": "10e4fdf6360863a44d52",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/",
+    "surface": "https://the-internet.herokuapp.com/",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"/shadowdom\"]",
+    "label": "Shadow DOM",
+    "destination": "https://the-internet.herokuapp.com/shadowdom",
+    "risk": 35,
+    "status": "PASS",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/"
+    ]
+  },
+  {
+    "behavior_id": "10636ec3e99c32fb3f9a",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/",
+    "surface": "https://the-internet.herokuapp.com/",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"/shifting_content\"]",
+    "label": "Shifting Content",
+    "destination": "https://the-internet.herokuapp.com/shifting_content",
+    "risk": 35,
+    "status": "PASS",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/"
+    ]
+  },
+  {
+    "behavior_id": "ebd7fa1e60622c51f051",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/",
+    "surface": "https://the-internet.herokuapp.com/",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"/slow\"]",
+    "label": "Slow Resources",
+    "destination": "https://the-internet.herokuapp.com/slow",
+    "risk": 35,
+    "status": "PASS",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/"
+    ]
+  },
+  {
+    "behavior_id": "4dd8aefafd78e6cacb3d",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/",
+    "surface": "https://the-internet.herokuapp.com/",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"/tables\"]",
+    "label": "Sortable Data Tables",
+    "destination": "https://the-internet.herokuapp.com/tables",
+    "risk": 35,
+    "status": "PASS",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/",
+      "https://the-internet.herokuapp.com/tables"
+    ]
+  },
+  {
+    "behavior_id": "d4c55f0c2d8aaf6acef4",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/",
+    "surface": "https://the-internet.herokuapp.com/",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"/status_codes\"]",
+    "label": "Status Codes",
+    "destination": "https://the-internet.herokuapp.com/status_codes",
+    "risk": 35,
+    "status": "PASS",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/"
+    ]
+  },
+  {
+    "behavior_id": "da357706b4b1725e7f60",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/",
+    "surface": "https://the-internet.herokuapp.com/",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"/typos\"]",
+    "label": "Typos",
+    "destination": "https://the-internet.herokuapp.com/typos",
+    "risk": 35,
+    "status": "PASS",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/"
+    ]
+  },
+  {
+    "behavior_id": "f27421a319a2545f5a96",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/",
+    "surface": "https://the-internet.herokuapp.com/",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"/tinymce\"]",
+    "label": "WYSIWYG Editor",
+    "destination": "https://the-internet.herokuapp.com/tinymce",
+    "risk": 35,
+    "status": "PASS",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/"
+    ]
+  },
+  {
+    "behavior_id": "c226adc481d9edef55f9",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/",
+    "surface": "https://the-internet.herokuapp.com/",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"http://elementalselenium.com/\"]",
+    "label": "Elemental Selenium",
+    "destination": "http://elementalselenium.com/",
+    "risk": 35,
+    "status": "PASS",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/",
+      "https://the-internet.herokuapp.com/abtest",
+      "https://the-internet.herokuapp.com/broken_images",
+      "https://the-internet.herokuapp.com/challenging_dom",
+      "https://the-internet.herokuapp.com/checkboxes",
+      "https://the-internet.herokuapp.com/context_menu",
+      "https://the-internet.herokuapp.com/disappearing_elements",
+      "https://the-internet.herokuapp.com/download",
+      "https://the-internet.herokuapp.com/drag_and_drop",
+      "https://the-internet.herokuapp.com/dropdown",
+      "https://the-internet.herokuapp.com/dynamic_content",
+      "https://the-internet.herokuapp.com/dynamic_controls",
+      "https://the-internet.herokuapp.com/dynamic_loading",
+      "https://the-internet.herokuapp.com/entry_ad",
+      "https://the-internet.herokuapp.com/exit_intent",
+      "https://the-internet.herokuapp.com/floating_menu",
+      "https://the-internet.herokuapp.com/forgot_password",
+      "https://the-internet.herokuapp.com/frames",
+      "https://the-internet.herokuapp.com/geolocation",
+      "https://the-internet.herokuapp.com/horizontal_slider",
+      "https://the-internet.herokuapp.com/hovers",
+      "https://the-internet.herokuapp.com/infinite_scroll",
+      "https://the-internet.herokuapp.com/inputs",
+      "https://the-internet.herokuapp.com/javascript_alerts",
+      "https://the-internet.herokuapp.com/jqueryui/menu",
+      "https://the-internet.herokuapp.com/key_presses",
+      "https://the-internet.herokuapp.com/large",
+      "https://the-internet.herokuapp.com/login",
+      "https://the-internet.herokuapp.com/notification_message_rendered",
+      "https://the-internet.herokuapp.com/redirector",
+      "https://the-internet.herokuapp.com/shadowdom",
+      "https://the-internet.herokuapp.com/shifting_content",
+      "https://the-internet.herokuapp.com/slow",
+      "https://the-internet.herokuapp.com/status_codes",
+      "https://the-internet.herokuapp.com/tables",
+      "https://the-internet.herokuapp.com/tinymce",
+      "https://the-internet.herokuapp.com/typos",
+      "https://the-internet.herokuapp.com/upload",
+      "https://the-internet.herokuapp.com/windows"
+    ]
+  },
+  {
+    "behavior_id": "36901427858b68d477f0",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/disappearing_elements",
+    "surface": "https://the-internet.herokuapp.com/disappearing_elements",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"/\"]",
+    "label": "Home",
+    "destination": "https://the-internet.herokuapp.com/",
+    "risk": 35,
+    "status": "PASS",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/disappearing_elements"
+    ]
+  },
+  {
+    "behavior_id": "0cf05f07044e4b99d847",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/disappearing_elements",
+    "surface": "https://the-internet.herokuapp.com/disappearing_elements",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"/about/\"]",
+    "label": "About",
+    "destination": "https://the-internet.herokuapp.com/about",
+    "risk": 35,
+    "status": "PASS",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/disappearing_elements"
+    ]
+  },
+  {
+    "behavior_id": "b5ffcc44c05a3b90e9fa",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/disappearing_elements",
+    "surface": "https://the-internet.herokuapp.com/disappearing_elements",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"/contact-us/\"]",
+    "label": "Contact Us",
+    "destination": "https://the-internet.herokuapp.com/contact-us",
+    "risk": 35,
+    "status": "FAIL",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/disappearing_elements"
+    ]
+  },
+  {
+    "behavior_id": "2827a1331db5355247ed",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/disappearing_elements",
+    "surface": "https://the-internet.herokuapp.com/disappearing_elements",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"/portfolio/\"]",
+    "label": "Portfolio",
+    "destination": "https://the-internet.herokuapp.com/portfolio",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/disappearing_elements"
+    ]
+  },
+  {
+    "behavior_id": "d48f26122df354a84267",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/download",
+    "surface": "https://the-internet.herokuapp.com/download",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"download/testFile_large_20260901_130129.txt\"]",
+    "label": "testFile_large_20260901_130129.txt",
+    "destination": "https://the-internet.herokuapp.com/download/testFile_large_20260901_130129.txt",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/download"
+    ]
+  },
+  {
+    "behavior_id": "088dc092fa26e592b7d3",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/download",
+    "surface": "https://the-internet.herokuapp.com/download",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"download/excel.xlsx\"]",
+    "label": "excel.xlsx",
+    "destination": "https://the-internet.herokuapp.com/download/excel.xlsx",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/download"
+    ]
+  },
+  {
+    "behavior_id": "fb3e5db29ac542ad4122",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/download",
+    "surface": "https://the-internet.herokuapp.com/download",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"download/testFile_spclChars_!@#$%^&_()_20260901_130252.txt\"]",
+    "label": "testFile_spclChars_!@#$%^&_()_20260901_130252.txt",
+    "destination": "https://the-internet.herokuapp.com/download/testFile_spclChars_!@",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/download"
+    ]
+  },
+  {
+    "behavior_id": "8fa60cfeac24b892bcf4",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/download",
+    "surface": "https://the-internet.herokuapp.com/download",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"download/tmprz7w5voh.txt\"]",
+    "label": "tmprz7w5voh.txt",
+    "destination": "https://the-internet.herokuapp.com/download/tmprz7w5voh.txt",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/download"
+    ]
+  },
+  {
+    "behavior_id": "59e970ea334a6bac5a48",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/download",
+    "surface": "https://the-internet.herokuapp.com/download",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"download/hello.json\"]",
+    "label": "hello.json",
+    "destination": "https://the-internet.herokuapp.com/download/hello.json",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/download"
+    ]
+  },
+  {
+    "behavior_id": "5635fbe2535f3a75408b",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/download",
+    "surface": "https://the-internet.herokuapp.com/download",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"download/r2_test_upload_se_zg53r.txt\"]",
+    "label": "r2_test_upload_se_zg53r.txt",
+    "destination": "https://the-internet.herokuapp.com/download/r2_test_upload_se_zg53r.txt",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/download"
+    ]
+  },
+  {
+    "behavior_id": "add0e25a2e6cdfc2a13b",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/download",
+    "surface": "https://the-internet.herokuapp.com/download",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"download/sample_upload.txt\"]",
+    "label": "sample_upload.txt",
+    "destination": "https://the-internet.herokuapp.com/download/sample_upload.txt",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/download"
+    ]
+  },
+  {
+    "behavior_id": "dc87cdefde48aa7b1380",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/download",
+    "surface": "https://the-internet.herokuapp.com/download",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"download/5555.png\"]",
+    "label": "5555.png",
+    "destination": "https://the-internet.herokuapp.com/download/5555.png",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/download"
+    ]
+  },
+  {
+    "behavior_id": "1e8ad25a37e40397b1cc",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/download",
+    "surface": "https://the-internet.herokuapp.com/download",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"download/tmp04qqzg3i.txt\"]",
+    "label": "tmp04qqzg3i.txt",
+    "destination": "https://the-internet.herokuapp.com/download/tmp04qqzg3i.txt",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/download"
+    ]
+  },
+  {
+    "behavior_id": "d24dca60d891e0daa638",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/download",
+    "surface": "https://the-internet.herokuapp.com/download",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"download/sample-upload.txt\"]",
+    "label": "sample-upload.txt",
+    "destination": "https://the-internet.herokuapp.com/download/sample-upload.txt",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/download"
+    ]
+  },
+  {
+    "behavior_id": "23d6aaa2fbeaf99c59b3",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/download",
+    "surface": "https://the-internet.herokuapp.com/download",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"download/tmpmxzy5pw4.txt\"]",
+    "label": "tmpmxzy5pw4.txt",
+    "destination": "https://the-internet.herokuapp.com/download/tmpmxzy5pw4.txt",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/download"
+    ]
+  },
+  {
+    "behavior_id": "68a18e9013a01c914eec",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/download",
+    "surface": "https://the-internet.herokuapp.com/download",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"download/playwright_typescript_5yoe_roadmap.pdf\"]",
+    "label": "playwright_typescript_5yoe_roadmap.pdf",
+    "destination": "https://the-internet.herokuapp.com/download/playwright_typescript_5yoe_roadmap.pdf",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/download"
+    ]
+  },
+  {
+    "behavior_id": "a812b3c447d0be2ba98a",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/download",
+    "surface": "https://the-internet.herokuapp.com/download",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"download/Certificate.pdf\"]",
+    "label": "Certificate.pdf",
+    "destination": "https://the-internet.herokuapp.com/download/Certificate.pdf",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/download"
+    ]
+  },
+  {
+    "behavior_id": "9b961a00852136d558ba",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/download",
+    "surface": "https://the-internet.herokuapp.com/download",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"download/testFile_heavy_5MB_20260901_130029.txt\"]",
+    "label": "testFile_heavy_5MB_20260901_130029.txt",
+    "destination": "https://the-internet.herokuapp.com/download/testFile_heavy_5MB_20260901_130029.txt",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/download"
+    ]
+  },
+  {
+    "behavior_id": "b70f449eb4a2f63ad032",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/download",
+    "surface": "https://the-internet.herokuapp.com/download",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"download/from-memory.txt\"]",
+    "label": "from-memory.txt",
+    "destination": "https://the-internet.herokuapp.com/download/from-memory.txt",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/download"
+    ]
+  },
+  {
+    "behavior_id": "9a9478d1ff8c49c8536b",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/download",
+    "surface": "https://the-internet.herokuapp.com/download",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"download/testFile_contentVariation_20260901_125911.txt\"]",
+    "label": "testFile_contentVariation_20260901_125911.txt",
+    "destination": "https://the-internet.herokuapp.com/download/testFile_contentVariation_20260901_125911.txt",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/download"
+    ]
+  },
+  {
+    "behavior_id": "365e7046baa557520614",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/download",
+    "surface": "https://the-internet.herokuapp.com/download",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"download/TextDoc.txt\"]",
+    "label": "TextDoc.txt",
+    "destination": "https://the-internet.herokuapp.com/download/TextDoc.txt",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/download"
+    ]
+  },
+  {
+    "behavior_id": "26103195608aeb228f9a",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/download",
+    "surface": "https://the-internet.herokuapp.com/download",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"download/testFile_lengthyNameaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa_20260901_130212.txt\"]",
+    "label": "testFile_lengthyNameaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "destination": "https://the-internet.herokuapp.com/download/testFile_lengthyNameaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa_20260901_130212.txt",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/download"
+    ]
+  },
+  {
+    "behavior_id": "99b3394ba3d07100ee3c",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/download",
+    "surface": "https://the-internet.herokuapp.com/download",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"download/hello.txt\"]",
+    "label": "hello.txt",
+    "destination": "https://the-internet.herokuapp.com/download/hello.txt",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/download"
+    ]
+  },
+  {
+    "behavior_id": "d0978e326c28390f5b3d",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/download",
+    "surface": "https://the-internet.herokuapp.com/download",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"download/Excel.xlsx\"]",
+    "label": "Excel.xlsx",
+    "destination": "https://the-internet.herokuapp.com/download/Excel.xlsx",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/download"
+    ]
+  },
+  {
+    "behavior_id": "15f21c03152a5b421b9c",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/download",
+    "surface": "https://the-internet.herokuapp.com/download",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"download/round7-upload-probe.txt\"]",
+    "label": "round7-upload-probe.txt",
+    "destination": "https://the-internet.herokuapp.com/download/round7-upload-probe.txt",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/download"
+    ]
+  },
+  {
+    "behavior_id": "0d8b98915858cb5a77cc",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/download",
+    "surface": "https://the-internet.herokuapp.com/download",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"download/appear.txt\"]",
+    "label": "appear.txt",
+    "destination": "https://the-internet.herokuapp.com/download/appear.txt",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/download"
+    ]
+  },
+  {
+    "behavior_id": "c4b8dc6cb3606775ee84",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/download",
+    "surface": "https://the-internet.herokuapp.com/download",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"download/testFile_unsupported_20260901_130315.exe\"]",
+    "label": "testFile_unsupported_20260901_130315.exe",
+    "destination": "https://the-internet.herokuapp.com/download/testFile_unsupported_20260901_130315.exe",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/download"
+    ]
+  },
+  {
+    "behavior_id": "c5406cfd083986cefd16",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/download",
+    "surface": "https://the-internet.herokuapp.com/download",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"download/p1-browser-download-20260901.txt\"]",
+    "label": "p1-browser-download-20260901.txt",
+    "destination": "https://the-internet.herokuapp.com/download/p1-browser-download-20260901.txt",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/download"
+    ]
+  },
+  {
+    "behavior_id": "256eff509527925b215f",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/download",
+    "surface": "https://the-internet.herokuapp.com/download",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"download/file-sample_150kB.pdf\"]",
+    "label": "file-sample_150kB.pdf",
+    "destination": "https://the-internet.herokuapp.com/download/file-sample_150kB.pdf",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/download"
+    ]
+  },
+  {
+    "behavior_id": "0ccc4e4f14715a3bd506",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/download",
+    "surface": "https://the-internet.herokuapp.com/download",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"download/tmpc6fhvkbu.txt\"]",
+    "label": "tmpc6fhvkbu.txt",
+    "destination": "https://the-internet.herokuapp.com/download/tmpc6fhvkbu.txt",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/download"
+    ]
+  },
+  {
+    "behavior_id": "8e4ed0c60a6e5a8ec8bd",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/download",
+    "surface": "https://the-internet.herokuapp.com/download",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"download/contacts.csv\"]",
+    "label": "contacts.csv",
+    "destination": "https://the-internet.herokuapp.com/download/contacts.csv",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/download"
+    ]
+  },
+  {
+    "behavior_id": "bece87eed1dde018bcc5",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/download",
+    "surface": "https://the-internet.herokuapp.com/download",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"download/analysis.txt\"]",
+    "label": "analysis.txt",
+    "destination": "https://the-internet.herokuapp.com/download/analysis.txt",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/download"
+    ]
+  },
+  {
+    "behavior_id": "910aee5a7200586abfe4",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/download",
+    "surface": "https://the-internet.herokuapp.com/download",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"download/sample.pdf\"]",
+    "label": "sample.pdf",
+    "destination": "https://the-internet.herokuapp.com/download/sample.pdf",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/download"
+    ]
+  },
+  {
+    "behavior_id": "946ef55f321546aec270",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/download",
+    "surface": "https://the-internet.herokuapp.com/download",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"download/Image.PNG\"]",
+    "label": "Image.PNG",
+    "destination": "https://the-internet.herokuapp.com/download/Image.PNG",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/download"
+    ]
+  },
+  {
+    "behavior_id": "ac61860edcda2c2ec6dc",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/download",
+    "surface": "https://the-internet.herokuapp.com/download",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"download/tmp4_50sb47.txt\"]",
+    "label": "tmp4_50sb47.txt",
+    "destination": "https://the-internet.herokuapp.com/download/tmp4_50sb47.txt",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/download"
+    ]
+  },
+  {
+    "behavior_id": "86d60deaa5e128ea12e5",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/download",
+    "surface": "https://the-internet.herokuapp.com/download",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"download/test.txt\"]",
+    "label": "test.txt",
+    "destination": "https://the-internet.herokuapp.com/download/test.txt",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/download"
+    ]
+  },
+  {
+    "behavior_id": "a242041483a1e57c863d",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/download",
+    "surface": "https://the-internet.herokuapp.com/download",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"download/evidence.txt\"]",
+    "label": "evidence.txt",
+    "destination": "https://the-internet.herokuapp.com/download/evidence.txt",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/download"
+    ]
+  },
+  {
+    "behavior_id": "3b1536a1d1f209142c2b",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/download",
+    "surface": "https://the-internet.herokuapp.com/download",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"download/testFile_empty_20260901_125951.txt\"]",
+    "label": "testFile_empty_20260901_125951.txt",
+    "destination": "https://the-internet.herokuapp.com/download/testFile_empty_20260901_125951.txt",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/download"
+    ]
+  },
+  {
+    "behavior_id": "6fee1c0ff974c627caac",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/download",
+    "surface": "https://the-internet.herokuapp.com/download",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"download/random_data_17.txt\"]",
+    "label": "random_data_17.txt",
+    "destination": "https://the-internet.herokuapp.com/download/random_data_17.txt",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/download"
+    ]
+  },
+  {
+    "behavior_id": "939617a6c6674dfe097f",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/download",
+    "surface": "https://the-internet.herokuapp.com/download",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"download/r2_test_upload_v8zr_nam.txt\"]",
+    "label": "r2_test_upload_v8zr_nam.txt",
+    "destination": "https://the-internet.herokuapp.com/download/r2_test_upload_v8zr_nam.txt",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/download"
+    ]
+  },
+  {
+    "behavior_id": "f08ecea4deed9256cde0",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/download",
+    "surface": "https://the-internet.herokuapp.com/download",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"download/wonder.txt\"]",
+    "label": "wonder.txt",
+    "destination": "https://the-internet.herokuapp.com/download/wonder.txt",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/download"
+    ]
+  },
+  {
+    "behavior_id": "4c4989ffd7c094261a49",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/download",
+    "surface": "https://the-internet.herokuapp.com/download",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"download/test-upload.txt\"]",
+    "label": "test-upload.txt",
+    "destination": "https://the-internet.herokuapp.com/download/test-upload.txt",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/download"
+    ]
+  },
+  {
+    "behavior_id": "221097dc45ece446c95e",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/download",
+    "surface": "https://the-internet.herokuapp.com/download",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"download/sample.txt\"]",
+    "label": "sample.txt",
+    "destination": "https://the-internet.herokuapp.com/download/sample.txt",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/download"
+    ]
+  },
+  {
+    "behavior_id": "109e6800a3a701c62b4b",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/download",
+    "surface": "https://the-internet.herokuapp.com/download",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"download/tmpbnhn_gnu.txt\"]",
+    "label": "tmpbnhn_gnu.txt",
+    "destination": "https://the-internet.herokuapp.com/download/tmpbnhn_gnu.txt",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/download"
+    ]
+  },
+  {
+    "behavior_id": "c4d712fb5dad3bf05b55",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/download",
+    "surface": "https://the-internet.herokuapp.com/download",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"download/synthetic-upload.txt\"]",
+    "label": "synthetic-upload.txt",
+    "destination": "https://the-internet.herokuapp.com/download/synthetic-upload.txt",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/download"
+    ]
+  },
+  {
+    "behavior_id": "9c8d47257ef5422726af",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/download",
+    "surface": "https://the-internet.herokuapp.com/download",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"download/TestData.xlsx\"]",
+    "label": "TestData.xlsx",
+    "destination": "https://the-internet.herokuapp.com/download/TestData.xlsx",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/download"
+    ]
+  },
+  {
+    "behavior_id": "232ff1b79b8cad45fcb6",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/download",
+    "surface": "https://the-internet.herokuapp.com/download",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"download/Employees5.xlsx\"]",
+    "label": "Employees5.xlsx",
+    "destination": "https://the-internet.herokuapp.com/download/Employees5.xlsx",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/download"
+    ]
+  },
+  {
+    "behavior_id": "d4faa38c372bbfe26d23",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/download",
+    "surface": "https://the-internet.herokuapp.com/download",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"download/testUpload.json\"]",
+    "label": "testUpload.json",
+    "destination": "https://the-internet.herokuapp.com/download/testUpload.json",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/download"
+    ]
+  },
+  {
+    "behavior_id": "3e1645c80bc8194135c6",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/download",
+    "surface": "https://the-internet.herokuapp.com/download",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"download/upload_sample.txt\"]",
+    "label": "upload_sample.txt",
+    "destination": "https://the-internet.herokuapp.com/download/upload_sample.txt",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/download"
+    ]
+  },
+  {
+    "behavior_id": "bee9407d16953c4b57f6",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/download",
+    "surface": "https://the-internet.herokuapp.com/download",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"download/checkup-1788239214-n427.txt\"]",
+    "label": "checkup-1788239214-n427.txt",
+    "destination": "https://the-internet.herokuapp.com/download/checkup-1788239214-n427.txt",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/download"
+    ]
+  },
+  {
+    "behavior_id": "9a4abeee1deb3f22cd2d",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/download",
+    "surface": "https://the-internet.herokuapp.com/download",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"download/r2_test_upload_srk51p2s.txt\"]",
+    "label": "r2_test_upload_srk51p2s.txt",
+    "destination": "https://the-internet.herokuapp.com/download/r2_test_upload_srk51p2s.txt",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/download"
+    ]
+  },
+  {
+    "behavior_id": "d3098690d8f32afa39ee",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/download",
+    "surface": "https://the-internet.herokuapp.com/download",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"download/testFile.txt\"]",
+    "label": "testFile.txt",
+    "destination": "https://the-internet.herokuapp.com/download/testFile.txt",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/download"
+    ]
+  },
+  {
+    "behavior_id": "15c93c2bc0b92d5755e8",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/download",
+    "surface": "https://the-internet.herokuapp.com/download",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"download/image.png\"]",
+    "label": "image.png",
+    "destination": "https://the-internet.herokuapp.com/download/image.png",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/download"
+    ]
+  },
+  {
+    "behavior_id": "d10e2f7930ca41a73432",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/download",
+    "surface": "https://the-internet.herokuapp.com/download",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"download/Beleg_Test_RE4711.txt\"]",
+    "label": "Beleg_Test_RE4711.txt",
+    "destination": "https://the-internet.herokuapp.com/download/Beleg_Test_RE4711.txt",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/download"
+    ]
+  },
+  {
+    "behavior_id": "13a62bacecebbedf98cb",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/download",
+    "surface": "https://the-internet.herokuapp.com/download",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"download/adactin.png\"]",
+    "label": "adactin.png",
+    "destination": "https://the-internet.herokuapp.com/download/adactin.png",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/download"
+    ]
+  },
+  {
+    "behavior_id": "5ce1823bfab952f1bb1f",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/download",
+    "surface": "https://the-internet.herokuapp.com/download",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"download/r2_test_upload_hw_8gx9l.txt\"]",
+    "label": "r2_test_upload_hw_8gx9l.txt",
+    "destination": "https://the-internet.herokuapp.com/download/r2_test_upload_hw_8gx9l.txt",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/download"
+    ]
+  },
+  {
+    "behavior_id": "97a2f5a76d3a735a37bd",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/download",
+    "surface": "https://the-internet.herokuapp.com/download",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"download/7d2c5299e08a3426d5a9d62cfd8d285a1c7cb0d7 Build report.pdf\"]",
+    "label": "7d2c5299e08a3426d5a9d62cfd8d285a1c7cb0d7 Build report.pdf",
+    "destination": "https://the-internet.herokuapp.com/download/7d2c5299e08a3426d5a9d62cfd8d285a1c7cb0d7 Build report.pdf",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/download"
+    ]
+  },
+  {
+    "behavior_id": "79f1bd5388bc7e9558f1",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/download",
+    "surface": "https://the-internet.herokuapp.com/download",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"download/student.txt\"]",
+    "label": "student.txt",
+    "destination": "https://the-internet.herokuapp.com/download/student.txt",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/download"
+    ]
+  },
+  {
+    "behavior_id": "adfce16b8abbb2c31c60",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/download",
+    "surface": "https://the-internet.herokuapp.com/download",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"download/playwright-test.txt\"]",
+    "label": "playwright-test.txt",
+    "destination": "https://the-internet.herokuapp.com/download/playwright-test.txt",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/download"
+    ]
+  },
+  {
+    "behavior_id": "a0c7e5bc1360dfb97ad3",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/download",
+    "surface": "https://the-internet.herokuapp.com/download",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"download/r2_test_upload_52qb2lc9.txt\"]",
+    "label": "r2_test_upload_52qb2lc9.txt",
+    "destination": "https://the-internet.herokuapp.com/download/r2_test_upload_52qb2lc9.txt",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/download"
+    ]
+  },
+  {
+    "behavior_id": "c8263fc284ee3ad1c4ec",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/download",
+    "surface": "https://the-internet.herokuapp.com/download",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"download/day_84_upload_test.txt\"]",
+    "label": "day_84_upload_test.txt",
+    "destination": "https://the-internet.herokuapp.com/download/day_84_upload_test.txt",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/download"
+    ]
+  },
+  {
+    "behavior_id": "e47fb69f258c9e5b86c7",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/download",
+    "surface": "https://the-internet.herokuapp.com/download",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"download/r2_test_upload_aq_kwf8y.txt\"]",
+    "label": "r2_test_upload_aq_kwf8y.txt",
+    "destination": "https://the-internet.herokuapp.com/download/r2_test_upload_aq_kwf8y.txt",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/download"
+    ]
+  },
+  {
+    "behavior_id": "cecd71e25211d2491714",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/download",
+    "surface": "https://the-internet.herokuapp.com/download",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"download/error-context (1).md\"]",
+    "label": "error-context (1).md",
+    "destination": "https://the-internet.herokuapp.com/download/error-context (1).md",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/download"
+    ]
+  },
+  {
+    "behavior_id": "405e9169898ce2eb8f08",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/download",
+    "surface": "https://the-internet.herokuapp.com/download",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"download/spectrum-logo.png\"]",
+    "label": "spectrum-logo.png",
+    "destination": "https://the-internet.herokuapp.com/download/spectrum-logo.png",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/download"
+    ]
+  },
+  {
+    "behavior_id": "d779645ca927909a0b65",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/download",
+    "surface": "https://the-internet.herokuapp.com/download",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"download/resume.pdf\"]",
+    "label": "resume.pdf",
+    "destination": "https://the-internet.herokuapp.com/download/resume.pdf",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/download"
+    ]
+  },
+  {
+    "behavior_id": "6a4834f4dd0463d0f49a",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/download",
+    "surface": "https://the-internet.herokuapp.com/download",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"download/upload-sample.txt\"]",
+    "label": "upload-sample.txt",
+    "destination": "https://the-internet.herokuapp.com/download/upload-sample.txt",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/download"
+    ]
+  },
+  {
+    "behavior_id": "7ee950e9267c5d99f34a",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/download",
+    "surface": "https://the-internet.herokuapp.com/download",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"download/random_data_18.txt\"]",
+    "label": "random_data_18.txt",
+    "destination": "https://the-internet.herokuapp.com/download/random_data_18.txt",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/download"
+    ]
+  },
+  {
+    "behavior_id": "2a15b386cbd9a3616cb5",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/download",
+    "surface": "https://the-internet.herokuapp.com/download",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"download/sample-upload-image.svg\"]",
+    "label": "sample-upload-image.svg",
+    "destination": "https://the-internet.herokuapp.com/download/sample-upload-image.svg",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/download"
+    ]
+  },
+  {
+    "behavior_id": "99b9cd3fe70d1a069564",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/download",
+    "surface": "https://the-internet.herokuapp.com/download",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"download/Screenshot (2).png\"]",
+    "label": "Screenshot (2).png",
+    "destination": "https://the-internet.herokuapp.com/download/Screenshot (2).png",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/download"
+    ]
+  },
+  {
+    "behavior_id": "79456adf8474b5838d25",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/download",
+    "surface": "https://the-internet.herokuapp.com/download",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"download/Images.txt\"]",
+    "label": "Images.txt",
+    "destination": "https://the-internet.herokuapp.com/download/Images.txt",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/download"
+    ]
+  },
+  {
+    "behavior_id": "3de437066065e9545ca2",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/download",
+    "surface": "https://the-internet.herokuapp.com/download",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"download/pw-disk-upload.txt\"]",
+    "label": "pw-disk-upload.txt",
+    "destination": "https://the-internet.herokuapp.com/download/pw-disk-upload.txt",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/download"
+    ]
+  },
+  {
+    "behavior_id": "057d5bc2a5cba1840a51",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/download",
+    "surface": "https://the-internet.herokuapp.com/download",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"download/selenium-snapshot.png\"]",
+    "label": "selenium-snapshot.png",
+    "destination": "https://the-internet.herokuapp.com/download/selenium-snapshot.png",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/download"
+    ]
+  },
+  {
+    "behavior_id": "108b673a44fe30c261ca",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/download",
+    "surface": "https://the-internet.herokuapp.com/download",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"download/some-file.txt\"]",
+    "label": "some-file.txt",
+    "destination": "https://the-internet.herokuapp.com/download/some-file.txt",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/download"
+    ]
+  },
+  {
+    "behavior_id": "96bd7142391c8c7767ca",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/dynamic_loading",
+    "surface": "https://the-internet.herokuapp.com/dynamic_loading",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"/dynamic_loading/1\"]",
+    "label": "Example 1: Element on page that is hidden",
+    "destination": "https://the-internet.herokuapp.com/dynamic_loading/1",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/dynamic_loading"
+    ]
+  },
+  {
+    "behavior_id": "91dbda6678f5461a1d37",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/dynamic_loading",
+    "surface": "https://the-internet.herokuapp.com/dynamic_loading",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"/dynamic_loading/2\"]",
+    "label": "Example 2: Element rendered after the fact",
+    "destination": "https://the-internet.herokuapp.com/dynamic_loading/2",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/dynamic_loading"
+    ]
+  },
+  {
+    "behavior_id": "fcd823aac4828b462440",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/frames",
+    "surface": "https://the-internet.herokuapp.com/frames",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"/iframe\"]",
+    "label": "iFrame",
+    "destination": "https://the-internet.herokuapp.com/iframe",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/frames"
+    ]
+  },
+  {
+    "behavior_id": "ef4048b7a3c79c3823a2",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/hovers",
+    "surface": "https://the-internet.herokuapp.com/hovers",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"/users/1\"]",
+    "label": "View profile",
+    "destination": "https://the-internet.herokuapp.com/users/1",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/hovers"
+    ]
+  },
+  {
+    "behavior_id": "302de147492fd80a1cf8",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/hovers",
+    "surface": "https://the-internet.herokuapp.com/hovers",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"/users/2\"]",
+    "label": "View profile",
+    "destination": "https://the-internet.herokuapp.com/users/2",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/hovers"
+    ]
+  },
+  {
+    "behavior_id": "bca96f81c335bfb7e9a8",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/hovers",
+    "surface": "https://the-internet.herokuapp.com/hovers",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"/users/3\"]",
+    "label": "View profile",
+    "destination": "https://the-internet.herokuapp.com/users/3",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/hovers"
+    ]
+  },
+  {
+    "behavior_id": "1cc2cb0a4fa94909ce51",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/infinite_scroll",
+    "surface": "https://the-internet.herokuapp.com/infinite_scroll",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"/infinite_scroll/1\"]",
+    "label": "next page",
+    "destination": "https://the-internet.herokuapp.com/infinite_scroll/1",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/infinite_scroll"
+    ]
+  },
+  {
+    "behavior_id": "896b69507ed894342098",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/jqueryui/menu",
+    "surface": "https://the-internet.herokuapp.com/jqueryui/menu",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"http://api.jqueryui.com/menu/\"]",
+    "label": "JQuery UI Menus",
+    "destination": "http://api.jqueryui.com/menu",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/jqueryui/menu"
+    ]
+  },
+  {
+    "behavior_id": "3547a5732f7f5ec6803f",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/jqueryui/menu",
+    "surface": "https://the-internet.herokuapp.com/jqueryui/menu",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"/download/jqueryui/menu/menu.pdf\"]",
+    "label": "PDF",
+    "destination": "https://the-internet.herokuapp.com/download/jqueryui/menu/menu.pdf",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/jqueryui/menu"
+    ]
+  },
+  {
+    "behavior_id": "b1010e1410d46227fa9a",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/jqueryui/menu",
+    "surface": "https://the-internet.herokuapp.com/jqueryui/menu",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"/download/jqueryui/menu/menu.csv\"]",
+    "label": "CSV",
+    "destination": "https://the-internet.herokuapp.com/download/jqueryui/menu/menu.csv",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/jqueryui/menu"
+    ]
+  },
+  {
+    "behavior_id": "b0bc85f54803f1b30a84",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/jqueryui/menu",
+    "surface": "https://the-internet.herokuapp.com/jqueryui/menu",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"/download/jqueryui/menu/menu.xls\"]",
+    "label": "Excel",
+    "destination": "https://the-internet.herokuapp.com/download/jqueryui/menu/menu.xls",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/jqueryui/menu"
+    ]
+  },
+  {
+    "behavior_id": "e83425239778c66d6ae8",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/jqueryui/menu",
+    "surface": "https://the-internet.herokuapp.com/jqueryui/menu",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"/jqueryui\"]",
+    "label": "Back to JQuery UI",
+    "destination": "https://the-internet.herokuapp.com/jqueryui",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/jqueryui/menu"
+    ]
+  },
+  {
+    "behavior_id": "0a769433ef3b5c6904ae",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/redirector",
+    "surface": "https://the-internet.herokuapp.com/redirector",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "#redirect",
+    "label": "here",
+    "destination": "https://the-internet.herokuapp.com/redirect",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/redirector"
+    ]
+  },
+  {
+    "behavior_id": "b4d79ce7c8423bef8efa",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/shifting_content",
+    "surface": "https://the-internet.herokuapp.com/shifting_content",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"/shifting_content/menu\"]",
+    "label": "Example 1: Menu Element",
+    "destination": "https://the-internet.herokuapp.com/shifting_content/menu",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/shifting_content"
+    ]
+  },
+  {
+    "behavior_id": "f8c87a82fdaf3eb2ce4a",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/shifting_content",
+    "surface": "https://the-internet.herokuapp.com/shifting_content",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"/shifting_content/image\"]",
+    "label": "Example 2: An image",
+    "destination": "https://the-internet.herokuapp.com/shifting_content/image",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/shifting_content"
+    ]
+  },
+  {
+    "behavior_id": "02037e6457bac671b476",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/shifting_content",
+    "surface": "https://the-internet.herokuapp.com/shifting_content",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"/shifting_content/list\"]",
+    "label": "Example 3: List",
+    "destination": "https://the-internet.herokuapp.com/shifting_content/list",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/shifting_content"
+    ]
+  },
+  {
+    "behavior_id": "04a1efe9985d45a135a6",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/status_codes",
+    "surface": "https://the-internet.herokuapp.com/status_codes",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"http://www.iana.org/assignments/http-status-codes/http-status-codes.xhtml\"]",
+    "label": "here",
+    "destination": "http://www.iana.org/assignments/http-status-codes/http-status-codes.xhtml",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/status_codes"
+    ]
+  },
+  {
+    "behavior_id": "b5858c0cca88938f81d7",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/status_codes",
+    "surface": "https://the-internet.herokuapp.com/status_codes",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"status_codes/200\"]",
+    "label": "200",
+    "destination": "https://the-internet.herokuapp.com/status_codes/200",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/status_codes"
+    ]
+  },
+  {
+    "behavior_id": "d59f31d716e47260e12d",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/status_codes",
+    "surface": "https://the-internet.herokuapp.com/status_codes",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"status_codes/301\"]",
+    "label": "301",
+    "destination": "https://the-internet.herokuapp.com/status_codes/301",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/status_codes"
+    ]
+  },
+  {
+    "behavior_id": "7fe46e7029ab20ef585e",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/status_codes",
+    "surface": "https://the-internet.herokuapp.com/status_codes",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"status_codes/404\"]",
+    "label": "404",
+    "destination": "https://the-internet.herokuapp.com/status_codes/404",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/status_codes"
+    ]
+  },
+  {
+    "behavior_id": "fd8104080d83d918d4ea",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/status_codes",
+    "surface": "https://the-internet.herokuapp.com/status_codes",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"status_codes/500\"]",
+    "label": "500",
+    "destination": "https://the-internet.herokuapp.com/status_codes/500",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/status_codes"
+    ]
+  },
+  {
+    "behavior_id": "86af5179805563ac0748",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/tinymce",
+    "surface": "https://the-internet.herokuapp.com/tinymce",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"https://www.tiny.cloud/?utm_campaign=editor_referral&utm_medium=poweredby&utm_source=tinymce&utm_content=v5\"]",
+    "label": "Powered by Tiny",
+    "destination": "https://www.tiny.cloud/",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/tinymce"
+    ]
+  },
+  {
+    "behavior_id": "ce97846d375390ea3112",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/tinymce",
+    "surface": "https://the-internet.herokuapp.com/tinymce",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"https://www.tiny.cloud/docs/tinymce/latest/usage-based-billing/?utm_campaign=editor_blocked_learn_more&utm_source=tiny&utm_medium=referral\"]",
+    "label": "Learn more.",
+    "destination": "https://www.tiny.cloud/docs/tinymce/latest/usage-based-billing",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/tinymce"
+    ]
+  },
+  {
+    "behavior_id": "26c448f1e7cfd7366dcd",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/windows",
+    "surface": "https://the-internet.herokuapp.com/windows",
+    "semantic": "NAVIGATION",
+    "action": "navigate",
+    "selector": "a[href=\"/windows/new\"]",
+    "label": "Click Here",
+    "destination": "https://the-internet.herokuapp.com/windows/new",
+    "risk": 35,
+    "status": "UNKNOWN",
+    "evidence_ids": [],
+    "sources": [
+      "https://the-internet.herokuapp.com/windows"
+    ]
+  }
+]

@@ -1,0 +1,1792 @@
+{
+  "version": "8.3.1",
+  "execution": {
+    "tests": [
+      {
+        "name": "",
+        "url": "https://demoqa.com/buttons",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/buttons",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/buttons",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/buttons",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/dynamic-properties",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/alerts",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/alerts",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/alerts",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/alerts",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/modal-dialogs",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/modal-dialogs",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/automation-practice-form",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/books",
+        "type": "E2E",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/text-box",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/webtables",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/webtables",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/upload-download",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/dynamic-properties",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/browser-windows",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/browser-windows",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/browser-windows",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/accordian",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/accordian",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/accordian",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/progress-bar",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/tool-tips",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/automation-practice-form",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/automation-practice-form",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/automation-practice-form",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/automation-practice-form",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/automation-practice-form",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/automation-practice-form",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/automation-practice-form",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/automation-practice-form",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/automation-practice-form",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/automation-practice-form",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/automation-practice-form",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/automation-practice-form",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/automation-practice-form",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/automation-practice-form",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/automation-practice-form",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/books",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/text-box",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/text-box",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/text-box",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/text-box",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/checkbox",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/radio-button",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/radio-button",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/webtables",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/webtables",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/upload-download",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/auto-complete",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/auto-complete",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/date-picker",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/date-picker",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/slider",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/slider",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/tool-tips",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/forms",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/alertsWindows",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/automation-practice-form",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/alerts",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/modal-dialogs",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/elements",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/widgets",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/interaction",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/books",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/text-box",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/checkbox",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/radio-button",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/webtables",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/links",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/broken",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/upload-download",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/dynamic-properties",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/browser-windows",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/frames",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/nestedframes",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/accordian",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/auto-complete",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/date-picker",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/slider",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/progress-bar",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/tabs",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/tabs",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/tabs",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/tabs",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "",
+        "url": "https://demoqa.com/tool-tips",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": ""
+      },
+      {
+        "name": "V8.3.1 Closure: valid_input",
+        "url": "https://demoqa.com/auto-complete",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": "Behavior executed and observable post-action state captured"
+      },
+      {
+        "name": "V8.3.1 Closure: empty_input",
+        "url": "https://demoqa.com/auto-complete",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": "Behavior executed and observable post-action state captured"
+      },
+      {
+        "name": "V8.3.1 Closure: valid_input",
+        "url": "https://demoqa.com/auto-complete",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": "Behavior executed and observable post-action state captured"
+      },
+      {
+        "name": "V8.3.1 Closure: empty_input",
+        "url": "https://demoqa.com/auto-complete",
+        "type": "REGRESSION",
+        "status": "PASS",
+        "reason": "Behavior executed and observable post-action state captured"
+      },
+      {
+        "name": "Verify application entry point is reachable.",
+        "url": "https://demoqa.com",
+        "type": "SMOKE",
+        "status": "PASS",
+        "reason": "Page loaded and document body rendered."
+      },
+      {
+        "name": "Verify critical page can load and render.",
+        "url": "https://demoqa.com",
+        "type": "SMOKE",
+        "status": "PASS",
+        "reason": "Page loaded and document body rendered."
+      },
+      {
+        "name": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/",
+        "type": "SMOKE",
+        "status": "PASS",
+        "reason": "Page loaded and document body rendered."
+      },
+      {
+        "name": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/accordian",
+        "type": "SMOKE",
+        "status": "PASS",
+        "reason": "Page loaded and document body rendered."
+      },
+      {
+        "name": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/alerts",
+        "type": "SMOKE",
+        "status": "PASS",
+        "reason": "Page loaded and document body rendered."
+      },
+      {
+        "name": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/alertsWindows",
+        "type": "SMOKE",
+        "status": "PASS",
+        "reason": "Page loaded and document body rendered."
+      },
+      {
+        "name": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/auto-complete",
+        "type": "SMOKE",
+        "status": "PASS",
+        "reason": "Page loaded and document body rendered."
+      },
+      {
+        "name": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/automation-practice-form",
+        "type": "SMOKE",
+        "status": "PASS",
+        "reason": "Page loaded and document body rendered."
+      },
+      {
+        "name": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/books",
+        "type": "SMOKE",
+        "status": "PASS",
+        "reason": "Page loaded and document body rendered."
+      },
+      {
+        "name": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/broken",
+        "type": "SMOKE",
+        "status": "PASS",
+        "reason": "Page loaded and document body rendered."
+      },
+      {
+        "name": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/browser-windows",
+        "type": "SMOKE",
+        "status": "PASS",
+        "reason": "Page loaded and document body rendered."
+      },
+      {
+        "name": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/buttons",
+        "type": "SMOKE",
+        "status": "PASS",
+        "reason": "Page loaded and document body rendered."
+      },
+      {
+        "name": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/checkbox",
+        "type": "SMOKE",
+        "status": "PASS",
+        "reason": "Page loaded and document body rendered."
+      },
+      {
+        "name": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/date-picker",
+        "type": "SMOKE",
+        "status": "PASS",
+        "reason": "Page loaded and document body rendered."
+      },
+      {
+        "name": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/dynamic-properties",
+        "type": "SMOKE",
+        "status": "PASS",
+        "reason": "Page loaded and document body rendered."
+      },
+      {
+        "name": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/elements",
+        "type": "SMOKE",
+        "status": "PASS",
+        "reason": "Page loaded and document body rendered."
+      },
+      {
+        "name": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/forms",
+        "type": "SMOKE",
+        "status": "PASS",
+        "reason": "Page loaded and document body rendered."
+      },
+      {
+        "name": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/frames",
+        "type": "SMOKE",
+        "status": "PASS",
+        "reason": "Page loaded and document body rendered."
+      },
+      {
+        "name": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/interaction",
+        "type": "SMOKE",
+        "status": "PASS",
+        "reason": "Page loaded and document body rendered."
+      },
+      {
+        "name": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/links",
+        "type": "SMOKE",
+        "status": "PASS",
+        "reason": "Page loaded and document body rendered."
+      },
+      {
+        "name": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/modal-dialogs",
+        "type": "SMOKE",
+        "status": "PASS",
+        "reason": "Page loaded and document body rendered."
+      },
+      {
+        "name": "Verify changed application surface still works.",
+        "url": "https://demoqa.com/buttons",
+        "type": "SANITY",
+        "status": "PASS",
+        "reason": "Changed page rendered and exposes interactive surface(s)."
+      },
+      {
+        "name": "Verify nearby functionality was not disrupted.",
+        "url": "https://demoqa.com/buttons",
+        "type": "SANITY",
+        "status": "PASS",
+        "reason": "Changed page rendered and exposes interactive surface(s)."
+      }
+    ],
+    "executed": 118,
+    "passed": 118,
+    "failed": 0,
+    "by_intent": {
+      "SMOKE": {
+        "executed": 21,
+        "passed": 21,
+        "failed": 0
+      },
+      "SANITY": {
+        "executed": 2,
+        "passed": 2,
+        "failed": 0
+      },
+      "REGRESSION": {
+        "executed": 94,
+        "passed": 94,
+        "failed": 0
+      },
+      "E2E": {
+        "executed": 1,
+        "passed": 1,
+        "failed": 0
+      },
+      "TOTAL": {
+        "executed": 118,
+        "passed": 118,
+        "failed": 0
+      }
+    }
+  },
+  "exploration": {
+    "actions": 0,
+    "candidates": 0
+  },
+  "investigation": {
+    "investigated": 0,
+    "confirmed": 0,
+    "not_reproduced": 0
+  },
+  "application_change": {
+    "new_pages": 0,
+    "removed_pages": 0,
+    "changed_pages": 1,
+    "new_elements": 1,
+    "removed_elements": 1,
+    "modified_elements": 0,
+    "total_changes": 3,
+    "risk": 21.0
+  },
+  "learning": {},
+  "intents": {
+    "planned": [
+      {
+        "intent_id": "SMOKE-APP-0001",
+        "type": "SMOKE",
+        "goal": "Verify application entry point is reachable.",
+        "url": "https://demoqa.com",
+        "preconditions": [],
+        "actions": [
+          "navigate",
+          "wait_for_page_ready"
+        ],
+        "assertions": [
+          "application_reachable",
+          "page_rendered"
+        ],
+        "source": "autonomous_discovery",
+        "execution_status": "PLANNED"
+      },
+      {
+        "intent_id": "SMOKE-PAGE-0001",
+        "type": "SMOKE",
+        "goal": "Verify critical page can load and render.",
+        "url": "https://demoqa.com",
+        "preconditions": [],
+        "actions": [
+          "navigate",
+          "wait_for_page_ready"
+        ],
+        "assertions": [
+          "page_loads",
+          "document_is_interactive"
+        ],
+        "source": "autonomous_discovery",
+        "execution_status": "PLANNED"
+      },
+      {
+        "intent_id": "SMOKE-PAGE-0002",
+        "type": "SMOKE",
+        "goal": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/",
+        "preconditions": [],
+        "actions": [
+          "navigate",
+          "wait_for_page_ready"
+        ],
+        "assertions": [
+          "page_loads",
+          "document_is_interactive"
+        ],
+        "source": "autonomous_discovery",
+        "execution_status": "PLANNED"
+      },
+      {
+        "intent_id": "SMOKE-PAGE-0003",
+        "type": "SMOKE",
+        "goal": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/accordian",
+        "preconditions": [],
+        "actions": [
+          "navigate",
+          "wait_for_page_ready"
+        ],
+        "assertions": [
+          "page_loads",
+          "document_is_interactive"
+        ],
+        "source": "autonomous_discovery",
+        "execution_status": "PLANNED"
+      },
+      {
+        "intent_id": "SMOKE-PAGE-0004",
+        "type": "SMOKE",
+        "goal": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/alerts",
+        "preconditions": [],
+        "actions": [
+          "navigate",
+          "wait_for_page_ready"
+        ],
+        "assertions": [
+          "page_loads",
+          "document_is_interactive"
+        ],
+        "source": "autonomous_discovery",
+        "execution_status": "PLANNED"
+      },
+      {
+        "intent_id": "SMOKE-PAGE-0005",
+        "type": "SMOKE",
+        "goal": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/alertsWindows",
+        "preconditions": [],
+        "actions": [
+          "navigate",
+          "wait_for_page_ready"
+        ],
+        "assertions": [
+          "page_loads",
+          "document_is_interactive"
+        ],
+        "source": "autonomous_discovery",
+        "execution_status": "PLANNED"
+      },
+      {
+        "intent_id": "SMOKE-PAGE-0006",
+        "type": "SMOKE",
+        "goal": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/auto-complete",
+        "preconditions": [],
+        "actions": [
+          "navigate",
+          "wait_for_page_ready"
+        ],
+        "assertions": [
+          "page_loads",
+          "document_is_interactive"
+        ],
+        "source": "autonomous_discovery",
+        "execution_status": "PLANNED"
+      },
+      {
+        "intent_id": "SMOKE-PAGE-0007",
+        "type": "SMOKE",
+        "goal": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/automation-practice-form",
+        "preconditions": [],
+        "actions": [
+          "navigate",
+          "wait_for_page_ready"
+        ],
+        "assertions": [
+          "page_loads",
+          "document_is_interactive"
+        ],
+        "source": "autonomous_discovery",
+        "execution_status": "PLANNED"
+      },
+      {
+        "intent_id": "SMOKE-PAGE-0008",
+        "type": "SMOKE",
+        "goal": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/books",
+        "preconditions": [],
+        "actions": [
+          "navigate",
+          "wait_for_page_ready"
+        ],
+        "assertions": [
+          "page_loads",
+          "document_is_interactive"
+        ],
+        "source": "autonomous_discovery",
+        "execution_status": "PLANNED"
+      },
+      {
+        "intent_id": "SMOKE-PAGE-0009",
+        "type": "SMOKE",
+        "goal": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/broken",
+        "preconditions": [],
+        "actions": [
+          "navigate",
+          "wait_for_page_ready"
+        ],
+        "assertions": [
+          "page_loads",
+          "document_is_interactive"
+        ],
+        "source": "autonomous_discovery",
+        "execution_status": "PLANNED"
+      },
+      {
+        "intent_id": "SMOKE-PAGE-0010",
+        "type": "SMOKE",
+        "goal": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/browser-windows",
+        "preconditions": [],
+        "actions": [
+          "navigate",
+          "wait_for_page_ready"
+        ],
+        "assertions": [
+          "page_loads",
+          "document_is_interactive"
+        ],
+        "source": "autonomous_discovery",
+        "execution_status": "PLANNED"
+      },
+      {
+        "intent_id": "SMOKE-PAGE-0011",
+        "type": "SMOKE",
+        "goal": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/buttons",
+        "preconditions": [],
+        "actions": [
+          "navigate",
+          "wait_for_page_ready"
+        ],
+        "assertions": [
+          "page_loads",
+          "document_is_interactive"
+        ],
+        "source": "autonomous_discovery",
+        "execution_status": "PLANNED"
+      },
+      {
+        "intent_id": "SMOKE-PAGE-0012",
+        "type": "SMOKE",
+        "goal": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/checkbox",
+        "preconditions": [],
+        "actions": [
+          "navigate",
+          "wait_for_page_ready"
+        ],
+        "assertions": [
+          "page_loads",
+          "document_is_interactive"
+        ],
+        "source": "autonomous_discovery",
+        "execution_status": "PLANNED"
+      },
+      {
+        "intent_id": "SMOKE-PAGE-0013",
+        "type": "SMOKE",
+        "goal": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/date-picker",
+        "preconditions": [],
+        "actions": [
+          "navigate",
+          "wait_for_page_ready"
+        ],
+        "assertions": [
+          "page_loads",
+          "document_is_interactive"
+        ],
+        "source": "autonomous_discovery",
+        "execution_status": "PLANNED"
+      },
+      {
+        "intent_id": "SMOKE-PAGE-0014",
+        "type": "SMOKE",
+        "goal": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/dynamic-properties",
+        "preconditions": [],
+        "actions": [
+          "navigate",
+          "wait_for_page_ready"
+        ],
+        "assertions": [
+          "page_loads",
+          "document_is_interactive"
+        ],
+        "source": "autonomous_discovery",
+        "execution_status": "PLANNED"
+      },
+      {
+        "intent_id": "SMOKE-PAGE-0015",
+        "type": "SMOKE",
+        "goal": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/elements",
+        "preconditions": [],
+        "actions": [
+          "navigate",
+          "wait_for_page_ready"
+        ],
+        "assertions": [
+          "page_loads",
+          "document_is_interactive"
+        ],
+        "source": "autonomous_discovery",
+        "execution_status": "PLANNED"
+      },
+      {
+        "intent_id": "SMOKE-PAGE-0016",
+        "type": "SMOKE",
+        "goal": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/forms",
+        "preconditions": [],
+        "actions": [
+          "navigate",
+          "wait_for_page_ready"
+        ],
+        "assertions": [
+          "page_loads",
+          "document_is_interactive"
+        ],
+        "source": "autonomous_discovery",
+        "execution_status": "PLANNED"
+      },
+      {
+        "intent_id": "SMOKE-PAGE-0017",
+        "type": "SMOKE",
+        "goal": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/frames",
+        "preconditions": [],
+        "actions": [
+          "navigate",
+          "wait_for_page_ready"
+        ],
+        "assertions": [
+          "page_loads",
+          "document_is_interactive"
+        ],
+        "source": "autonomous_discovery",
+        "execution_status": "PLANNED"
+      },
+      {
+        "intent_id": "SMOKE-PAGE-0018",
+        "type": "SMOKE",
+        "goal": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/interaction",
+        "preconditions": [],
+        "actions": [
+          "navigate",
+          "wait_for_page_ready"
+        ],
+        "assertions": [
+          "page_loads",
+          "document_is_interactive"
+        ],
+        "source": "autonomous_discovery",
+        "execution_status": "PLANNED"
+      },
+      {
+        "intent_id": "SMOKE-PAGE-0019",
+        "type": "SMOKE",
+        "goal": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/links",
+        "preconditions": [],
+        "actions": [
+          "navigate",
+          "wait_for_page_ready"
+        ],
+        "assertions": [
+          "page_loads",
+          "document_is_interactive"
+        ],
+        "source": "autonomous_discovery",
+        "execution_status": "PLANNED"
+      },
+      {
+        "intent_id": "SMOKE-PAGE-0020",
+        "type": "SMOKE",
+        "goal": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/modal-dialogs",
+        "preconditions": [],
+        "actions": [
+          "navigate",
+          "wait_for_page_ready"
+        ],
+        "assertions": [
+          "page_loads",
+          "document_is_interactive"
+        ],
+        "source": "autonomous_discovery",
+        "execution_status": "PLANNED"
+      },
+      {
+        "intent_id": "SANITY-CHANGE-0001",
+        "type": "SANITY",
+        "goal": "Verify changed application surface still works.",
+        "url": "https://demoqa.com/buttons",
+        "preconditions": [
+          "changed_surface_available"
+        ],
+        "actions": [
+          "navigate",
+          "exercise_changed_surface"
+        ],
+        "assertions": [
+          "changed_surface_responds",
+          "expected_state_transition_observed"
+        ],
+        "source": "change_intelligence",
+        "execution_status": "PLANNED"
+      },
+      {
+        "intent_id": "SANITY-REGRESSION-0001",
+        "type": "SANITY",
+        "goal": "Verify nearby functionality was not disrupted.",
+        "url": "https://demoqa.com/buttons",
+        "preconditions": [
+          "changed_surface_available"
+        ],
+        "actions": [
+          "navigate",
+          "exercise_adjacent_functionality"
+        ],
+        "assertions": [
+          "adjacent_functionality_responds"
+        ],
+        "source": "change_intelligence",
+        "execution_status": "PLANNED"
+      }
+    ],
+    "executed": [
+      {
+        "intent_id": "SMOKE-APP-0001",
+        "type": "SMOKE",
+        "goal": "Verify application entry point is reachable.",
+        "url": "https://demoqa.com",
+        "preconditions": [],
+        "actions": [
+          "navigate",
+          "wait_for_page_ready"
+        ],
+        "assertions": [
+          "application_reachable",
+          "page_rendered"
+        ],
+        "source": "autonomous_discovery",
+        "execution_status": "PASS",
+        "execution_reason": "Page loaded and document body rendered.",
+        "observed": {
+          "title_present": true,
+          "body_present": true
+        }
+      },
+      {
+        "intent_id": "SMOKE-PAGE-0001",
+        "type": "SMOKE",
+        "goal": "Verify critical page can load and render.",
+        "url": "https://demoqa.com",
+        "preconditions": [],
+        "actions": [
+          "navigate",
+          "wait_for_page_ready"
+        ],
+        "assertions": [
+          "page_loads",
+          "document_is_interactive"
+        ],
+        "source": "autonomous_discovery",
+        "execution_status": "PASS",
+        "execution_reason": "Page loaded and document body rendered.",
+        "observed": {
+          "title_present": true,
+          "body_present": true
+        }
+      },
+      {
+        "intent_id": "SMOKE-PAGE-0002",
+        "type": "SMOKE",
+        "goal": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/",
+        "preconditions": [],
+        "actions": [
+          "navigate",
+          "wait_for_page_ready"
+        ],
+        "assertions": [
+          "page_loads",
+          "document_is_interactive"
+        ],
+        "source": "autonomous_discovery",
+        "execution_status": "PASS",
+        "execution_reason": "Page loaded and document body rendered.",
+        "observed": {
+          "title_present": true,
+          "body_present": true
+        }
+      },
+      {
+        "intent_id": "SMOKE-PAGE-0003",
+        "type": "SMOKE",
+        "goal": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/accordian",
+        "preconditions": [],
+        "actions": [
+          "navigate",
+          "wait_for_page_ready"
+        ],
+        "assertions": [
+          "page_loads",
+          "document_is_interactive"
+        ],
+        "source": "autonomous_discovery",
+        "execution_status": "PASS",
+        "execution_reason": "Page loaded and document body rendered.",
+        "observed": {
+          "title_present": true,
+          "body_present": true
+        }
+      },
+      {
+        "intent_id": "SMOKE-PAGE-0004",
+        "type": "SMOKE",
+        "goal": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/alerts",
+        "preconditions": [],
+        "actions": [
+          "navigate",
+          "wait_for_page_ready"
+        ],
+        "assertions": [
+          "page_loads",
+          "document_is_interactive"
+        ],
+        "source": "autonomous_discovery",
+        "execution_status": "PASS",
+        "execution_reason": "Page loaded and document body rendered.",
+        "observed": {
+          "title_present": true,
+          "body_present": true
+        }
+      },
+      {
+        "intent_id": "SMOKE-PAGE-0005",
+        "type": "SMOKE",
+        "goal": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/alertsWindows",
+        "preconditions": [],
+        "actions": [
+          "navigate",
+          "wait_for_page_ready"
+        ],
+        "assertions": [
+          "page_loads",
+          "document_is_interactive"
+        ],
+        "source": "autonomous_discovery",
+        "execution_status": "PASS",
+        "execution_reason": "Page loaded and document body rendered.",
+        "observed": {
+          "title_present": true,
+          "body_present": true
+        }
+      },
+      {
+        "intent_id": "SMOKE-PAGE-0006",
+        "type": "SMOKE",
+        "goal": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/auto-complete",
+        "preconditions": [],
+        "actions": [
+          "navigate",
+          "wait_for_page_ready"
+        ],
+        "assertions": [
+          "page_loads",
+          "document_is_interactive"
+        ],
+        "source": "autonomous_discovery",
+        "execution_status": "PASS",
+        "execution_reason": "Page loaded and document body rendered.",
+        "observed": {
+          "title_present": true,
+          "body_present": true
+        }
+      },
+      {
+        "intent_id": "SMOKE-PAGE-0007",
+        "type": "SMOKE",
+        "goal": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/automation-practice-form",
+        "preconditions": [],
+        "actions": [
+          "navigate",
+          "wait_for_page_ready"
+        ],
+        "assertions": [
+          "page_loads",
+          "document_is_interactive"
+        ],
+        "source": "autonomous_discovery",
+        "execution_status": "PASS",
+        "execution_reason": "Page loaded and document body rendered.",
+        "observed": {
+          "title_present": true,
+          "body_present": true
+        }
+      },
+      {
+        "intent_id": "SMOKE-PAGE-0008",
+        "type": "SMOKE",
+        "goal": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/books",
+        "preconditions": [],
+        "actions": [
+          "navigate",
+          "wait_for_page_ready"
+        ],
+        "assertions": [
+          "page_loads",
+          "document_is_interactive"
+        ],
+        "source": "autonomous_discovery",
+        "execution_status": "PASS",
+        "execution_reason": "Page loaded and document body rendered.",
+        "observed": {
+          "title_present": true,
+          "body_present": true
+        }
+      },
+      {
+        "intent_id": "SMOKE-PAGE-0009",
+        "type": "SMOKE",
+        "goal": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/broken",
+        "preconditions": [],
+        "actions": [
+          "navigate",
+          "wait_for_page_ready"
+        ],
+        "assertions": [
+          "page_loads",
+          "document_is_interactive"
+        ],
+        "source": "autonomous_discovery",
+        "execution_status": "PASS",
+        "execution_reason": "Page loaded and document body rendered.",
+        "observed": {
+          "title_present": true,
+          "body_present": true
+        }
+      },
+      {
+        "intent_id": "SMOKE-PAGE-0010",
+        "type": "SMOKE",
+        "goal": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/browser-windows",
+        "preconditions": [],
+        "actions": [
+          "navigate",
+          "wait_for_page_ready"
+        ],
+        "assertions": [
+          "page_loads",
+          "document_is_interactive"
+        ],
+        "source": "autonomous_discovery",
+        "execution_status": "PASS",
+        "execution_reason": "Page loaded and document body rendered.",
+        "observed": {
+          "title_present": true,
+          "body_present": true
+        }
+      },
+      {
+        "intent_id": "SMOKE-PAGE-0011",
+        "type": "SMOKE",
+        "goal": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/buttons",
+        "preconditions": [],
+        "actions": [
+          "navigate",
+          "wait_for_page_ready"
+        ],
+        "assertions": [
+          "page_loads",
+          "document_is_interactive"
+        ],
+        "source": "autonomous_discovery",
+        "execution_status": "PASS",
+        "execution_reason": "Page loaded and document body rendered.",
+        "observed": {
+          "title_present": true,
+          "body_present": true
+        }
+      },
+      {
+        "intent_id": "SMOKE-PAGE-0012",
+        "type": "SMOKE",
+        "goal": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/checkbox",
+        "preconditions": [],
+        "actions": [
+          "navigate",
+          "wait_for_page_ready"
+        ],
+        "assertions": [
+          "page_loads",
+          "document_is_interactive"
+        ],
+        "source": "autonomous_discovery",
+        "execution_status": "PASS",
+        "execution_reason": "Page loaded and document body rendered.",
+        "observed": {
+          "title_present": true,
+          "body_present": true
+        }
+      },
+      {
+        "intent_id": "SMOKE-PAGE-0013",
+        "type": "SMOKE",
+        "goal": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/date-picker",
+        "preconditions": [],
+        "actions": [
+          "navigate",
+          "wait_for_page_ready"
+        ],
+        "assertions": [
+          "page_loads",
+          "document_is_interactive"
+        ],
+        "source": "autonomous_discovery",
+        "execution_status": "PASS",
+        "execution_reason": "Page loaded and document body rendered.",
+        "observed": {
+          "title_present": true,
+          "body_present": true
+        }
+      },
+      {
+        "intent_id": "SMOKE-PAGE-0014",
+        "type": "SMOKE",
+        "goal": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/dynamic-properties",
+        "preconditions": [],
+        "actions": [
+          "navigate",
+          "wait_for_page_ready"
+        ],
+        "assertions": [
+          "page_loads",
+          "document_is_interactive"
+        ],
+        "source": "autonomous_discovery",
+        "execution_status": "PASS",
+        "execution_reason": "Page loaded and document body rendered.",
+        "observed": {
+          "title_present": true,
+          "body_present": true
+        }
+      },
+      {
+        "intent_id": "SMOKE-PAGE-0015",
+        "type": "SMOKE",
+        "goal": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/elements",
+        "preconditions": [],
+        "actions": [
+          "navigate",
+          "wait_for_page_ready"
+        ],
+        "assertions": [
+          "page_loads",
+          "document_is_interactive"
+        ],
+        "source": "autonomous_discovery",
+        "execution_status": "PASS",
+        "execution_reason": "Page loaded and document body rendered.",
+        "observed": {
+          "title_present": true,
+          "body_present": true
+        }
+      },
+      {
+        "intent_id": "SMOKE-PAGE-0016",
+        "type": "SMOKE",
+        "goal": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/forms",
+        "preconditions": [],
+        "actions": [
+          "navigate",
+          "wait_for_page_ready"
+        ],
+        "assertions": [
+          "page_loads",
+          "document_is_interactive"
+        ],
+        "source": "autonomous_discovery",
+        "execution_status": "PASS",
+        "execution_reason": "Page loaded and document body rendered.",
+        "observed": {
+          "title_present": true,
+          "body_present": true
+        }
+      },
+      {
+        "intent_id": "SMOKE-PAGE-0017",
+        "type": "SMOKE",
+        "goal": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/frames",
+        "preconditions": [],
+        "actions": [
+          "navigate",
+          "wait_for_page_ready"
+        ],
+        "assertions": [
+          "page_loads",
+          "document_is_interactive"
+        ],
+        "source": "autonomous_discovery",
+        "execution_status": "PASS",
+        "execution_reason": "Page loaded and document body rendered.",
+        "observed": {
+          "title_present": true,
+          "body_present": true
+        }
+      },
+      {
+        "intent_id": "SMOKE-PAGE-0018",
+        "type": "SMOKE",
+        "goal": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/interaction",
+        "preconditions": [],
+        "actions": [
+          "navigate",
+          "wait_for_page_ready"
+        ],
+        "assertions": [
+          "page_loads",
+          "document_is_interactive"
+        ],
+        "source": "autonomous_discovery",
+        "execution_status": "PASS",
+        "execution_reason": "Page loaded and document body rendered.",
+        "observed": {
+          "title_present": true,
+          "body_present": true
+        }
+      },
+      {
+        "intent_id": "SMOKE-PAGE-0019",
+        "type": "SMOKE",
+        "goal": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/links",
+        "preconditions": [],
+        "actions": [
+          "navigate",
+          "wait_for_page_ready"
+        ],
+        "assertions": [
+          "page_loads",
+          "document_is_interactive"
+        ],
+        "source": "autonomous_discovery",
+        "execution_status": "PASS",
+        "execution_reason": "Page loaded and document body rendered.",
+        "observed": {
+          "title_present": true,
+          "body_present": true
+        }
+      },
+      {
+        "intent_id": "SMOKE-PAGE-0020",
+        "type": "SMOKE",
+        "goal": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/modal-dialogs",
+        "preconditions": [],
+        "actions": [
+          "navigate",
+          "wait_for_page_ready"
+        ],
+        "assertions": [
+          "page_loads",
+          "document_is_interactive"
+        ],
+        "source": "autonomous_discovery",
+        "execution_status": "PASS",
+        "execution_reason": "Page loaded and document body rendered.",
+        "observed": {
+          "title_present": true,
+          "body_present": true
+        }
+      },
+      {
+        "intent_id": "SANITY-CHANGE-0001",
+        "type": "SANITY",
+        "goal": "Verify changed application surface still works.",
+        "url": "https://demoqa.com/buttons",
+        "preconditions": [
+          "changed_surface_available"
+        ],
+        "actions": [
+          "navigate",
+          "exercise_changed_surface"
+        ],
+        "assertions": [
+          "changed_surface_responds",
+          "expected_state_transition_observed"
+        ],
+        "source": "change_intelligence",
+        "execution_status": "PASS",
+        "execution_reason": "Changed page rendered and exposes interactive surface(s).",
+        "observed": {
+          "body_present": true,
+          "interactive_elements": 38
+        }
+      },
+      {
+        "intent_id": "SANITY-REGRESSION-0001",
+        "type": "SANITY",
+        "goal": "Verify nearby functionality was not disrupted.",
+        "url": "https://demoqa.com/buttons",
+        "preconditions": [
+          "changed_surface_available"
+        ],
+        "actions": [
+          "navigate",
+          "exercise_adjacent_functionality"
+        ],
+        "assertions": [
+          "adjacent_functionality_responds"
+        ],
+        "source": "change_intelligence",
+        "execution_status": "PASS",
+        "execution_reason": "Changed page rendered and exposes interactive surface(s).",
+        "observed": {
+          "body_present": true,
+          "interactive_elements": 38
+        }
+      }
+    ]
+  }
+}

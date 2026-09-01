@@ -1,0 +1,74 @@
+{
+  "version": "7.8",
+  "quality_truth": {
+    "regression_health": "HEALTHY",
+    "automation_health": "HEALTHY",
+    "application_change": "CHANGED",
+    "confirmed_defects": 0,
+    "release_signal": "CHANGED_SURFACES_REQUIRE_TARGETED_REVIEW",
+    "execution": {
+      "tests_executed": 118,
+      "passed": 118,
+      "failed": 0,
+      "by_intent": {
+        "SMOKE": {
+          "executed": 21,
+          "passed": 21,
+          "failed": 0
+        },
+        "SANITY": {
+          "executed": 2,
+          "passed": 2,
+          "failed": 0
+        },
+        "REGRESSION": {
+          "executed": 94,
+          "passed": 94,
+          "failed": 0
+        },
+        "E2E": {
+          "executed": 1,
+          "passed": 1,
+          "failed": 0
+        },
+        "TOTAL": {
+          "executed": 118,
+          "passed": 118,
+          "failed": 0
+        }
+      },
+      "regression_executed": 94,
+      "regression_passed": 94,
+      "regression_failed": 0,
+      "regression_healthy": true
+    },
+    "automation": {
+      "health": "HEALTHY",
+      "automation_failures": 0,
+      "transient_failures": 0,
+      "environment_failures": 0,
+      "unclassified_failures": 0,
+      "application_candidates": 0
+    },
+    "change": {
+      "new_pages": 0,
+      "removed_pages": 0,
+      "changed_pages": 1,
+      "new_elements": 1,
+      "removed_elements": 1,
+      "modified_elements": 0,
+      "new_behaviors": 0,
+      "removed_behaviors": 0,
+      "total_changes": 3,
+      "change_risk": 21.0
+    },
+    "defects": {
+      "confirmed_defects": 0,
+      "investigated": 0,
+      "not_reproduced": 0
+    }
+  },
+  "credentials_stored": false,
+  "tokens_stored": false,
+  "cookies_stored": false
+}

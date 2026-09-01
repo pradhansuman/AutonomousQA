@@ -1,0 +1,4853 @@
+{
+  "version": "8.5.2",
+  "canonical": true,
+  "journeys": 24,
+  "executed_journeys": 24,
+  "outcomes": [
+    {
+      "journey_id": "J83-0017",
+      "goal": "Create or manage application data",
+      "outcome_state": "OBSERVED",
+      "result": "Observed failure evidence.",
+      "verification_strength": {
+        "ui_verified": true,
+        "state_verified": true,
+        "network_verified": true,
+        "backend_verified": false,
+        "business_verified": false
+      },
+      "ui_evidence_count": 3,
+      "state_evidence_count": 3,
+      "network_evidence": [
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/index-pe2EUVKA.css",
+          "status": 200,
+          "resource_type": "stylesheet",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/index-D_rDx8ml.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        }
+      ],
+      "successful_network_calls": 3,
+      "failed_network_calls": 0,
+      "direct_outcome_evidence": [],
+      "backend_outcome": "UNKNOWN",
+      "backend_claim_allowed": false
+    },
+    {
+      "journey_id": "J83-0026",
+      "goal": "Create or manage application data",
+      "outcome_state": "OBSERVED",
+      "result": "Observed failure evidence.",
+      "verification_strength": {
+        "ui_verified": true,
+        "state_verified": true,
+        "network_verified": true,
+        "backend_verified": false,
+        "business_verified": false
+      },
+      "ui_evidence_count": 3,
+      "state_evidence_count": 3,
+      "network_evidence": [
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/Toolsqa-DZdwt2ul.jpg",
+          "status": 200,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.googletagmanager.com/gtm.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/WB-u-E_TRWX.svg",
+          "status": 200,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.google-analytics.com/analytics.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "POST",
+          "url": "https://www.google-analytics.com/j/collect",
+          "status": 200,
+          "resource_type": "xhr",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.googletagmanager.com/gtag/js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/gplaypattern-DtLXoPaW.jpg",
+          "status": 200,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        }
+      ],
+      "successful_network_calls": 7,
+      "failed_network_calls": 0,
+      "direct_outcome_evidence": [],
+      "backend_outcome": "UNKNOWN",
+      "backend_claim_allowed": false
+    },
+    {
+      "journey_id": "J83-0037",
+      "goal": "Authenticate and establish a user session",
+      "outcome_state": "INFERRED",
+      "result": "Network, state and UI evidence support the outcome; backend commit is not directly proven.",
+      "verification_strength": {
+        "ui_verified": true,
+        "state_verified": true,
+        "network_verified": true,
+        "backend_verified": false,
+        "business_verified": false
+      },
+      "ui_evidence_count": 9,
+      "state_evidence_count": 6,
+      "network_evidence": [
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/index-D_rDx8ml.js",
+          "status": 304,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/forms",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/index-pe2EUVKA.css",
+          "status": 200,
+          "resource_type": "stylesheet",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.googletagmanager.com/gtm.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.googletagmanager.com/gtag/js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.google-analytics.com/analytics.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "POST",
+          "url": "https://www.google-analytics.com/j/collect",
+          "status": 200,
+          "resource_type": "xhr",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.googletagservices.com/tag/js/gpt.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/Toolsqa-DZdwt2ul.jpg",
+          "status": 304,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/gplaypattern-DtLXoPaW.jpg",
+          "status": 304,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://securepubads.g.doubleclick.net/pagead/managed/dict/m202608270101/gpt",
+          "status": 200,
+          "resource_type": "other",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202608260101/pubads_impl.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://cm.g.doubleclick.net/partnerpixels",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/index-pe2EUVKA.css",
+          "status": 304,
+          "resource_type": "stylesheet",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/books",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep1.adtrafficquality.google/getconfig/sodar",
+          "status": 200,
+          "resource_type": "xhr",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://7e8e349574ff7b2345f4151365fff6c2.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep2.adtrafficquality.google/sodar/sodar2.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://securepubads.g.doubleclick.net/gampad/ads",
+          "status": 200,
+          "resource_type": "fetch",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/BookStore/v1/Books",
+          "status": 200,
+          "resource_type": "fetch",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep2.adtrafficquality.google/sodar/sodar2/255/runner.html",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.google.com/recaptcha/api2/aframe",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://pagead2.googlesyndication.com/bg/FuJtfeOhw-B3t1LjFl21M-YKqgyzyTdQm0Cbm-qvzyY.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/Toolsqa-DZdwt2ul.jpg",
+          "status": 200,
+          "resource_type": "image",
+          "evidence_path": "root.steps[1]"
+        }
+      ],
+      "successful_network_calls": 21,
+      "failed_network_calls": 0,
+      "direct_outcome_evidence": [],
+      "backend_outcome": "UNKNOWN",
+      "backend_claim_allowed": false
+    },
+    {
+      "journey_id": "J83-0016",
+      "goal": "Submit valid user information",
+      "outcome_state": "INFERRED",
+      "result": "Network, state and UI evidence support the outcome; backend commit is not directly proven.",
+      "verification_strength": {
+        "ui_verified": true,
+        "state_verified": true,
+        "network_verified": true,
+        "backend_verified": false,
+        "business_verified": false
+      },
+      "ui_evidence_count": 13,
+      "state_evidence_count": 9,
+      "network_evidence": [
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/index-pe2EUVKA.css",
+          "status": 304,
+          "resource_type": "stylesheet",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/index-D_rDx8ml.js",
+          "status": 304,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.googletagmanager.com/gtm.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.googletagmanager.com/gtag/js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.google-analytics.com/analytics.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "POST",
+          "url": "https://www.google-analytics.com/j/collect",
+          "status": 200,
+          "resource_type": "xhr",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/Toolsqa-DZdwt2ul.jpg",
+          "status": 304,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/gplaypattern-DtLXoPaW.jpg",
+          "status": 304,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.googletagservices.com/tag/js/gpt.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202608260101/pubads_impl.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/WB-u-E_TRWX.svg",
+          "status": 200,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://securepubads.g.doubleclick.net/pagead/managed/dict/m202608270101/gpt",
+          "status": 200,
+          "resource_type": "other",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://cm.g.doubleclick.net/partnerpixels",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep1.adtrafficquality.google/getconfig/sodar",
+          "status": 200,
+          "resource_type": "xhr",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep2.adtrafficquality.google/sodar/sodar2.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep2.adtrafficquality.google/sodar/sodar2/255/runner.html",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.google.com/recaptcha/api2/aframe",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://pagead2.googlesyndication.com/bg/FuJtfeOhw-B3t1LjFl21M-YKqgyzyTdQm0Cbm-qvzyY.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://securepubads.g.doubleclick.net/gampad/ads",
+          "status": 200,
+          "resource_type": "fetch",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://8718fa89d6c6fb6cde792f1d9183a45a.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep2.adtrafficquality.google/generate_204",
+          "status": 204,
+          "resource_type": "image",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/elements",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://pagead2.googlesyndication.com/pagead/sodar",
+          "status": 204,
+          "resource_type": "image",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ea32f8d1f2e35ef5089fb6ec413351f7.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/text-box",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[2]"
+        },
+        {
+          "method": "GET",
+          "url": "https://35cf1c9b360875e2f488d5300f571376.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[2]"
+        }
+      ],
+      "successful_network_calls": 23,
+      "failed_network_calls": 0,
+      "direct_outcome_evidence": [],
+      "backend_outcome": "UNKNOWN",
+      "backend_claim_allowed": false
+    },
+    {
+      "journey_id": "J83-0018",
+      "goal": "Transfer a file successfully",
+      "outcome_state": "INFERRED",
+      "result": "Network, state and UI evidence support the outcome; backend commit is not directly proven.",
+      "verification_strength": {
+        "ui_verified": true,
+        "state_verified": true,
+        "network_verified": true,
+        "backend_verified": false,
+        "business_verified": false
+      },
+      "ui_evidence_count": 13,
+      "state_evidence_count": 9,
+      "network_evidence": [
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/index-D_rDx8ml.js",
+          "status": 304,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/index-pe2EUVKA.css",
+          "status": 304,
+          "resource_type": "stylesheet",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.googletagmanager.com/gtm.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.googletagmanager.com/gtag/js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.google-analytics.com/analytics.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "POST",
+          "url": "https://www.google-analytics.com/j/collect",
+          "status": 200,
+          "resource_type": "xhr",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/Toolsqa-DZdwt2ul.jpg",
+          "status": 200,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/gplaypattern-DtLXoPaW.jpg",
+          "status": 200,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.googletagservices.com/tag/js/gpt.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202608260101/pubads_impl.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/WB-u-E_TRWX.svg",
+          "status": 200,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://securepubads.g.doubleclick.net/pagead/managed/dict/m202608270101/gpt",
+          "status": 200,
+          "resource_type": "other",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://cm.g.doubleclick.net/partnerpixels",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep1.adtrafficquality.google/getconfig/sodar",
+          "status": 200,
+          "resource_type": "xhr",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep2.adtrafficquality.google/sodar/sodar2.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep2.adtrafficquality.google/sodar/sodar2/255/runner.html",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.google.com/recaptcha/api2/aframe",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://pagead2.googlesyndication.com/bg/FuJtfeOhw-B3t1LjFl21M-YKqgyzyTdQm0Cbm-qvzyY.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://securepubads.g.doubleclick.net/gampad/ads",
+          "status": 200,
+          "resource_type": "fetch",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://pagead2.googlesyndication.com/pagead/sodar",
+          "status": 204,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://284505c9af114362ef8f6393ce7afed7.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep2.adtrafficquality.google/generate_204",
+          "status": 204,
+          "resource_type": "image",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/elements",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/gplaypattern-DtLXoPaW.jpg",
+          "status": 304,
+          "resource_type": "image",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/Toolsqa-DZdwt2ul.jpg",
+          "status": 304,
+          "resource_type": "image",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://99047fc9e670fb00d81e0280473b2661.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/upload-download",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[2]"
+        },
+        {
+          "method": "GET",
+          "url": "https://8f7e690066d579ec226a74f9562718e9.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[2]"
+        }
+      ],
+      "successful_network_calls": 25,
+      "failed_network_calls": 0,
+      "direct_outcome_evidence": [],
+      "backend_outcome": "UNKNOWN",
+      "backend_claim_allowed": false
+    },
+    {
+      "journey_id": "J83-0019",
+      "goal": "Submit valid user information",
+      "outcome_state": "INFERRED",
+      "result": "Network, state and UI evidence support the outcome; backend commit is not directly proven.",
+      "verification_strength": {
+        "ui_verified": true,
+        "state_verified": true,
+        "network_verified": true,
+        "backend_verified": false,
+        "business_verified": false
+      },
+      "ui_evidence_count": 13,
+      "state_evidence_count": 9,
+      "network_evidence": [
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/index-pe2EUVKA.css",
+          "status": 304,
+          "resource_type": "stylesheet",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/index-D_rDx8ml.js",
+          "status": 304,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.googletagmanager.com/gtm.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.googletagmanager.com/gtag/js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.google-analytics.com/analytics.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "POST",
+          "url": "https://www.google-analytics.com/j/collect",
+          "status": 200,
+          "resource_type": "xhr",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.googletagservices.com/tag/js/gpt.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202608260101/pubads_impl.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://cm.g.doubleclick.net/partnerpixels",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/Toolsqa-DZdwt2ul.jpg",
+          "status": 200,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://securepubads.g.doubleclick.net/pagead/managed/dict/m202608270101/gpt",
+          "status": 200,
+          "resource_type": "other",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep1.adtrafficquality.google/getconfig/sodar",
+          "status": 200,
+          "resource_type": "xhr",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep2.adtrafficquality.google/sodar/sodar2.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep2.adtrafficquality.google/sodar/sodar2/255/runner.html",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.google.com/recaptcha/api2/aframe",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://pagead2.googlesyndication.com/bg/FuJtfeOhw-B3t1LjFl21M-YKqgyzyTdQm0Cbm-qvzyY.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://securepubads.g.doubleclick.net/gampad/ads",
+          "status": 200,
+          "resource_type": "fetch",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://pagead2.googlesyndication.com/pagead/sodar",
+          "status": 204,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/WB-u-E_TRWX.svg",
+          "status": 200,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/gplaypattern-DtLXoPaW.jpg",
+          "status": 200,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://6e58b1928ccb75fac214b111f8c66dff.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep2.adtrafficquality.google/generate_204",
+          "status": 204,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/elements",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/gplaypattern-DtLXoPaW.jpg",
+          "status": 304,
+          "resource_type": "image",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/Toolsqa-DZdwt2ul.jpg",
+          "status": 304,
+          "resource_type": "image",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://6b6bdfa994452a82d40acf3adde583b5.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/automation-practice-form",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[2]"
+        },
+        {
+          "method": "GET",
+          "url": "https://eee7897099abfe21028895dee8b7db59.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[2]"
+        }
+      ],
+      "successful_network_calls": 25,
+      "failed_network_calls": 0,
+      "direct_outcome_evidence": [],
+      "backend_outcome": "UNKNOWN",
+      "backend_claim_allowed": false
+    },
+    {
+      "journey_id": "J83-0028",
+      "goal": "Transfer a file successfully",
+      "outcome_state": "INFERRED",
+      "result": "Network, state and UI evidence support the outcome; backend commit is not directly proven.",
+      "verification_strength": {
+        "ui_verified": true,
+        "state_verified": true,
+        "network_verified": true,
+        "backend_verified": false,
+        "business_verified": false
+      },
+      "ui_evidence_count": 9,
+      "state_evidence_count": 6,
+      "network_evidence": [
+        {
+          "method": "POST",
+          "url": "https://www.google-analytics.com/j/collect",
+          "status": 200,
+          "resource_type": "xhr",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/Toolsqa-DZdwt2ul.jpg",
+          "status": 304,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/WB-u-E_TRWX.svg",
+          "status": 200,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/gplaypattern-DtLXoPaW.jpg",
+          "status": 304,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/forms",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/index-D_rDx8ml.js",
+          "status": 304,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/index-pe2EUVKA.css",
+          "status": 304,
+          "resource_type": "stylesheet",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.googletagservices.com/tag/js/gpt.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.googletagmanager.com/gtm.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202608260101/pubads_impl.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.googletagmanager.com/gtag/js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.google-analytics.com/analytics.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://cm.g.doubleclick.net/partnerpixels",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep1.adtrafficquality.google/getconfig/sodar",
+          "status": 200,
+          "resource_type": "xhr",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep2.adtrafficquality.google/sodar/sodar2.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep2.adtrafficquality.google/sodar/sodar2/255/runner.html",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.google.com/recaptcha/api2/aframe",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://securepubads.g.doubleclick.net/gampad/ads",
+          "status": 200,
+          "resource_type": "fetch",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://pagead2.googlesyndication.com/bg/FuJtfeOhw-B3t1LjFl21M-YKqgyzyTdQm0Cbm-qvzyY.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://pagead2.googlesyndication.com/pagead/sodar",
+          "status": 204,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://e43ccd4a92c72e2234dee4c04708bcc4.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://securepubads.g.doubleclick.net/pagead/managed/dict/m202608270101/gpt",
+          "status": 200,
+          "resource_type": "other",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep2.adtrafficquality.google/generate_204",
+          "status": 204,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/upload-download",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/Toolsqa-DZdwt2ul.jpg",
+          "status": 200,
+          "resource_type": "image",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/gplaypattern-DtLXoPaW.jpg",
+          "status": 200,
+          "resource_type": "image",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://b45049073f4bd7f4f86594a84aa870eb.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[1]"
+        }
+      ],
+      "successful_network_calls": 24,
+      "failed_network_calls": 0,
+      "direct_outcome_evidence": [],
+      "backend_outcome": "UNKNOWN",
+      "backend_claim_allowed": false
+    },
+    {
+      "journey_id": "J83-0015",
+      "goal": "Authenticate and establish a user session",
+      "outcome_state": "INFERRED",
+      "result": "Network, state and UI evidence support the outcome; backend commit is not directly proven.",
+      "verification_strength": {
+        "ui_verified": true,
+        "state_verified": true,
+        "network_verified": true,
+        "backend_verified": false,
+        "business_verified": false
+      },
+      "ui_evidence_count": 9,
+      "state_evidence_count": 6,
+      "network_evidence": [
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/index-D_rDx8ml.js",
+          "status": 304,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/index-pe2EUVKA.css",
+          "status": 304,
+          "resource_type": "stylesheet",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.googletagmanager.com/gtm.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.googletagmanager.com/gtag/js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.google-analytics.com/analytics.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "POST",
+          "url": "https://www.google-analytics.com/j/collect",
+          "status": 200,
+          "resource_type": "xhr",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/Toolsqa-DZdwt2ul.jpg",
+          "status": 200,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/gplaypattern-DtLXoPaW.jpg",
+          "status": 200,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.googletagservices.com/tag/js/gpt.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202608260101/pubads_impl.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/WB-u-E_TRWX.svg",
+          "status": 200,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://cm.g.doubleclick.net/partnerpixels",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep1.adtrafficquality.google/getconfig/sodar",
+          "status": 200,
+          "resource_type": "xhr",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep2.adtrafficquality.google/sodar/sodar2.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep2.adtrafficquality.google/sodar/sodar2/255/runner.html",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.google.com/recaptcha/api2/aframe",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://pagead2.googlesyndication.com/bg/FuJtfeOhw-B3t1LjFl21M-YKqgyzyTdQm0Cbm-qvzyY.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://securepubads.g.doubleclick.net/gampad/ads",
+          "status": 200,
+          "resource_type": "fetch",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep2.adtrafficquality.google/generate_204",
+          "status": 204,
+          "resource_type": "image",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/books",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://securepubads.g.doubleclick.net/pagead/managed/dict/m202608270101/gpt",
+          "status": 200,
+          "resource_type": "other",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/Toolsqa-DZdwt2ul.jpg",
+          "status": 304,
+          "resource_type": "image",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/BookStore/v1/Books",
+          "status": 200,
+          "resource_type": "fetch",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://pagead2.googlesyndication.com/pagead/sodar",
+          "status": 204,
+          "resource_type": "image",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://fd470d31633103dd9813e427a05561b0.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/gplaypattern-DtLXoPaW.jpg",
+          "status": 304,
+          "resource_type": "image",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/bookimage0-DrW2Lhj5.jpg",
+          "status": 200,
+          "resource_type": "image",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/bookimage1-CeLeymOA.jpg",
+          "status": 200,
+          "resource_type": "image",
+          "evidence_path": "root.steps[1]"
+        }
+      ],
+      "successful_network_calls": 25,
+      "failed_network_calls": 0,
+      "direct_outcome_evidence": [],
+      "backend_outcome": "UNKNOWN",
+      "backend_claim_allowed": false
+    },
+    {
+      "journey_id": "J83-0021",
+      "goal": "Create or manage application data",
+      "outcome_state": "INFERRED",
+      "result": "Network, state and UI evidence support the outcome; backend commit is not directly proven.",
+      "verification_strength": {
+        "ui_verified": true,
+        "state_verified": true,
+        "network_verified": true,
+        "backend_verified": false,
+        "business_verified": false
+      },
+      "ui_evidence_count": 9,
+      "state_evidence_count": 6,
+      "network_evidence": [
+        {
+          "method": "POST",
+          "url": "https://www.google-analytics.com/j/collect",
+          "status": 200,
+          "resource_type": "xhr",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/WB-u-E_TRWX.svg",
+          "status": 200,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/Toolsqa-DZdwt2ul.jpg",
+          "status": 304,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/gplaypattern-DtLXoPaW.jpg",
+          "status": 304,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/elements",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/index-D_rDx8ml.js",
+          "status": 304,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/index-pe2EUVKA.css",
+          "status": 304,
+          "resource_type": "stylesheet",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.googletagservices.com/tag/js/gpt.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.googletagmanager.com/gtm.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202608260101/pubads_impl.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.googletagmanager.com/gtag/js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.google-analytics.com/analytics.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://securepubads.g.doubleclick.net/pagead/managed/dict/m202608270101/gpt",
+          "status": 200,
+          "resource_type": "other",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://cm.g.doubleclick.net/partnerpixels",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep1.adtrafficquality.google/getconfig/sodar",
+          "status": 200,
+          "resource_type": "xhr",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep2.adtrafficquality.google/sodar/sodar2.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep2.adtrafficquality.google/sodar/sodar2/255/runner.html",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.google.com/recaptcha/api2/aframe",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://pagead2.googlesyndication.com/bg/FuJtfeOhw-B3t1LjFl21M-YKqgyzyTdQm0Cbm-qvzyY.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://securepubads.g.doubleclick.net/gampad/ads",
+          "status": 200,
+          "resource_type": "fetch",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://pagead2.googlesyndication.com/pagead/sodar",
+          "status": 204,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://9c52a50fae126f123ef33ca62730cca0.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep2.adtrafficquality.google/generate_204",
+          "status": 204,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/webtables",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/Toolsqa-DZdwt2ul.jpg",
+          "status": 200,
+          "resource_type": "image",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/gplaypattern-DtLXoPaW.jpg",
+          "status": 200,
+          "resource_type": "image",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://e17f8b2f55ceb490ddfe2730ec9b2a15.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[1]"
+        }
+      ],
+      "successful_network_calls": 24,
+      "failed_network_calls": 0,
+      "direct_outcome_evidence": [],
+      "backend_outcome": "UNKNOWN",
+      "backend_claim_allowed": false
+    },
+    {
+      "journey_id": "J83-0024",
+      "goal": "Authenticate and establish a user session",
+      "outcome_state": "INFERRED",
+      "result": "Network, state and UI evidence support the outcome; backend commit is not directly proven.",
+      "verification_strength": {
+        "ui_verified": true,
+        "state_verified": true,
+        "network_verified": true,
+        "backend_verified": false,
+        "business_verified": false
+      },
+      "ui_evidence_count": 9,
+      "state_evidence_count": 6,
+      "network_evidence": [
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/index-D_rDx8ml.js",
+          "status": 304,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/index-pe2EUVKA.css",
+          "status": 304,
+          "resource_type": "stylesheet",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.googletagmanager.com/gtm.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.googletagmanager.com/gtag/js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.google-analytics.com/analytics.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "POST",
+          "url": "https://www.google-analytics.com/j/collect",
+          "status": 200,
+          "resource_type": "xhr",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/elements",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.googletagservices.com/tag/js/gpt.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202608260101/pubads_impl.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/gplaypattern-DtLXoPaW.jpg",
+          "status": 200,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/Toolsqa-DZdwt2ul.jpg",
+          "status": 200,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://cm.g.doubleclick.net/partnerpixels",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.googletagmanager.com/td",
+          "status": 204,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep1.adtrafficquality.google/getconfig/sodar",
+          "status": 200,
+          "resource_type": "xhr",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep2.adtrafficquality.google/sodar/sodar2.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://f2dfa8df262ff8b91c3267f00bb8f6e7.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://securepubads.g.doubleclick.net/gampad/ads",
+          "status": 200,
+          "resource_type": "fetch",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://securepubads.g.doubleclick.net/pagead/managed/dict/m202608270101/gpt",
+          "status": 200,
+          "resource_type": "other",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep2.adtrafficquality.google/sodar/sodar2/255/runner.html",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://pagead2.googlesyndication.com/bg/FuJtfeOhw-B3t1LjFl21M-YKqgyzyTdQm0Cbm-qvzyY.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.google.com/recaptcha/api2/aframe",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://pagead2.googlesyndication.com/pagead/sodar",
+          "status": 204,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep2.adtrafficquality.google/generate_204",
+          "status": 204,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/Toolsqa-DZdwt2ul.jpg",
+          "status": 304,
+          "resource_type": "image",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/gplaypattern-DtLXoPaW.jpg",
+          "status": 304,
+          "resource_type": "image",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/books",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://9ba4498c01c7d5199eef00fa14bdb11c.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/BookStore/v1/Books",
+          "status": 200,
+          "resource_type": "fetch",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/bookimage1-CeLeymOA.jpg",
+          "status": 304,
+          "resource_type": "image",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/bookimage0-DrW2Lhj5.jpg",
+          "status": 304,
+          "resource_type": "image",
+          "evidence_path": "root.steps[1]"
+        }
+      ],
+      "successful_network_calls": 25,
+      "failed_network_calls": 0,
+      "direct_outcome_evidence": [],
+      "backend_outcome": "UNKNOWN",
+      "backend_claim_allowed": false
+    },
+    {
+      "journey_id": "J83-0039",
+      "goal": "Create or manage application data",
+      "outcome_state": "INFERRED",
+      "result": "Network, state and UI evidence support the outcome; backend commit is not directly proven.",
+      "verification_strength": {
+        "ui_verified": true,
+        "state_verified": true,
+        "network_verified": true,
+        "backend_verified": false,
+        "business_verified": false
+      },
+      "ui_evidence_count": 9,
+      "state_evidence_count": 6,
+      "network_evidence": [
+        {
+          "method": "POST",
+          "url": "https://www.google-analytics.com/j/collect",
+          "status": 200,
+          "resource_type": "xhr",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/gplaypattern-DtLXoPaW.jpg",
+          "status": 304,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/Toolsqa-DZdwt2ul.jpg",
+          "status": 304,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/WB-u-E_TRWX.svg",
+          "status": 200,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/alertsWindows",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/index-D_rDx8ml.js",
+          "status": 304,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/index-pe2EUVKA.css",
+          "status": 304,
+          "resource_type": "stylesheet",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.googletagservices.com/tag/js/gpt.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.googletagmanager.com/gtm.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202608260101/pubads_impl.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.googletagmanager.com/gtag/js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.google-analytics.com/analytics.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://cm.g.doubleclick.net/partnerpixels",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep1.adtrafficquality.google/getconfig/sodar",
+          "status": 200,
+          "resource_type": "xhr",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep2.adtrafficquality.google/sodar/sodar2.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep2.adtrafficquality.google/sodar/sodar2/255/runner.html",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.google.com/recaptcha/api2/aframe",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://securepubads.g.doubleclick.net/pagead/managed/dict/m202608270101/gpt",
+          "status": 200,
+          "resource_type": "other",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://pagead2.googlesyndication.com/bg/FuJtfeOhw-B3t1LjFl21M-YKqgyzyTdQm0Cbm-qvzyY.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://securepubads.g.doubleclick.net/gampad/ads",
+          "status": 200,
+          "resource_type": "fetch",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://pagead2.googlesyndication.com/pagead/sodar",
+          "status": 204,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://75aae266492d5e875843be2870b3009a.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep2.adtrafficquality.google/generate_204",
+          "status": 204,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/webtables",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/Toolsqa-DZdwt2ul.jpg",
+          "status": 200,
+          "resource_type": "image",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/gplaypattern-DtLXoPaW.jpg",
+          "status": 200,
+          "resource_type": "image",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://e023f59ad7695ecb64b05c3436673016.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[1]"
+        }
+      ],
+      "successful_network_calls": 24,
+      "failed_network_calls": 0,
+      "direct_outcome_evidence": [],
+      "backend_outcome": "UNKNOWN",
+      "backend_claim_allowed": false
+    },
+    {
+      "journey_id": "J83-0042",
+      "goal": "Authenticate and establish a user session",
+      "outcome_state": "INFERRED",
+      "result": "Network, state and UI evidence support the outcome; backend commit is not directly proven.",
+      "verification_strength": {
+        "ui_verified": true,
+        "state_verified": true,
+        "network_verified": true,
+        "backend_verified": false,
+        "business_verified": false
+      },
+      "ui_evidence_count": 9,
+      "state_evidence_count": 6,
+      "network_evidence": [
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/index-pe2EUVKA.css",
+          "status": 304,
+          "resource_type": "stylesheet",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/index-D_rDx8ml.js",
+          "status": 304,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.googletagmanager.com/gtm.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.googletagmanager.com/gtag/js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.google-analytics.com/analytics.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "POST",
+          "url": "https://www.google-analytics.com/j/collect",
+          "status": 200,
+          "resource_type": "xhr",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/alertsWindows",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.googletagservices.com/tag/js/gpt.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202608260101/pubads_impl.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://cm.g.doubleclick.net/partnerpixels",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/Toolsqa-DZdwt2ul.jpg",
+          "status": 200,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep1.adtrafficquality.google/getconfig/sodar",
+          "status": 200,
+          "resource_type": "xhr",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep2.adtrafficquality.google/sodar/sodar2.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/gplaypattern-DtLXoPaW.jpg",
+          "status": 200,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep2.adtrafficquality.google/sodar/sodar2/255/runner.html",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.google.com/recaptcha/api2/aframe",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://securepubads.g.doubleclick.net/pagead/managed/dict/m202608270101/gpt",
+          "status": 200,
+          "resource_type": "other",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://pagead2.googlesyndication.com/bg/FuJtfeOhw-B3t1LjFl21M-YKqgyzyTdQm0Cbm-qvzyY.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://pagead2.googlesyndication.com/pagead/sodar",
+          "status": 204,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://e7698e0afba43a575cde608caee2aa55.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://securepubads.g.doubleclick.net/gampad/ads",
+          "status": 200,
+          "resource_type": "fetch",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep2.adtrafficquality.google/generate_204",
+          "status": 204,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/books",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/BookStore/v1/Books",
+          "status": 200,
+          "resource_type": "fetch",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://cc27c126e09800d7f92cf51ba3f80c97.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/bookimage1-CeLeymOA.jpg",
+          "status": 304,
+          "resource_type": "image",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/bookimage0-DrW2Lhj5.jpg",
+          "status": 304,
+          "resource_type": "image",
+          "evidence_path": "root.steps[1]"
+        }
+      ],
+      "successful_network_calls": 24,
+      "failed_network_calls": 0,
+      "direct_outcome_evidence": [],
+      "backend_outcome": "UNKNOWN",
+      "backend_claim_allowed": false
+    },
+    {
+      "journey_id": "J83-0044",
+      "goal": "Create or manage application data",
+      "outcome_state": "INFERRED",
+      "result": "Network, state and UI evidence support the outcome; backend commit is not directly proven.",
+      "verification_strength": {
+        "ui_verified": true,
+        "state_verified": true,
+        "network_verified": true,
+        "backend_verified": false,
+        "business_verified": false
+      },
+      "ui_evidence_count": 9,
+      "state_evidence_count": 6,
+      "network_evidence": [
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/index-pe2EUVKA.css",
+          "status": 304,
+          "resource_type": "stylesheet",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/index-D_rDx8ml.js",
+          "status": 304,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.googletagmanager.com/gtm.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.googletagmanager.com/gtag/js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.google-analytics.com/analytics.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/widgets",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.googletagservices.com/tag/js/gpt.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202608260101/pubads_impl.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://cm.g.doubleclick.net/partnerpixels",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep1.adtrafficquality.google/getconfig/sodar",
+          "status": 200,
+          "resource_type": "xhr",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep2.adtrafficquality.google/sodar/sodar2.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep2.adtrafficquality.google/sodar/sodar2/255/runner.html",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.google.com/recaptcha/api2/aframe",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/Toolsqa-DZdwt2ul.jpg",
+          "status": 200,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://pagead2.googlesyndication.com/bg/FuJtfeOhw-B3t1LjFl21M-YKqgyzyTdQm0Cbm-qvzyY.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://securepubads.g.doubleclick.net/gampad/ads",
+          "status": 200,
+          "resource_type": "fetch",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/gplaypattern-DtLXoPaW.jpg",
+          "status": 200,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "POST",
+          "url": "https://www.google-analytics.com/j/collect",
+          "status": 200,
+          "resource_type": "xhr",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://192b05a235b8faa89e09aa068dfed267.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://pagead2.googlesyndication.com/pagead/sodar",
+          "status": 204,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://securepubads.g.doubleclick.net/pagead/managed/dict/m202608270101/gpt",
+          "status": 200,
+          "resource_type": "other",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep2.adtrafficquality.google/generate_204",
+          "status": 204,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/gplaypattern-DtLXoPaW.jpg",
+          "status": 304,
+          "resource_type": "image",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/Toolsqa-DZdwt2ul.jpg",
+          "status": 304,
+          "resource_type": "image",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/WB-u-E_TRWX.svg",
+          "status": 200,
+          "resource_type": "image",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/webtables",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ec37ff0ac580bc8ec156c94c612aab63.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[1]"
+        }
+      ],
+      "successful_network_calls": 24,
+      "failed_network_calls": 0,
+      "direct_outcome_evidence": [],
+      "backend_outcome": "UNKNOWN",
+      "backend_claim_allowed": false
+    },
+    {
+      "journey_id": "J83-0047",
+      "goal": "Authenticate and establish a user session",
+      "outcome_state": "INFERRED",
+      "result": "Network, state and UI evidence support the outcome; backend commit is not directly proven.",
+      "verification_strength": {
+        "ui_verified": true,
+        "state_verified": true,
+        "network_verified": true,
+        "backend_verified": false,
+        "business_verified": false
+      },
+      "ui_evidence_count": 9,
+      "state_evidence_count": 6,
+      "network_evidence": [
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/index-pe2EUVKA.css",
+          "status": 304,
+          "resource_type": "stylesheet",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/index-D_rDx8ml.js",
+          "status": 304,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/widgets",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.googletagservices.com/tag/js/gpt.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.googletagmanager.com/gtm.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202608260101/pubads_impl.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.googletagmanager.com/gtag/js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.google-analytics.com/analytics.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://cm.g.doubleclick.net/partnerpixels",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep1.adtrafficquality.google/getconfig/sodar",
+          "status": 200,
+          "resource_type": "xhr",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep2.adtrafficquality.google/sodar/sodar2.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep2.adtrafficquality.google/sodar/sodar2/255/runner.html",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.google.com/recaptcha/api2/aframe",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/Toolsqa-DZdwt2ul.jpg",
+          "status": 200,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://pagead2.googlesyndication.com/bg/FuJtfeOhw-B3t1LjFl21M-YKqgyzyTdQm0Cbm-qvzyY.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://3da15097eccde4c1ad0616f40ef76524.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://securepubads.g.doubleclick.net/gampad/ads",
+          "status": 200,
+          "resource_type": "fetch",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "POST",
+          "url": "https://www.google-analytics.com/j/collect",
+          "status": 200,
+          "resource_type": "xhr",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/gplaypattern-DtLXoPaW.jpg",
+          "status": 304,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://pagead2.googlesyndication.com/pagead/sodar",
+          "status": 204,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://securepubads.g.doubleclick.net/pagead/managed/dict/m202608270101/gpt",
+          "status": 200,
+          "resource_type": "other",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep2.adtrafficquality.google/generate_204",
+          "status": 204,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/Toolsqa-DZdwt2ul.jpg",
+          "status": 304,
+          "resource_type": "image",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/WB-u-E_TRWX.svg",
+          "status": 200,
+          "resource_type": "image",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/books",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/BookStore/v1/Books",
+          "status": 200,
+          "resource_type": "fetch",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://388834b1a51e8c390f767aa501060fc6.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/bookimage0-DrW2Lhj5.jpg",
+          "status": 304,
+          "resource_type": "image",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/bookimage1-CeLeymOA.jpg",
+          "status": 304,
+          "resource_type": "image",
+          "evidence_path": "root.steps[1]"
+        }
+      ],
+      "successful_network_calls": 24,
+      "failed_network_calls": 0,
+      "direct_outcome_evidence": [],
+      "backend_outcome": "UNKNOWN",
+      "backend_claim_allowed": false
+    },
+    {
+      "journey_id": "J83-0020",
+      "goal": "Submit valid user information",
+      "outcome_state": "INFERRED",
+      "result": "Network, state and UI evidence support the outcome; backend commit is not directly proven.",
+      "verification_strength": {
+        "ui_verified": true,
+        "state_verified": true,
+        "network_verified": true,
+        "backend_verified": false,
+        "business_verified": false
+      },
+      "ui_evidence_count": 9,
+      "state_evidence_count": 6,
+      "network_evidence": [
+        {
+          "method": "GET",
+          "url": "https://www.googletagmanager.com/gtag/js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.google-analytics.com/analytics.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "POST",
+          "url": "https://www.google-analytics.com/j/collect",
+          "status": 200,
+          "resource_type": "xhr",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/gplaypattern-DtLXoPaW.jpg",
+          "status": 304,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/WB-u-E_TRWX.svg",
+          "status": 200,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/Toolsqa-DZdwt2ul.jpg",
+          "status": 304,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/elements",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/index-D_rDx8ml.js",
+          "status": 304,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/index-pe2EUVKA.css",
+          "status": 304,
+          "resource_type": "stylesheet",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.googletagservices.com/tag/js/gpt.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.googletagmanager.com/gtm.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202608260101/pubads_impl.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://cm.g.doubleclick.net/partnerpixels",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep1.adtrafficquality.google/getconfig/sodar",
+          "status": 200,
+          "resource_type": "xhr",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep2.adtrafficquality.google/sodar/sodar2.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep2.adtrafficquality.google/sodar/sodar2/255/runner.html",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.google.com/recaptcha/api2/aframe",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://pagead2.googlesyndication.com/bg/FuJtfeOhw-B3t1LjFl21M-YKqgyzyTdQm0Cbm-qvzyY.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://273bde11f03ff940ebe1518d7256a1de.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://pagead2.googlesyndication.com/pagead/sodar",
+          "status": 204,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://securepubads.g.doubleclick.net/gampad/ads",
+          "status": 200,
+          "resource_type": "fetch",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://securepubads.g.doubleclick.net/pagead/managed/dict/m202608270101/gpt",
+          "status": 200,
+          "resource_type": "other",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep2.adtrafficquality.google/generate_204",
+          "status": 204,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/text-box",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://2df8e394b25b79b90aa6e42bf7cdd1eb.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[1]"
+        }
+      ],
+      "successful_network_calls": 22,
+      "failed_network_calls": 0,
+      "direct_outcome_evidence": [],
+      "backend_outcome": "UNKNOWN",
+      "backend_claim_allowed": false
+    },
+    {
+      "journey_id": "J83-0022",
+      "goal": "Transfer a file successfully",
+      "outcome_state": "INFERRED",
+      "result": "Network, state and UI evidence support the outcome; backend commit is not directly proven.",
+      "verification_strength": {
+        "ui_verified": true,
+        "state_verified": true,
+        "network_verified": true,
+        "backend_verified": false,
+        "business_verified": false
+      },
+      "ui_evidence_count": 9,
+      "state_evidence_count": 6,
+      "network_evidence": [
+        {
+          "method": "POST",
+          "url": "https://www.google-analytics.com/j/collect",
+          "status": 200,
+          "resource_type": "xhr",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/WB-u-E_TRWX.svg",
+          "status": 200,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/Toolsqa-DZdwt2ul.jpg",
+          "status": 304,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/gplaypattern-DtLXoPaW.jpg",
+          "status": 304,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/elements",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/index-D_rDx8ml.js",
+          "status": 304,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/index-pe2EUVKA.css",
+          "status": 304,
+          "resource_type": "stylesheet",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.googletagservices.com/tag/js/gpt.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.googletagmanager.com/gtm.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202608260101/pubads_impl.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.googletagmanager.com/gtag/js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.google-analytics.com/analytics.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://cm.g.doubleclick.net/partnerpixels",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://securepubads.g.doubleclick.net/pagead/managed/dict/m202608270101/gpt",
+          "status": 200,
+          "resource_type": "other",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep1.adtrafficquality.google/getconfig/sodar",
+          "status": 200,
+          "resource_type": "xhr",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep2.adtrafficquality.google/sodar/sodar2.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep2.adtrafficquality.google/sodar/sodar2/255/runner.html",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.google.com/recaptcha/api2/aframe",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://pagead2.googlesyndication.com/bg/FuJtfeOhw-B3t1LjFl21M-YKqgyzyTdQm0Cbm-qvzyY.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://pagead2.googlesyndication.com/pagead/sodar",
+          "status": 204,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://securepubads.g.doubleclick.net/gampad/ads",
+          "status": 200,
+          "resource_type": "fetch",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://7cf54172b803acb26d77f9e4661193e6.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep2.adtrafficquality.google/generate_204",
+          "status": 204,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/upload-download",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://42455b4daccb1c7d0a9d0696339287d7.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[1]"
+        }
+      ],
+      "successful_network_calls": 22,
+      "failed_network_calls": 0,
+      "direct_outcome_evidence": [],
+      "backend_outcome": "UNKNOWN",
+      "backend_claim_allowed": false
+    },
+    {
+      "journey_id": "J83-0023",
+      "goal": "Submit valid user information",
+      "outcome_state": "INFERRED",
+      "result": "Network, state and UI evidence support the outcome; backend commit is not directly proven.",
+      "verification_strength": {
+        "ui_verified": true,
+        "state_verified": true,
+        "network_verified": true,
+        "backend_verified": false,
+        "business_verified": false
+      },
+      "ui_evidence_count": 9,
+      "state_evidence_count": 6,
+      "network_evidence": [
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/index-D_rDx8ml.js",
+          "status": 304,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/index-pe2EUVKA.css",
+          "status": 304,
+          "resource_type": "stylesheet",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.googletagmanager.com/gtm.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.googletagmanager.com/gtag/js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.google-analytics.com/analytics.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "POST",
+          "url": "https://www.google-analytics.com/j/collect",
+          "status": 200,
+          "resource_type": "xhr",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/elements",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.googletagservices.com/tag/js/gpt.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202608260101/pubads_impl.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://cm.g.doubleclick.net/partnerpixels",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep1.adtrafficquality.google/getconfig/sodar",
+          "status": 200,
+          "resource_type": "xhr",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep2.adtrafficquality.google/sodar/sodar2.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep2.adtrafficquality.google/sodar/sodar2/255/runner.html",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://securepubads.g.doubleclick.net/pagead/managed/dict/m202608270101/gpt",
+          "status": 200,
+          "resource_type": "other",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.google.com/recaptcha/api2/aframe",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://pagead2.googlesyndication.com/bg/FuJtfeOhw-B3t1LjFl21M-YKqgyzyTdQm0Cbm-qvzyY.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/Toolsqa-DZdwt2ul.jpg",
+          "status": 200,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/gplaypattern-DtLXoPaW.jpg",
+          "status": 200,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://securepubads.g.doubleclick.net/gampad/ads",
+          "status": 200,
+          "resource_type": "fetch",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://9eeec83cd08f9a951206450c0f5c2f08.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://pagead2.googlesyndication.com/pagead/sodar",
+          "status": 204,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep2.adtrafficquality.google/generate_204",
+          "status": 204,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/automation-practice-form",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://9d6555c761cd322b815efc3e43961099.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[1]"
+        }
+      ],
+      "successful_network_calls": 23,
+      "failed_network_calls": 0,
+      "direct_outcome_evidence": [],
+      "backend_outcome": "UNKNOWN",
+      "backend_claim_allowed": false
+    },
+    {
+      "journey_id": "J83-0025",
+      "goal": "Submit valid user information",
+      "outcome_state": "INFERRED",
+      "result": "Network, state and UI evidence support the outcome; backend commit is not directly proven.",
+      "verification_strength": {
+        "ui_verified": true,
+        "state_verified": true,
+        "network_verified": true,
+        "backend_verified": false,
+        "business_verified": false
+      },
+      "ui_evidence_count": 9,
+      "state_evidence_count": 6,
+      "network_evidence": [
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/index-pe2EUVKA.css",
+          "status": 304,
+          "resource_type": "stylesheet",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/index-D_rDx8ml.js",
+          "status": 304,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.googletagmanager.com/gtm.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.googletagmanager.com/gtag/js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.google-analytics.com/analytics.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "POST",
+          "url": "https://www.google-analytics.com/j/collect",
+          "status": 200,
+          "resource_type": "xhr",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/forms",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.googletagservices.com/tag/js/gpt.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202608260101/pubads_impl.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://cm.g.doubleclick.net/partnerpixels",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://securepubads.g.doubleclick.net/pagead/managed/dict/m202608270101/gpt",
+          "status": 200,
+          "resource_type": "other",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep1.adtrafficquality.google/getconfig/sodar",
+          "status": 200,
+          "resource_type": "xhr",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep2.adtrafficquality.google/sodar/sodar2.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep2.adtrafficquality.google/sodar/sodar2/255/runner.html",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.google.com/recaptcha/api2/aframe",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://pagead2.googlesyndication.com/bg/FuJtfeOhw-B3t1LjFl21M-YKqgyzyTdQm0Cbm-qvzyY.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/Toolsqa-DZdwt2ul.jpg",
+          "status": 200,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/gplaypattern-DtLXoPaW.jpg",
+          "status": 200,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://a51c645a9148eafc849f25cf528451d0.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://pagead2.googlesyndication.com/pagead/sodar",
+          "status": 204,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://securepubads.g.doubleclick.net/gampad/ads",
+          "status": 200,
+          "resource_type": "fetch",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep2.adtrafficquality.google/generate_204",
+          "status": 204,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/Toolsqa-DZdwt2ul.jpg",
+          "status": 304,
+          "resource_type": "image",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/gplaypattern-DtLXoPaW.jpg",
+          "status": 304,
+          "resource_type": "image",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/WB-u-E_TRWX.svg",
+          "status": 200,
+          "resource_type": "image",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/text-box",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://e22f9c667c137f601e10f70a2f1bb539.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[1]"
+        }
+      ],
+      "successful_network_calls": 24,
+      "failed_network_calls": 0,
+      "direct_outcome_evidence": [],
+      "backend_outcome": "UNKNOWN",
+      "backend_claim_allowed": false
+    },
+    {
+      "journey_id": "J83-0027",
+      "goal": "Submit valid user information",
+      "outcome_state": "INFERRED",
+      "result": "Network, state and UI evidence support the outcome; backend commit is not directly proven.",
+      "verification_strength": {
+        "ui_verified": true,
+        "state_verified": true,
+        "network_verified": true,
+        "backend_verified": false,
+        "business_verified": false
+      },
+      "ui_evidence_count": 9,
+      "state_evidence_count": 6,
+      "network_evidence": [
+        {
+          "method": "POST",
+          "url": "https://www.google-analytics.com/j/collect",
+          "status": 200,
+          "resource_type": "xhr",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/WB-u-E_TRWX.svg",
+          "status": 200,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/gplaypattern-DtLXoPaW.jpg",
+          "status": 304,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/Toolsqa-DZdwt2ul.jpg",
+          "status": 304,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/forms",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/index-D_rDx8ml.js",
+          "status": 304,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/index-pe2EUVKA.css",
+          "status": 304,
+          "resource_type": "stylesheet",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.googletagservices.com/tag/js/gpt.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.googletagmanager.com/gtm.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202608260101/pubads_impl.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.googletagmanager.com/gtag/js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.google-analytics.com/analytics.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://cm.g.doubleclick.net/partnerpixels",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep1.adtrafficquality.google/getconfig/sodar",
+          "status": 200,
+          "resource_type": "xhr",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep2.adtrafficquality.google/sodar/sodar2.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://securepubads.g.doubleclick.net/gampad/ads",
+          "status": 200,
+          "resource_type": "fetch",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://acea04759cf797c5610b47ab865a0b43.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep2.adtrafficquality.google/sodar/sodar2/255/runner.html",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.google.com/recaptcha/api2/aframe",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://pagead2.googlesyndication.com/bg/FuJtfeOhw-B3t1LjFl21M-YKqgyzyTdQm0Cbm-qvzyY.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://pagead2.googlesyndication.com/pagead/sodar",
+          "status": 204,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://securepubads.g.doubleclick.net/pagead/managed/dict/m202608270101/gpt",
+          "status": 200,
+          "resource_type": "other",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/buttons",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://1ef0c74f14b2fc6b3f48ea8e2325813f.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.googletagmanager.com/td",
+          "status": 204,
+          "resource_type": "image",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep2.adtrafficquality.google/generate_204",
+          "status": 204,
+          "resource_type": "image",
+          "evidence_path": "root.steps[1]"
+        }
+      ],
+      "successful_network_calls": 23,
+      "failed_network_calls": 0,
+      "direct_outcome_evidence": [],
+      "backend_outcome": "UNKNOWN",
+      "backend_claim_allowed": false
+    },
+    {
+      "journey_id": "J83-0029",
+      "goal": "Submit valid user information",
+      "outcome_state": "INFERRED",
+      "result": "Network, state and UI evidence support the outcome; backend commit is not directly proven.",
+      "verification_strength": {
+        "ui_verified": true,
+        "state_verified": true,
+        "network_verified": true,
+        "backend_verified": false,
+        "business_verified": false
+      },
+      "ui_evidence_count": 9,
+      "state_evidence_count": 6,
+      "network_evidence": [
+        {
+          "method": "GET",
+          "url": "https://www.googletagmanager.com/gtag/js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.google-analytics.com/analytics.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "POST",
+          "url": "https://www.google-analytics.com/j/collect",
+          "status": 200,
+          "resource_type": "xhr",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/WB-u-E_TRWX.svg",
+          "status": 200,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/gplaypattern-DtLXoPaW.jpg",
+          "status": 304,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/Toolsqa-DZdwt2ul.jpg",
+          "status": 304,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/forms",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/index-D_rDx8ml.js",
+          "status": 304,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/index-pe2EUVKA.css",
+          "status": 304,
+          "resource_type": "stylesheet",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.googletagservices.com/tag/js/gpt.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.googletagmanager.com/gtm.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202608260101/pubads_impl.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.googletagmanager.com/a",
+          "status": 200,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://cm.g.doubleclick.net/partnerpixels",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://securepubads.g.doubleclick.net/pagead/managed/dict/m202608270101/gpt",
+          "status": 200,
+          "resource_type": "other",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep1.adtrafficquality.google/getconfig/sodar",
+          "status": 200,
+          "resource_type": "xhr",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep2.adtrafficquality.google/sodar/sodar2.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep2.adtrafficquality.google/sodar/sodar2/255/runner.html",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.google.com/recaptcha/api2/aframe",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://pagead2.googlesyndication.com/bg/FuJtfeOhw-B3t1LjFl21M-YKqgyzyTdQm0Cbm-qvzyY.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://b13b69423f3119538e6af9e0cc99c6f4.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://securepubads.g.doubleclick.net/gampad/ads",
+          "status": 200,
+          "resource_type": "fetch",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://pagead2.googlesyndication.com/pagead/sodar",
+          "status": 204,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep2.adtrafficquality.google/generate_204",
+          "status": 204,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/dynamic-properties",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/Toolsqa-DZdwt2ul.jpg",
+          "status": 200,
+          "resource_type": "image",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://2ad28fffb04242ad1de4f8f551db1036.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/gplaypattern-DtLXoPaW.jpg",
+          "status": 200,
+          "resource_type": "image",
+          "evidence_path": "root.steps[1]"
+        }
+      ],
+      "successful_network_calls": 25,
+      "failed_network_calls": 0,
+      "direct_outcome_evidence": [],
+      "backend_outcome": "UNKNOWN",
+      "backend_claim_allowed": false
+    },
+    {
+      "journey_id": "J83-0030",
+      "goal": "Submit valid user information",
+      "outcome_state": "INFERRED",
+      "result": "Network, state and UI evidence support the outcome; backend commit is not directly proven.",
+      "verification_strength": {
+        "ui_verified": true,
+        "state_verified": true,
+        "network_verified": true,
+        "backend_verified": false,
+        "business_verified": false
+      },
+      "ui_evidence_count": 9,
+      "state_evidence_count": 6,
+      "network_evidence": [
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/index-D_rDx8ml.js",
+          "status": 304,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/index-pe2EUVKA.css",
+          "status": 304,
+          "resource_type": "stylesheet",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.googletagmanager.com/gtm.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.googletagmanager.com/gtag/js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.google-analytics.com/analytics.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/forms",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.googletagservices.com/tag/js/gpt.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202608260101/pubads_impl.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://cm.g.doubleclick.net/partnerpixels",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep1.adtrafficquality.google/getconfig/sodar",
+          "status": 200,
+          "resource_type": "xhr",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep2.adtrafficquality.google/sodar/sodar2.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep2.adtrafficquality.google/sodar/sodar2/255/runner.html",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.google.com/recaptcha/api2/aframe",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://securepubads.g.doubleclick.net/pagead/managed/dict/m202608270101/gpt",
+          "status": 200,
+          "resource_type": "other",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "POST",
+          "url": "https://www.google-analytics.com/j/collect",
+          "status": 200,
+          "resource_type": "xhr",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://pagead2.googlesyndication.com/bg/FuJtfeOhw-B3t1LjFl21M-YKqgyzyTdQm0Cbm-qvzyY.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://securepubads.g.doubleclick.net/gampad/ads",
+          "status": 200,
+          "resource_type": "fetch",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://pagead2.googlesyndication.com/pagead/sodar",
+          "status": 204,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://40a5bde76a4f0ab1aa046f852c6f59a6.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/Toolsqa-DZdwt2ul.jpg",
+          "status": 200,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/gplaypattern-DtLXoPaW.jpg",
+          "status": 200,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/Toolsqa-DZdwt2ul.jpg",
+          "status": 304,
+          "resource_type": "image",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/gplaypattern-DtLXoPaW.jpg",
+          "status": 304,
+          "resource_type": "image",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/automation-practice-form",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ff5a31851831a75faef7ca6cd8c8d86b.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep2.adtrafficquality.google/generate_204",
+          "status": 204,
+          "resource_type": "image",
+          "evidence_path": "root.steps[1]"
+        }
+      ],
+      "successful_network_calls": 23,
+      "failed_network_calls": 0,
+      "direct_outcome_evidence": [],
+      "backend_outcome": "UNKNOWN",
+      "backend_claim_allowed": false
+    },
+    {
+      "journey_id": "J83-0031",
+      "goal": "Submit valid user information",
+      "outcome_state": "INFERRED",
+      "result": "Network, state and UI evidence support the outcome; backend commit is not directly proven.",
+      "verification_strength": {
+        "ui_verified": true,
+        "state_verified": true,
+        "network_verified": true,
+        "backend_verified": false,
+        "business_verified": false
+      },
+      "ui_evidence_count": 9,
+      "state_evidence_count": 6,
+      "network_evidence": [
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/index-pe2EUVKA.css",
+          "status": 304,
+          "resource_type": "stylesheet",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/index-D_rDx8ml.js",
+          "status": 304,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.googletagmanager.com/gtm.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.googletagmanager.com/gtag/js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.google-analytics.com/analytics.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "POST",
+          "url": "https://www.google-analytics.com/j/collect",
+          "status": 200,
+          "resource_type": "xhr",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/forms",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.googletagservices.com/tag/js/gpt.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202608260101/pubads_impl.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://cm.g.doubleclick.net/partnerpixels",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep1.adtrafficquality.google/getconfig/sodar",
+          "status": 200,
+          "resource_type": "xhr",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep2.adtrafficquality.google/sodar/sodar2.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep2.adtrafficquality.google/sodar/sodar2/255/runner.html",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.google.com/recaptcha/api2/aframe",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://pagead2.googlesyndication.com/bg/FuJtfeOhw-B3t1LjFl21M-YKqgyzyTdQm0Cbm-qvzyY.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/Toolsqa-DZdwt2ul.jpg",
+          "status": 200,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://securepubads.g.doubleclick.net/gampad/ads",
+          "status": 200,
+          "resource_type": "fetch",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://10a4a9fa8c529cfb49201da78ca0d6b5.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/gplaypattern-DtLXoPaW.jpg",
+          "status": 200,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://pagead2.googlesyndication.com/pagead/sodar",
+          "status": 204,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://securepubads.g.doubleclick.net/pagead/managed/dict/m202608270101/gpt",
+          "status": 200,
+          "resource_type": "other",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep2.adtrafficquality.google/generate_204",
+          "status": 204,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/browser-windows",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://e5fb6dfe60639291e3eb759e08dad6bc.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[1]"
+        }
+      ],
+      "successful_network_calls": 23,
+      "failed_network_calls": 0,
+      "direct_outcome_evidence": [],
+      "backend_outcome": "UNKNOWN",
+      "backend_claim_allowed": false
+    },
+    {
+      "journey_id": "J83-0032",
+      "goal": "Submit valid user information",
+      "outcome_state": "INFERRED",
+      "result": "Network, state and UI evidence support the outcome; backend commit is not directly proven.",
+      "verification_strength": {
+        "ui_verified": true,
+        "state_verified": true,
+        "network_verified": true,
+        "backend_verified": false,
+        "business_verified": false
+      },
+      "ui_evidence_count": 9,
+      "state_evidence_count": 6,
+      "network_evidence": [
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/index-D_rDx8ml.js",
+          "status": 304,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/index-pe2EUVKA.css",
+          "status": 304,
+          "resource_type": "stylesheet",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.googletagmanager.com/gtm.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.googletagmanager.com/gtag/js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.google-analytics.com/analytics.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "POST",
+          "url": "https://www.google-analytics.com/j/collect",
+          "status": 200,
+          "resource_type": "xhr",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/forms",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.googletagservices.com/tag/js/gpt.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202608260101/pubads_impl.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://securepubads.g.doubleclick.net/pagead/managed/dict/m202608270101/gpt",
+          "status": 200,
+          "resource_type": "other",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://cm.g.doubleclick.net/partnerpixels",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep1.adtrafficquality.google/getconfig/sodar",
+          "status": 200,
+          "resource_type": "xhr",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep2.adtrafficquality.google/sodar/sodar2.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep2.adtrafficquality.google/sodar/sodar2/255/runner.html",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.google.com/recaptcha/api2/aframe",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://pagead2.googlesyndication.com/bg/FuJtfeOhw-B3t1LjFl21M-YKqgyzyTdQm0Cbm-qvzyY.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/Toolsqa-DZdwt2ul.jpg",
+          "status": 200,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/gplaypattern-DtLXoPaW.jpg",
+          "status": 200,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://securepubads.g.doubleclick.net/gampad/ads",
+          "status": 200,
+          "resource_type": "fetch",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://5448695d66226786ebb85c543b71d4a6.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://pagead2.googlesyndication.com/pagead/sodar",
+          "status": 204,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep2.adtrafficquality.google/generate_204",
+          "status": 204,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/gplaypattern-DtLXoPaW.jpg",
+          "status": 304,
+          "resource_type": "image",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/Toolsqa-DZdwt2ul.jpg",
+          "status": 304,
+          "resource_type": "image",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/alerts",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://71cc10b22af4daf1bd60e727e68f6aa6.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[1]"
+        }
+      ],
+      "successful_network_calls": 23,
+      "failed_network_calls": 0,
+      "direct_outcome_evidence": [],
+      "backend_outcome": "UNKNOWN",
+      "backend_claim_allowed": false
+    },
+    {
+      "journey_id": "J83-0033",
+      "goal": "Submit valid user information",
+      "outcome_state": "INFERRED",
+      "result": "Network, state and UI evidence support the outcome; backend commit is not directly proven.",
+      "verification_strength": {
+        "ui_verified": true,
+        "state_verified": true,
+        "network_verified": true,
+        "backend_verified": false,
+        "business_verified": false
+      },
+      "ui_evidence_count": 9,
+      "state_evidence_count": 6,
+      "network_evidence": [
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/index-D_rDx8ml.js",
+          "status": 304,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/index-pe2EUVKA.css",
+          "status": 304,
+          "resource_type": "stylesheet",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.googletagmanager.com/gtm.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.googletagmanager.com/gtag/js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.google-analytics.com/analytics.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "POST",
+          "url": "https://www.google-analytics.com/j/collect",
+          "status": 200,
+          "resource_type": "xhr",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/forms",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.googletagservices.com/tag/js/gpt.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202608260101/pubads_impl.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://cm.g.doubleclick.net/partnerpixels",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep1.adtrafficquality.google/getconfig/sodar",
+          "status": 200,
+          "resource_type": "xhr",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep2.adtrafficquality.google/sodar/sodar2.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/gplaypattern-DtLXoPaW.jpg",
+          "status": 200,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/assets/Toolsqa-DZdwt2ul.jpg",
+          "status": 200,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep2.adtrafficquality.google/sodar/sodar2/255/runner.html",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://www.google.com/recaptcha/api2/aframe",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://securepubads.g.doubleclick.net/pagead/managed/dict/m202608270101/gpt",
+          "status": 200,
+          "resource_type": "other",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://c6494fbc6a11c73e9b716dbf714b509a.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://securepubads.g.doubleclick.net/gampad/ads",
+          "status": 200,
+          "resource_type": "fetch",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://pagead2.googlesyndication.com/bg/FuJtfeOhw-B3t1LjFl21M-YKqgyzyTdQm0Cbm-qvzyY.js",
+          "status": 200,
+          "resource_type": "script",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://pagead2.googlesyndication.com/pagead/sodar",
+          "status": 204,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://ep2.adtrafficquality.google/generate_204",
+          "status": 204,
+          "resource_type": "image",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[0]"
+        },
+        {
+          "method": "GET",
+          "url": "https://demoqa.com/modal-dialogs",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[1]"
+        },
+        {
+          "method": "GET",
+          "url": "https://6744b2191e4636939a68a51b408a0728.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html",
+          "status": 200,
+          "resource_type": "document",
+          "evidence_path": "root.steps[1]"
+        }
+      ],
+      "successful_network_calls": 23,
+      "failed_network_calls": 0,
+      "direct_outcome_evidence": [],
+      "backend_outcome": "UNKNOWN",
+      "backend_claim_allowed": false
+    }
+  ],
+  "observed": 2,
+  "inferred": 22,
+  "unknown": 0,
+  "network_calls": 615,
+  "ui_verified": 24,
+  "state_verified": 24,
+  "network_verified": 24,
+  "backend_verified": 0,
+  "business_verified": 0,
+  "backend_outcomes_observed": 0,
+  "backend_outcomes_unknown": 24,
+  "truth_policy": "Never claim backend/database truth without direct evidence."
+}

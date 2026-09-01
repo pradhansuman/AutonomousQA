@@ -1,0 +1,27 @@
+{
+  "version": "8.7.5",
+  "run_id": "3d2a78d65f4343808c3bf9503d058650",
+  "current_run": true,
+  "journey_results": [],
+  "evidence": [
+    {
+      "evidence_id": "3d0d2c0ec9923a3275d8",
+      "run_id": "3d2a78d65f4343808c3bf9503d058650",
+      "version": "8.7.5",
+      "current_run": true,
+      "type": "DISCOVERY_PAGE_OBSERVED",
+      "url": "https://demoqa.com/",
+      "behavior_id": null,
+      "journey_id": null,
+      "observed": true,
+      "timestamp": "2026-08-31T06:08:45.487849+00:00",
+      "details": {
+        "status": null,
+        "mode": "usable-document-fallback",
+        "elements": 0,
+        "links": 0,
+        "surface": "https://demoqa.com/"
+      }
+    }
+  ]
+}

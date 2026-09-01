@@ -1,0 +1,291 @@
+[
+  {
+    "behavior_id": "d17fcb2533428199b578",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/checkboxes",
+    "surface": "https://the-internet.herokuapp.com/checkboxes",
+    "semantic": "CHECKBOX",
+    "action": "check",
+    "selector": "input",
+    "label": "input",
+    "risk": 55,
+    "status": "PASS",
+    "evidence_ids": [
+      "033f9076326a47a75b95"
+    ]
+  },
+  {
+    "behavior_id": "8b785291364bb0f0d7c5",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/dropdown",
+    "surface": "https://the-internet.herokuapp.com/dropdown",
+    "semantic": "SELECT",
+    "action": "select",
+    "selector": "#dropdown",
+    "label": "Please select an option\nOption 1\nOption 2",
+    "risk": 60,
+    "status": "PASS",
+    "evidence_ids": [
+      "fdd950977cd48d569157"
+    ]
+  },
+  {
+    "behavior_id": "40fa6fbfd260c293c3e8",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/dynamic_controls",
+    "surface": "https://the-internet.herokuapp.com/dynamic_controls",
+    "semantic": "CHECKBOX",
+    "action": "check",
+    "selector": "input",
+    "label": "input",
+    "risk": 55,
+    "status": "PASS",
+    "evidence_ids": [
+      "cc37f7889023b4182553"
+    ]
+  },
+  {
+    "behavior_id": "476cd94f3fb8ebab97be",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/dynamic_controls",
+    "surface": "https://the-internet.herokuapp.com/dynamic_controls",
+    "semantic": "BUTTON",
+    "action": "click",
+    "selector": "button",
+    "label": "Remove",
+    "risk": 50,
+    "status": "PASS",
+    "evidence_ids": [
+      "f93a09526ea40ec30a1b"
+    ]
+  },
+  {
+    "behavior_id": "b63f756143825fd41d85",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/forgot_password",
+    "surface": "https://the-internet.herokuapp.com/forgot_password",
+    "semantic": "TEXT_INPUT",
+    "action": "fill",
+    "selector": "#email",
+    "label": "email",
+    "risk": 60,
+    "status": "PASS",
+    "evidence_ids": [
+      "2d8ec78ee81ac77e8411"
+    ]
+  },
+  {
+    "behavior_id": "0d49c9c34655014a6a32",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/forgot_password",
+    "surface": "https://the-internet.herokuapp.com/forgot_password",
+    "semantic": "BUTTON",
+    "action": "click",
+    "selector": "#form_submit",
+    "label": "Retrieve password",
+    "risk": 50,
+    "status": "PASS",
+    "evidence_ids": [
+      "02171e8c142846ee85fb"
+    ]
+  },
+  {
+    "behavior_id": "f2ecd3384f9bdb74d4e3",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/geolocation",
+    "surface": "https://the-internet.herokuapp.com/geolocation",
+    "semantic": "BUTTON",
+    "action": "click",
+    "selector": "button",
+    "label": "Where am I?",
+    "risk": 50,
+    "status": "PASS",
+    "evidence_ids": [
+      "f7243753b61c0d7196d9"
+    ]
+  },
+  {
+    "behavior_id": "cdab42677be2fdb5497a",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/horizontal_slider",
+    "surface": "https://the-internet.herokuapp.com/horizontal_slider",
+    "semantic": "SLIDER",
+    "action": "adjust",
+    "selector": "input",
+    "label": "input",
+    "risk": 55,
+    "status": "PASS",
+    "evidence_ids": [
+      "c85e026b1ec80ce53c76"
+    ]
+  },
+  {
+    "behavior_id": "1b769d55e411f642009e",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/inputs",
+    "surface": "https://the-internet.herokuapp.com/inputs",
+    "semantic": "NUMBER_INPUT",
+    "action": "fill",
+    "selector": "input",
+    "label": "input",
+    "risk": 60,
+    "status": "PASS",
+    "evidence_ids": [
+      "46f5cf3da9af0aa5df92"
+    ]
+  },
+  {
+    "behavior_id": "42c2bf09d22dec7b8d1f",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/javascript_alerts",
+    "surface": "https://the-internet.herokuapp.com/javascript_alerts",
+    "semantic": "BUTTON",
+    "action": "click",
+    "selector": "button",
+    "label": "Click for JS Alert",
+    "risk": 50,
+    "status": "PASS",
+    "evidence_ids": [
+      "2a9129d254f3a5e3210f"
+    ]
+  },
+  {
+    "behavior_id": "9934e47a9eb43252de3a",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/key_presses",
+    "surface": "https://the-internet.herokuapp.com/key_presses",
+    "semantic": "TEXT_INPUT",
+    "action": "fill",
+    "selector": "#target",
+    "label": "input",
+    "risk": 60,
+    "status": "PASS",
+    "evidence_ids": [
+      "cde0ab143d606d32d087"
+    ]
+  },
+  {
+    "behavior_id": "0e5e45d0a0a5cd6531f6",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/login",
+    "surface": "https://the-internet.herokuapp.com/login",
+    "semantic": "TEXT_INPUT",
+    "action": "fill",
+    "selector": "#username",
+    "label": "username",
+    "risk": 75,
+    "status": "PASS",
+    "evidence_ids": [
+      "ab057d519c16b4770a4a"
+    ]
+  },
+  {
+    "behavior_id": "3a5b4964fe92f3e7e1fd",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/login",
+    "surface": "https://the-internet.herokuapp.com/login",
+    "semantic": "TEXT_INPUT",
+    "action": "fill",
+    "selector": "#password",
+    "label": "password",
+    "risk": 75,
+    "status": "PASS",
+    "evidence_ids": [
+      "37243909806c6d35dec0"
+    ]
+  },
+  {
+    "behavior_id": "590b571349ff7d0f0a11",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/login",
+    "surface": "https://the-internet.herokuapp.com/login",
+    "semantic": "BUTTON",
+    "action": "click",
+    "selector": "button",
+    "label": "Login",
+    "risk": 65,
+    "status": "PASS",
+    "evidence_ids": [
+      "5ee17974d638826b8243"
+    ]
+  },
+  {
+    "behavior_id": "3f71dcc8cb27fe674f29",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/tinymce",
+    "surface": "https://the-internet.herokuapp.com/tinymce",
+    "semantic": "BUTTON",
+    "action": "click",
+    "selector": "button",
+    "label": "Undo",
+    "risk": 50,
+    "status": "PASS",
+    "evidence_ids": [
+      "cebdeb7e2cd7135d9a52"
+    ]
+  },
+  {
+    "behavior_id": "96f356c430857f44b956",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/upload",
+    "surface": "https://the-internet.herokuapp.com/upload",
+    "semantic": "FILE_UPLOAD",
+    "action": "upload",
+    "selector": "#file-upload",
+    "label": "file",
+    "risk": 85,
+    "status": "PASS",
+    "evidence_ids": [
+      "7431f71ebc0228d6329a"
+    ]
+  },
+  {
+    "behavior_id": "65b44ecb88a5444afa5d",
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "page": "https://the-internet.herokuapp.com/upload",
+    "surface": "https://the-internet.herokuapp.com/upload",
+    "semantic": "BUTTON",
+    "action": "click",
+    "selector": "#file-submit",
+    "label": "input",
+    "risk": 65,
+    "status": "PASS",
+    "evidence_ids": [
+      "564170701e5faa5bd801"
+    ]
+  }
+]

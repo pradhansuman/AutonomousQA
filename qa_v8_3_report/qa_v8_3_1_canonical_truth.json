@@ -1,0 +1,512 @@
+{
+  "version": "8.3.1",
+  "execution": {
+    "executed": 118,
+    "passed": 118,
+    "failed": 0,
+    "unknown_status": 0
+  },
+  "journeys": {
+    "executed": 24,
+    "passed": 24,
+    "failed": 0,
+    "execution_coverage_percent": 100.0
+  },
+  "behavioral_coverage": {
+    "covered": 101,
+    "total": 101,
+    "percent": 100.0
+  },
+  "unknown_behavior": {
+    "remaining": 0,
+    "closed": false
+  },
+  "evidence": {
+    "violations": 118,
+    "details": [
+      {
+        "record": 1,
+        "missing": "execution_id"
+      },
+      {
+        "record": 2,
+        "missing": "execution_id"
+      },
+      {
+        "record": 3,
+        "missing": "execution_id"
+      },
+      {
+        "record": 4,
+        "missing": "execution_id"
+      },
+      {
+        "record": 5,
+        "missing": "execution_id"
+      },
+      {
+        "record": 6,
+        "missing": "execution_id"
+      },
+      {
+        "record": 7,
+        "missing": "execution_id"
+      },
+      {
+        "record": 8,
+        "missing": "execution_id"
+      },
+      {
+        "record": 9,
+        "missing": "execution_id"
+      },
+      {
+        "record": 10,
+        "missing": "execution_id"
+      },
+      {
+        "record": 11,
+        "missing": "execution_id"
+      },
+      {
+        "record": 12,
+        "missing": "execution_id"
+      },
+      {
+        "record": 13,
+        "missing": "execution_id"
+      },
+      {
+        "record": 14,
+        "missing": "execution_id"
+      },
+      {
+        "record": 15,
+        "missing": "execution_id"
+      },
+      {
+        "record": 16,
+        "missing": "execution_id"
+      },
+      {
+        "record": 17,
+        "missing": "execution_id"
+      },
+      {
+        "record": 18,
+        "missing": "execution_id"
+      },
+      {
+        "record": 19,
+        "missing": "execution_id"
+      },
+      {
+        "record": 20,
+        "missing": "execution_id"
+      },
+      {
+        "record": 21,
+        "missing": "execution_id"
+      },
+      {
+        "record": 22,
+        "missing": "execution_id"
+      },
+      {
+        "record": 23,
+        "missing": "execution_id"
+      },
+      {
+        "record": 24,
+        "missing": "execution_id"
+      },
+      {
+        "record": 25,
+        "missing": "execution_id"
+      },
+      {
+        "record": 26,
+        "missing": "execution_id"
+      },
+      {
+        "record": 27,
+        "missing": "execution_id"
+      },
+      {
+        "record": 28,
+        "missing": "execution_id"
+      },
+      {
+        "record": 29,
+        "missing": "execution_id"
+      },
+      {
+        "record": 30,
+        "missing": "execution_id"
+      },
+      {
+        "record": 31,
+        "missing": "execution_id"
+      },
+      {
+        "record": 32,
+        "missing": "execution_id"
+      },
+      {
+        "record": 33,
+        "missing": "execution_id"
+      },
+      {
+        "record": 34,
+        "missing": "execution_id"
+      },
+      {
+        "record": 35,
+        "missing": "execution_id"
+      },
+      {
+        "record": 36,
+        "missing": "execution_id"
+      },
+      {
+        "record": 37,
+        "missing": "execution_id"
+      },
+      {
+        "record": 38,
+        "missing": "execution_id"
+      },
+      {
+        "record": 39,
+        "missing": "execution_id"
+      },
+      {
+        "record": 40,
+        "missing": "execution_id"
+      },
+      {
+        "record": 41,
+        "missing": "execution_id"
+      },
+      {
+        "record": 42,
+        "missing": "execution_id"
+      },
+      {
+        "record": 43,
+        "missing": "execution_id"
+      },
+      {
+        "record": 44,
+        "missing": "execution_id"
+      },
+      {
+        "record": 45,
+        "missing": "execution_id"
+      },
+      {
+        "record": 46,
+        "missing": "execution_id"
+      },
+      {
+        "record": 47,
+        "missing": "execution_id"
+      },
+      {
+        "record": 48,
+        "missing": "execution_id"
+      },
+      {
+        "record": 49,
+        "missing": "execution_id"
+      },
+      {
+        "record": 50,
+        "missing": "execution_id"
+      },
+      {
+        "record": 51,
+        "missing": "execution_id"
+      },
+      {
+        "record": 52,
+        "missing": "execution_id"
+      },
+      {
+        "record": 53,
+        "missing": "execution_id"
+      },
+      {
+        "record": 54,
+        "missing": "execution_id"
+      },
+      {
+        "record": 55,
+        "missing": "execution_id"
+      },
+      {
+        "record": 56,
+        "missing": "execution_id"
+      },
+      {
+        "record": 57,
+        "missing": "execution_id"
+      },
+      {
+        "record": 58,
+        "missing": "execution_id"
+      },
+      {
+        "record": 59,
+        "missing": "execution_id"
+      },
+      {
+        "record": 60,
+        "missing": "execution_id"
+      },
+      {
+        "record": 61,
+        "missing": "execution_id"
+      },
+      {
+        "record": 62,
+        "missing": "execution_id"
+      },
+      {
+        "record": 63,
+        "missing": "execution_id"
+      },
+      {
+        "record": 64,
+        "missing": "execution_id"
+      },
+      {
+        "record": 65,
+        "missing": "execution_id"
+      },
+      {
+        "record": 66,
+        "missing": "execution_id"
+      },
+      {
+        "record": 67,
+        "missing": "execution_id"
+      },
+      {
+        "record": 68,
+        "missing": "execution_id"
+      },
+      {
+        "record": 69,
+        "missing": "execution_id"
+      },
+      {
+        "record": 70,
+        "missing": "execution_id"
+      },
+      {
+        "record": 71,
+        "missing": "execution_id"
+      },
+      {
+        "record": 72,
+        "missing": "execution_id"
+      },
+      {
+        "record": 73,
+        "missing": "execution_id"
+      },
+      {
+        "record": 74,
+        "missing": "execution_id"
+      },
+      {
+        "record": 75,
+        "missing": "execution_id"
+      },
+      {
+        "record": 76,
+        "missing": "execution_id"
+      },
+      {
+        "record": 77,
+        "missing": "execution_id"
+      },
+      {
+        "record": 78,
+        "missing": "execution_id"
+      },
+      {
+        "record": 79,
+        "missing": "execution_id"
+      },
+      {
+        "record": 80,
+        "missing": "execution_id"
+      },
+      {
+        "record": 81,
+        "missing": "execution_id"
+      },
+      {
+        "record": 82,
+        "missing": "execution_id"
+      },
+      {
+        "record": 83,
+        "missing": "execution_id"
+      },
+      {
+        "record": 84,
+        "missing": "execution_id"
+      },
+      {
+        "record": 85,
+        "missing": "execution_id"
+      },
+      {
+        "record": 86,
+        "missing": "execution_id"
+      },
+      {
+        "record": 87,
+        "missing": "execution_id"
+      },
+      {
+        "record": 88,
+        "missing": "execution_id"
+      },
+      {
+        "record": 89,
+        "missing": "execution_id"
+      },
+      {
+        "record": 90,
+        "missing": "execution_id"
+      },
+      {
+        "record": 91,
+        "missing": "execution_id"
+      },
+      {
+        "record": 92,
+        "missing": "execution_id"
+      },
+      {
+        "record": 93,
+        "missing": "execution_id"
+      },
+      {
+        "record": 94,
+        "missing": "execution_id"
+      },
+      {
+        "record": 95,
+        "missing": "execution_id"
+      },
+      {
+        "record": 96,
+        "missing": "execution_id"
+      },
+      {
+        "record": 97,
+        "missing": "execution_id"
+      },
+      {
+        "record": 98,
+        "missing": "execution_id"
+      },
+      {
+        "record": 99,
+        "missing": "execution_id"
+      },
+      {
+        "record": 100,
+        "missing": "execution_id"
+      },
+      {
+        "record": 101,
+        "missing": "execution_id"
+      },
+      {
+        "record": 102,
+        "missing": "execution_id"
+      },
+      {
+        "record": 103,
+        "missing": "execution_id"
+      },
+      {
+        "record": 104,
+        "missing": "execution_id"
+      },
+      {
+        "record": 105,
+        "missing": "execution_id"
+      },
+      {
+        "record": 106,
+        "missing": "execution_id"
+      },
+      {
+        "record": 107,
+        "missing": "execution_id"
+      },
+      {
+        "record": 108,
+        "missing": "execution_id"
+      },
+      {
+        "record": 109,
+        "missing": "execution_id"
+      },
+      {
+        "record": 110,
+        "missing": "execution_id"
+      },
+      {
+        "record": 111,
+        "missing": "execution_id"
+      },
+      {
+        "record": 112,
+        "missing": "execution_id"
+      },
+      {
+        "record": 113,
+        "missing": "execution_id"
+      },
+      {
+        "record": 114,
+        "missing": "execution_id"
+      },
+      {
+        "record": 115,
+        "missing": "execution_id"
+      },
+      {
+        "record": 116,
+        "missing": "execution_id"
+      },
+      {
+        "record": 117,
+        "missing": "execution_id"
+      },
+      {
+        "record": 118,
+        "missing": "execution_id"
+      }
+    ]
+  },
+  "truth_components": {
+    "execution": true,
+    "journeys": true,
+    "behavioral_coverage": true,
+    "unknown_behavior": false,
+    "evidence": false
+  },
+  "release_gate": "FAIL",
+  "fail_closed": true,
+  "authoritative": true,
+  "legacy_truth_layers_authoritative": false
+}

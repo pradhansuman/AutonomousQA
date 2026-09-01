@@ -1,0 +1,19 @@
+{
+  "version": "8.5.2",
+  "canonical": true,
+  "journey_truth": false,
+  "outcome_classification": true,
+  "backend_claim_safety": true,
+  "observed_outcomes": 1,
+  "inferred_outcomes": 23,
+  "unknown_outcomes": 0,
+  "network_calls": 711,
+  "ui_verified": 24,
+  "state_verified": 24,
+  "network_verified": 24,
+  "backend_verified": 0,
+  "business_verified": 0,
+  "malformed_outcomes": 0,
+  "fabricated_backend_claims": 0,
+  "pass": false
+}

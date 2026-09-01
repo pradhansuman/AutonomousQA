@@ -1,0 +1,32 @@
+{
+  "version": "8.3.1",
+  "gates": {
+    "smoke": {
+      "status": "HEALTHY",
+      "executed": 21,
+      "passed": 21,
+      "failed": 0
+    },
+    "sanity": {
+      "status": "HEALTHY",
+      "executed": 2,
+      "passed": 2,
+      "failed": 0
+    },
+    "regression": {
+      "status": "HEALTHY",
+      "executed": 94,
+      "passed": 94,
+      "failed": 0
+    },
+    "e2e": {
+      "status": "HEALTHY",
+      "executed": 1,
+      "passed": 1,
+      "failed": 0
+    }
+  },
+  "credentials_stored": false,
+  "tokens_stored": false,
+  "cookies_stored": false
+}

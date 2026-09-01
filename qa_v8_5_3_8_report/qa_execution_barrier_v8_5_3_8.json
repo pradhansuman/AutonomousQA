@@ -1,0 +1,57 @@
+{
+  "version": "8.5.3.8",
+  "target": "https://demoqa.com",
+  "current_run_only": true,
+  "discovery_ok": true,
+  "discovery_reason": "CURRENT_MODEL_VALID",
+  "current_pages": 7,
+  "execution_started": false,
+  "hard_invariant": "current_pages == 0 => execution == 0",
+  "stale_state_reuse": false,
+  "synthetic_execution": false,
+  "fail_closed": false,
+  "pages": [
+    {
+      "url": "https://demoqa.com",
+      "title": "demosite",
+      "elements": 70,
+      "current_run": true
+    },
+    {
+      "url": "https://demoqa.com/elements",
+      "title": "demosite",
+      "elements": 277,
+      "current_run": true
+    },
+    {
+      "url": "https://demoqa.com/forms",
+      "title": "demosite",
+      "elements": 277,
+      "current_run": true
+    },
+    {
+      "url": "https://demoqa.com/alertsWindows",
+      "title": "demosite",
+      "elements": 281,
+      "current_run": true
+    },
+    {
+      "url": "https://demoqa.com/widgets",
+      "title": "demosite",
+      "elements": 281,
+      "current_run": true
+    },
+    {
+      "url": "https://demoqa.com/interaction",
+      "title": "demosite",
+      "elements": 281,
+      "current_run": true
+    },
+    {
+      "url": "https://demoqa.com/books",
+      "title": "demosite",
+      "elements": 285,
+      "current_run": true
+    }
+  ]
+}

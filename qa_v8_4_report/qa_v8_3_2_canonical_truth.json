@@ -1,0 +1,39 @@
+{
+  "version": "8.4",
+  "execution": {
+    "executed": 118,
+    "passed": 118,
+    "failed": 0,
+    "unknown_status": 0
+  },
+  "journeys": {
+    "executed": 24,
+    "passed": 24,
+    "failed": 0,
+    "execution_coverage_percent": 100.0
+  },
+  "behavioral_coverage": {
+    "covered": 101,
+    "total": 101,
+    "percent": 100.0
+  },
+  "unknown_behavior": {
+    "remaining": 0,
+    "closed": true
+  },
+  "evidence": {
+    "violations": 0,
+    "details": []
+  },
+  "truth_components": {
+    "execution": true,
+    "journeys": true,
+    "behavioral_coverage": true,
+    "unknown_behavior": true,
+    "evidence": true
+  },
+  "release_gate": "PASS",
+  "fail_closed": true,
+  "authoritative": true,
+  "legacy_truth_layers_authoritative": false
+}

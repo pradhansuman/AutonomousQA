@@ -1,0 +1,3335 @@
+[
+  {
+    "evidence_id": "e1310f0dd95a7e67ccf8",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "DISCOVERY_PAGE",
+    "url": "https://demoqa.com/",
+    "observed": true,
+    "timestamp": "2026-08-31T13:31:42.581201+00:00",
+    "details": {
+      "status": 200,
+      "elements": 8,
+      "links": 7,
+      "visible_executable": 0
+    }
+  },
+  {
+    "evidence_id": "ccc1f942a1563c5461b7",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "DISCOVERY_PAGE",
+    "url": "https://demoqa.com/alertsWindows",
+    "observed": true,
+    "timestamp": "2026-08-31T13:31:43.499356+00:00",
+    "details": {
+      "status": 200,
+      "elements": 34,
+      "links": 34,
+      "visible_executable": 0
+    }
+  },
+  {
+    "evidence_id": "5756a123b7cdd624e00d",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "DISCOVERY_PAGE",
+    "url": "https://demoqa.com/books",
+    "observed": true,
+    "timestamp": "2026-08-31T13:31:44.611120+00:00",
+    "details": {
+      "status": 200,
+      "elements": 45,
+      "links": 42,
+      "visible_executable": 3
+    }
+  },
+  {
+    "evidence_id": "2d2d76220a4ee581c8d8",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "DISCOVERY_PAGE",
+    "url": "https://demoqa.com/elements",
+    "observed": true,
+    "timestamp": "2026-08-31T13:31:45.460469+00:00",
+    "details": {
+      "status": 200,
+      "elements": 34,
+      "links": 34,
+      "visible_executable": 0
+    }
+  },
+  {
+    "evidence_id": "6af4709db955e35ceb0a",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "DISCOVERY_PAGE",
+    "url": "https://demoqa.com/forms",
+    "observed": true,
+    "timestamp": "2026-08-31T13:31:46.653339+00:00",
+    "details": {
+      "status": 200,
+      "elements": 34,
+      "links": 34,
+      "visible_executable": 0
+    }
+  },
+  {
+    "evidence_id": "5cbb13a305e4f37672c1",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "DISCOVERY_PAGE",
+    "url": "https://demoqa.com/interaction",
+    "observed": true,
+    "timestamp": "2026-08-31T13:31:47.569492+00:00",
+    "details": {
+      "status": 200,
+      "elements": 34,
+      "links": 34,
+      "visible_executable": 0
+    }
+  },
+  {
+    "evidence_id": "883adff36dfadc624dce",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "DISCOVERY_PAGE",
+    "url": "https://demoqa.com/widgets",
+    "observed": true,
+    "timestamp": "2026-08-31T13:31:48.420180+00:00",
+    "details": {
+      "status": 200,
+      "elements": 34,
+      "links": 34,
+      "visible_executable": 0
+    }
+  },
+  {
+    "evidence_id": "d148c7064b9ad3e973b9",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "DISCOVERY_PAGE",
+    "url": "https://demoqa.com/accordian",
+    "observed": true,
+    "timestamp": "2026-08-31T13:31:49.262296+00:00",
+    "details": {
+      "status": 200,
+      "elements": 37,
+      "links": 34,
+      "visible_executable": 3
+    }
+  },
+  {
+    "evidence_id": "690d2ef00c2b2a2ee188",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "DISCOVERY_PAGE",
+    "url": "https://demoqa.com/alerts",
+    "observed": true,
+    "timestamp": "2026-08-31T13:31:50.144862+00:00",
+    "details": {
+      "status": 200,
+      "elements": 35,
+      "links": 34,
+      "visible_executable": 1
+    }
+  },
+  {
+    "evidence_id": "c3af27163649cba2af7f",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "DISCOVERY_PAGE",
+    "url": "https://demoqa.com/auto-complete",
+    "observed": true,
+    "timestamp": "2026-08-31T13:31:51.022568+00:00",
+    "details": {
+      "status": 200,
+      "elements": 35,
+      "links": 34,
+      "visible_executable": 1
+    }
+  },
+  {
+    "evidence_id": "6cf8b8faeaf1cc465b88",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "DISCOVERY_PAGE",
+    "url": "https://demoqa.com/automation-practice-form",
+    "observed": true,
+    "timestamp": "2026-08-31T13:31:51.871843+00:00",
+    "details": {
+      "status": 200,
+      "elements": 45,
+      "links": 34,
+      "visible_executable": 11
+    }
+  },
+  {
+    "evidence_id": "2aa21c6e18027c5031f4",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "DISCOVERY_PAGE",
+    "url": "https://demoqa.com/broken",
+    "observed": true,
+    "timestamp": "2026-08-31T13:31:52.679170+00:00",
+    "details": {
+      "status": 200,
+      "elements": 36,
+      "links": 35,
+      "visible_executable": 0
+    }
+  },
+  {
+    "evidence_id": "af09955709eccc0bcde9",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "DISCOVERY_PAGE",
+    "url": "https://demoqa.com/browser-windows",
+    "observed": true,
+    "timestamp": "2026-08-31T13:31:53.492501+00:00",
+    "details": {
+      "status": 200,
+      "elements": 37,
+      "links": 34,
+      "visible_executable": 3
+    }
+  },
+  {
+    "evidence_id": "ce5b0f713662d1ac2597",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "DISCOVERY_PAGE",
+    "url": "https://demoqa.com/buttons",
+    "observed": true,
+    "timestamp": "2026-08-31T13:31:54.304981+00:00",
+    "details": {
+      "status": 200,
+      "elements": 37,
+      "links": 34,
+      "visible_executable": 3
+    }
+  },
+  {
+    "evidence_id": "a35d5ac31a633c461fea",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "DISCOVERY_PAGE",
+    "url": "https://demoqa.com/checkbox",
+    "observed": true,
+    "timestamp": "2026-08-31T13:31:55.158899+00:00",
+    "details": {
+      "status": 200,
+      "elements": 35,
+      "links": 34,
+      "visible_executable": 1
+    }
+  },
+  {
+    "evidence_id": "c3bb25b8d8a6ac754f00",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "DISCOVERY_PAGE",
+    "url": "https://demoqa.com/date-picker",
+    "observed": true,
+    "timestamp": "2026-08-31T13:31:56.006119+00:00",
+    "details": {
+      "status": 200,
+      "elements": 35,
+      "links": 34,
+      "visible_executable": 1
+    }
+  },
+  {
+    "evidence_id": "78fab12c64c11009adb7",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "DISCOVERY_PAGE",
+    "url": "https://demoqa.com/dragabble",
+    "observed": true,
+    "timestamp": "2026-08-31T13:31:56.816816+00:00",
+    "details": {
+      "status": 200,
+      "elements": 38,
+      "links": 34,
+      "visible_executable": 4
+    }
+  },
+  {
+    "evidence_id": "8e6e8347061ff5b02eab",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "DISCOVERY_PAGE",
+    "url": "https://demoqa.com/droppable",
+    "observed": true,
+    "timestamp": "2026-08-31T13:31:57.644326+00:00",
+    "details": {
+      "status": 200,
+      "elements": 38,
+      "links": 34,
+      "visible_executable": 4
+    }
+  },
+  {
+    "evidence_id": "126cc3e00d489e889d98",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "DISCOVERY_PAGE",
+    "url": "https://demoqa.com/dynamic-properties",
+    "observed": true,
+    "timestamp": "2026-08-31T13:31:58.719396+00:00",
+    "details": {
+      "status": 200,
+      "elements": 35,
+      "links": 34,
+      "visible_executable": 1
+    }
+  },
+  {
+    "evidence_id": "48307713780cc5ca625c",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "DISCOVERY_PAGE",
+    "url": "https://demoqa.com/frames",
+    "observed": true,
+    "timestamp": "2026-08-31T13:31:59.695387+00:00",
+    "details": {
+      "status": 200,
+      "elements": 34,
+      "links": 34,
+      "visible_executable": 0
+    }
+  },
+  {
+    "evidence_id": "911c0a4c3612b9f869fb",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "DISCOVERY_PAGE",
+    "url": "https://demoqa.com/links",
+    "observed": true,
+    "timestamp": "2026-08-31T13:32:00.536352+00:00",
+    "details": {
+      "status": 200,
+      "elements": 43,
+      "links": 34,
+      "visible_executable": 0
+    }
+  },
+  {
+    "evidence_id": "fd911a069f285e6ef101",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "DISCOVERY_PAGE",
+    "url": "https://demoqa.com/login",
+    "observed": true,
+    "timestamp": "2026-08-31T13:32:01.388910+00:00",
+    "details": {
+      "status": 200,
+      "elements": 38,
+      "links": 34,
+      "visible_executable": 4
+    }
+  },
+  {
+    "evidence_id": "8eb16a55d6f376067afc",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "DISCOVERY_PAGE",
+    "url": "https://demoqa.com/menu",
+    "observed": true,
+    "timestamp": "2026-08-31T13:32:02.306189+00:00",
+    "details": {
+      "status": 200,
+      "elements": 41,
+      "links": 34,
+      "visible_executable": 0
+    }
+  },
+  {
+    "evidence_id": "5e98868b9e01505760d3",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "DISCOVERY_PAGE",
+    "url": "https://demoqa.com/modal-dialogs",
+    "observed": true,
+    "timestamp": "2026-08-31T13:32:03.139808+00:00",
+    "details": {
+      "status": 200,
+      "elements": 36,
+      "links": 34,
+      "visible_executable": 2
+    }
+  },
+  {
+    "evidence_id": "654d8e295f5b99f55a08",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "DISCOVERY_PAGE",
+    "url": "https://demoqa.com/nestedframes",
+    "observed": true,
+    "timestamp": "2026-08-31T13:32:03.998368+00:00",
+    "details": {
+      "status": 200,
+      "elements": 34,
+      "links": 34,
+      "visible_executable": 0
+    }
+  },
+  {
+    "evidence_id": "3f9a14b2bb4b66609c4d",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "DISCOVERY_PAGE",
+    "url": "https://demoqa.com/profile",
+    "observed": true,
+    "timestamp": "2026-08-31T13:32:04.863154+00:00",
+    "details": {
+      "status": 200,
+      "elements": 35,
+      "links": 35,
+      "visible_executable": 0
+    }
+  },
+  {
+    "evidence_id": "2b71af678dca21632f33",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "DISCOVERY_PAGE",
+    "url": "https://demoqa.com/progress-bar",
+    "observed": true,
+    "timestamp": "2026-08-31T13:32:05.709242+00:00",
+    "details": {
+      "status": 200,
+      "elements": 35,
+      "links": 34,
+      "visible_executable": 1
+    }
+  },
+  {
+    "evidence_id": "cdc91e0374d778c43880",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "DISCOVERY_PAGE",
+    "url": "https://demoqa.com/radio-button",
+    "observed": true,
+    "timestamp": "2026-08-31T13:32:06.618547+00:00",
+    "details": {
+      "status": 200,
+      "elements": 35,
+      "links": 34,
+      "visible_executable": 1
+    }
+  },
+  {
+    "evidence_id": "dad95fb2040ea818ae80",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "DISCOVERY_PAGE",
+    "url": "https://demoqa.com/resizable",
+    "observed": true,
+    "timestamp": "2026-08-31T13:32:07.704416+00:00",
+    "details": {
+      "status": 200,
+      "elements": 34,
+      "links": 34,
+      "visible_executable": 0
+    }
+  },
+  {
+    "evidence_id": "34800d2cf9ab3c1ebe78",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "DISCOVERY_PAGE",
+    "url": "https://demoqa.com/select-menu",
+    "observed": true,
+    "timestamp": "2026-08-31T13:32:09.054927+00:00",
+    "details": {
+      "status": 200,
+      "elements": 37,
+      "links": 34,
+      "visible_executable": 3
+    }
+  },
+  {
+    "evidence_id": "321195c941c32ac1f9ed",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "DISCOVERY_PAGE",
+    "url": "https://demoqa.com/selectable",
+    "observed": true,
+    "timestamp": "2026-08-31T13:32:09.865883+00:00",
+    "details": {
+      "status": 200,
+      "elements": 36,
+      "links": 34,
+      "visible_executable": 2
+    }
+  },
+  {
+    "evidence_id": "113b38052cb75acdacdd",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "DISCOVERY_PAGE",
+    "url": "https://demoqa.com/slider",
+    "observed": true,
+    "timestamp": "2026-08-31T13:32:11.210038+00:00",
+    "details": {
+      "status": 200,
+      "elements": 36,
+      "links": 34,
+      "visible_executable": 2
+    }
+  },
+  {
+    "evidence_id": "d87d9f143299b5b0e43d",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "DISCOVERY_PAGE",
+    "url": "https://demoqa.com/sortable",
+    "observed": true,
+    "timestamp": "2026-08-31T13:32:12.710059+00:00",
+    "details": {
+      "status": 200,
+      "elements": 36,
+      "links": 34,
+      "visible_executable": 2
+    }
+  },
+  {
+    "evidence_id": "bc2d498f6c1e597fd53c",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "DISCOVERY_PAGE",
+    "url": "https://demoqa.com/swagger",
+    "observed": true,
+    "timestamp": "2026-08-31T13:32:35.903403+00:00",
+    "details": {
+      "status": 200,
+      "elements": 51,
+      "links": 2,
+      "visible_executable": 40
+    }
+  },
+  {
+    "evidence_id": "1ffe6582196da229c52a",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "DISCOVERY_PAGE",
+    "url": "https://demoqa.com/tabs",
+    "observed": true,
+    "timestamp": "2026-08-31T13:32:36.713347+00:00",
+    "details": {
+      "status": 200,
+      "elements": 37,
+      "links": 34,
+      "visible_executable": 3
+    }
+  },
+  {
+    "evidence_id": "56ec5c841e729002fd92",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "DISCOVERY_PAGE",
+    "url": "https://demoqa.com/text-box",
+    "observed": true,
+    "timestamp": "2026-08-31T13:32:37.542565+00:00",
+    "details": {
+      "status": 200,
+      "elements": 39,
+      "links": 34,
+      "visible_executable": 5
+    }
+  },
+  {
+    "evidence_id": "89c13440c678e70118d5",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "DISCOVERY_PAGE",
+    "url": "https://demoqa.com/tool-tips",
+    "observed": true,
+    "timestamp": "2026-08-31T13:32:38.501602+00:00",
+    "details": {
+      "status": 200,
+      "elements": 38,
+      "links": 34,
+      "visible_executable": 2
+    }
+  },
+  {
+    "evidence_id": "f84817987ed5a7fe3a1f",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "DISCOVERY_PAGE",
+    "url": "https://demoqa.com/upload-download",
+    "observed": true,
+    "timestamp": "2026-08-31T13:32:39.303344+00:00",
+    "details": {
+      "status": 200,
+      "elements": 36,
+      "links": 34,
+      "visible_executable": 1
+    }
+  },
+  {
+    "evidence_id": "48948c4d3b4fae6dd233",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "DISCOVERY_PAGE",
+    "url": "https://demoqa.com/webtables",
+    "observed": true,
+    "timestamp": "2026-08-31T13:32:40.136179+00:00",
+    "details": {
+      "status": 200,
+      "elements": 38,
+      "links": 34,
+      "visible_executable": 4
+    }
+  },
+  {
+    "evidence_id": "36ed497646df202c55cd",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "DISCOVERY_PAGE",
+    "url": "https://demoqa.com/",
+    "observed": true,
+    "timestamp": "2026-08-31T13:32:41.441074+00:00",
+    "details": {
+      "status": 200,
+      "elements": 8,
+      "links": 7,
+      "visible_executable": 0
+    }
+  },
+  {
+    "evidence_id": "3f1355f67f284d127dfc",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "DISCOVERY_PAGE",
+    "url": "https://demoqa.com/register",
+    "observed": true,
+    "timestamp": "2026-08-31T13:32:42.901726+00:00",
+    "details": {
+      "status": 200,
+      "elements": 40,
+      "links": 34,
+      "visible_executable": 6
+    }
+  },
+  {
+    "evidence_id": "7f90b8fcfbda368ab4f4",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "DISCOVERY_PAGE",
+    "url": "https://demoqa.com/None",
+    "observed": true,
+    "timestamp": "2026-08-31T13:32:55.682779+00:00",
+    "details": {
+      "status": 200,
+      "elements": 0,
+      "links": 0,
+      "visible_executable": 0
+    }
+  },
+  {
+    "evidence_id": "86692e0042827b1c9756",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "NAVIGATION_EXECUTION",
+    "url": "https://demoqa.com/",
+    "observed": true,
+    "timestamp": "2026-08-31T13:33:04.664210+00:00",
+    "details": {
+      "from": "https://demoqa.com/",
+      "destination": "https://demoqa.com/",
+      "final_url": "https://demoqa.com/",
+      "http_status": 200,
+      "ok": true,
+      "current_run": true
+    }
+  },
+  {
+    "evidence_id": "231204eabb586b9a6999",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "NAVIGATION_EXECUTION",
+    "url": "https://demoqa.com/elements",
+    "observed": true,
+    "timestamp": "2026-08-31T13:33:13.952342+00:00",
+    "details": {
+      "from": "https://demoqa.com/",
+      "destination": "https://demoqa.com/elements",
+      "final_url": "https://demoqa.com/elements",
+      "http_status": 200,
+      "ok": true,
+      "current_run": true
+    }
+  },
+  {
+    "evidence_id": "70f96ec14f46c4d3742b",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "NAVIGATION_EXECUTION",
+    "url": "https://demoqa.com/forms",
+    "observed": true,
+    "timestamp": "2026-08-31T13:33:23.358943+00:00",
+    "details": {
+      "from": "https://demoqa.com/",
+      "destination": "https://demoqa.com/forms",
+      "final_url": "https://demoqa.com/forms",
+      "http_status": 200,
+      "ok": true,
+      "current_run": true
+    }
+  },
+  {
+    "evidence_id": "05c576c67e9407e18d5f",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "NAVIGATION_EXECUTION",
+    "url": "https://demoqa.com/alertsWindows",
+    "observed": true,
+    "timestamp": "2026-08-31T13:33:33.214135+00:00",
+    "details": {
+      "from": "https://demoqa.com/",
+      "destination": "https://demoqa.com/alertsWindows",
+      "final_url": "https://demoqa.com/alertsWindows",
+      "http_status": 200,
+      "ok": true,
+      "current_run": true
+    }
+  },
+  {
+    "evidence_id": "ae8aaafefcf102643b2f",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "NAVIGATION_EXECUTION",
+    "url": "https://demoqa.com/widgets",
+    "observed": true,
+    "timestamp": "2026-08-31T13:33:37.505645+00:00",
+    "details": {
+      "from": "https://demoqa.com/",
+      "destination": "https://demoqa.com/widgets",
+      "final_url": "https://demoqa.com/widgets",
+      "http_status": 200,
+      "ok": true,
+      "current_run": true
+    }
+  },
+  {
+    "evidence_id": "a06eecff0a809fed6990",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "NAVIGATION_EXECUTION",
+    "url": "https://demoqa.com/interaction",
+    "observed": true,
+    "timestamp": "2026-08-31T13:33:46.415576+00:00",
+    "details": {
+      "from": "https://demoqa.com/",
+      "destination": "https://demoqa.com/interaction",
+      "final_url": "https://demoqa.com/interaction",
+      "http_status": 200,
+      "ok": true,
+      "current_run": true
+    }
+  },
+  {
+    "evidence_id": "d35c94c9952088f0f090",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "NAVIGATION_EXECUTION",
+    "url": "https://demoqa.com/books",
+    "observed": true,
+    "timestamp": "2026-08-31T13:33:56.139928+00:00",
+    "details": {
+      "from": "https://demoqa.com/",
+      "destination": "https://demoqa.com/books",
+      "final_url": "https://demoqa.com/books",
+      "http_status": 200,
+      "ok": true,
+      "current_run": true
+    }
+  },
+  {
+    "evidence_id": "2b03f087c22eb28269c0",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "NAVIGATION_EXECUTION",
+    "url": "https://demoqa.com/text-box",
+    "observed": true,
+    "timestamp": "2026-08-31T13:34:05.009570+00:00",
+    "details": {
+      "from": "https://demoqa.com/alertsWindows",
+      "destination": "https://demoqa.com/text-box",
+      "final_url": "https://demoqa.com/text-box",
+      "http_status": 200,
+      "ok": true,
+      "current_run": true
+    }
+  },
+  {
+    "evidence_id": "7ebe712fad5f9fea292d",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "NAVIGATION_EXECUTION",
+    "url": "https://demoqa.com/checkbox",
+    "observed": true,
+    "timestamp": "2026-08-31T13:34:13.007336+00:00",
+    "details": {
+      "from": "https://demoqa.com/alertsWindows",
+      "destination": "https://demoqa.com/checkbox",
+      "final_url": "https://demoqa.com/checkbox",
+      "http_status": 200,
+      "ok": true,
+      "current_run": true
+    }
+  },
+  {
+    "evidence_id": "0e7a67c98aeaecdcf2bb",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "NAVIGATION_EXECUTION",
+    "url": "https://demoqa.com/radio-button",
+    "observed": true,
+    "timestamp": "2026-08-31T13:34:18.038862+00:00",
+    "details": {
+      "from": "https://demoqa.com/alertsWindows",
+      "destination": "https://demoqa.com/radio-button",
+      "final_url": "https://demoqa.com/radio-button",
+      "http_status": 200,
+      "ok": true,
+      "current_run": true
+    }
+  },
+  {
+    "evidence_id": "b4b55a91cfdbcf4dcf81",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "NAVIGATION_EXECUTION",
+    "url": "https://demoqa.com/webtables",
+    "observed": true,
+    "timestamp": "2026-08-31T13:34:27.508588+00:00",
+    "details": {
+      "from": "https://demoqa.com/alertsWindows",
+      "destination": "https://demoqa.com/webtables",
+      "final_url": "https://demoqa.com/webtables",
+      "http_status": 200,
+      "ok": true,
+      "current_run": true
+    }
+  },
+  {
+    "evidence_id": "dbc75113cca6858fb2e8",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "NAVIGATION_EXECUTION",
+    "url": "https://demoqa.com/buttons",
+    "observed": true,
+    "timestamp": "2026-08-31T13:34:37.247128+00:00",
+    "details": {
+      "from": "https://demoqa.com/alertsWindows",
+      "destination": "https://demoqa.com/buttons",
+      "final_url": "https://demoqa.com/buttons",
+      "http_status": 200,
+      "ok": true,
+      "current_run": true
+    }
+  },
+  {
+    "evidence_id": "17980bf93aba0b2189c9",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "NAVIGATION_EXECUTION",
+    "url": "https://demoqa.com/links",
+    "observed": true,
+    "timestamp": "2026-08-31T13:34:46.927770+00:00",
+    "details": {
+      "from": "https://demoqa.com/alertsWindows",
+      "destination": "https://demoqa.com/links",
+      "final_url": "https://demoqa.com/links",
+      "http_status": 200,
+      "ok": true,
+      "current_run": true
+    }
+  },
+  {
+    "evidence_id": "e55ab45ae05e7c8d11d6",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "NAVIGATION_EXECUTION",
+    "url": "https://demoqa.com/broken",
+    "observed": true,
+    "timestamp": "2026-08-31T13:34:56.807180+00:00",
+    "details": {
+      "from": "https://demoqa.com/alertsWindows",
+      "destination": "https://demoqa.com/broken",
+      "final_url": "https://demoqa.com/broken",
+      "http_status": 200,
+      "ok": true,
+      "current_run": true
+    }
+  },
+  {
+    "evidence_id": "8ce2046257a8abac8f79",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "NAVIGATION_EXECUTION",
+    "url": "https://demoqa.com/upload-download",
+    "observed": true,
+    "timestamp": "2026-08-31T13:35:06.296765+00:00",
+    "details": {
+      "from": "https://demoqa.com/alertsWindows",
+      "destination": "https://demoqa.com/upload-download",
+      "final_url": "https://demoqa.com/upload-download",
+      "http_status": 200,
+      "ok": true,
+      "current_run": true
+    }
+  },
+  {
+    "evidence_id": "27d038f5acbdf6fe1f82",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "NAVIGATION_EXECUTION",
+    "url": "https://demoqa.com/dynamic-properties",
+    "observed": true,
+    "timestamp": "2026-08-31T13:35:15.668445+00:00",
+    "details": {
+      "from": "https://demoqa.com/alertsWindows",
+      "destination": "https://demoqa.com/dynamic-properties",
+      "final_url": "https://demoqa.com/dynamic-properties",
+      "http_status": 200,
+      "ok": true,
+      "current_run": true
+    }
+  },
+  {
+    "evidence_id": "d3913d6a8f635ab68198",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "NAVIGATION_EXECUTION",
+    "url": "https://demoqa.com/automation-practice-form",
+    "observed": true,
+    "timestamp": "2026-08-31T13:35:24.581014+00:00",
+    "details": {
+      "from": "https://demoqa.com/alertsWindows",
+      "destination": "https://demoqa.com/automation-practice-form",
+      "final_url": "https://demoqa.com/automation-practice-form",
+      "http_status": 200,
+      "ok": true,
+      "current_run": true
+    }
+  },
+  {
+    "evidence_id": "6aaa7d609a4766401b5a",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "NAVIGATION_EXECUTION",
+    "url": "https://demoqa.com/browser-windows",
+    "observed": true,
+    "timestamp": "2026-08-31T13:35:28.909276+00:00",
+    "details": {
+      "from": "https://demoqa.com/alertsWindows",
+      "destination": "https://demoqa.com/browser-windows",
+      "final_url": "https://demoqa.com/browser-windows",
+      "http_status": 200,
+      "ok": true,
+      "current_run": true
+    }
+  },
+  {
+    "evidence_id": "74495708aa1a32056f7e",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "NAVIGATION_EXECUTION",
+    "url": "https://demoqa.com/alerts",
+    "observed": true,
+    "timestamp": "2026-08-31T13:35:38.099974+00:00",
+    "details": {
+      "from": "https://demoqa.com/alertsWindows",
+      "destination": "https://demoqa.com/alerts",
+      "final_url": "https://demoqa.com/alerts",
+      "http_status": 200,
+      "ok": true,
+      "current_run": true
+    }
+  },
+  {
+    "evidence_id": "f0912de3ccd48aeca986",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "NAVIGATION_EXECUTION",
+    "url": "https://demoqa.com/frames",
+    "observed": true,
+    "timestamp": "2026-08-31T13:35:47.003502+00:00",
+    "details": {
+      "from": "https://demoqa.com/alertsWindows",
+      "destination": "https://demoqa.com/frames",
+      "final_url": "https://demoqa.com/frames",
+      "http_status": 200,
+      "ok": true,
+      "current_run": true
+    }
+  },
+  {
+    "evidence_id": "344aa334eb434af7f87a",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "NAVIGATION_EXECUTION",
+    "url": "https://demoqa.com/nestedframes",
+    "observed": true,
+    "timestamp": "2026-08-31T13:35:55.509711+00:00",
+    "details": {
+      "from": "https://demoqa.com/alertsWindows",
+      "destination": "https://demoqa.com/nestedframes",
+      "final_url": "https://demoqa.com/nestedframes",
+      "http_status": 200,
+      "ok": true,
+      "current_run": true
+    }
+  },
+  {
+    "evidence_id": "2a12ba465393818336a8",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "NAVIGATION_EXECUTION",
+    "url": "https://demoqa.com/modal-dialogs",
+    "observed": true,
+    "timestamp": "2026-08-31T13:36:04.875388+00:00",
+    "details": {
+      "from": "https://demoqa.com/alertsWindows",
+      "destination": "https://demoqa.com/modal-dialogs",
+      "final_url": "https://demoqa.com/modal-dialogs",
+      "http_status": 200,
+      "ok": true,
+      "current_run": true
+    }
+  },
+  {
+    "evidence_id": "5cdde5c9a31b4e5c9759",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "NAVIGATION_EXECUTION",
+    "url": "https://demoqa.com/accordian",
+    "observed": true,
+    "timestamp": "2026-08-31T13:36:14.748100+00:00",
+    "details": {
+      "from": "https://demoqa.com/alertsWindows",
+      "destination": "https://demoqa.com/accordian",
+      "final_url": "https://demoqa.com/accordian",
+      "http_status": 200,
+      "ok": true,
+      "current_run": true
+    }
+  },
+  {
+    "evidence_id": "28612dec56afb95310bd",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "NAVIGATION_EXECUTION",
+    "url": "https://demoqa.com/auto-complete",
+    "observed": true,
+    "timestamp": "2026-08-31T13:36:24.253748+00:00",
+    "details": {
+      "from": "https://demoqa.com/alertsWindows",
+      "destination": "https://demoqa.com/auto-complete",
+      "final_url": "https://demoqa.com/auto-complete",
+      "http_status": 200,
+      "ok": true,
+      "current_run": true
+    }
+  },
+  {
+    "evidence_id": "7db312bb68f652b8fcb5",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "NAVIGATION_EXECUTION",
+    "url": "https://demoqa.com/date-picker",
+    "observed": true,
+    "timestamp": "2026-08-31T13:36:34.043116+00:00",
+    "details": {
+      "from": "https://demoqa.com/alertsWindows",
+      "destination": "https://demoqa.com/date-picker",
+      "final_url": "https://demoqa.com/date-picker",
+      "http_status": 200,
+      "ok": true,
+      "current_run": true
+    }
+  },
+  {
+    "evidence_id": "b5257cfc42485c5f7459",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "NAVIGATION_EXECUTION",
+    "url": "https://demoqa.com/slider",
+    "observed": true,
+    "timestamp": "2026-08-31T13:36:44.130894+00:00",
+    "details": {
+      "from": "https://demoqa.com/alertsWindows",
+      "destination": "https://demoqa.com/slider",
+      "final_url": "https://demoqa.com/slider",
+      "http_status": 200,
+      "ok": true,
+      "current_run": true
+    }
+  },
+  {
+    "evidence_id": "d359003d7b7e80561e4f",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "NAVIGATION_EXECUTION",
+    "url": "https://demoqa.com/progress-bar",
+    "observed": true,
+    "timestamp": "2026-08-31T13:36:53.891246+00:00",
+    "details": {
+      "from": "https://demoqa.com/alertsWindows",
+      "destination": "https://demoqa.com/progress-bar",
+      "final_url": "https://demoqa.com/progress-bar",
+      "http_status": 200,
+      "ok": true,
+      "current_run": true
+    }
+  },
+  {
+    "evidence_id": "d555fe1caae19caa1c09",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "NAVIGATION_EXECUTION",
+    "url": "https://demoqa.com/tabs",
+    "observed": true,
+    "timestamp": "2026-08-31T13:37:03.378593+00:00",
+    "details": {
+      "from": "https://demoqa.com/alertsWindows",
+      "destination": "https://demoqa.com/tabs",
+      "final_url": "https://demoqa.com/tabs",
+      "http_status": 200,
+      "ok": true,
+      "current_run": true
+    }
+  },
+  {
+    "evidence_id": "831b265d65a88874b7a0",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "NAVIGATION_EXECUTION",
+    "url": "https://demoqa.com/tool-tips",
+    "observed": true,
+    "timestamp": "2026-08-31T13:37:13.455439+00:00",
+    "details": {
+      "from": "https://demoqa.com/alertsWindows",
+      "destination": "https://demoqa.com/tool-tips",
+      "final_url": "https://demoqa.com/tool-tips",
+      "http_status": 200,
+      "ok": true,
+      "current_run": true
+    }
+  },
+  {
+    "evidence_id": "8260923093a2fbbcf34c",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "NAVIGATION_EXECUTION",
+    "url": "https://demoqa.com/menu",
+    "observed": true,
+    "timestamp": "2026-08-31T13:37:22.794798+00:00",
+    "details": {
+      "from": "https://demoqa.com/alertsWindows",
+      "destination": "https://demoqa.com/menu",
+      "final_url": "https://demoqa.com/menu",
+      "http_status": 200,
+      "ok": true,
+      "current_run": true
+    }
+  },
+  {
+    "evidence_id": "f033b7b980faff205d71",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "NAVIGATION_EXECUTION",
+    "url": "https://demoqa.com/select-menu",
+    "observed": true,
+    "timestamp": "2026-08-31T13:37:32.932451+00:00",
+    "details": {
+      "from": "https://demoqa.com/alertsWindows",
+      "destination": "https://demoqa.com/select-menu",
+      "final_url": "https://demoqa.com/select-menu",
+      "http_status": 200,
+      "ok": true,
+      "current_run": true
+    }
+  },
+  {
+    "evidence_id": "577f02f79b5842522ffc",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "NAVIGATION_EXECUTION",
+    "url": "https://demoqa.com/sortable",
+    "observed": true,
+    "timestamp": "2026-08-31T13:37:41.862363+00:00",
+    "details": {
+      "from": "https://demoqa.com/alertsWindows",
+      "destination": "https://demoqa.com/sortable",
+      "final_url": "https://demoqa.com/sortable",
+      "http_status": 200,
+      "ok": true,
+      "current_run": true
+    }
+  },
+  {
+    "evidence_id": "7be4e0d19f0020cf7bb7",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "NAVIGATION_EXECUTION",
+    "url": "https://demoqa.com/selectable",
+    "observed": true,
+    "timestamp": "2026-08-31T13:37:52.262042+00:00",
+    "details": {
+      "from": "https://demoqa.com/alertsWindows",
+      "destination": "https://demoqa.com/selectable",
+      "final_url": "https://demoqa.com/selectable",
+      "http_status": 200,
+      "ok": true,
+      "current_run": true
+    }
+  },
+  {
+    "evidence_id": "48c2cbecb8bd4330077d",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "NAVIGATION_EXECUTION",
+    "url": "https://demoqa.com/resizable",
+    "observed": true,
+    "timestamp": "2026-08-31T13:38:01.214437+00:00",
+    "details": {
+      "from": "https://demoqa.com/alertsWindows",
+      "destination": "https://demoqa.com/resizable",
+      "final_url": "https://demoqa.com/resizable",
+      "http_status": 200,
+      "ok": true,
+      "current_run": true
+    }
+  },
+  {
+    "evidence_id": "51ff55b6976ee627d8b8",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "NAVIGATION_EXECUTION",
+    "url": "https://demoqa.com/droppable",
+    "observed": true,
+    "timestamp": "2026-08-31T13:38:10.321805+00:00",
+    "details": {
+      "from": "https://demoqa.com/alertsWindows",
+      "destination": "https://demoqa.com/droppable",
+      "final_url": "https://demoqa.com/droppable",
+      "http_status": 200,
+      "ok": true,
+      "current_run": true
+    }
+  },
+  {
+    "evidence_id": "adaf6449b17d1f2ff36c",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "NAVIGATION_EXECUTION",
+    "url": "https://demoqa.com/dragabble",
+    "observed": true,
+    "timestamp": "2026-08-31T13:38:19.455793+00:00",
+    "details": {
+      "from": "https://demoqa.com/alertsWindows",
+      "destination": "https://demoqa.com/dragabble",
+      "final_url": "https://demoqa.com/dragabble",
+      "http_status": 200,
+      "ok": true,
+      "current_run": true
+    }
+  },
+  {
+    "evidence_id": "f8fcaa656f5016a3da44",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "NAVIGATION_EXECUTION",
+    "url": "https://demoqa.com/login",
+    "observed": true,
+    "timestamp": "2026-08-31T13:38:29.353727+00:00",
+    "details": {
+      "from": "https://demoqa.com/alertsWindows",
+      "destination": "https://demoqa.com/login",
+      "final_url": "https://demoqa.com/login",
+      "http_status": 200,
+      "ok": true,
+      "current_run": true
+    }
+  },
+  {
+    "evidence_id": "64bbd19ad9119184b47e",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "NAVIGATION_EXECUTION",
+    "url": "https://demoqa.com/profile",
+    "observed": true,
+    "timestamp": "2026-08-31T13:38:39.081655+00:00",
+    "details": {
+      "from": "https://demoqa.com/alertsWindows",
+      "destination": "https://demoqa.com/profile",
+      "final_url": "https://demoqa.com/profile",
+      "http_status": 200,
+      "ok": true,
+      "current_run": true
+    }
+  },
+  {
+    "evidence_id": "4fbdcdff1caf6db1ff92",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "NAVIGATION_EXECUTION",
+    "url": "https://demoqa.com/swagger",
+    "observed": true,
+    "timestamp": "2026-08-31T13:38:48.338947+00:00",
+    "details": {
+      "from": "https://demoqa.com/alertsWindows",
+      "destination": "https://demoqa.com/swagger",
+      "final_url": "https://demoqa.com/swagger",
+      "http_status": 200,
+      "ok": true,
+      "current_run": true
+    }
+  },
+  {
+    "evidence_id": "d2ee76bf0b45a47e3106",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "NAVIGATION_EXECUTION",
+    "url": "https://demoqa.com/",
+    "observed": true,
+    "timestamp": "2026-08-31T13:38:55.807336+00:00",
+    "details": {
+      "from": "https://demoqa.com/broken",
+      "destination": "http://demoqa.com/",
+      "final_url": "https://demoqa.com/",
+      "http_status": 200,
+      "ok": true,
+      "current_run": true
+    }
+  },
+  {
+    "evidence_id": "2195b05413e471003ac6",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "NAVIGATION_EXECUTION",
+    "url": "https://demoqa.com/register",
+    "observed": true,
+    "timestamp": "2026-08-31T13:39:05.391515+00:00",
+    "details": {
+      "from": "https://demoqa.com/profile",
+      "destination": "https://demoqa.com/register",
+      "final_url": "https://demoqa.com/register",
+      "http_status": 200,
+      "ok": true,
+      "current_run": true
+    }
+  },
+  {
+    "evidence_id": "00616b1ef184b19e3392",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "SEMANTIC_BEHAVIOR_FAILURE",
+    "url": "https://demoqa.com/upload-download",
+    "observed": true,
+    "timestamp": "2026-08-31T13:39:47.904326+00:00",
+    "details": {
+      "behavior_id": "3bb4426b61df5707317b",
+      "semantic": "FILE_UPLOAD",
+      "action": "upload",
+      "label": "input",
+      "selector": "#uploadFile",
+      "current_run": true,
+      "error_type": "RuntimeError",
+      "error": "current DOM control not resolvable | semantic=FILE_UPLOAD selector='#uploadFile' label='input'",
+      "truth": "OBSERVED_FAILURE"
+    }
+  },
+  {
+    "evidence_id": "b4323b73936f283c9502",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "SEMANTIC_BEHAVIOR_FAILURE",
+    "url": "https://demoqa.com/login",
+    "observed": true,
+    "timestamp": "2026-08-31T13:40:31.687294+00:00",
+    "details": {
+      "behavior_id": "e68f9b15d6721c584887",
+      "semantic": "TEXT_INPUT",
+      "action": "fill",
+      "label": "Password",
+      "selector": "#password",
+      "current_run": true,
+      "error_type": "RuntimeError",
+      "error": "current DOM control not resolvable | semantic=TEXT_INPUT selector='#password' label='Password'",
+      "truth": "OBSERVED_FAILURE"
+    }
+  },
+  {
+    "evidence_id": "dc327937f4ea12da4775",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "SEMANTIC_BEHAVIOR_FAILURE",
+    "url": "https://demoqa.com/login",
+    "observed": true,
+    "timestamp": "2026-08-31T13:41:15.083865+00:00",
+    "details": {
+      "behavior_id": "7afaf727d10ed8e2dcaf",
+      "semantic": "TEXT_INPUT",
+      "action": "fill",
+      "label": "UserName",
+      "selector": "#userName",
+      "current_run": true,
+      "error_type": "RuntimeError",
+      "error": "current DOM control not resolvable | semantic=TEXT_INPUT selector='#userName' label='UserName'",
+      "truth": "OBSERVED_FAILURE"
+    }
+  },
+  {
+    "evidence_id": "23b25509ce36a635edb0",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "SEMANTIC_BEHAVIOR_EXECUTION",
+    "url": "https://demoqa.com/register",
+    "observed": true,
+    "timestamp": "2026-08-31T13:41:31.089142+00:00",
+    "details": {
+      "behavior_id": "5263face6acdce7df550",
+      "semantic": "TEXT_INPUT",
+      "action": "fill",
+      "label": "First Name",
+      "selector": "#firstname",
+      "before_url": "https://demoqa.com/register",
+      "after_url": "https://demoqa.com/register",
+      "current_run": true,
+      "recovery_enabled": true,
+      "observation": {
+        "semantic": "TEXT_INPUT",
+        "label": "First Name",
+        "requested_value": "QA_V8_7_16_PROBE",
+        "observed_value": "QA_V8_7_16_PROBE",
+        "normalized": false
+      }
+    }
+  },
+  {
+    "evidence_id": "d6bf2c8420b1578fbbba",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "SEMANTIC_BEHAVIOR_EXECUTION",
+    "url": "https://demoqa.com/register",
+    "observed": true,
+    "timestamp": "2026-08-31T13:41:59.363063+00:00",
+    "details": {
+      "behavior_id": "396adfd0db345fa74f59",
+      "semantic": "TEXT_INPUT",
+      "action": "fill",
+      "label": "Last Name",
+      "selector": "#lastname",
+      "before_url": "https://demoqa.com/register",
+      "after_url": "https://demoqa.com/register",
+      "current_run": true,
+      "recovery_enabled": true,
+      "observation": {
+        "semantic": "TEXT_INPUT",
+        "label": "Last Name",
+        "requested_value": "QA_V8_7_16_PROBE",
+        "observed_value": "QA_V8_7_16_PROBE",
+        "normalized": false
+      }
+    }
+  },
+  {
+    "evidence_id": "114eb8e219aadbe6d5a8",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "SEMANTIC_BEHAVIOR_EXECUTION",
+    "url": "https://demoqa.com/register",
+    "observed": true,
+    "timestamp": "2026-08-31T13:42:12.822146+00:00",
+    "details": {
+      "behavior_id": "f6984ed4d7300be2941b",
+      "semantic": "TEXT_INPUT",
+      "action": "fill",
+      "label": "Password",
+      "selector": "#password",
+      "before_url": "https://demoqa.com/register",
+      "after_url": "https://demoqa.com/register",
+      "current_run": true,
+      "recovery_enabled": true,
+      "observation": {
+        "semantic": "TEXT_INPUT",
+        "label": "Password",
+        "requested_value": "QA_V8_7_16_PROBE",
+        "observed_value": "QA_V8_7_16_PROBE",
+        "normalized": false
+      }
+    }
+  },
+  {
+    "evidence_id": "2ee52e5197a18e4ebc76",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "SEMANTIC_BEHAVIOR_EXECUTION",
+    "url": "https://demoqa.com/register",
+    "observed": true,
+    "timestamp": "2026-08-31T13:42:32.111944+00:00",
+    "details": {
+      "behavior_id": "b23e236ac156061d4a96",
+      "semantic": "TEXT_INPUT",
+      "action": "fill",
+      "label": "UserName",
+      "selector": "#userName",
+      "before_url": "https://demoqa.com/register",
+      "after_url": "https://demoqa.com/register",
+      "current_run": true,
+      "recovery_enabled": true,
+      "observation": {
+        "semantic": "TEXT_INPUT",
+        "label": "UserName",
+        "requested_value": "QA_V8_7_16_PROBE",
+        "observed_value": "QA_V8_7_16_PROBE",
+        "normalized": false
+      }
+    }
+  },
+  {
+    "evidence_id": "8b6430a0558734bd3b14",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "SEMANTIC_BEHAVIOR_FAILURE",
+    "url": "https://demoqa.com/automation-practice-form",
+    "observed": true,
+    "timestamp": "2026-08-31T13:43:15.572499+00:00",
+    "details": {
+      "behavior_id": "04b1fe94c055ce386319",
+      "semantic": "FILE_UPLOAD",
+      "action": "upload",
+      "label": "input",
+      "selector": "#uploadPicture",
+      "current_run": true,
+      "error_type": "RuntimeError",
+      "error": "current DOM control not resolvable | semantic=FILE_UPLOAD selector='#uploadPicture' label='input'",
+      "truth": "OBSERVED_FAILURE"
+    }
+  },
+  {
+    "evidence_id": "8487b7d6603b4108a119",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "SEMANTIC_BEHAVIOR_EXECUTION",
+    "url": "https://demoqa.com/automation-practice-form",
+    "observed": true,
+    "timestamp": "2026-08-31T13:43:55.220648+00:00",
+    "details": {
+      "behavior_id": "5c2f06f5185b0a6c7137",
+      "semantic": "BUTTON",
+      "action": "click",
+      "label": "Submit",
+      "selector": "#submit",
+      "before_url": "https://demoqa.com/automation-practice-form",
+      "after_url": "https://demoqa.com/automation-practice-form",
+      "current_run": true,
+      "recovery_enabled": true,
+      "observation": {
+        "semantic": "BUTTON",
+        "label": "Submit",
+        "dialog_count": 0,
+        "dialog_messages": [],
+        "after_url": "https://demoqa.com/automation-practice-form"
+      }
+    }
+  },
+  {
+    "evidence_id": "2e4af6fdf85191372e62",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "SEMANTIC_BEHAVIOR_EXECUTION",
+    "url": "https://demoqa.com/books",
+    "observed": true,
+    "timestamp": "2026-08-31T13:44:33.831326+00:00",
+    "details": {
+      "behavior_id": "7e329db382b348b59442",
+      "semantic": "BUTTON",
+      "action": "click",
+      "label": "Login",
+      "selector": "#login",
+      "before_url": "https://demoqa.com/books",
+      "after_url": "https://demoqa.com/login",
+      "current_run": true,
+      "recovery_enabled": true,
+      "observation": {
+        "semantic": "BUTTON",
+        "label": "Login",
+        "dialog_count": 0,
+        "dialog_messages": [],
+        "after_url": "https://demoqa.com/login"
+      }
+    }
+  },
+  {
+    "evidence_id": "8fee6bddeccafc298108",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "SEMANTIC_BEHAVIOR_FAILURE",
+    "url": "https://demoqa.com/login",
+    "observed": true,
+    "timestamp": "2026-08-31T13:45:16.466212+00:00",
+    "details": {
+      "behavior_id": "ca7220a6a5f20d697a5f",
+      "semantic": "BUTTON",
+      "action": "click",
+      "label": "Login",
+      "selector": "#login",
+      "current_run": true,
+      "error_type": "RuntimeError",
+      "error": "current DOM control not resolvable | semantic=BUTTON selector='#login' label='Login'",
+      "truth": "OBSERVED_FAILURE"
+    }
+  },
+  {
+    "evidence_id": "8876b15b29a511a30fcf",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "SEMANTIC_BEHAVIOR_EXECUTION",
+    "url": "https://demoqa.com/login",
+    "observed": true,
+    "timestamp": "2026-08-31T13:45:29.674557+00:00",
+    "details": {
+      "behavior_id": "351e8796acce797e6fad",
+      "semantic": "BUTTON",
+      "action": "click",
+      "label": "New User",
+      "selector": "#newUser",
+      "before_url": "https://demoqa.com/login",
+      "after_url": "https://demoqa.com/register",
+      "current_run": true,
+      "recovery_enabled": true,
+      "observation": {
+        "semantic": "BUTTON",
+        "label": "New User",
+        "dialog_count": 0,
+        "dialog_messages": [],
+        "after_url": "https://demoqa.com/register"
+      }
+    }
+  },
+  {
+    "evidence_id": "f18b4ae47ccc9157f9a1",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "SEMANTIC_BEHAVIOR_FAILURE",
+    "url": "https://demoqa.com/register",
+    "observed": true,
+    "timestamp": "2026-08-31T13:46:12.975913+00:00",
+    "details": {
+      "behavior_id": "845ebe133c95592d0947",
+      "semantic": "BUTTON",
+      "action": "click",
+      "label": "Back to Login",
+      "selector": "#gotologin",
+      "current_run": true,
+      "error_type": "RuntimeError",
+      "error": "current DOM control not resolvable | semantic=BUTTON selector='#gotologin' label='Back to Login'",
+      "truth": "OBSERVED_FAILURE"
+    }
+  },
+  {
+    "evidence_id": "fb69e3eefe4af211e686",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "SEMANTIC_BEHAVIOR_EXECUTION",
+    "url": "https://demoqa.com/register",
+    "observed": true,
+    "timestamp": "2026-08-31T13:46:20.948280+00:00",
+    "details": {
+      "behavior_id": "6ff10f8823ba314149f0",
+      "semantic": "BUTTON",
+      "action": "click",
+      "label": "Register",
+      "selector": "#register",
+      "before_url": "https://demoqa.com/register",
+      "after_url": "https://demoqa.com/register",
+      "current_run": true,
+      "recovery_enabled": true,
+      "observation": {
+        "semantic": "BUTTON",
+        "label": "Register",
+        "dialog_count": 0,
+        "dialog_messages": [],
+        "after_url": "https://demoqa.com/register"
+      }
+    }
+  },
+  {
+    "evidence_id": "a244ed4bf9ad1221051c",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "SEMANTIC_BEHAVIOR_EXECUTION",
+    "url": "https://demoqa.com/text-box",
+    "observed": true,
+    "timestamp": "2026-08-31T13:46:32.841101+00:00",
+    "details": {
+      "behavior_id": "29566dc37e3e717f8153",
+      "semantic": "BUTTON",
+      "action": "click",
+      "label": "Submit",
+      "selector": "#submit",
+      "before_url": "https://demoqa.com/text-box",
+      "after_url": "https://demoqa.com/text-box",
+      "current_run": true,
+      "recovery_enabled": true,
+      "observation": {
+        "semantic": "BUTTON",
+        "label": "Submit",
+        "dialog_count": 0,
+        "dialog_messages": [],
+        "after_url": "https://demoqa.com/text-box"
+      }
+    }
+  },
+  {
+    "evidence_id": "f8c6214b5b6cc67408cc",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "SEMANTIC_BEHAVIOR_EXECUTION",
+    "url": "https://demoqa.com/auto-complete",
+    "observed": true,
+    "timestamp": "2026-08-31T13:46:43.635660+00:00",
+    "details": {
+      "behavior_id": "16050cdac9efe703321e",
+      "semantic": "COMBOBOX",
+      "action": "type",
+      "label": "input",
+      "selector": "#autoCompleteMultipleInput",
+      "before_url": "https://demoqa.com/auto-complete",
+      "after_url": "https://demoqa.com/auto-complete",
+      "current_run": true,
+      "recovery_enabled": true,
+      "observation": {
+        "semantic": "COMBOBOX",
+        "label": "input",
+        "observed_value": "QA",
+        "visible_option_count": 0
+      }
+    }
+  },
+  {
+    "evidence_id": "a3676b595a2758805748",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "SEMANTIC_BEHAVIOR_EXECUTION",
+    "url": "https://demoqa.com/automation-practice-form",
+    "observed": true,
+    "timestamp": "2026-08-31T13:46:58.742490+00:00",
+    "details": {
+      "behavior_id": "59258e86c8a6a6af23e3",
+      "semantic": "COMBOBOX",
+      "action": "type",
+      "label": "input",
+      "selector": "#subjectsInput",
+      "before_url": "https://demoqa.com/automation-practice-form",
+      "after_url": "https://demoqa.com/automation-practice-form",
+      "current_run": true,
+      "recovery_enabled": true,
+      "observation": {
+        "semantic": "COMBOBOX",
+        "label": "input",
+        "observed_value": "QA",
+        "visible_option_count": 0
+      }
+    }
+  },
+  {
+    "evidence_id": "82d3d9a3c27b167b138e",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "SEMANTIC_BEHAVIOR_EXECUTION",
+    "url": "https://demoqa.com/automation-practice-form",
+    "observed": true,
+    "timestamp": "2026-08-31T13:47:16.461536+00:00",
+    "details": {
+      "behavior_id": "bf2d8074fe2df0399fb0",
+      "semantic": "TEXTAREA",
+      "action": "fill",
+      "label": "Current Address",
+      "selector": "#currentAddress",
+      "before_url": "https://demoqa.com/automation-practice-form",
+      "after_url": "https://demoqa.com/automation-practice-form",
+      "current_run": true,
+      "recovery_enabled": true,
+      "observation": {
+        "semantic": "TEXTAREA",
+        "label": "Current Address",
+        "requested_value": "QA_V8_7_16_PROBE",
+        "observed_value": "QA_V8_7_16_PROBE",
+        "normalized": false
+      }
+    }
+  },
+  {
+    "evidence_id": "38af60d1ba0cd06410fe",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "SEMANTIC_BEHAVIOR_EXECUTION",
+    "url": "https://demoqa.com/automation-practice-form",
+    "observed": true,
+    "timestamp": "2026-08-31T13:47:56.559087+00:00",
+    "details": {
+      "behavior_id": "924987582c96c435aa2c",
+      "semantic": "TEXT_INPUT",
+      "action": "fill",
+      "label": "First Name",
+      "selector": "#firstName",
+      "before_url": "https://demoqa.com/automation-practice-form",
+      "after_url": "https://demoqa.com/automation-practice-form",
+      "current_run": true,
+      "recovery_enabled": true,
+      "observation": {
+        "semantic": "TEXT_INPUT",
+        "label": "First Name",
+        "requested_value": "QA_V8_7_16_PROBE",
+        "observed_value": "QA_V8_7_16_PROBE",
+        "normalized": false
+      }
+    }
+  },
+  {
+    "evidence_id": "a9d46447c1a2a0b679d1",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "SEMANTIC_BEHAVIOR_FAILURE",
+    "url": "https://demoqa.com/automation-practice-form",
+    "observed": true,
+    "timestamp": "2026-08-31T13:48:39.138312+00:00",
+    "details": {
+      "behavior_id": "37698dbbaa568b5febe5",
+      "semantic": "TEXT_INPUT",
+      "action": "fill",
+      "label": "Last Name",
+      "selector": "#lastName",
+      "current_run": true,
+      "error_type": "RuntimeError",
+      "error": "current DOM control not resolvable | semantic=TEXT_INPUT selector='#lastName' label='Last Name'",
+      "truth": "OBSERVED_FAILURE"
+    }
+  },
+  {
+    "evidence_id": "ae90886ad8f42ad24eb8",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "SEMANTIC_BEHAVIOR_FAILURE",
+    "url": "https://demoqa.com/automation-practice-form",
+    "observed": true,
+    "timestamp": "2026-08-31T13:49:22.327147+00:00",
+    "details": {
+      "behavior_id": "3948a3b96ba52b4b95bb",
+      "semantic": "TEXT_INPUT",
+      "action": "fill",
+      "label": "Mobile Number",
+      "selector": "#userNumber",
+      "current_run": true,
+      "error_type": "RuntimeError",
+      "error": "current DOM control not resolvable | semantic=TEXT_INPUT selector='#userNumber' label='Mobile Number'",
+      "truth": "OBSERVED_FAILURE"
+    }
+  },
+  {
+    "evidence_id": "9fd77591851969ac2b1c",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "SEMANTIC_BEHAVIOR_EXECUTION",
+    "url": "https://demoqa.com/automation-practice-form",
+    "observed": true,
+    "timestamp": "2026-08-31T13:49:48.073163+00:00",
+    "details": {
+      "behavior_id": "53bf8523585256f1a8be",
+      "semantic": "TEXT_INPUT",
+      "action": "fill",
+      "label": "input",
+      "selector": "#dateOfBirthInput",
+      "before_url": "https://demoqa.com/automation-practice-form",
+      "after_url": "https://demoqa.com/automation-practice-form",
+      "current_run": true,
+      "recovery_enabled": true,
+      "observation": {
+        "semantic": "TEXT_INPUT",
+        "label": "input",
+        "requested_value": "QA_V8_7_16_PROBE",
+        "observed_value": "QA_V8_7_16_PROBE",
+        "normalized": false
+      }
+    }
+  },
+  {
+    "evidence_id": "43c14f466857c648c537",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "SEMANTIC_BEHAVIOR_FAILURE",
+    "url": "https://demoqa.com/automation-practice-form",
+    "observed": true,
+    "timestamp": "2026-08-31T13:50:31.581627+00:00",
+    "details": {
+      "behavior_id": "530b610e81420f78bbe8",
+      "semantic": "TEXT_INPUT",
+      "action": "fill",
+      "label": "name@example.com",
+      "selector": "#userEmail",
+      "current_run": true,
+      "error_type": "RuntimeError",
+      "error": "current DOM control not resolvable | semantic=TEXT_INPUT selector='#userEmail' label='name@example.com'",
+      "truth": "OBSERVED_FAILURE"
+    }
+  },
+  {
+    "evidence_id": "371e9e2ad1d17add0f71",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "SEMANTIC_BEHAVIOR_EXECUTION",
+    "url": "https://demoqa.com/books",
+    "observed": true,
+    "timestamp": "2026-08-31T13:50:47.649766+00:00",
+    "details": {
+      "behavior_id": "e52a3f03b79d5e620977",
+      "semantic": "TEXT_INPUT",
+      "action": "fill",
+      "label": "Type to search",
+      "selector": "#searchBox",
+      "before_url": "https://demoqa.com/books",
+      "after_url": "https://demoqa.com/books",
+      "current_run": true,
+      "recovery_enabled": true,
+      "observation": {
+        "semantic": "TEXT_INPUT",
+        "label": "Type to search",
+        "requested_value": "QA_V8_7_16_PROBE",
+        "observed_value": "QA_V8_7_16_PROBE",
+        "normalized": false
+      }
+    }
+  },
+  {
+    "evidence_id": "788423c870805b561685",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "SEMANTIC_BEHAVIOR_FAILURE",
+    "url": "https://demoqa.com/date-picker",
+    "observed": true,
+    "timestamp": "2026-08-31T13:51:30.258784+00:00",
+    "details": {
+      "behavior_id": "075d74110436414de30e",
+      "semantic": "TEXT_INPUT",
+      "action": "fill",
+      "label": "input",
+      "selector": "#datePickerMonthYearInput",
+      "current_run": true,
+      "error_type": "RuntimeError",
+      "error": "current DOM control not resolvable | semantic=TEXT_INPUT selector='#datePickerMonthYearInput' label='input'",
+      "truth": "OBSERVED_FAILURE"
+    }
+  },
+  {
+    "evidence_id": "35f7f8f9b578dba7bd6d",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "SEMANTIC_BEHAVIOR_FAILURE",
+    "url": "https://demoqa.com/select-menu",
+    "observed": true,
+    "timestamp": "2026-08-31T13:52:13.556954+00:00",
+    "details": {
+      "behavior_id": "45ef635f70e853e25990",
+      "semantic": "COMBOBOX",
+      "action": "type",
+      "label": "input",
+      "selector": "#react-select-2-input",
+      "current_run": true,
+      "error_type": "RuntimeError",
+      "error": "current DOM control not resolvable | semantic=COMBOBOX selector='#react-select-2-input' label='input'",
+      "truth": "OBSERVED_FAILURE"
+    }
+  },
+  {
+    "evidence_id": "b7c981fca953a8ca984e",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "SEMANTIC_BEHAVIOR_EXECUTION",
+    "url": "https://demoqa.com/select-menu",
+    "observed": true,
+    "timestamp": "2026-08-31T13:52:41.541266+00:00",
+    "details": {
+      "behavior_id": "14f5709460850a841b14",
+      "semantic": "SELECT",
+      "action": "select",
+      "label": "Red\nBlue\nGreen\nYellow\nPurple\nBlack\nWhite\nVoilet\nIndigo\nMagenta\nAqua",
+      "selector": "#oldSelectMenu",
+      "before_url": "https://demoqa.com/select-menu",
+      "after_url": "https://demoqa.com/select-menu",
+      "current_run": true,
+      "recovery_enabled": true,
+      "observation": {
+        "semantic": "SELECT",
+        "label": "Red\nBlue\nGreen\nYellow\nPurple\nBlack\nWhite\nVoilet\nIndigo\nMagenta\nAqua",
+        "mode": "native",
+        "selected_value": "red"
+      }
+    }
+  },
+  {
+    "evidence_id": "2d02092f9d6b89b08085",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "SEMANTIC_BEHAVIOR_EXECUTION",
+    "url": "https://demoqa.com/select-menu",
+    "observed": true,
+    "timestamp": "2026-08-31T13:53:02.145278+00:00",
+    "details": {
+      "behavior_id": "a1eecdff06f78fece442",
+      "semantic": "SELECT",
+      "action": "select",
+      "label": "cars",
+      "selector": "#cars",
+      "before_url": "https://demoqa.com/select-menu",
+      "after_url": "https://demoqa.com/select-menu",
+      "current_run": true,
+      "recovery_enabled": true,
+      "observation": {
+        "semantic": "SELECT",
+        "label": "cars",
+        "mode": "native",
+        "selected_value": "volvo"
+      }
+    }
+  },
+  {
+    "evidence_id": "0e84a96ca00f06486c83",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "SEMANTIC_BEHAVIOR_FAILURE",
+    "url": "https://demoqa.com/slider",
+    "observed": true,
+    "timestamp": "2026-08-31T13:53:28.479796+00:00",
+    "details": {
+      "behavior_id": "4d07ae706c87dc32e574",
+      "semantic": "TEXT_INPUT",
+      "action": "fill",
+      "label": "input",
+      "selector": "#sliderValue",
+      "current_run": true,
+      "error_type": "RuntimeError",
+      "error": "input observation mismatch: expected='QA_V8_7_16_PROBE' observed='25'",
+      "truth": "OBSERVED_FAILURE"
+    }
+  },
+  {
+    "evidence_id": "a2a9e6b0af51a0565753",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "SEMANTIC_BEHAVIOR_FAILURE",
+    "url": "https://demoqa.com/text-box",
+    "observed": true,
+    "timestamp": "2026-08-31T13:54:11.568770+00:00",
+    "details": {
+      "behavior_id": "0ee365f349a7fb85e9cd",
+      "semantic": "TEXTAREA",
+      "action": "fill",
+      "label": "Current Address",
+      "selector": "#currentAddress",
+      "current_run": true,
+      "error_type": "RuntimeError",
+      "error": "current DOM control not resolvable | semantic=TEXTAREA selector='#currentAddress' label='Current Address'",
+      "truth": "OBSERVED_FAILURE"
+    }
+  },
+  {
+    "evidence_id": "8d32bad1180b25129ad0",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "SEMANTIC_BEHAVIOR_EXECUTION",
+    "url": "https://demoqa.com/text-box",
+    "observed": true,
+    "timestamp": "2026-08-31T13:54:52.977917+00:00",
+    "details": {
+      "behavior_id": "7748b35fd767a4444c38",
+      "semantic": "TEXTAREA",
+      "action": "fill",
+      "label": "textarea",
+      "selector": "#permanentAddress",
+      "before_url": "https://demoqa.com/text-box",
+      "after_url": "https://demoqa.com/text-box",
+      "current_run": true,
+      "recovery_enabled": true,
+      "observation": {
+        "semantic": "TEXTAREA",
+        "label": "textarea",
+        "requested_value": "QA_V8_7_16_PROBE",
+        "observed_value": "QA_V8_7_16_PROBE",
+        "normalized": false
+      }
+    }
+  },
+  {
+    "evidence_id": "be87e7eea28e068e6927",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "SEMANTIC_BEHAVIOR_EXECUTION",
+    "url": "https://demoqa.com/text-box",
+    "observed": true,
+    "timestamp": "2026-08-31T13:55:16.675239+00:00",
+    "details": {
+      "behavior_id": "8d8df28b7878b02502f5",
+      "semantic": "TEXT_INPUT",
+      "action": "fill",
+      "label": "Full Name",
+      "selector": "#userName",
+      "before_url": "https://demoqa.com/text-box",
+      "after_url": "https://demoqa.com/text-box",
+      "current_run": true,
+      "recovery_enabled": true,
+      "observation": {
+        "semantic": "TEXT_INPUT",
+        "label": "Full Name",
+        "requested_value": "QA_V8_7_16_PROBE",
+        "observed_value": "QA_V8_7_16_PROBE",
+        "normalized": false
+      }
+    }
+  },
+  {
+    "evidence_id": "328556328e5b291dc15b",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "SEMANTIC_BEHAVIOR_EXECUTION",
+    "url": "https://demoqa.com/text-box",
+    "observed": true,
+    "timestamp": "2026-08-31T13:55:24.703458+00:00",
+    "details": {
+      "behavior_id": "8ef3695fc16adbdc26b3",
+      "semantic": "TEXT_INPUT",
+      "action": "fill",
+      "label": "name@example.com",
+      "selector": "#userEmail",
+      "before_url": "https://demoqa.com/text-box",
+      "after_url": "https://demoqa.com/text-box",
+      "current_run": true,
+      "recovery_enabled": true,
+      "observation": {
+        "semantic": "TEXT_INPUT",
+        "label": "name@example.com",
+        "requested_value": "QA_V8_7_16_PROBE",
+        "observed_value": "QA_V8_7_16_PROBE",
+        "normalized": false
+      }
+    }
+  },
+  {
+    "evidence_id": "8b8492b69d2c1378d2d9",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "SEMANTIC_BEHAVIOR_EXECUTION",
+    "url": "https://demoqa.com/tool-tips",
+    "observed": true,
+    "timestamp": "2026-08-31T13:55:29.856266+00:00",
+    "details": {
+      "behavior_id": "649dc655068fbe963b0d",
+      "semantic": "TEXT_INPUT",
+      "action": "fill",
+      "label": "Hover me to see",
+      "selector": "#toolTipTextField",
+      "before_url": "https://demoqa.com/tool-tips",
+      "after_url": "https://demoqa.com/tool-tips",
+      "current_run": true,
+      "recovery_enabled": true,
+      "observation": {
+        "semantic": "TEXT_INPUT",
+        "label": "Hover me to see",
+        "requested_value": "QA_V8_7_16_PROBE",
+        "observed_value": "QA_V8_7_16_PROBE",
+        "normalized": false
+      }
+    }
+  },
+  {
+    "evidence_id": "538f252e455cad97d246",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "SEMANTIC_BEHAVIOR_EXECUTION",
+    "url": "https://demoqa.com/webtables",
+    "observed": true,
+    "timestamp": "2026-08-31T13:55:39.902886+00:00",
+    "details": {
+      "behavior_id": "ab82df2e971a4d81ca27",
+      "semantic": "SELECT",
+      "action": "select",
+      "label": "Show 10\nShow 20\nShow 30\nShow 40\nShow 50",
+      "selector": "select",
+      "before_url": "https://demoqa.com/webtables",
+      "after_url": "https://demoqa.com/webtables",
+      "current_run": true,
+      "recovery_enabled": true,
+      "observation": {
+        "semantic": "SELECT",
+        "label": "Show 10\nShow 20\nShow 30\nShow 40\nShow 50",
+        "mode": "native",
+        "selected_value": "10"
+      }
+    }
+  },
+  {
+    "evidence_id": "c4823fd6100f6e0aaabc",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "SEMANTIC_BEHAVIOR_EXECUTION",
+    "url": "https://demoqa.com/webtables",
+    "observed": true,
+    "timestamp": "2026-08-31T13:55:47.217198+00:00",
+    "details": {
+      "behavior_id": "ee4bff3262529085b099",
+      "semantic": "TEXT_INPUT",
+      "action": "fill",
+      "label": "Type to search",
+      "selector": "#searchBox",
+      "before_url": "https://demoqa.com/webtables",
+      "after_url": "https://demoqa.com/webtables",
+      "current_run": true,
+      "recovery_enabled": true,
+      "observation": {
+        "semantic": "TEXT_INPUT",
+        "label": "Type to search",
+        "requested_value": "QA_V8_7_16_PROBE",
+        "observed_value": "QA_V8_7_16_PROBE",
+        "normalized": false
+      }
+    }
+  },
+  {
+    "evidence_id": "264270dc0b4dd4d212ec",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "SEMANTIC_BEHAVIOR_EXECUTION",
+    "url": "https://demoqa.com/automation-practice-form",
+    "observed": true,
+    "timestamp": "2026-08-31T13:56:01.017730+00:00",
+    "details": {
+      "behavior_id": "da8352723ef7e9d9564a",
+      "semantic": "CHECKBOX",
+      "action": "check",
+      "label": "input",
+      "selector": "#hobbies-checkbox-1",
+      "before_url": "https://demoqa.com/automation-practice-form",
+      "after_url": "https://demoqa.com/automation-practice-form",
+      "current_run": true,
+      "recovery_enabled": true,
+      "observation": {
+        "semantic": "CHECKBOX",
+        "label": "input",
+        "before_checked": false,
+        "after_checked": true
+      }
+    }
+  },
+  {
+    "evidence_id": "34093e19d14af72d2888",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "SEMANTIC_BEHAVIOR_EXECUTION",
+    "url": "https://demoqa.com/automation-practice-form",
+    "observed": true,
+    "timestamp": "2026-08-31T13:56:26.833191+00:00",
+    "details": {
+      "behavior_id": "e80b4fe87b9bb99fd78a",
+      "semantic": "RADIO",
+      "action": "check",
+      "label": "gender",
+      "selector": "#gender-radio-1",
+      "before_url": "https://demoqa.com/automation-practice-form",
+      "after_url": "https://demoqa.com/automation-practice-form",
+      "current_run": true,
+      "recovery_enabled": true,
+      "observation": {
+        "semantic": "RADIO",
+        "label": "gender",
+        "checked": true
+      }
+    }
+  },
+  {
+    "evidence_id": "00a854769794cb6b3e6f",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "SEMANTIC_BEHAVIOR_FAILURE",
+    "url": "https://demoqa.com/checkbox",
+    "observed": true,
+    "timestamp": "2026-08-31T13:57:09.824326+00:00",
+    "details": {
+      "behavior_id": "68eedea6ceeea48ba61e",
+      "semantic": "CHECKBOX",
+      "action": "check",
+      "label": "Select Home",
+      "selector": "[role=\"checkbox\"]",
+      "current_run": true,
+      "error_type": "RuntimeError",
+      "error": "current DOM control not resolvable | semantic=CHECKBOX selector='[role=\"checkbox\"]' label='Select Home'",
+      "truth": "OBSERVED_FAILURE"
+    }
+  },
+  {
+    "evidence_id": "a07d7a99d3e5e8672b2e",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "SEMANTIC_BEHAVIOR_EXECUTION",
+    "url": "https://demoqa.com/radio-button",
+    "observed": true,
+    "timestamp": "2026-08-31T13:57:44.262940+00:00",
+    "details": {
+      "behavior_id": "c35ad6787360f59a23b0",
+      "semantic": "RADIO",
+      "action": "check",
+      "label": "like",
+      "selector": "#yesRadio",
+      "before_url": "https://demoqa.com/radio-button",
+      "after_url": "https://demoqa.com/radio-button",
+      "current_run": true,
+      "recovery_enabled": true,
+      "observation": {
+        "semantic": "RADIO",
+        "label": "like",
+        "checked": true
+      }
+    }
+  },
+  {
+    "evidence_id": "f5bb0400b710250604f7",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "SEMANTIC_BEHAVIOR_EXECUTION",
+    "url": "https://demoqa.com/slider",
+    "observed": true,
+    "timestamp": "2026-08-31T13:58:01.226196+00:00",
+    "details": {
+      "behavior_id": "35fdc8a9bd0955ae94fe",
+      "semantic": "SLIDER",
+      "action": "adjust",
+      "label": "input",
+      "selector": "#slider",
+      "before_url": "https://demoqa.com/slider",
+      "after_url": "https://demoqa.com/slider",
+      "current_run": true,
+      "recovery_enabled": true,
+      "observation": {
+        "semantic": "SLIDER",
+        "label": "input",
+        "before_value": "25",
+        "after_value": "26",
+        "state_changed": true
+      }
+    }
+  },
+  {
+    "evidence_id": "94d76081ee3b2df724e3",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "SEMANTIC_BEHAVIOR_EXECUTION",
+    "url": "https://demoqa.com/accordian",
+    "observed": true,
+    "timestamp": "2026-08-31T13:58:34.626247+00:00",
+    "details": {
+      "behavior_id": "32998b22c5c846bd6d10",
+      "semantic": "BUTTON",
+      "action": "click",
+      "label": "What is Lorem Ipsum?",
+      "selector": "button",
+      "before_url": "https://demoqa.com/accordian",
+      "after_url": "https://demoqa.com/accordian",
+      "current_run": true,
+      "recovery_enabled": true,
+      "observation": {
+        "semantic": "BUTTON",
+        "label": "What is Lorem Ipsum?",
+        "dialog_count": 0,
+        "dialog_messages": [],
+        "after_url": "https://demoqa.com/accordian"
+      }
+    }
+  },
+  {
+    "evidence_id": "d2a10295afee1c925673",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "SEMANTIC_BEHAVIOR_EXECUTION",
+    "url": "https://demoqa.com/alerts",
+    "observed": true,
+    "timestamp": "2026-08-31T13:59:01.431043+00:00",
+    "details": {
+      "behavior_id": "b73c6cb282dcb95b4ac3",
+      "semantic": "BUTTON",
+      "action": "click",
+      "label": "Click me",
+      "selector": "#alertButton",
+      "before_url": "https://demoqa.com/alerts",
+      "after_url": "https://demoqa.com/alerts",
+      "current_run": true,
+      "recovery_enabled": true,
+      "observation": {
+        "semantic": "BUTTON",
+        "label": "Click me",
+        "dialog_count": 1,
+        "dialog_messages": [
+          "You clicked a button"
+        ],
+        "after_url": "https://demoqa.com/alerts"
+      }
+    }
+  },
+  {
+    "evidence_id": "d0529cf70378ce6ffd3b",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "SEMANTIC_BEHAVIOR_EXECUTION",
+    "url": "https://demoqa.com/books",
+    "observed": true,
+    "timestamp": "2026-08-31T13:59:42.886878+00:00",
+    "details": {
+      "behavior_id": "682b9fc913fc4bd6889f",
+      "semantic": "BUTTON",
+      "action": "click",
+      "label": "button",
+      "selector": "button",
+      "before_url": "https://demoqa.com/books",
+      "after_url": "https://demoqa.com/books",
+      "current_run": true,
+      "recovery_enabled": true,
+      "observation": {
+        "semantic": "BUTTON",
+        "label": "button",
+        "dialog_count": 0,
+        "dialog_messages": [],
+        "after_url": "https://demoqa.com/books"
+      }
+    }
+  },
+  {
+    "evidence_id": "79e448278e86b5d589a2",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "SEMANTIC_BEHAVIOR_EXECUTION",
+    "url": "https://demoqa.com/browser-windows",
+    "observed": true,
+    "timestamp": "2026-08-31T13:59:47.858562+00:00",
+    "details": {
+      "behavior_id": "7506d436426768678c1e",
+      "semantic": "BUTTON",
+      "action": "click",
+      "label": "New Tab",
+      "selector": "#tabButton",
+      "before_url": "https://demoqa.com/browser-windows",
+      "after_url": "https://demoqa.com/browser-windows",
+      "current_run": true,
+      "recovery_enabled": true,
+      "observation": {
+        "semantic": "BUTTON",
+        "label": "New Tab",
+        "dialog_count": 0,
+        "dialog_messages": [],
+        "after_url": "https://demoqa.com/browser-windows"
+      }
+    }
+  },
+  {
+    "evidence_id": "fbbf996441f15d7f0971",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "SEMANTIC_BEHAVIOR_EXECUTION",
+    "url": "https://demoqa.com/browser-windows",
+    "observed": true,
+    "timestamp": "2026-08-31T14:00:04.141841+00:00",
+    "details": {
+      "behavior_id": "f609e90fa40b94bd8fbe",
+      "semantic": "BUTTON",
+      "action": "click",
+      "label": "New Window",
+      "selector": "#windowButton",
+      "before_url": "https://demoqa.com/browser-windows",
+      "after_url": "https://demoqa.com/browser-windows",
+      "current_run": true,
+      "recovery_enabled": true,
+      "observation": {
+        "semantic": "BUTTON",
+        "label": "New Window",
+        "dialog_count": 0,
+        "dialog_messages": [],
+        "after_url": "https://demoqa.com/browser-windows"
+      }
+    }
+  },
+  {
+    "evidence_id": "9def91115adaf5c9018d",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "SEMANTIC_BEHAVIOR_EXECUTION",
+    "url": "https://demoqa.com/browser-windows",
+    "observed": true,
+    "timestamp": "2026-08-31T14:00:31.453803+00:00",
+    "details": {
+      "behavior_id": "c4c4223fbd3104cf6690",
+      "semantic": "BUTTON",
+      "action": "click",
+      "label": "New Window Message",
+      "selector": "#messageWindowButton",
+      "before_url": "https://demoqa.com/browser-windows",
+      "after_url": "https://demoqa.com/browser-windows",
+      "current_run": true,
+      "recovery_enabled": true,
+      "observation": {
+        "semantic": "BUTTON",
+        "label": "New Window Message",
+        "dialog_count": 0,
+        "dialog_messages": [],
+        "after_url": "https://demoqa.com/browser-windows"
+      }
+    }
+  },
+  {
+    "evidence_id": "b2cbaeaa3b44d1f66206",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "SEMANTIC_BEHAVIOR_EXECUTION",
+    "url": "https://demoqa.com/buttons",
+    "observed": true,
+    "timestamp": "2026-08-31T14:00:39.833932+00:00",
+    "details": {
+      "behavior_id": "c89075d58b0855a20b3e",
+      "semantic": "BUTTON",
+      "action": "click",
+      "label": "Click Me",
+      "selector": "#HbskS",
+      "before_url": "https://demoqa.com/buttons",
+      "after_url": "https://demoqa.com/buttons",
+      "current_run": true,
+      "recovery_enabled": true,
+      "observation": {
+        "semantic": "BUTTON",
+        "label": "Click Me",
+        "dialog_count": 0,
+        "dialog_messages": [],
+        "after_url": "https://demoqa.com/buttons"
+      }
+    }
+  },
+  {
+    "evidence_id": "8e2e5a8f16cbb1fc3a4d",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "SEMANTIC_BEHAVIOR_EXECUTION",
+    "url": "https://demoqa.com/buttons",
+    "observed": true,
+    "timestamp": "2026-08-31T14:00:59.844875+00:00",
+    "details": {
+      "behavior_id": "d6ce42e17642d3dcf33e",
+      "semantic": "BUTTON",
+      "action": "click",
+      "label": "Double Click Me",
+      "selector": "#doubleClickBtn",
+      "before_url": "https://demoqa.com/buttons",
+      "after_url": "https://demoqa.com/buttons",
+      "current_run": true,
+      "recovery_enabled": true,
+      "observation": {
+        "semantic": "BUTTON",
+        "label": "Double Click Me",
+        "dialog_count": 0,
+        "dialog_messages": [],
+        "after_url": "https://demoqa.com/buttons"
+      }
+    }
+  },
+  {
+    "evidence_id": "4895e52a44bdb8b7787d",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "SEMANTIC_BEHAVIOR_EXECUTION",
+    "url": "https://demoqa.com/buttons",
+    "observed": true,
+    "timestamp": "2026-08-31T14:01:10.119202+00:00",
+    "details": {
+      "behavior_id": "16bcf7cea11ead70ea55",
+      "semantic": "BUTTON",
+      "action": "click",
+      "label": "Right Click Me",
+      "selector": "#rightClickBtn",
+      "before_url": "https://demoqa.com/buttons",
+      "after_url": "https://demoqa.com/buttons",
+      "current_run": true,
+      "recovery_enabled": true,
+      "observation": {
+        "semantic": "BUTTON",
+        "label": "Right Click Me",
+        "dialog_count": 0,
+        "dialog_messages": [],
+        "after_url": "https://demoqa.com/buttons"
+      }
+    }
+  },
+  {
+    "evidence_id": "a2be60eefe428f3ec651",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "SEMANTIC_BEHAVIOR_EXECUTION",
+    "url": "https://demoqa.com/dragabble",
+    "observed": true,
+    "timestamp": "2026-08-31T14:01:32.922444+00:00",
+    "details": {
+      "behavior_id": "0037c73d131dea6e54fd",
+      "semantic": "TAB",
+      "action": "click",
+      "label": "Axis Restricted",
+      "selector": "#draggableExample-tab-axisRestriction",
+      "before_url": "https://demoqa.com/dragabble",
+      "after_url": "https://demoqa.com/dragabble",
+      "current_run": true,
+      "recovery_enabled": true,
+      "observation": {
+        "semantic": "TAB",
+        "label": "Axis Restricted",
+        "after_url": "https://demoqa.com/dragabble",
+        "aria_selected": "true"
+      }
+    }
+  },
+  {
+    "evidence_id": "6f757fff2357a8751503",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "SEMANTIC_BEHAVIOR_EXECUTION",
+    "url": "https://demoqa.com/dragabble",
+    "observed": true,
+    "timestamp": "2026-08-31T14:01:37.970693+00:00",
+    "details": {
+      "behavior_id": "787d0e0358cb2e14893c",
+      "semantic": "TAB",
+      "action": "click",
+      "label": "Container Restricted",
+      "selector": "#draggableExample-tab-containerRestriction",
+      "before_url": "https://demoqa.com/dragabble",
+      "after_url": "https://demoqa.com/dragabble",
+      "current_run": true,
+      "recovery_enabled": true,
+      "observation": {
+        "semantic": "TAB",
+        "label": "Container Restricted",
+        "after_url": "https://demoqa.com/dragabble",
+        "aria_selected": "true"
+      }
+    }
+  },
+  {
+    "evidence_id": "bc7f725365e2c26504a0",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "SEMANTIC_BEHAVIOR_EXECUTION",
+    "url": "https://demoqa.com/dragabble",
+    "observed": true,
+    "timestamp": "2026-08-31T14:01:43.460816+00:00",
+    "details": {
+      "behavior_id": "6487c0ad10c71ecbc506",
+      "semantic": "TAB",
+      "action": "click",
+      "label": "Cursor Style",
+      "selector": "#draggableExample-tab-cursorStyle",
+      "before_url": "https://demoqa.com/dragabble",
+      "after_url": "https://demoqa.com/dragabble",
+      "current_run": true,
+      "recovery_enabled": true,
+      "observation": {
+        "semantic": "TAB",
+        "label": "Cursor Style",
+        "after_url": "https://demoqa.com/dragabble",
+        "aria_selected": "true"
+      }
+    }
+  },
+  {
+    "evidence_id": "bffb2f9050746ca0dfea",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "SEMANTIC_BEHAVIOR_EXECUTION",
+    "url": "https://demoqa.com/dragabble",
+    "observed": true,
+    "timestamp": "2026-08-31T14:01:47.580344+00:00",
+    "details": {
+      "behavior_id": "13d8af5eedfdffbd6c50",
+      "semantic": "TAB",
+      "action": "click",
+      "label": "Simple",
+      "selector": "#draggableExample-tab-simple",
+      "before_url": "https://demoqa.com/dragabble",
+      "after_url": "https://demoqa.com/dragabble",
+      "current_run": true,
+      "recovery_enabled": true,
+      "observation": {
+        "semantic": "TAB",
+        "label": "Simple",
+        "after_url": "https://demoqa.com/dragabble",
+        "aria_selected": "true"
+      }
+    }
+  },
+  {
+    "evidence_id": "9d1edd8462d63dd75aef",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "SEMANTIC_BEHAVIOR_EXECUTION",
+    "url": "https://demoqa.com/droppable",
+    "observed": true,
+    "timestamp": "2026-08-31T14:01:53.279066+00:00",
+    "details": {
+      "behavior_id": "07904568c0adb6b45171",
+      "semantic": "TAB",
+      "action": "click",
+      "label": "Accept",
+      "selector": "#droppableExample-tab-accept",
+      "before_url": "https://demoqa.com/droppable",
+      "after_url": "https://demoqa.com/droppable",
+      "current_run": true,
+      "recovery_enabled": true,
+      "observation": {
+        "semantic": "TAB",
+        "label": "Accept",
+        "after_url": "https://demoqa.com/droppable",
+        "aria_selected": "true"
+      }
+    }
+  },
+  {
+    "evidence_id": "da7d3e3c45707a0de3c2",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "SEMANTIC_BEHAVIOR_EXECUTION",
+    "url": "https://demoqa.com/droppable",
+    "observed": true,
+    "timestamp": "2026-08-31T14:02:12.772478+00:00",
+    "details": {
+      "behavior_id": "e2c491ea8086401cf782",
+      "semantic": "TAB",
+      "action": "click",
+      "label": "Prevent Propogation",
+      "selector": "#droppableExample-tab-preventPropogation",
+      "before_url": "https://demoqa.com/droppable",
+      "after_url": "https://demoqa.com/droppable",
+      "current_run": true,
+      "recovery_enabled": true,
+      "observation": {
+        "semantic": "TAB",
+        "label": "Prevent Propogation",
+        "after_url": "https://demoqa.com/droppable",
+        "aria_selected": "true"
+      }
+    }
+  },
+  {
+    "evidence_id": "bfbac97b253dfea1d920",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "SEMANTIC_BEHAVIOR_EXECUTION",
+    "url": "https://demoqa.com/droppable",
+    "observed": true,
+    "timestamp": "2026-08-31T14:02:31.970353+00:00",
+    "details": {
+      "behavior_id": "3271f9e17010a8676f9a",
+      "semantic": "TAB",
+      "action": "click",
+      "label": "Revert Draggable",
+      "selector": "#droppableExample-tab-revertable",
+      "before_url": "https://demoqa.com/droppable",
+      "after_url": "https://demoqa.com/droppable",
+      "current_run": true,
+      "recovery_enabled": true,
+      "observation": {
+        "semantic": "TAB",
+        "label": "Revert Draggable",
+        "after_url": "https://demoqa.com/droppable",
+        "aria_selected": "true"
+      }
+    }
+  },
+  {
+    "evidence_id": "aa1f4c1a0351303b8d68",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "SEMANTIC_BEHAVIOR_EXECUTION",
+    "url": "https://demoqa.com/droppable",
+    "observed": true,
+    "timestamp": "2026-08-31T14:02:42.233805+00:00",
+    "details": {
+      "behavior_id": "335a6d6f59b1484e9508",
+      "semantic": "TAB",
+      "action": "click",
+      "label": "Simple",
+      "selector": "#droppableExample-tab-simple",
+      "before_url": "https://demoqa.com/droppable",
+      "after_url": "https://demoqa.com/droppable",
+      "current_run": true,
+      "recovery_enabled": true,
+      "observation": {
+        "semantic": "TAB",
+        "label": "Simple",
+        "after_url": "https://demoqa.com/droppable",
+        "aria_selected": "true"
+      }
+    }
+  },
+  {
+    "evidence_id": "76b71e3a435e958a2f71",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "SEMANTIC_BEHAVIOR_EXECUTION",
+    "url": "https://demoqa.com/dynamic-properties",
+    "observed": true,
+    "timestamp": "2026-08-31T14:03:07.293223+00:00",
+    "details": {
+      "behavior_id": "ff4acbc73821e2ebafbb",
+      "semantic": "BUTTON",
+      "action": "click",
+      "label": "Color Change",
+      "selector": "#colorChange",
+      "before_url": "https://demoqa.com/dynamic-properties",
+      "after_url": "https://demoqa.com/dynamic-properties",
+      "current_run": true,
+      "recovery_enabled": true,
+      "observation": {
+        "semantic": "BUTTON",
+        "label": "Color Change",
+        "dialog_count": 0,
+        "dialog_messages": [],
+        "after_url": "https://demoqa.com/dynamic-properties"
+      }
+    }
+  },
+  {
+    "evidence_id": "78e9f48acfb196c2b859",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "SEMANTIC_BEHAVIOR_EXECUTION",
+    "url": "https://demoqa.com/modal-dialogs",
+    "observed": true,
+    "timestamp": "2026-08-31T14:03:34.775987+00:00",
+    "details": {
+      "behavior_id": "68ddec719f503eb30dde",
+      "semantic": "BUTTON",
+      "action": "click",
+      "label": "Large modal",
+      "selector": "#showLargeModal",
+      "before_url": "https://demoqa.com/modal-dialogs",
+      "after_url": "https://demoqa.com/modal-dialogs",
+      "current_run": true,
+      "recovery_enabled": true,
+      "observation": {
+        "semantic": "BUTTON",
+        "label": "Large modal",
+        "dialog_count": 0,
+        "dialog_messages": [],
+        "after_url": "https://demoqa.com/modal-dialogs"
+      }
+    }
+  },
+  {
+    "evidence_id": "610f6c1bb3244ef37d90",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "SEMANTIC_BEHAVIOR_EXECUTION",
+    "url": "https://demoqa.com/modal-dialogs",
+    "observed": true,
+    "timestamp": "2026-08-31T14:03:54.881236+00:00",
+    "details": {
+      "behavior_id": "31b58d5d626ab0e9ce9d",
+      "semantic": "BUTTON",
+      "action": "click",
+      "label": "Small modal",
+      "selector": "#showSmallModal",
+      "before_url": "https://demoqa.com/modal-dialogs",
+      "after_url": "https://demoqa.com/modal-dialogs",
+      "current_run": true,
+      "closure_pass": true,
+      "observation": {
+        "semantic": "BUTTON",
+        "label": "Small modal",
+        "dialog_count": 0,
+        "dialog_messages": [],
+        "after_url": "https://demoqa.com/modal-dialogs"
+      }
+    }
+  },
+  {
+    "evidence_id": "507b32a500e0863cec8c",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "SEMANTIC_BEHAVIOR_EXECUTION",
+    "url": "https://demoqa.com/progress-bar",
+    "observed": true,
+    "timestamp": "2026-08-31T14:04:08.372540+00:00",
+    "details": {
+      "behavior_id": "0242ef3931c5ba7df3a0",
+      "semantic": "BUTTON",
+      "action": "click",
+      "label": "Start",
+      "selector": "#startStopButton",
+      "before_url": "https://demoqa.com/progress-bar",
+      "after_url": "https://demoqa.com/progress-bar",
+      "current_run": true,
+      "closure_pass": true,
+      "observation": {
+        "semantic": "BUTTON",
+        "label": "Start",
+        "dialog_count": 0,
+        "dialog_messages": [],
+        "after_url": "https://demoqa.com/progress-bar"
+      }
+    }
+  },
+  {
+    "evidence_id": "da41f61d122609d474b6",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "SEMANTIC_BEHAVIOR_EXECUTION",
+    "url": "https://demoqa.com/selectable",
+    "observed": true,
+    "timestamp": "2026-08-31T14:04:16.228235+00:00",
+    "details": {
+      "behavior_id": "669eb8914bbfa0c2b796",
+      "semantic": "TAB",
+      "action": "click",
+      "label": "List",
+      "selector": "#demo-tab-list",
+      "before_url": "https://demoqa.com/selectable",
+      "after_url": "https://demoqa.com/selectable",
+      "current_run": true,
+      "closure_pass": true,
+      "observation": {
+        "semantic": "TAB",
+        "label": "List",
+        "after_url": "https://demoqa.com/selectable",
+        "aria_selected": "true"
+      }
+    }
+  },
+  {
+    "evidence_id": "b64d907397a6e7030231",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "SEMANTIC_BEHAVIOR_EXECUTION",
+    "url": "https://demoqa.com/selectable",
+    "observed": true,
+    "timestamp": "2026-08-31T14:04:26.653301+00:00",
+    "details": {
+      "behavior_id": "e6c0b7a91b3c7e58d688",
+      "semantic": "TAB",
+      "action": "click",
+      "label": "Grid",
+      "selector": "#demo-tab-grid",
+      "before_url": "https://demoqa.com/selectable",
+      "after_url": "https://demoqa.com/selectable",
+      "current_run": true,
+      "closure_pass": true,
+      "observation": {
+        "semantic": "TAB",
+        "label": "Grid",
+        "after_url": "https://demoqa.com/selectable",
+        "aria_selected": "true"
+      }
+    }
+  },
+  {
+    "evidence_id": "eef7c6014dc7598749f6",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "SEMANTIC_BEHAVIOR_EXECUTION",
+    "url": "https://demoqa.com/sortable",
+    "observed": true,
+    "timestamp": "2026-08-31T14:04:31.047394+00:00",
+    "details": {
+      "behavior_id": "8051d22bcb0d72deeb62",
+      "semantic": "TAB",
+      "action": "click",
+      "label": "List",
+      "selector": "#demo-tab-list",
+      "before_url": "https://demoqa.com/sortable",
+      "after_url": "https://demoqa.com/sortable",
+      "current_run": true,
+      "closure_pass": true,
+      "observation": {
+        "semantic": "TAB",
+        "label": "List",
+        "after_url": "https://demoqa.com/sortable",
+        "aria_selected": "true"
+      }
+    }
+  },
+  {
+    "evidence_id": "01f20b43f938950a5a18",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "SEMANTIC_BEHAVIOR_EXECUTION",
+    "url": "https://demoqa.com/sortable",
+    "observed": true,
+    "timestamp": "2026-08-31T14:04:39.802766+00:00",
+    "details": {
+      "behavior_id": "6b7c125668bee704c7ae",
+      "semantic": "TAB",
+      "action": "click",
+      "label": "Grid",
+      "selector": "#demo-tab-grid",
+      "before_url": "https://demoqa.com/sortable",
+      "after_url": "https://demoqa.com/sortable",
+      "current_run": true,
+      "closure_pass": true,
+      "observation": {
+        "semantic": "TAB",
+        "label": "Grid",
+        "after_url": "https://demoqa.com/sortable",
+        "aria_selected": "true"
+      }
+    }
+  },
+  {
+    "evidence_id": "c42169e1a56fb9fee32d",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "SEMANTIC_BEHAVIOR_EXECUTION",
+    "url": "https://demoqa.com/swagger",
+    "observed": true,
+    "timestamp": "2026-08-31T14:05:22.995610+00:00",
+    "details": {
+      "behavior_id": "a1d4415d1a76675d20ac",
+      "semantic": "BUTTON",
+      "action": "click",
+      "label": "Authorize",
+      "selector": "button",
+      "before_url": "https://demoqa.com/swagger",
+      "after_url": "https://demoqa.com/swagger",
+      "current_run": true,
+      "closure_pass": true,
+      "observation": {
+        "semantic": "BUTTON",
+        "label": "Authorize",
+        "dialog_count": 0,
+        "dialog_messages": [],
+        "after_url": "https://demoqa.com/swagger"
+      }
+    }
+  },
+  {
+    "evidence_id": "03955fbbc62e61fe5e50",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "SEMANTIC_BEHAVIOR_EXECUTION",
+    "url": "https://demoqa.com/tabs",
+    "observed": true,
+    "timestamp": "2026-08-31T14:05:32.068987+00:00",
+    "details": {
+      "behavior_id": "9fab3e4b1c50c24ecf99",
+      "semantic": "TAB",
+      "action": "click",
+      "label": "What",
+      "selector": "#demo-tab-what",
+      "before_url": "https://demoqa.com/tabs",
+      "after_url": "https://demoqa.com/tabs",
+      "current_run": true,
+      "closure_pass": true,
+      "observation": {
+        "semantic": "TAB",
+        "label": "What",
+        "after_url": "https://demoqa.com/tabs",
+        "aria_selected": "true"
+      }
+    }
+  },
+  {
+    "evidence_id": "207f8535090f746852ee",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "SEMANTIC_BEHAVIOR_EXECUTION",
+    "url": "https://demoqa.com/tabs",
+    "observed": true,
+    "timestamp": "2026-08-31T14:06:00.135115+00:00",
+    "details": {
+      "behavior_id": "184ab042ee8ecd01e4a0",
+      "semantic": "TAB",
+      "action": "click",
+      "label": "Origin",
+      "selector": "#demo-tab-origin",
+      "before_url": "https://demoqa.com/tabs",
+      "after_url": "https://demoqa.com/tabs",
+      "current_run": true,
+      "closure_pass": true,
+      "observation": {
+        "semantic": "TAB",
+        "label": "Origin",
+        "after_url": "https://demoqa.com/tabs",
+        "aria_selected": "true"
+      }
+    }
+  },
+  {
+    "evidence_id": "5287f874d43cf789ab70",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "SEMANTIC_BEHAVIOR_EXECUTION",
+    "url": "https://demoqa.com/tabs",
+    "observed": true,
+    "timestamp": "2026-08-31T14:06:14.455744+00:00",
+    "details": {
+      "behavior_id": "7878f4fe5d306c8218f9",
+      "semantic": "TAB",
+      "action": "click",
+      "label": "Use",
+      "selector": "#demo-tab-use",
+      "before_url": "https://demoqa.com/tabs",
+      "after_url": "https://demoqa.com/tabs",
+      "current_run": true,
+      "closure_pass": true,
+      "observation": {
+        "semantic": "TAB",
+        "label": "Use",
+        "after_url": "https://demoqa.com/tabs",
+        "aria_selected": "true"
+      }
+    }
+  },
+  {
+    "evidence_id": "ea1721229db3a39f1742",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "SEMANTIC_BEHAVIOR_EXECUTION",
+    "url": "https://demoqa.com/tool-tips",
+    "observed": true,
+    "timestamp": "2026-08-31T14:06:31.112603+00:00",
+    "details": {
+      "behavior_id": "c74c1299413131cb85d6",
+      "semantic": "BUTTON",
+      "action": "click",
+      "label": "Hover me to see",
+      "selector": "#toolTipButton",
+      "before_url": "https://demoqa.com/tool-tips",
+      "after_url": "https://demoqa.com/tool-tips",
+      "current_run": true,
+      "closure_pass": true,
+      "observation": {
+        "semantic": "BUTTON",
+        "label": "Hover me to see",
+        "dialog_count": 0,
+        "dialog_messages": [],
+        "after_url": "https://demoqa.com/tool-tips"
+      }
+    }
+  },
+  {
+    "evidence_id": "6950fd288e5520d3be67",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "SEMANTIC_BEHAVIOR_EXECUTION",
+    "url": "https://demoqa.com/webtables",
+    "observed": true,
+    "timestamp": "2026-08-31T14:06:51.136866+00:00",
+    "details": {
+      "behavior_id": "a37b12b71daf7abdc65c",
+      "semantic": "BUTTON",
+      "action": "click",
+      "label": "Add",
+      "selector": "#addNewRecordButton",
+      "before_url": "https://demoqa.com/webtables",
+      "after_url": "https://demoqa.com/webtables",
+      "current_run": true,
+      "closure_pass": true,
+      "observation": {
+        "semantic": "BUTTON",
+        "label": "Add",
+        "dialog_count": 0,
+        "dialog_messages": [],
+        "after_url": "https://demoqa.com/webtables"
+      }
+    }
+  },
+  {
+    "evidence_id": "c6393714824f08118149",
+    "run_id": "91a3ffe2b0344755998aa9cb5580ab4f",
+    "version": "8.7.17",
+    "current_run": true,
+    "type": "SEMANTIC_BEHAVIOR_EXECUTION",
+    "url": "https://demoqa.com/webtables",
+    "observed": true,
+    "timestamp": "2026-08-31T14:07:05.933725+00:00",
+    "details": {
+      "behavior_id": "e9badbd6311d56732d8a",
+      "semantic": "BUTTON",
+      "action": "click",
+      "label": "button",
+      "selector": "#basic-addon2",
+      "before_url": "https://demoqa.com/webtables",
+      "after_url": "https://demoqa.com/webtables",
+      "current_run": true,
+      "closure_pass": true,
+      "observation": {
+        "semantic": "BUTTON",
+        "label": "button",
+        "dialog_count": 0,
+        "dialog_messages": [],
+        "after_url": "https://demoqa.com/webtables"
+      }
+    }
+  }
+]

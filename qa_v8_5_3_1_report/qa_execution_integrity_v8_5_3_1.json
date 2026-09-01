@@ -1,0 +1,22 @@
+{
+  "version": "8.5.3.1",
+  "canonical": true,
+  "target": "https://demoqa.com",
+  "current_run_only": true,
+  "discovery_ok": false,
+  "blocked": true,
+  "blocked_reason": "TARGET_DISCOVERY_PREFLIGHT_FAILED",
+  "stale_state_reuse_allowed": false,
+  "synthetic_change_reporting_allowed": false,
+  "vacuous_quality_pass_allowed": false,
+  "truth_policy": "A non-empty target with failed/empty discovery cannot receive current-run regression, journey, coverage, or business-outcome PASS.",
+  "preflight": {
+    "version": "8.5.3.1",
+    "target": "https://demoqa.com",
+    "status": "PASS",
+    "http_status": 200,
+    "final_url": "https://demoqa.com/",
+    "title": "demosite",
+    "error": null
+  }
+}

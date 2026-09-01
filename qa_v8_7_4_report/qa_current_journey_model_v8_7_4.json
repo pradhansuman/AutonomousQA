@@ -1,0 +1,1433 @@
+{
+  "version": "8.7.4",
+  "run_id": "cebd89ca57324ce49fd76ef111002b8a",
+  "current_run": true,
+  "journeys": [
+    {
+      "journey_id": "0ba8e320938fd98e5254",
+      "goal": "Submit valid user information",
+      "url": "https://demoqa.com/automation-practice-form",
+      "score": 79.0,
+      "steps": [
+        {
+          "step": 1,
+          "behavior_id": "0d887e34f0d519d27a15",
+          "action": "fill",
+          "selector": "#currentAddress",
+          "label": "Current Address",
+          "semantic": "input"
+        },
+        {
+          "step": 2,
+          "behavior_id": "11a81c2f0a7f6cdeac10",
+          "action": "fill",
+          "selector": "#subjectsInput",
+          "label": "",
+          "semantic": "input"
+        },
+        {
+          "step": 3,
+          "behavior_id": "c8276fe0f66b9e7ddba2",
+          "action": "click",
+          "selector": "#submit",
+          "label": "Submit",
+          "semantic": "action"
+        }
+      ],
+      "source_behavior_ids": [
+        "0d887e34f0d519d27a15",
+        "11a81c2f0a7f6cdeac10",
+        "c8276fe0f66b9e7ddba2"
+      ],
+      "status": "PASS"
+    },
+    {
+      "journey_id": "9cea260988a437f318f3",
+      "goal": "Submit valid user information",
+      "url": "https://demoqa.com/login",
+      "score": 79.0,
+      "steps": [
+        {
+          "step": 1,
+          "behavior_id": "328947396188eb183a7e",
+          "action": "fill",
+          "selector": "#password",
+          "label": "Password",
+          "semantic": "input"
+        },
+        {
+          "step": 2,
+          "behavior_id": "afa0f72d7c53a5aa3697",
+          "action": "fill",
+          "selector": "#userName",
+          "label": "UserName",
+          "semantic": "input"
+        },
+        {
+          "step": 3,
+          "behavior_id": "3b27d4cc6ed9bbd7a8bc",
+          "action": "click",
+          "selector": "#login",
+          "label": "Login",
+          "semantic": "action"
+        }
+      ],
+      "source_behavior_ids": [
+        "328947396188eb183a7e",
+        "afa0f72d7c53a5aa3697",
+        "3b27d4cc6ed9bbd7a8bc"
+      ],
+      "status": "PASS"
+    },
+    {
+      "journey_id": "75019a4d23e343c73760",
+      "goal": "Submit valid user information",
+      "url": "https://demoqa.com/register",
+      "score": 79.0,
+      "steps": [
+        {
+          "step": 1,
+          "behavior_id": "5a7e36a8419ee6580627",
+          "action": "fill",
+          "selector": "#firstname",
+          "label": "First Name",
+          "semantic": "input"
+        },
+        {
+          "step": 2,
+          "behavior_id": "96388605afde872c5a57",
+          "action": "fill",
+          "selector": "#password",
+          "label": "Password",
+          "semantic": "input"
+        },
+        {
+          "step": 3,
+          "behavior_id": "72f1dec0d09f599d76f2",
+          "action": "click",
+          "selector": "#register",
+          "label": "Register",
+          "semantic": "action"
+        }
+      ],
+      "source_behavior_ids": [
+        "5a7e36a8419ee6580627",
+        "96388605afde872c5a57",
+        "72f1dec0d09f599d76f2"
+      ],
+      "status": "PASS"
+    },
+    {
+      "journey_id": "aa23c97a913ff759140e",
+      "goal": "Submit valid user information",
+      "url": "https://demoqa.com/text-box",
+      "score": 79.0,
+      "steps": [
+        {
+          "step": 1,
+          "behavior_id": "4c9f55ef16461a1f6b10",
+          "action": "fill",
+          "selector": "#currentAddress",
+          "label": "Current Address",
+          "semantic": "input"
+        },
+        {
+          "step": 2,
+          "behavior_id": "0ed9892ca3511cf5b897",
+          "action": "fill",
+          "selector": "#userEmail",
+          "label": "name@example.com",
+          "semantic": "input"
+        },
+        {
+          "step": 3,
+          "behavior_id": "47deeb2553788a01a6a1",
+          "action": "click",
+          "selector": "#submit",
+          "label": "Submit",
+          "semantic": "action"
+        }
+      ],
+      "source_behavior_ids": [
+        "4c9f55ef16461a1f6b10",
+        "0ed9892ca3511cf5b897",
+        "47deeb2553788a01a6a1"
+      ],
+      "status": "PASS"
+    },
+    {
+      "journey_id": "994d486dfda2f2bc5556",
+      "goal": "Submit valid user information",
+      "url": "https://demoqa.com/webtables",
+      "score": 74.0,
+      "steps": [
+        {
+          "step": 1,
+          "behavior_id": "5a315146eec05e810e1d",
+          "action": "fill",
+          "selector": "#searchBox",
+          "label": "Type to search",
+          "semantic": "input"
+        },
+        {
+          "step": 2,
+          "behavior_id": "9d48766cfce1afd5dd7c",
+          "action": "fill",
+          "selector": "select",
+          "label": "Show 10\nShow 20\nShow 30\nShow 40\nShow 50",
+          "semantic": "input"
+        },
+        {
+          "step": 3,
+          "behavior_id": "dacdf4b52734d547c523",
+          "action": "click",
+          "selector": "#addNewRecordButton",
+          "label": "Add",
+          "semantic": "action"
+        }
+      ],
+      "source_behavior_ids": [
+        "5a315146eec05e810e1d",
+        "9d48766cfce1afd5dd7c",
+        "dacdf4b52734d547c523"
+      ],
+      "status": "FAIL"
+    },
+    {
+      "journey_id": "caabd9eb7e219f4d1f84",
+      "goal": "Submit valid user information",
+      "url": "https://demoqa.com/books",
+      "score": 71.0,
+      "steps": [
+        {
+          "step": 1,
+          "behavior_id": "09ea76bc9c0fa8522207",
+          "action": "fill",
+          "selector": "#searchBox",
+          "label": "Type to search",
+          "semantic": "input"
+        },
+        {
+          "step": 2,
+          "behavior_id": "829fd961816073deda5e",
+          "action": "click",
+          "selector": "#login",
+          "label": "Login",
+          "semantic": "action"
+        }
+      ],
+      "source_behavior_ids": [
+        "09ea76bc9c0fa8522207",
+        "829fd961816073deda5e"
+      ],
+      "status": "PASS"
+    },
+    {
+      "journey_id": "8656d4fb4a1de0a3012a",
+      "goal": "Submit valid user information",
+      "url": "https://demoqa.com/books?search=9781449325862",
+      "score": 71.0,
+      "steps": [
+        {
+          "step": 1,
+          "behavior_id": "73760b992880cb1817ae",
+          "action": "fill",
+          "selector": "#searchBox",
+          "label": "Type to search",
+          "semantic": "input"
+        },
+        {
+          "step": 2,
+          "behavior_id": "4c7d217685498afe8a8f",
+          "action": "click",
+          "selector": "#login",
+          "label": "Login",
+          "semantic": "action"
+        }
+      ],
+      "source_behavior_ids": [
+        "73760b992880cb1817ae",
+        "4c7d217685498afe8a8f"
+      ],
+      "status": "FAIL"
+    },
+    {
+      "journey_id": "4cceb1fbd317e2d3f1ac",
+      "goal": "Submit valid user information",
+      "url": "https://demoqa.com/books?search=9781593277574",
+      "score": 71.0,
+      "steps": [
+        {
+          "step": 1,
+          "behavior_id": "88a0f53689fee1417cff",
+          "action": "fill",
+          "selector": "#searchBox",
+          "label": "Type to search",
+          "semantic": "input"
+        },
+        {
+          "step": 2,
+          "behavior_id": "ea2f83f26c67721e819f",
+          "action": "click",
+          "selector": "#login",
+          "label": "Login",
+          "semantic": "action"
+        }
+      ],
+      "source_behavior_ids": [
+        "88a0f53689fee1417cff",
+        "ea2f83f26c67721e819f"
+      ],
+      "status": "PASS"
+    },
+    {
+      "journey_id": "a363faab72f8526c7a58",
+      "goal": "Submit valid user information",
+      "url": "https://demoqa.com/auto-complete",
+      "score": 64.0,
+      "steps": [
+        {
+          "step": 1,
+          "behavior_id": "055afa656aeec6baa214",
+          "action": "fill",
+          "selector": "#autoCompleteSingleInput",
+          "label": "",
+          "semantic": "input"
+        },
+        {
+          "step": 2,
+          "behavior_id": "72eb926fb923757cc048",
+          "action": "fill",
+          "selector": "#autoCompleteMultipleInput",
+          "label": "",
+          "semantic": "input"
+        },
+        {
+          "step": 3,
+          "behavior_id": "b973aa2e5be3cb4e72e6",
+          "action": "click",
+          "selector": "span",
+          "label": "",
+          "semantic": "interactive"
+        }
+      ],
+      "source_behavior_ids": [
+        "055afa656aeec6baa214",
+        "72eb926fb923757cc048",
+        "b973aa2e5be3cb4e72e6"
+      ],
+      "status": "FAIL"
+    },
+    {
+      "journey_id": "29a92f4ee0893af460c2",
+      "goal": "Submit valid user information",
+      "url": "https://demoqa.com/select-menu",
+      "score": 64.0,
+      "steps": [
+        {
+          "step": 1,
+          "behavior_id": "4a2ced3250fcd9f038ff",
+          "action": "fill",
+          "selector": "#react-select-2-input",
+          "label": "",
+          "semantic": "input"
+        },
+        {
+          "step": 2,
+          "behavior_id": "6e6c5f37036838ce66c4",
+          "action": "fill",
+          "selector": "#react-select-3-input",
+          "label": "",
+          "semantic": "input"
+        },
+        {
+          "step": 3,
+          "behavior_id": "d1fc462a33c9163c56ec",
+          "action": "click",
+          "selector": "span",
+          "label": "",
+          "semantic": "interactive"
+        }
+      ],
+      "source_behavior_ids": [
+        "4a2ced3250fcd9f038ff",
+        "6e6c5f37036838ce66c4",
+        "d1fc462a33c9163c56ec"
+      ],
+      "status": "FAIL"
+    },
+    {
+      "journey_id": "bf05e207eeb8fcfdad9d",
+      "goal": "Submit valid user information",
+      "url": "https://demoqa.com/tool-tips",
+      "score": 61.0,
+      "steps": [
+        {
+          "step": 1,
+          "behavior_id": "3c0fb4bff2cd6dbc547d",
+          "action": "fill",
+          "selector": "#toolTipTextField",
+          "label": "Hover me to see",
+          "semantic": "input"
+        },
+        {
+          "step": 2,
+          "behavior_id": "a3ba070182c9c672dabb",
+          "action": "click",
+          "selector": "#toolTipButton",
+          "label": "Hover me to see",
+          "semantic": "action"
+        }
+      ],
+      "source_behavior_ids": [
+        "3c0fb4bff2cd6dbc547d",
+        "a3ba070182c9c672dabb"
+      ],
+      "status": "PASS"
+    },
+    {
+      "journey_id": "c4993c3c549a61828c01",
+      "goal": "Navigate application surface",
+      "url": "https://demoqa.com/books?search=9781449331818",
+      "score": 56.0,
+      "steps": [
+        {
+          "step": 1,
+          "behavior_id": "0f4f31141db8be3eebaf",
+          "action": "navigate",
+          "selector": "a",
+          "label": "Login",
+          "semantic": "navigation"
+        },
+        {
+          "step": 2,
+          "behavior_id": "35d36ba57e837a70575e",
+          "action": "navigate",
+          "selector": "a",
+          "label": "Book Store API",
+          "semantic": "navigation"
+        }
+      ],
+      "source_behavior_ids": [
+        "0f4f31141db8be3eebaf",
+        "35d36ba57e837a70575e"
+      ],
+      "status": "PASS"
+    },
+    {
+      "journey_id": "49b5b35097f58f387d3f",
+      "goal": "Navigate application surface",
+      "url": "https://demoqa.com/books?search=9781449337711",
+      "score": 56.0,
+      "steps": [
+        {
+          "step": 1,
+          "behavior_id": "ab8bef2adbdbc434ff64",
+          "action": "navigate",
+          "selector": "a",
+          "label": "Login",
+          "semantic": "navigation"
+        },
+        {
+          "step": 2,
+          "behavior_id": "247380e35c5ff9b76dfe",
+          "action": "navigate",
+          "selector": "a",
+          "label": "Book Store API",
+          "semantic": "navigation"
+        }
+      ],
+      "source_behavior_ids": [
+        "ab8bef2adbdbc434ff64",
+        "247380e35c5ff9b76dfe"
+      ],
+      "status": "PASS"
+    },
+    {
+      "journey_id": "4a1201973e164f498586",
+      "goal": "Navigate application surface",
+      "url": "https://demoqa.com/books?search=9781449365035",
+      "score": 56.0,
+      "steps": [
+        {
+          "step": 1,
+          "behavior_id": "b6b113984f6784798d84",
+          "action": "navigate",
+          "selector": "a",
+          "label": "Login",
+          "semantic": "navigation"
+        },
+        {
+          "step": 2,
+          "behavior_id": "0be9ef155352ff8c824b",
+          "action": "navigate",
+          "selector": "a",
+          "label": "Book Store API",
+          "semantic": "navigation"
+        }
+      ],
+      "source_behavior_ids": [
+        "b6b113984f6784798d84",
+        "0be9ef155352ff8c824b"
+      ],
+      "status": "PASS"
+    },
+    {
+      "journey_id": "f53780d3bb7d35885851",
+      "goal": "Navigate application surface",
+      "url": "https://demoqa.com/books?search=9781491904244",
+      "score": 56.0,
+      "steps": [
+        {
+          "step": 1,
+          "behavior_id": "083bea1def225791f5a9",
+          "action": "navigate",
+          "selector": "a",
+          "label": "Login",
+          "semantic": "navigation"
+        },
+        {
+          "step": 2,
+          "behavior_id": "0112b28c1e056bb0b118",
+          "action": "navigate",
+          "selector": "a",
+          "label": "Profile",
+          "semantic": "navigation"
+        }
+      ],
+      "source_behavior_ids": [
+        "083bea1def225791f5a9",
+        "0112b28c1e056bb0b118"
+      ],
+      "status": "PASS"
+    },
+    {
+      "journey_id": "8f986e8e8d6e16b7ef97",
+      "goal": "Navigate application surface",
+      "url": "https://demoqa.com/books?search=9781491950296",
+      "score": 56.0,
+      "steps": [
+        {
+          "step": 1,
+          "behavior_id": "c9f8b1386cde14f05d1a",
+          "action": "navigate",
+          "selector": "a",
+          "label": "Login",
+          "semantic": "navigation"
+        },
+        {
+          "step": 2,
+          "behavior_id": "4a2dd71d5e1c7534bfbe",
+          "action": "navigate",
+          "selector": "a",
+          "label": "Book Store API",
+          "semantic": "navigation"
+        }
+      ],
+      "source_behavior_ids": [
+        "c9f8b1386cde14f05d1a",
+        "4a2dd71d5e1c7534bfbe"
+      ],
+      "status": "PASS"
+    },
+    {
+      "journey_id": "23a9c24b0211457e8211",
+      "goal": "Navigate application surface",
+      "url": "https://demoqa.com/books?search=9781593275846",
+      "score": 56.0,
+      "steps": [
+        {
+          "step": 1,
+          "behavior_id": "6dcd1f522cf889da9bec",
+          "action": "navigate",
+          "selector": "a",
+          "label": "Login",
+          "semantic": "navigation"
+        },
+        {
+          "step": 2,
+          "behavior_id": "13da2c3630d9a27bf62c",
+          "action": "navigate",
+          "selector": "a",
+          "label": "",
+          "semantic": "navigation"
+        }
+      ],
+      "source_behavior_ids": [
+        "6dcd1f522cf889da9bec",
+        "13da2c3630d9a27bf62c"
+      ],
+      "status": "PASS"
+    },
+    {
+      "journey_id": "688aea543c4d33705073",
+      "goal": "Navigate application surface",
+      "url": "https://demoqa.com/broken",
+      "score": 56.0,
+      "steps": [
+        {
+          "step": 1,
+          "behavior_id": "6a46af79a8830ffb1b7d",
+          "action": "navigate",
+          "selector": "a",
+          "label": "Upload and Download",
+          "semantic": "navigation"
+        },
+        {
+          "step": 2,
+          "behavior_id": "0025b1e340dfd08739fb",
+          "action": "navigate",
+          "selector": "a",
+          "label": "Broken Links - Images",
+          "semantic": "navigation"
+        }
+      ],
+      "source_behavior_ids": [
+        "6a46af79a8830ffb1b7d",
+        "0025b1e340dfd08739fb"
+      ],
+      "status": "PASS"
+    },
+    {
+      "journey_id": "a285296e71898b307c0c",
+      "goal": "Navigate application surface",
+      "url": "https://demoqa.com/buttons",
+      "score": 56.0,
+      "steps": [
+        {
+          "step": 1,
+          "behavior_id": "55126da205bd0d9dc2e9",
+          "action": "navigate",
+          "selector": "a",
+          "label": "Upload and Download",
+          "semantic": "navigation"
+        },
+        {
+          "step": 2,
+          "behavior_id": "0941058d1a2f31dc15ad",
+          "action": "navigate",
+          "selector": "a",
+          "label": "Links",
+          "semantic": "navigation"
+        }
+      ],
+      "source_behavior_ids": [
+        "55126da205bd0d9dc2e9",
+        "0941058d1a2f31dc15ad"
+      ],
+      "status": "PASS"
+    },
+    {
+      "journey_id": "513c3caeeb06fa15b56a",
+      "goal": "Navigate application surface",
+      "url": "https://demoqa.com/checkbox",
+      "score": 56.0,
+      "steps": [
+        {
+          "step": 1,
+          "behavior_id": "6a4b6ec29384f82f195b",
+          "action": "navigate",
+          "selector": "a",
+          "label": "Upload and Download",
+          "semantic": "navigation"
+        },
+        {
+          "step": 2,
+          "behavior_id": "138d54a610521b52f183",
+          "action": "navigate",
+          "selector": "a",
+          "label": "Radio Button",
+          "semantic": "navigation"
+        }
+      ],
+      "source_behavior_ids": [
+        "6a4b6ec29384f82f195b",
+        "138d54a610521b52f183"
+      ],
+      "status": "PASS"
+    },
+    {
+      "journey_id": "31d3976c5b030bc77ef8",
+      "goal": "Navigate application surface",
+      "url": "https://demoqa.com/dynamic-properties",
+      "score": 56.0,
+      "steps": [
+        {
+          "step": 1,
+          "behavior_id": "5e3daaf89a4888122a9e",
+          "action": "navigate",
+          "selector": "a",
+          "label": "Upload and Download",
+          "semantic": "navigation"
+        },
+        {
+          "step": 2,
+          "behavior_id": "2bec0cf20a2cb0dca100",
+          "action": "navigate",
+          "selector": "a",
+          "label": "Dynamic Properties",
+          "semantic": "navigation"
+        }
+      ],
+      "source_behavior_ids": [
+        "5e3daaf89a4888122a9e",
+        "2bec0cf20a2cb0dca100"
+      ],
+      "status": "PASS"
+    },
+    {
+      "journey_id": "3e8b0e3801debb417773",
+      "goal": "Navigate application surface",
+      "url": "https://demoqa.com/elements",
+      "score": 56.0,
+      "steps": [
+        {
+          "step": 1,
+          "behavior_id": "ff2d998c9789cdfe0908",
+          "action": "navigate",
+          "selector": "a",
+          "label": "Upload and Download",
+          "semantic": "navigation"
+        },
+        {
+          "step": 2,
+          "behavior_id": "03938a201be88b58b9d4",
+          "action": "navigate",
+          "selector": "a",
+          "label": "Text Box",
+          "semantic": "navigation"
+        }
+      ],
+      "source_behavior_ids": [
+        "ff2d998c9789cdfe0908",
+        "03938a201be88b58b9d4"
+      ],
+      "status": "PASS"
+    },
+    {
+      "journey_id": "168a1725aa02e550b988",
+      "goal": "Navigate application surface",
+      "url": "https://demoqa.com/links",
+      "score": 56.0,
+      "steps": [
+        {
+          "step": 1,
+          "behavior_id": "e9f00cb8c1f0fdbc875f",
+          "action": "navigate",
+          "selector": "a",
+          "label": "Upload and Download",
+          "semantic": "navigation"
+        },
+        {
+          "step": 2,
+          "behavior_id": "00450a6e0948758cfe4d",
+          "action": "navigate",
+          "selector": "a",
+          "label": "Links",
+          "semantic": "navigation"
+        }
+      ],
+      "source_behavior_ids": [
+        "e9f00cb8c1f0fdbc875f",
+        "00450a6e0948758cfe4d"
+      ],
+      "status": "PASS"
+    },
+    {
+      "journey_id": "a8faa7d27cf4f3f33a8f",
+      "goal": "Navigate application surface",
+      "url": "https://demoqa.com/profile",
+      "score": 56.0,
+      "steps": [
+        {
+          "step": 1,
+          "behavior_id": "7117114d12ce3effec45",
+          "action": "navigate",
+          "selector": "a",
+          "label": "Login",
+          "semantic": "navigation"
+        },
+        {
+          "step": 2,
+          "behavior_id": "7d71f78bce36f86da437",
+          "action": "navigate",
+          "selector": "a",
+          "label": "login",
+          "semantic": "navigation"
+        }
+      ],
+      "source_behavior_ids": [
+        "7117114d12ce3effec45",
+        "7d71f78bce36f86da437"
+      ],
+      "status": "PASS"
+    },
+    {
+      "journey_id": "27cd1c6b92f5d1026a57",
+      "goal": "Navigate application surface",
+      "url": "https://demoqa.com/radio-button",
+      "score": 56.0,
+      "steps": [
+        {
+          "step": 1,
+          "behavior_id": "3009fb97ff423874ba00",
+          "action": "navigate",
+          "selector": "a",
+          "label": "Upload and Download",
+          "semantic": "navigation"
+        },
+        {
+          "step": 2,
+          "behavior_id": "078a9987ece978844535",
+          "action": "navigate",
+          "selector": "a",
+          "label": "",
+          "semantic": "navigation"
+        }
+      ],
+      "source_behavior_ids": [
+        "3009fb97ff423874ba00",
+        "078a9987ece978844535"
+      ],
+      "status": "PASS"
+    },
+    {
+      "journey_id": "5137c8355fc719043759",
+      "goal": "Navigate application surface",
+      "url": "https://demoqa.com/upload-download",
+      "score": 56.0,
+      "steps": [
+        {
+          "step": 1,
+          "behavior_id": "014ac01d7dce98a77f90",
+          "action": "navigate",
+          "selector": "a",
+          "label": "Radio Button",
+          "semantic": "navigation"
+        },
+        {
+          "step": 2,
+          "behavior_id": "18332de0b0794db67ac9",
+          "action": "navigate",
+          "selector": "a",
+          "label": "Dynamic Properties",
+          "semantic": "navigation"
+        }
+      ],
+      "source_behavior_ids": [
+        "014ac01d7dce98a77f90",
+        "18332de0b0794db67ac9"
+      ],
+      "status": "PASS"
+    },
+    {
+      "journey_id": "88a6a361580f01079bb2",
+      "goal": "Navigate application surface",
+      "url": "https://demoqa.com/",
+      "score": 41.0,
+      "steps": [
+        {
+          "step": 1,
+          "behavior_id": "15b831d0fe8d17724ceb",
+          "action": "navigate",
+          "selector": "a",
+          "label": "Forms",
+          "semantic": "navigation"
+        },
+        {
+          "step": 2,
+          "behavior_id": "2b02dd6fdbb558b70599",
+          "action": "navigate",
+          "selector": "a",
+          "label": "Widgets",
+          "semantic": "navigation"
+        }
+      ],
+      "source_behavior_ids": [
+        "15b831d0fe8d17724ceb",
+        "2b02dd6fdbb558b70599"
+      ],
+      "status": "PASS"
+    },
+    {
+      "journey_id": "c1a9304e8a7a2f35b151",
+      "goal": "Navigate application surface",
+      "url": "https://demoqa.com/accordian",
+      "score": 41.0,
+      "steps": [
+        {
+          "step": 1,
+          "behavior_id": "0b46e1fa39f678db955b",
+          "action": "navigate",
+          "selector": "a",
+          "label": "Tool Tips",
+          "semantic": "navigation"
+        },
+        {
+          "step": 2,
+          "behavior_id": "0d797b2fa9c80fa00160",
+          "action": "navigate",
+          "selector": "a",
+          "label": "Auto Complete",
+          "semantic": "navigation"
+        }
+      ],
+      "source_behavior_ids": [
+        "0b46e1fa39f678db955b",
+        "0d797b2fa9c80fa00160"
+      ],
+      "status": "PASS"
+    },
+    {
+      "journey_id": "b24b6b4885348b1d9bbd",
+      "goal": "Navigate application surface",
+      "url": "https://demoqa.com/alerts",
+      "score": 41.0,
+      "steps": [
+        {
+          "step": 1,
+          "behavior_id": "26367275092c95811838",
+          "action": "navigate",
+          "selector": "a",
+          "label": "",
+          "semantic": "navigation"
+        },
+        {
+          "step": 2,
+          "behavior_id": "30f0c3a78bdc40531c5f",
+          "action": "navigate",
+          "selector": "a",
+          "label": "Browser Windows",
+          "semantic": "navigation"
+        }
+      ],
+      "source_behavior_ids": [
+        "26367275092c95811838",
+        "30f0c3a78bdc40531c5f"
+      ],
+      "status": "PASS"
+    },
+    {
+      "journey_id": "d784dc8eb150876d4450",
+      "goal": "Navigate application surface",
+      "url": "https://demoqa.com/alertsWindows",
+      "score": 41.0,
+      "steps": [
+        {
+          "step": 1,
+          "behavior_id": "28c969f267a584ed4061",
+          "action": "navigate",
+          "selector": "a",
+          "label": "Nested Frames",
+          "semantic": "navigation"
+        },
+        {
+          "step": 2,
+          "behavior_id": "4bea77d21f491aae46fd",
+          "action": "navigate",
+          "selector": "a",
+          "label": "Browser Windows",
+          "semantic": "navigation"
+        }
+      ],
+      "source_behavior_ids": [
+        "28c969f267a584ed4061",
+        "4bea77d21f491aae46fd"
+      ],
+      "status": "PASS"
+    },
+    {
+      "journey_id": "f5854123a9264e93487a",
+      "goal": "Navigate application surface",
+      "url": "https://demoqa.com/browser-windows",
+      "score": 41.0,
+      "steps": [
+        {
+          "step": 1,
+          "behavior_id": "0f9c3a7642bbdb980360",
+          "action": "navigate",
+          "selector": "a",
+          "label": "Nested Frames",
+          "semantic": "navigation"
+        },
+        {
+          "step": 2,
+          "behavior_id": "1ccb65a16ece85be0501",
+          "action": "navigate",
+          "selector": "a",
+          "label": "Alerts",
+          "semantic": "navigation"
+        }
+      ],
+      "source_behavior_ids": [
+        "0f9c3a7642bbdb980360",
+        "1ccb65a16ece85be0501"
+      ],
+      "status": "PASS"
+    },
+    {
+      "journey_id": "c890e3991e7836edda41",
+      "goal": "Navigate application surface",
+      "url": "https://demoqa.com/date-picker",
+      "score": 41.0,
+      "steps": [
+        {
+          "step": 1,
+          "behavior_id": "194534601ab7c9b528b5",
+          "action": "navigate",
+          "selector": "a",
+          "label": "Tabs",
+          "semantic": "navigation"
+        },
+        {
+          "step": 2,
+          "behavior_id": "2e2998f2208e433d532a",
+          "action": "navigate",
+          "selector": "a",
+          "label": "Slider",
+          "semantic": "navigation"
+        }
+      ],
+      "source_behavior_ids": [
+        "194534601ab7c9b528b5",
+        "2e2998f2208e433d532a"
+      ],
+      "status": "PASS"
+    },
+    {
+      "journey_id": "3ae4f7d521f225755136",
+      "goal": "Navigate application surface",
+      "url": "https://demoqa.com/dragabble",
+      "score": 41.0,
+      "steps": [
+        {
+          "step": 1,
+          "behavior_id": "04c76050538ff8dfcd32",
+          "action": "navigate",
+          "selector": "a",
+          "label": "Selectable",
+          "semantic": "navigation"
+        },
+        {
+          "step": 2,
+          "behavior_id": "12da0588ceac72aa0fd2",
+          "action": "navigate",
+          "selector": "a",
+          "label": "Dragabble",
+          "semantic": "navigation"
+        }
+      ],
+      "source_behavior_ids": [
+        "04c76050538ff8dfcd32",
+        "12da0588ceac72aa0fd2"
+      ],
+      "status": "PASS"
+    },
+    {
+      "journey_id": "05515745629b0de2be29",
+      "goal": "Navigate application surface",
+      "url": "https://demoqa.com/droppable",
+      "score": 41.0,
+      "steps": [
+        {
+          "step": 1,
+          "behavior_id": "5f5d349a8a3dc41a04dd",
+          "action": "navigate",
+          "selector": "a",
+          "label": "Dragabble",
+          "semantic": "navigation"
+        },
+        {
+          "step": 2,
+          "behavior_id": "8bdcae5bad9686ae922e",
+          "action": "navigate",
+          "selector": "a",
+          "label": "Resizable",
+          "semantic": "navigation"
+        }
+      ],
+      "source_behavior_ids": [
+        "5f5d349a8a3dc41a04dd",
+        "8bdcae5bad9686ae922e"
+      ],
+      "status": "PASS"
+    },
+    {
+      "journey_id": "31b4ce98bf91469964a6",
+      "goal": "Navigate application surface",
+      "url": "https://demoqa.com/forms",
+      "score": 41.0,
+      "steps": [
+        {
+          "step": 1,
+          "behavior_id": "9d67704b21f7eb7903bc",
+          "action": "navigate",
+          "selector": "a",
+          "label": "Practice Form",
+          "semantic": "navigation"
+        },
+        {
+          "step": 2,
+          "behavior_id": "eadaac0f3d95e963a85e",
+          "action": "navigate",
+          "selector": "a",
+          "label": "",
+          "semantic": "navigation"
+        }
+      ],
+      "source_behavior_ids": [
+        "9d67704b21f7eb7903bc",
+        "eadaac0f3d95e963a85e"
+      ],
+      "status": "PASS"
+    },
+    {
+      "journey_id": "7e3d6cf0d93575793359",
+      "goal": "Navigate application surface",
+      "url": "https://demoqa.com/frames",
+      "score": 41.0,
+      "steps": [
+        {
+          "step": 1,
+          "behavior_id": "42a781cddefa7c116a60",
+          "action": "navigate",
+          "selector": "a",
+          "label": "Nested Frames",
+          "semantic": "navigation"
+        },
+        {
+          "step": 2,
+          "behavior_id": "53233284150509c524bb",
+          "action": "navigate",
+          "selector": "a",
+          "label": "Modal Dialogs",
+          "semantic": "navigation"
+        }
+      ],
+      "source_behavior_ids": [
+        "42a781cddefa7c116a60",
+        "53233284150509c524bb"
+      ],
+      "status": "PASS"
+    },
+    {
+      "journey_id": "cb3247e6d965ffb16cbf",
+      "goal": "Navigate application surface",
+      "url": "https://demoqa.com/interaction",
+      "score": 41.0,
+      "steps": [
+        {
+          "step": 1,
+          "behavior_id": "6840c7be745a94f4fc60",
+          "action": "navigate",
+          "selector": "a",
+          "label": "Sortable",
+          "semantic": "navigation"
+        },
+        {
+          "step": 2,
+          "behavior_id": "a732a9de51523f9891d5",
+          "action": "navigate",
+          "selector": "a",
+          "label": "Droppable",
+          "semantic": "navigation"
+        }
+      ],
+      "source_behavior_ids": [
+        "6840c7be745a94f4fc60",
+        "a732a9de51523f9891d5"
+      ],
+      "status": "PASS"
+    },
+    {
+      "journey_id": "fa675500b0df2327c8d9",
+      "goal": "Navigate application surface",
+      "url": "https://demoqa.com/menu",
+      "score": 41.0,
+      "steps": [
+        {
+          "step": 1,
+          "behavior_id": "15bf58fff31f5b43e56b",
+          "action": "navigate",
+          "selector": "a",
+          "label": "Tabs",
+          "semantic": "navigation"
+        },
+        {
+          "step": 2,
+          "behavior_id": "2ad7a9942be3a6d8e47a",
+          "action": "navigate",
+          "selector": "a",
+          "label": "Main Item 2",
+          "semantic": "navigation"
+        }
+      ],
+      "source_behavior_ids": [
+        "15bf58fff31f5b43e56b",
+        "2ad7a9942be3a6d8e47a"
+      ],
+      "status": "PASS"
+    },
+    {
+      "journey_id": "8411d0fda24aff1baa58",
+      "goal": "Navigate application surface",
+      "url": "https://demoqa.com/modal-dialogs",
+      "score": 41.0,
+      "steps": [
+        {
+          "step": 1,
+          "behavior_id": "0602c23bb8ae827bf119",
+          "action": "navigate",
+          "selector": "a",
+          "label": "",
+          "semantic": "navigation"
+        },
+        {
+          "step": 2,
+          "behavior_id": "091f52aea72ec0dc386a",
+          "action": "navigate",
+          "selector": "a",
+          "label": "Modal Dialogs",
+          "semantic": "navigation"
+        }
+      ],
+      "source_behavior_ids": [
+        "0602c23bb8ae827bf119",
+        "091f52aea72ec0dc386a"
+      ],
+      "status": "PASS"
+    },
+    {
+      "journey_id": "21a5ec8b6c5ecc97e80a",
+      "goal": "Navigate application surface",
+      "url": "https://demoqa.com/nestedframes",
+      "score": 41.0,
+      "steps": [
+        {
+          "step": 1,
+          "behavior_id": "096eac551ea187ccf411",
+          "action": "navigate",
+          "selector": "a",
+          "label": "",
+          "semantic": "navigation"
+        },
+        {
+          "step": 2,
+          "behavior_id": "184591955e43b19aa771",
+          "action": "navigate",
+          "selector": "a",
+          "label": "Alerts",
+          "semantic": "navigation"
+        }
+      ],
+      "source_behavior_ids": [
+        "096eac551ea187ccf411",
+        "184591955e43b19aa771"
+      ],
+      "status": "PASS"
+    },
+    {
+      "journey_id": "482070f77526736af2e3",
+      "goal": "Navigate application surface",
+      "url": "https://demoqa.com/progress-bar",
+      "score": 41.0,
+      "steps": [
+        {
+          "step": 1,
+          "behavior_id": "1b4bfe8d7c0448ae5a48",
+          "action": "navigate",
+          "selector": "a",
+          "label": "Select Menu",
+          "semantic": "navigation"
+        },
+        {
+          "step": 2,
+          "behavior_id": "43f604b30cebe964f8bd",
+          "action": "navigate",
+          "selector": "a",
+          "label": "Tool Tips",
+          "semantic": "navigation"
+        }
+      ],
+      "source_behavior_ids": [
+        "1b4bfe8d7c0448ae5a48",
+        "43f604b30cebe964f8bd"
+      ],
+      "status": "PASS"
+    },
+    {
+      "journey_id": "fd0a4336c6d07c361276",
+      "goal": "Navigate application surface",
+      "url": "https://demoqa.com/resizable",
+      "score": 41.0,
+      "steps": [
+        {
+          "step": 1,
+          "behavior_id": "1e4c4bb49bb892156a13",
+          "action": "navigate",
+          "selector": "a",
+          "label": "Selectable",
+          "semantic": "navigation"
+        },
+        {
+          "step": 2,
+          "behavior_id": "38b8e37205415de5f49e",
+          "action": "navigate",
+          "selector": "a",
+          "label": "Droppable",
+          "semantic": "navigation"
+        }
+      ],
+      "source_behavior_ids": [
+        "1e4c4bb49bb892156a13",
+        "38b8e37205415de5f49e"
+      ],
+      "status": "PASS"
+    },
+    {
+      "journey_id": "023e37080465137ead61",
+      "goal": "Navigate application surface",
+      "url": "https://demoqa.com/selectable",
+      "score": 41.0,
+      "steps": [
+        {
+          "step": 1,
+          "behavior_id": "1538f4875996353dbf5e",
+          "action": "navigate",
+          "selector": "a",
+          "label": "Sortable",
+          "semantic": "navigation"
+        },
+        {
+          "step": 2,
+          "behavior_id": "7479cdbd2c6e3820e1a1",
+          "action": "navigate",
+          "selector": "a",
+          "label": "Selectable",
+          "semantic": "navigation"
+        }
+      ],
+      "source_behavior_ids": [
+        "1538f4875996353dbf5e",
+        "7479cdbd2c6e3820e1a1"
+      ],
+      "status": "PASS"
+    },
+    {
+      "journey_id": "dedffca4a27d5ebfaad8",
+      "goal": "Navigate application surface",
+      "url": "https://demoqa.com/slider",
+      "score": 41.0,
+      "steps": [
+        {
+          "step": 1,
+          "behavior_id": "25743f11fc1745fb63e8",
+          "action": "navigate",
+          "selector": "a",
+          "label": "Progress Bar",
+          "semantic": "navigation"
+        },
+        {
+          "step": 2,
+          "behavior_id": "30d5c2a42c617eff5efd",
+          "action": "navigate",
+          "selector": "a",
+          "label": "Tool Tips",
+          "semantic": "navigation"
+        }
+      ],
+      "source_behavior_ids": [
+        "25743f11fc1745fb63e8",
+        "30d5c2a42c617eff5efd"
+      ],
+      "status": "PASS"
+    },
+    {
+      "journey_id": "217ea104692fe43fc7a4",
+      "goal": "Navigate application surface",
+      "url": "https://demoqa.com/sortable",
+      "score": 41.0,
+      "steps": [
+        {
+          "step": 1,
+          "behavior_id": "04ed760180c078222e25",
+          "action": "navigate",
+          "selector": "a",
+          "label": "Dragabble",
+          "semantic": "navigation"
+        },
+        {
+          "step": 2,
+          "behavior_id": "13c885e4e2ea3ac5d422",
+          "action": "navigate",
+          "selector": "a",
+          "label": "",
+          "semantic": "navigation"
+        }
+      ],
+      "source_behavior_ids": [
+        "04ed760180c078222e25",
+        "13c885e4e2ea3ac5d422"
+      ],
+      "status": "PASS"
+    },
+    {
+      "journey_id": "0339bfd373324623df18",
+      "goal": "Navigate application surface",
+      "url": "https://demoqa.com/tabs",
+      "score": 41.0,
+      "steps": [
+        {
+          "step": 1,
+          "behavior_id": "2175690903aece86ffa8",
+          "action": "navigate",
+          "selector": "a",
+          "label": "Slider",
+          "semantic": "navigation"
+        },
+        {
+          "step": 2,
+          "behavior_id": "22252df9b396237d6181",
+          "action": "navigate",
+          "selector": "a",
+          "label": "Tool Tips",
+          "semantic": "navigation"
+        }
+      ],
+      "source_behavior_ids": [
+        "2175690903aece86ffa8",
+        "22252df9b396237d6181"
+      ],
+      "status": "PASS"
+    },
+    {
+      "journey_id": "f41a2a641d5f6871e976",
+      "goal": "Navigate application surface",
+      "url": "https://demoqa.com/widgets",
+      "score": 41.0,
+      "steps": [
+        {
+          "step": 1,
+          "behavior_id": "1aa57e41ac9f490280ff",
+          "action": "navigate",
+          "selector": "a",
+          "label": "Slider",
+          "semantic": "navigation"
+        },
+        {
+          "step": 2,
+          "behavior_id": "2a7565ab54145860250d",
+          "action": "navigate",
+          "selector": "a",
+          "label": "Menu",
+          "semantic": "navigation"
+        }
+      ],
+      "source_behavior_ids": [
+        "1aa57e41ac9f490280ff",
+        "2a7565ab54145860250d"
+      ],
+      "status": "PASS"
+    }
+  ]
+}

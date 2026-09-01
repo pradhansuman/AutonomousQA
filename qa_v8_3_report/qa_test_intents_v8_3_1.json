@@ -1,0 +1,1200 @@
+{
+  "version": "8.3.1",
+  "intent_plan": {
+    "smoke": [
+      {
+        "intent_id": "SMOKE-APP-0001",
+        "type": "SMOKE",
+        "goal": "Verify application entry point is reachable.",
+        "url": "https://demoqa.com",
+        "preconditions": [],
+        "actions": [
+          "navigate",
+          "wait_for_page_ready"
+        ],
+        "assertions": [
+          "application_reachable",
+          "page_rendered"
+        ],
+        "source": "autonomous_discovery",
+        "execution_status": "PLANNED"
+      },
+      {
+        "intent_id": "SMOKE-PAGE-0001",
+        "type": "SMOKE",
+        "goal": "Verify critical page can load and render.",
+        "url": "https://demoqa.com",
+        "preconditions": [],
+        "actions": [
+          "navigate",
+          "wait_for_page_ready"
+        ],
+        "assertions": [
+          "page_loads",
+          "document_is_interactive"
+        ],
+        "source": "autonomous_discovery",
+        "execution_status": "PLANNED"
+      },
+      {
+        "intent_id": "SMOKE-PAGE-0002",
+        "type": "SMOKE",
+        "goal": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/",
+        "preconditions": [],
+        "actions": [
+          "navigate",
+          "wait_for_page_ready"
+        ],
+        "assertions": [
+          "page_loads",
+          "document_is_interactive"
+        ],
+        "source": "autonomous_discovery",
+        "execution_status": "PLANNED"
+      },
+      {
+        "intent_id": "SMOKE-PAGE-0003",
+        "type": "SMOKE",
+        "goal": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/accordian",
+        "preconditions": [],
+        "actions": [
+          "navigate",
+          "wait_for_page_ready"
+        ],
+        "assertions": [
+          "page_loads",
+          "document_is_interactive"
+        ],
+        "source": "autonomous_discovery",
+        "execution_status": "PLANNED"
+      },
+      {
+        "intent_id": "SMOKE-PAGE-0004",
+        "type": "SMOKE",
+        "goal": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/alerts",
+        "preconditions": [],
+        "actions": [
+          "navigate",
+          "wait_for_page_ready"
+        ],
+        "assertions": [
+          "page_loads",
+          "document_is_interactive"
+        ],
+        "source": "autonomous_discovery",
+        "execution_status": "PLANNED"
+      },
+      {
+        "intent_id": "SMOKE-PAGE-0005",
+        "type": "SMOKE",
+        "goal": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/alertsWindows",
+        "preconditions": [],
+        "actions": [
+          "navigate",
+          "wait_for_page_ready"
+        ],
+        "assertions": [
+          "page_loads",
+          "document_is_interactive"
+        ],
+        "source": "autonomous_discovery",
+        "execution_status": "PLANNED"
+      },
+      {
+        "intent_id": "SMOKE-PAGE-0006",
+        "type": "SMOKE",
+        "goal": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/auto-complete",
+        "preconditions": [],
+        "actions": [
+          "navigate",
+          "wait_for_page_ready"
+        ],
+        "assertions": [
+          "page_loads",
+          "document_is_interactive"
+        ],
+        "source": "autonomous_discovery",
+        "execution_status": "PLANNED"
+      },
+      {
+        "intent_id": "SMOKE-PAGE-0007",
+        "type": "SMOKE",
+        "goal": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/automation-practice-form",
+        "preconditions": [],
+        "actions": [
+          "navigate",
+          "wait_for_page_ready"
+        ],
+        "assertions": [
+          "page_loads",
+          "document_is_interactive"
+        ],
+        "source": "autonomous_discovery",
+        "execution_status": "PLANNED"
+      },
+      {
+        "intent_id": "SMOKE-PAGE-0008",
+        "type": "SMOKE",
+        "goal": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/books",
+        "preconditions": [],
+        "actions": [
+          "navigate",
+          "wait_for_page_ready"
+        ],
+        "assertions": [
+          "page_loads",
+          "document_is_interactive"
+        ],
+        "source": "autonomous_discovery",
+        "execution_status": "PLANNED"
+      },
+      {
+        "intent_id": "SMOKE-PAGE-0009",
+        "type": "SMOKE",
+        "goal": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/broken",
+        "preconditions": [],
+        "actions": [
+          "navigate",
+          "wait_for_page_ready"
+        ],
+        "assertions": [
+          "page_loads",
+          "document_is_interactive"
+        ],
+        "source": "autonomous_discovery",
+        "execution_status": "PLANNED"
+      },
+      {
+        "intent_id": "SMOKE-PAGE-0010",
+        "type": "SMOKE",
+        "goal": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/browser-windows",
+        "preconditions": [],
+        "actions": [
+          "navigate",
+          "wait_for_page_ready"
+        ],
+        "assertions": [
+          "page_loads",
+          "document_is_interactive"
+        ],
+        "source": "autonomous_discovery",
+        "execution_status": "PLANNED"
+      },
+      {
+        "intent_id": "SMOKE-PAGE-0011",
+        "type": "SMOKE",
+        "goal": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/buttons",
+        "preconditions": [],
+        "actions": [
+          "navigate",
+          "wait_for_page_ready"
+        ],
+        "assertions": [
+          "page_loads",
+          "document_is_interactive"
+        ],
+        "source": "autonomous_discovery",
+        "execution_status": "PLANNED"
+      },
+      {
+        "intent_id": "SMOKE-PAGE-0012",
+        "type": "SMOKE",
+        "goal": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/checkbox",
+        "preconditions": [],
+        "actions": [
+          "navigate",
+          "wait_for_page_ready"
+        ],
+        "assertions": [
+          "page_loads",
+          "document_is_interactive"
+        ],
+        "source": "autonomous_discovery",
+        "execution_status": "PLANNED"
+      },
+      {
+        "intent_id": "SMOKE-PAGE-0013",
+        "type": "SMOKE",
+        "goal": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/date-picker",
+        "preconditions": [],
+        "actions": [
+          "navigate",
+          "wait_for_page_ready"
+        ],
+        "assertions": [
+          "page_loads",
+          "document_is_interactive"
+        ],
+        "source": "autonomous_discovery",
+        "execution_status": "PLANNED"
+      },
+      {
+        "intent_id": "SMOKE-PAGE-0014",
+        "type": "SMOKE",
+        "goal": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/dynamic-properties",
+        "preconditions": [],
+        "actions": [
+          "navigate",
+          "wait_for_page_ready"
+        ],
+        "assertions": [
+          "page_loads",
+          "document_is_interactive"
+        ],
+        "source": "autonomous_discovery",
+        "execution_status": "PLANNED"
+      },
+      {
+        "intent_id": "SMOKE-PAGE-0015",
+        "type": "SMOKE",
+        "goal": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/elements",
+        "preconditions": [],
+        "actions": [
+          "navigate",
+          "wait_for_page_ready"
+        ],
+        "assertions": [
+          "page_loads",
+          "document_is_interactive"
+        ],
+        "source": "autonomous_discovery",
+        "execution_status": "PLANNED"
+      },
+      {
+        "intent_id": "SMOKE-PAGE-0016",
+        "type": "SMOKE",
+        "goal": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/forms",
+        "preconditions": [],
+        "actions": [
+          "navigate",
+          "wait_for_page_ready"
+        ],
+        "assertions": [
+          "page_loads",
+          "document_is_interactive"
+        ],
+        "source": "autonomous_discovery",
+        "execution_status": "PLANNED"
+      },
+      {
+        "intent_id": "SMOKE-PAGE-0017",
+        "type": "SMOKE",
+        "goal": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/frames",
+        "preconditions": [],
+        "actions": [
+          "navigate",
+          "wait_for_page_ready"
+        ],
+        "assertions": [
+          "page_loads",
+          "document_is_interactive"
+        ],
+        "source": "autonomous_discovery",
+        "execution_status": "PLANNED"
+      },
+      {
+        "intent_id": "SMOKE-PAGE-0018",
+        "type": "SMOKE",
+        "goal": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/interaction",
+        "preconditions": [],
+        "actions": [
+          "navigate",
+          "wait_for_page_ready"
+        ],
+        "assertions": [
+          "page_loads",
+          "document_is_interactive"
+        ],
+        "source": "autonomous_discovery",
+        "execution_status": "PLANNED"
+      },
+      {
+        "intent_id": "SMOKE-PAGE-0019",
+        "type": "SMOKE",
+        "goal": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/links",
+        "preconditions": [],
+        "actions": [
+          "navigate",
+          "wait_for_page_ready"
+        ],
+        "assertions": [
+          "page_loads",
+          "document_is_interactive"
+        ],
+        "source": "autonomous_discovery",
+        "execution_status": "PLANNED"
+      },
+      {
+        "intent_id": "SMOKE-PAGE-0020",
+        "type": "SMOKE",
+        "goal": "Verify critical page can load and render.",
+        "url": "https://demoqa.com/modal-dialogs",
+        "preconditions": [],
+        "actions": [
+          "navigate",
+          "wait_for_page_ready"
+        ],
+        "assertions": [
+          "page_loads",
+          "document_is_interactive"
+        ],
+        "source": "autonomous_discovery",
+        "execution_status": "PLANNED"
+      }
+    ],
+    "sanity": [
+      {
+        "intent_id": "SANITY-CHANGE-0001",
+        "type": "SANITY",
+        "goal": "Verify changed application surface still works.",
+        "url": "https://demoqa.com/buttons",
+        "preconditions": [
+          "changed_surface_available"
+        ],
+        "actions": [
+          "navigate",
+          "exercise_changed_surface"
+        ],
+        "assertions": [
+          "changed_surface_responds",
+          "expected_state_transition_observed"
+        ],
+        "source": "change_intelligence",
+        "execution_status": "PLANNED"
+      },
+      {
+        "intent_id": "SANITY-REGRESSION-0001",
+        "type": "SANITY",
+        "goal": "Verify nearby functionality was not disrupted.",
+        "url": "https://demoqa.com/buttons",
+        "preconditions": [
+          "changed_surface_available"
+        ],
+        "actions": [
+          "navigate",
+          "exercise_adjacent_functionality"
+        ],
+        "assertions": [
+          "adjacent_functionality_responds"
+        ],
+        "source": "change_intelligence",
+        "execution_status": "PLANNED"
+      }
+    ],
+    "regression": [
+      {
+        "intent_id": "REGRESSION-EXEC-0001",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/buttons",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0002",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/buttons",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0003",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/buttons",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0004",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/buttons",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0005",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/dynamic-properties",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0006",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/alerts",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0007",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/alerts",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0008",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/alerts",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0009",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/alerts",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0010",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/modal-dialogs",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0011",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/modal-dialogs",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0012",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/automation-practice-form",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0013",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/text-box",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0014",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/webtables",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0015",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/webtables",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0016",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/upload-download",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0017",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/dynamic-properties",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0018",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/browser-windows",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0019",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/browser-windows",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0020",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/browser-windows",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0021",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/accordian",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0022",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/accordian",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0023",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/accordian",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0024",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/progress-bar",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0025",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/tool-tips",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0026",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/automation-practice-form",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0027",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/automation-practice-form",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0028",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/automation-practice-form",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0029",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/automation-practice-form",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0030",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/automation-practice-form",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0031",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/automation-practice-form",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0032",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/automation-practice-form",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0033",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/automation-practice-form",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0034",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/automation-practice-form",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0035",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/automation-practice-form",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0036",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/automation-practice-form",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0037",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/automation-practice-form",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0038",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/automation-practice-form",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0039",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/automation-practice-form",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0040",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/automation-practice-form",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0041",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/books",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0042",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/text-box",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0043",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/text-box",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0044",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/text-box",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0045",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/text-box",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0046",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/checkbox",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0047",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/radio-button",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0048",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/radio-button",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0049",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/webtables",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0050",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/webtables",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0051",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/upload-download",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0052",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/auto-complete",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0053",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/auto-complete",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0054",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/date-picker",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0055",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/date-picker",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0056",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/slider",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0057",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/slider",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0058",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/tool-tips",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0059",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/forms",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0060",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/alertsWindows",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0061",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/automation-practice-form",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0062",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/alerts",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0063",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/modal-dialogs",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0064",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0065",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0066",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/elements",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0067",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/widgets",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0068",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/interaction",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0069",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/books",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0070",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/text-box",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0071",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/checkbox",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0072",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/radio-button",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0073",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/webtables",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0074",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/links",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0075",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/broken",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0076",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/upload-download",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0077",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/dynamic-properties",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0078",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/browser-windows",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0079",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/frames",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0080",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/nestedframes",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0081",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/accordian",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0082",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/auto-complete",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0083",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/date-picker",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0084",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/slider",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0085",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/progress-bar",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0086",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/tabs",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0087",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/tabs",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0088",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/tabs",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0089",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/tabs",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0090",
+        "type": "REGRESSION",
+        "goal": "Existing regression test",
+        "url": "https://demoqa.com/tool-tips",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0091",
+        "type": "REGRESSION",
+        "goal": "V8.3.1 Closure: valid_input",
+        "url": "https://demoqa.com/auto-complete",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0092",
+        "type": "REGRESSION",
+        "goal": "V8.3.1 Closure: empty_input",
+        "url": "https://demoqa.com/auto-complete",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0093",
+        "type": "REGRESSION",
+        "goal": "V8.3.1 Closure: valid_input",
+        "url": "https://demoqa.com/auto-complete",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      },
+      {
+        "intent_id": "REGRESSION-EXEC-0094",
+        "type": "REGRESSION",
+        "goal": "V8.3.1 Closure: empty_input",
+        "url": "https://demoqa.com/auto-complete",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      }
+    ],
+    "e2e": [
+      {
+        "intent_id": "E2E-EXEC-0001",
+        "type": "E2E",
+        "goal": "Existing E2E test",
+        "url": "https://demoqa.com/books",
+        "source": "existing_execution",
+        "execution_status": "PASS"
+      }
+    ]
+  },
+  "execution_coverage": {
+    "smoke": {
+      "planned": 21,
+      "executed": 21,
+      "passed": 21,
+      "failed": 0,
+      "status": "HEALTHY"
+    },
+    "sanity": {
+      "planned": 2,
+      "executed": 2,
+      "passed": 2,
+      "failed": 0,
+      "status": "HEALTHY"
+    },
+    "regression": {
+      "planned": 94,
+      "executed": 94,
+      "passed": 94,
+      "failed": 0,
+      "status": "HEALTHY"
+    },
+    "e2e": {
+      "planned": 1,
+      "executed": 1,
+      "passed": 1,
+      "failed": 0,
+      "status": "HEALTHY"
+    }
+  },
+  "credentials_stored": false,
+  "tokens_stored": false,
+  "cookies_stored": false
+}

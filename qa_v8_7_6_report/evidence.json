@@ -1,0 +1,18 @@
+[
+  {
+    "evidence_id": "015135b91231275273e9",
+    "run_id": "0d796b3e6df24cbabed9990baf9f64db",
+    "version": "8.7.6",
+    "current_run": true,
+    "type": "DISCOVERY_PAGE",
+    "url": "https://demoqa.com/",
+    "observed": true,
+    "timestamp": "2026-08-31T06:12:39.437395+00:00",
+    "details": {
+      "status": null,
+      "elements": 0,
+      "links": 0,
+      "visible_executable": 0
+    }
+  }
+]

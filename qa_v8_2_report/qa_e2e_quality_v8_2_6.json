@@ -1,0 +1,32 @@
+{
+  "version": "8.2.4",
+  "gates": {
+    "smoke": {
+      "status": "NOT_EXPLICITLY_COVERED",
+      "executed": 0,
+      "passed": 0,
+      "failed": 0
+    },
+    "sanity": {
+      "status": "NOT_EXPLICITLY_COVERED",
+      "executed": 0,
+      "passed": 0,
+      "failed": 0
+    },
+    "regression": {
+      "status": "NOT_EXPLICITLY_COVERED",
+      "executed": 0,
+      "passed": 0,
+      "failed": 0
+    },
+    "e2e": {
+      "status": "NOT_EXPLICITLY_COVERED",
+      "executed": 0,
+      "passed": 0,
+      "failed": 0
+    }
+  },
+  "credentials_stored": false,
+  "tokens_stored": false,
+  "cookies_stored": false
+}

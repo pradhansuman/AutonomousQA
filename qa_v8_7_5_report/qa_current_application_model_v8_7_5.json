@@ -1,0 +1,17 @@
+{
+  "version": "8.7.5",
+  "run_id": "3d2a78d65f4343808c3bf9503d058650",
+  "current_run": true,
+  "pages": [
+    {
+      "url": "https://demoqa.com/",
+      "surface": "https://demoqa.com/",
+      "title": "demosite",
+      "elements": [],
+      "links": [],
+      "http_status": null,
+      "navigation_mode": "usable-document-fallback",
+      "current_run": true
+    }
+  ]
+}

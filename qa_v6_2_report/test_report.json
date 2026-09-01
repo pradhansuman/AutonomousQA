@@ -1,0 +1,4264 @@
+{
+  "agent": "Autonomous QA Agent",
+  "version": "3.5.4",
+  "target": "https://demoqa.com",
+  "pages_discovered": 30,
+  "tests_generated": 91,
+  "tests_executed": 91,
+  "pass": 90,
+  "fail": 1,
+  "dialogs_handled": 3,
+  "generation_stats": {
+    "expected_skips": 7,
+    "dynamic_tests": 1,
+    "behavioral_tests": 61
+  },
+  "v4_goal": "Find the highest-risk defects and verify critical user behavior.",
+  "risk_counts": {
+    "HIGH": 7,
+    "MEDIUM": 33,
+    "LOW": 51
+  },
+  "quality_plan": [
+    {
+      "priority": 1,
+      "risk_score": 60,
+      "risk_level": "HIGH",
+      "risk_reasons": [
+        "interactive control",
+        "action",
+        "dynamic behavior"
+      ],
+      "description": "Wait for dynamic button Will enable 5 seconds",
+      "url": "https://demoqa.com/dynamic-properties"
+    },
+    {
+      "priority": 2,
+      "risk_score": 55,
+      "risk_level": "HIGH",
+      "risk_reasons": [
+        "interactive control",
+        "action",
+        "dialog behavior"
+      ],
+      "description": "Activate Click me",
+      "url": "https://demoqa.com/alerts"
+    },
+    {
+      "priority": 3,
+      "risk_score": 55,
+      "risk_level": "HIGH",
+      "risk_reasons": [
+        "interactive control",
+        "action",
+        "dialog behavior"
+      ],
+      "description": "Activate Click me",
+      "url": "https://demoqa.com/alerts"
+    },
+    {
+      "priority": 4,
+      "risk_score": 55,
+      "risk_level": "HIGH",
+      "risk_reasons": [
+        "interactive control",
+        "action",
+        "dialog behavior"
+      ],
+      "description": "Activate Click me",
+      "url": "https://demoqa.com/alerts"
+    },
+    {
+      "priority": 5,
+      "risk_score": 55,
+      "risk_level": "HIGH",
+      "risk_reasons": [
+        "interactive control",
+        "action",
+        "dialog behavior"
+      ],
+      "description": "Activate Click me",
+      "url": "https://demoqa.com/alerts"
+    },
+    {
+      "priority": 6,
+      "risk_score": 55,
+      "risk_level": "HIGH",
+      "risk_reasons": [
+        "interactive control",
+        "action",
+        "dialog behavior"
+      ],
+      "description": "Activate Small modal",
+      "url": "https://demoqa.com/modal-dialogs"
+    },
+    {
+      "priority": 7,
+      "risk_score": 55,
+      "risk_level": "HIGH",
+      "risk_reasons": [
+        "interactive control",
+        "action",
+        "dialog behavior"
+      ],
+      "description": "Activate Large modal",
+      "url": "https://demoqa.com/modal-dialogs"
+    },
+    {
+      "priority": 8,
+      "risk_score": 50,
+      "risk_level": "MEDIUM",
+      "risk_reasons": [
+        "interactive control",
+        "action",
+        "form workflow"
+      ],
+      "description": "Activate Submit",
+      "url": "https://demoqa.com/automation-practice-form"
+    },
+    {
+      "priority": 9,
+      "risk_score": 40,
+      "risk_level": "MEDIUM",
+      "risk_reasons": [
+        "interactive control",
+        "action"
+      ],
+      "description": "Activate Login",
+      "url": "https://demoqa.com/books"
+    },
+    {
+      "priority": 10,
+      "risk_score": 40,
+      "risk_level": "MEDIUM",
+      "risk_reasons": [
+        "interactive control",
+        "action"
+      ],
+      "description": "Activate Submit",
+      "url": "https://demoqa.com/text-box"
+    },
+    {
+      "priority": 11,
+      "risk_score": 40,
+      "risk_level": "MEDIUM",
+      "risk_reasons": [
+        "interactive control",
+        "action"
+      ],
+      "description": "Activate Add",
+      "url": "https://demoqa.com/webtables"
+    },
+    {
+      "priority": 12,
+      "risk_score": 40,
+      "risk_level": "MEDIUM",
+      "risk_reasons": [
+        "interactive control",
+        "action"
+      ],
+      "description": "Activate button",
+      "url": "https://demoqa.com/webtables"
+    },
+    {
+      "priority": 13,
+      "risk_score": 40,
+      "risk_level": "MEDIUM",
+      "risk_reasons": [
+        "interactive control",
+        "action"
+      ],
+      "description": "Activate Double Click Me",
+      "url": "https://demoqa.com/buttons"
+    },
+    {
+      "priority": 14,
+      "risk_score": 40,
+      "risk_level": "MEDIUM",
+      "risk_reasons": [
+        "interactive control",
+        "action"
+      ],
+      "description": "Activate Right Click Me",
+      "url": "https://demoqa.com/buttons"
+    },
+    {
+      "priority": 15,
+      "risk_score": 40,
+      "risk_level": "MEDIUM",
+      "risk_reasons": [
+        "interactive control",
+        "action"
+      ],
+      "description": "Activate Click Me",
+      "url": "https://demoqa.com/buttons"
+    },
+    {
+      "priority": 16,
+      "risk_score": 40,
+      "risk_level": "MEDIUM",
+      "risk_reasons": [
+        "interactive control",
+        "action"
+      ],
+      "description": "Activate Download",
+      "url": "https://demoqa.com/upload-download"
+    },
+    {
+      "priority": 17,
+      "risk_score": 40,
+      "risk_level": "MEDIUM",
+      "risk_reasons": [
+        "interactive control",
+        "action"
+      ],
+      "description": "Activate Color Change",
+      "url": "https://demoqa.com/dynamic-properties"
+    },
+    {
+      "priority": 18,
+      "risk_score": 40,
+      "risk_level": "MEDIUM",
+      "risk_reasons": [
+        "interactive control",
+        "action"
+      ],
+      "description": "Activate New Tab",
+      "url": "https://demoqa.com/browser-windows"
+    },
+    {
+      "priority": 19,
+      "risk_score": 40,
+      "risk_level": "MEDIUM",
+      "risk_reasons": [
+        "interactive control",
+        "action"
+      ],
+      "description": "Activate New Window",
+      "url": "https://demoqa.com/browser-windows"
+    },
+    {
+      "priority": 20,
+      "risk_score": 40,
+      "risk_level": "MEDIUM",
+      "risk_reasons": [
+        "interactive control",
+        "action"
+      ],
+      "description": "Activate New Window Message",
+      "url": "https://demoqa.com/browser-windows"
+    },
+    {
+      "priority": 21,
+      "risk_score": 40,
+      "risk_level": "MEDIUM",
+      "risk_reasons": [
+        "interactive control",
+        "action"
+      ],
+      "description": "Activate What is Lorem Ipsum?",
+      "url": "https://demoqa.com/accordian"
+    },
+    {
+      "priority": 22,
+      "risk_score": 40,
+      "risk_level": "MEDIUM",
+      "risk_reasons": [
+        "interactive control",
+        "action"
+      ],
+      "description": "Activate Where does it come from?",
+      "url": "https://demoqa.com/accordian"
+    },
+    {
+      "priority": 23,
+      "risk_score": 40,
+      "risk_level": "MEDIUM",
+      "risk_reasons": [
+        "interactive control",
+        "action"
+      ],
+      "description": "Activate Why do we use it?",
+      "url": "https://demoqa.com/accordian"
+    },
+    {
+      "priority": 24,
+      "risk_score": 40,
+      "risk_level": "MEDIUM",
+      "risk_reasons": [
+        "interactive control",
+        "action"
+      ],
+      "description": "Activate Start",
+      "url": "https://demoqa.com/progress-bar"
+    },
+    {
+      "priority": 25,
+      "risk_score": 40,
+      "risk_level": "MEDIUM",
+      "risk_reasons": [
+        "interactive control",
+        "action"
+      ],
+      "description": "Activate Hover me to see",
+      "url": "https://demoqa.com/tool-tips"
+    },
+    {
+      "priority": 26,
+      "risk_score": 35,
+      "risk_level": "MEDIUM",
+      "risk_reasons": [
+        "interactive control",
+        "form workflow"
+      ],
+      "description": "Enter valid data into First Name",
+      "url": "https://demoqa.com/automation-practice-form"
+    },
+    {
+      "priority": 27,
+      "risk_score": 35,
+      "risk_level": "MEDIUM",
+      "risk_reasons": [
+        "interactive control",
+        "form workflow"
+      ],
+      "description": "Enter valid data into Last Name",
+      "url": "https://demoqa.com/automation-practice-form"
+    },
+    {
+      "priority": 28,
+      "risk_score": 35,
+      "risk_level": "MEDIUM",
+      "risk_reasons": [
+        "interactive control",
+        "form workflow"
+      ],
+      "description": "Enter valid data into name@example.com",
+      "url": "https://demoqa.com/automation-practice-form"
+    },
+    {
+      "priority": 29,
+      "risk_score": 35,
+      "risk_level": "MEDIUM",
+      "risk_reasons": [
+        "interactive control",
+        "form workflow"
+      ],
+      "description": "Select gender",
+      "url": "https://demoqa.com/automation-practice-form"
+    },
+    {
+      "priority": 30,
+      "risk_score": 35,
+      "risk_level": "MEDIUM",
+      "risk_reasons": [
+        "interactive control",
+        "form workflow"
+      ],
+      "description": "Select gender",
+      "url": "https://demoqa.com/automation-practice-form"
+    },
+    {
+      "priority": 31,
+      "risk_score": 35,
+      "risk_level": "MEDIUM",
+      "risk_reasons": [
+        "interactive control",
+        "form workflow"
+      ],
+      "description": "Select gender",
+      "url": "https://demoqa.com/automation-practice-form"
+    },
+    {
+      "priority": 32,
+      "risk_score": 35,
+      "risk_level": "MEDIUM",
+      "risk_reasons": [
+        "interactive control",
+        "form workflow"
+      ],
+      "description": "Enter valid data into Mobile Number",
+      "url": "https://demoqa.com/automation-practice-form"
+    },
+    {
+      "priority": 33,
+      "risk_score": 35,
+      "risk_level": "MEDIUM",
+      "risk_reasons": [
+        "interactive control",
+        "form workflow"
+      ],
+      "description": "Enter valid data into text_input",
+      "url": "https://demoqa.com/automation-practice-form"
+    },
+    {
+      "priority": 34,
+      "risk_score": 35,
+      "risk_level": "MEDIUM",
+      "risk_reasons": [
+        "interactive control",
+        "form workflow"
+      ],
+      "description": "Test combobox combobox",
+      "url": "https://demoqa.com/automation-practice-form"
+    },
+    {
+      "priority": 35,
+      "risk_score": 35,
+      "risk_level": "MEDIUM",
+      "risk_reasons": [
+        "interactive control",
+        "form workflow"
+      ],
+      "description": "Toggle checkbox",
+      "url": "https://demoqa.com/automation-practice-form"
+    },
+    {
+      "priority": 36,
+      "risk_score": 35,
+      "risk_level": "MEDIUM",
+      "risk_reasons": [
+        "interactive control",
+        "form workflow"
+      ],
+      "description": "Toggle checkbox",
+      "url": "https://demoqa.com/automation-practice-form"
+    },
+    {
+      "priority": 37,
+      "risk_score": 35,
+      "risk_level": "MEDIUM",
+      "risk_reasons": [
+        "interactive control",
+        "form workflow"
+      ],
+      "description": "Toggle checkbox",
+      "url": "https://demoqa.com/automation-practice-form"
+    },
+    {
+      "priority": 38,
+      "risk_score": 35,
+      "risk_level": "MEDIUM",
+      "risk_reasons": [
+        "interactive control",
+        "form workflow"
+      ],
+      "description": "Verify upload control file_upload",
+      "url": "https://demoqa.com/automation-practice-form"
+    },
+    {
+      "priority": 39,
+      "risk_score": 35,
+      "risk_level": "MEDIUM",
+      "risk_reasons": [
+        "interactive control",
+        "form workflow"
+      ],
+      "description": "Enter text into Current Address",
+      "url": "https://demoqa.com/automation-practice-form"
+    },
+    {
+      "priority": 40,
+      "risk_score": 35,
+      "risk_level": "MEDIUM",
+      "risk_reasons": [
+        "interactive control",
+        "form workflow"
+      ],
+      "description": "Test combobox combobox",
+      "url": "https://demoqa.com/automation-practice-form"
+    },
+    {
+      "priority": 41,
+      "risk_score": 25,
+      "risk_level": "LOW",
+      "risk_reasons": [
+        "interactive control"
+      ],
+      "description": "Enter valid data into Type to search",
+      "url": "https://demoqa.com/books"
+    },
+    {
+      "priority": 42,
+      "risk_score": 25,
+      "risk_level": "LOW",
+      "risk_reasons": [
+        "interactive control"
+      ],
+      "description": "Enter valid data into Full Name",
+      "url": "https://demoqa.com/text-box"
+    },
+    {
+      "priority": 43,
+      "risk_score": 25,
+      "risk_level": "LOW",
+      "risk_reasons": [
+        "interactive control"
+      ],
+      "description": "Enter valid data into name@example.com",
+      "url": "https://demoqa.com/text-box"
+    },
+    {
+      "priority": 44,
+      "risk_score": 25,
+      "risk_level": "LOW",
+      "risk_reasons": [
+        "interactive control"
+      ],
+      "description": "Enter text into Current Address",
+      "url": "https://demoqa.com/text-box"
+    },
+    {
+      "priority": 45,
+      "risk_score": 25,
+      "risk_level": "LOW",
+      "risk_reasons": [
+        "interactive control"
+      ],
+      "description": "Enter text into text_area",
+      "url": "https://demoqa.com/text-box"
+    },
+    {
+      "priority": 46,
+      "risk_score": 25,
+      "risk_level": "LOW",
+      "risk_reasons": [
+        "interactive control"
+      ],
+      "description": "Toggle Select Home",
+      "url": "https://demoqa.com/checkbox"
+    },
+    {
+      "priority": 47,
+      "risk_score": 25,
+      "risk_level": "LOW",
+      "risk_reasons": [
+        "interactive control"
+      ],
+      "description": "Select like",
+      "url": "https://demoqa.com/radio-button"
+    },
+    {
+      "priority": 48,
+      "risk_score": 25,
+      "risk_level": "LOW",
+      "risk_reasons": [
+        "interactive control"
+      ],
+      "description": "Select like",
+      "url": "https://demoqa.com/radio-button"
+    },
+    {
+      "priority": 49,
+      "risk_score": 25,
+      "risk_level": "LOW",
+      "risk_reasons": [
+        "interactive control"
+      ],
+      "description": "Enter valid data into Type to search",
+      "url": "https://demoqa.com/webtables"
+    },
+    {
+      "priority": 50,
+      "risk_score": 25,
+      "risk_level": "LOW",
+      "risk_reasons": [
+        "interactive control"
+      ],
+      "description": "Test dropdown Show 10\nShow 20\nShow 30\nShow 40\nShow 50",
+      "url": "https://demoqa.com/webtables"
+    },
+    {
+      "priority": 51,
+      "risk_score": 25,
+      "risk_level": "LOW",
+      "risk_reasons": [
+        "interactive control"
+      ],
+      "description": "Verify upload control file_upload",
+      "url": "https://demoqa.com/upload-download"
+    },
+    {
+      "priority": 52,
+      "risk_score": 25,
+      "risk_level": "LOW",
+      "risk_reasons": [
+        "interactive control"
+      ],
+      "description": "Test combobox combobox",
+      "url": "https://demoqa.com/auto-complete"
+    },
+    {
+      "priority": 53,
+      "risk_score": 25,
+      "risk_level": "LOW",
+      "risk_reasons": [
+        "interactive control"
+      ],
+      "description": "Test combobox combobox",
+      "url": "https://demoqa.com/auto-complete"
+    },
+    {
+      "priority": 54,
+      "risk_score": 25,
+      "risk_level": "LOW",
+      "risk_reasons": [
+        "interactive control"
+      ],
+      "description": "Enter valid data into text_input",
+      "url": "https://demoqa.com/date-picker"
+    },
+    {
+      "priority": 55,
+      "risk_score": 25,
+      "risk_level": "LOW",
+      "risk_reasons": [
+        "interactive control"
+      ],
+      "description": "Enter valid data into text_input",
+      "url": "https://demoqa.com/date-picker"
+    },
+    {
+      "priority": 56,
+      "risk_score": 25,
+      "risk_level": "LOW",
+      "risk_reasons": [
+        "interactive control"
+      ],
+      "description": "Change slider",
+      "url": "https://demoqa.com/slider"
+    },
+    {
+      "priority": 57,
+      "risk_score": 25,
+      "risk_level": "LOW",
+      "risk_reasons": [
+        "interactive control"
+      ],
+      "description": "Change slider",
+      "url": "https://demoqa.com/slider"
+    },
+    {
+      "priority": 58,
+      "risk_score": 25,
+      "risk_level": "LOW",
+      "risk_reasons": [
+        "interactive control"
+      ],
+      "description": "Enter valid data into Hover me to see",
+      "url": "https://demoqa.com/tool-tips"
+    },
+    {
+      "priority": 59,
+      "risk_score": 20,
+      "risk_level": "LOW",
+      "risk_reasons": [
+        "form workflow",
+        "baseline"
+      ],
+      "description": "Page should load successfully",
+      "url": "https://demoqa.com/forms"
+    },
+    {
+      "priority": 60,
+      "risk_score": 20,
+      "risk_level": "LOW",
+      "risk_reasons": [
+        "dialog behavior",
+        "baseline"
+      ],
+      "description": "Page should load successfully",
+      "url": "https://demoqa.com/alertsWindows"
+    },
+    {
+      "priority": 61,
+      "risk_score": 20,
+      "risk_level": "LOW",
+      "risk_reasons": [
+        "form workflow",
+        "baseline"
+      ],
+      "description": "Page should load successfully",
+      "url": "https://demoqa.com/automation-practice-form"
+    },
+    {
+      "priority": 62,
+      "risk_score": 20,
+      "risk_level": "LOW",
+      "risk_reasons": [
+        "dialog behavior",
+        "baseline"
+      ],
+      "description": "Page should load successfully",
+      "url": "https://demoqa.com/alerts"
+    },
+    {
+      "priority": 63,
+      "risk_score": 20,
+      "risk_level": "LOW",
+      "risk_reasons": [
+        "dialog behavior",
+        "baseline"
+      ],
+      "description": "Page should load successfully",
+      "url": "https://demoqa.com/modal-dialogs"
+    },
+    {
+      "priority": 64,
+      "risk_score": 10,
+      "risk_level": "LOW",
+      "risk_reasons": [
+        "baseline"
+      ],
+      "description": "Page should load successfully",
+      "url": "https://demoqa.com"
+    },
+    {
+      "priority": 65,
+      "risk_score": 10,
+      "risk_level": "LOW",
+      "risk_reasons": [
+        "baseline"
+      ],
+      "description": "Page should load successfully",
+      "url": "https://demoqa.com/"
+    },
+    {
+      "priority": 66,
+      "risk_score": 10,
+      "risk_level": "LOW",
+      "risk_reasons": [
+        "baseline"
+      ],
+      "description": "Page should load successfully",
+      "url": "https://demoqa.com/elements"
+    },
+    {
+      "priority": 67,
+      "risk_score": 10,
+      "risk_level": "LOW",
+      "risk_reasons": [
+        "baseline"
+      ],
+      "description": "Page should load successfully",
+      "url": "https://demoqa.com/widgets"
+    },
+    {
+      "priority": 68,
+      "risk_score": 10,
+      "risk_level": "LOW",
+      "risk_reasons": [
+        "baseline"
+      ],
+      "description": "Page should load successfully",
+      "url": "https://demoqa.com/interaction"
+    },
+    {
+      "priority": 69,
+      "risk_score": 10,
+      "risk_level": "LOW",
+      "risk_reasons": [
+        "baseline"
+      ],
+      "description": "Page should load successfully",
+      "url": "https://demoqa.com/books"
+    },
+    {
+      "priority": 70,
+      "risk_score": 10,
+      "risk_level": "LOW",
+      "risk_reasons": [
+        "baseline"
+      ],
+      "description": "Page should load successfully",
+      "url": "https://demoqa.com/text-box"
+    },
+    {
+      "priority": 71,
+      "risk_score": 10,
+      "risk_level": "LOW",
+      "risk_reasons": [
+        "baseline"
+      ],
+      "description": "Page should load successfully",
+      "url": "https://demoqa.com/checkbox"
+    },
+    {
+      "priority": 72,
+      "risk_score": 10,
+      "risk_level": "LOW",
+      "risk_reasons": [
+        "baseline"
+      ],
+      "description": "Page should load successfully",
+      "url": "https://demoqa.com/radio-button"
+    },
+    {
+      "priority": 73,
+      "risk_score": 10,
+      "risk_level": "LOW",
+      "risk_reasons": [
+        "baseline"
+      ],
+      "description": "Page should load successfully",
+      "url": "https://demoqa.com/webtables"
+    },
+    {
+      "priority": 74,
+      "risk_score": 10,
+      "risk_level": "LOW",
+      "risk_reasons": [
+        "baseline"
+      ],
+      "description": "Page should load successfully",
+      "url": "https://demoqa.com/buttons"
+    },
+    {
+      "priority": 75,
+      "risk_score": 10,
+      "risk_level": "LOW",
+      "risk_reasons": [
+        "baseline"
+      ],
+      "description": "Page should load successfully",
+      "url": "https://demoqa.com/links"
+    },
+    {
+      "priority": 76,
+      "risk_score": 10,
+      "risk_level": "LOW",
+      "risk_reasons": [
+        "baseline"
+      ],
+      "description": "Page should load successfully",
+      "url": "https://demoqa.com/broken"
+    },
+    {
+      "priority": 77,
+      "risk_score": 10,
+      "risk_level": "LOW",
+      "risk_reasons": [
+        "baseline"
+      ],
+      "description": "Page should load successfully",
+      "url": "https://demoqa.com/upload-download"
+    },
+    {
+      "priority": 78,
+      "risk_score": 10,
+      "risk_level": "LOW",
+      "risk_reasons": [
+        "baseline"
+      ],
+      "description": "Page should load successfully",
+      "url": "https://demoqa.com/dynamic-properties"
+    },
+    {
+      "priority": 79,
+      "risk_score": 10,
+      "risk_level": "LOW",
+      "risk_reasons": [
+        "baseline"
+      ],
+      "description": "Page should load successfully",
+      "url": "https://demoqa.com/browser-windows"
+    },
+    {
+      "priority": 80,
+      "risk_score": 10,
+      "risk_level": "LOW",
+      "risk_reasons": [
+        "baseline"
+      ],
+      "description": "Page should load successfully",
+      "url": "https://demoqa.com/frames"
+    },
+    {
+      "priority": 81,
+      "risk_score": 10,
+      "risk_level": "LOW",
+      "risk_reasons": [
+        "baseline"
+      ],
+      "description": "Page should load successfully",
+      "url": "https://demoqa.com/nestedframes"
+    },
+    {
+      "priority": 82,
+      "risk_score": 10,
+      "risk_level": "LOW",
+      "risk_reasons": [
+        "baseline"
+      ],
+      "description": "Page should load successfully",
+      "url": "https://demoqa.com/accordian"
+    },
+    {
+      "priority": 83,
+      "risk_score": 10,
+      "risk_level": "LOW",
+      "risk_reasons": [
+        "baseline"
+      ],
+      "description": "Page should load successfully",
+      "url": "https://demoqa.com/auto-complete"
+    },
+    {
+      "priority": 84,
+      "risk_score": 10,
+      "risk_level": "LOW",
+      "risk_reasons": [
+        "baseline"
+      ],
+      "description": "Page should load successfully",
+      "url": "https://demoqa.com/date-picker"
+    },
+    {
+      "priority": 85,
+      "risk_score": 10,
+      "risk_level": "LOW",
+      "risk_reasons": [
+        "baseline"
+      ],
+      "description": "Page should load successfully",
+      "url": "https://demoqa.com/slider"
+    },
+    {
+      "priority": 86,
+      "risk_score": 10,
+      "risk_level": "LOW",
+      "risk_reasons": [
+        "baseline"
+      ],
+      "description": "Page should load successfully",
+      "url": "https://demoqa.com/progress-bar"
+    },
+    {
+      "priority": 87,
+      "risk_score": 10,
+      "risk_level": "LOW",
+      "risk_reasons": [
+        "baseline"
+      ],
+      "description": "Page should load successfully",
+      "url": "https://demoqa.com/tabs"
+    },
+    {
+      "priority": 88,
+      "risk_score": 10,
+      "risk_level": "LOW",
+      "risk_reasons": [],
+      "description": "Activate tab What",
+      "url": "https://demoqa.com/tabs"
+    },
+    {
+      "priority": 89,
+      "risk_score": 10,
+      "risk_level": "LOW",
+      "risk_reasons": [],
+      "description": "Activate tab Origin",
+      "url": "https://demoqa.com/tabs"
+    },
+    {
+      "priority": 90,
+      "risk_score": 10,
+      "risk_level": "LOW",
+      "risk_reasons": [],
+      "description": "Activate tab Use",
+      "url": "https://demoqa.com/tabs"
+    },
+    {
+      "priority": 91,
+      "risk_score": 10,
+      "risk_level": "LOW",
+      "risk_reasons": [
+        "baseline"
+      ],
+      "description": "Page should load successfully",
+      "url": "https://demoqa.com/tool-tips"
+    }
+  ],
+  "retest_plan": [
+    {
+      "url": "https://demoqa.com/books",
+      "description": "Activate Login",
+      "reason": "Semantic element could not be resolved uniquely (semantic='button', id='login', label='Login', type='button')",
+      "risk": {
+        "priority": 9,
+        "risk_score": 40,
+        "risk_level": "MEDIUM",
+        "risk_reasons": [
+          "interactive control",
+          "action"
+        ],
+        "original_index": 9
+      }
+    }
+  ],
+  "v6_2_adaptive": {
+    "priority_queue": [],
+    "adaptive_enabled": true
+  },
+  "v6_1_memory": {
+    "runs": 2,
+    "memory_file": "/Users/skp/web_agent/qa_v6_1_memory/application_memory.json",
+    "known_urls": 30,
+    "known_findings": 2
+  },
+  "v6_preferences": {
+    "browser": "chromium",
+    "headless": false,
+    "max_pages": 30,
+    "max_actions": 100,
+    "explore": true,
+    "investigate": true,
+    "retries": 3,
+    "network": true,
+    "console": true,
+    "accessibility": true,
+    "screenshots": true,
+    "risk_threshold": "MEDIUM"
+  },
+  "v5_3_evidence_investigation": {
+    "investigations": [],
+    "confidence_summary": {
+      "HIGH": 0,
+      "MEDIUM": 0,
+      "LOW": 0
+    },
+    "investigated_count": 0
+  },
+  "v5_1_investigation": {
+    "investigated": [
+      {
+        "investigation_id": 1,
+        "url": "https://demoqa.com/webtables",
+        "candidate": null,
+        "original_result": null,
+        "reproduction": {
+          "reproducible": false,
+          "reason": "candidate could not be resolved during retest"
+        },
+        "classification": "NOT_REPRODUCED",
+        "reproduced": false
+      },
+      {
+        "investigation_id": 2,
+        "url": "https://demoqa.com/automation-practice-form",
+        "candidate": null,
+        "original_result": null,
+        "reproduction": {
+          "reproducible": false,
+          "reason": "candidate could not be resolved during retest"
+        },
+        "classification": "NOT_REPRODUCED",
+        "reproduced": false
+      },
+      {
+        "investigation_id": 3,
+        "url": "https://demoqa.com/modal-dialogs",
+        "candidate": null,
+        "original_result": null,
+        "reproduction": {
+          "reproducible": false,
+          "reason": "candidate could not be resolved during retest"
+        },
+        "classification": "NOT_REPRODUCED",
+        "reproduced": false
+      }
+    ],
+    "confirmed": [],
+    "false_positives": [
+      {
+        "investigation_id": 1,
+        "url": "https://demoqa.com/webtables",
+        "candidate": null,
+        "original_result": null,
+        "reproduction": {
+          "reproducible": false,
+          "reason": "candidate could not be resolved during retest"
+        },
+        "classification": "NOT_REPRODUCED",
+        "reproduced": false
+      },
+      {
+        "investigation_id": 2,
+        "url": "https://demoqa.com/automation-practice-form",
+        "candidate": null,
+        "original_result": null,
+        "reproduction": {
+          "reproducible": false,
+          "reason": "candidate could not be resolved during retest"
+        },
+        "classification": "NOT_REPRODUCED",
+        "reproduced": false
+      },
+      {
+        "investigation_id": 3,
+        "url": "https://demoqa.com/modal-dialogs",
+        "candidate": null,
+        "original_result": null,
+        "reproduction": {
+          "reproducible": false,
+          "reason": "candidate could not be resolved during retest"
+        },
+        "classification": "NOT_REPRODUCED",
+        "reproduced": false
+      }
+    ],
+    "investigated_count": 3,
+    "confirmed_count": 0,
+    "false_positive_count": 3
+  },
+  "v5_exploration": {
+    "actions": [
+      {
+        "url": "https://demoqa.com/tool-tips",
+        "type": "button_probe",
+        "label": "Hover me to see",
+        "id": "toolTipButton",
+        "navigated": false
+      },
+      {
+        "url": "https://demoqa.com/tool-tips",
+        "type": "control_probe",
+        "tag": "button",
+        "input_type": "button",
+        "role": "",
+        "label": "Hover me to see",
+        "id": "toolTipButton"
+      },
+      {
+        "url": "https://demoqa.com/tool-tips",
+        "type": "control_probe",
+        "tag": "input",
+        "input_type": "text",
+        "role": "",
+        "label": "Hover me to see",
+        "id": "toolTipTextField"
+      },
+      {
+        "url": "https://demoqa.com/webtables",
+        "type": "button_probe",
+        "label": "Add",
+        "id": "addNewRecordButton",
+        "navigated": false
+      },
+      {
+        "url": "https://demoqa.com/webtables",
+        "type": "control_probe",
+        "tag": "button",
+        "input_type": "button",
+        "role": "",
+        "label": "Add",
+        "id": "addNewRecordButton"
+      },
+      {
+        "url": "https://demoqa.com/webtables",
+        "type": "control_probe",
+        "tag": "input",
+        "input_type": "text",
+        "role": "",
+        "label": "Type to search",
+        "id": "searchBox"
+      },
+      {
+        "url": "https://demoqa.com/webtables",
+        "type": "control_probe",
+        "tag": "select",
+        "input_type": "",
+        "role": "",
+        "label": "Show 10\nShow 20\nShow 30\nShow 40\nShow 50",
+        "id": ""
+      },
+      {
+        "url": "https://demoqa.com/alerts",
+        "type": "button_probe",
+        "label": "Click me",
+        "id": "alertButton",
+        "navigated": false
+      },
+      {
+        "url": "https://demoqa.com/alerts",
+        "type": "control_probe",
+        "tag": "button",
+        "input_type": "button",
+        "role": "",
+        "label": "Click me",
+        "id": "alertButton"
+      },
+      {
+        "url": "https://demoqa.com/alerts",
+        "type": "button_probe",
+        "label": "Click me",
+        "id": "timerAlertButton",
+        "navigated": false
+      },
+      {
+        "url": "https://demoqa.com/alerts",
+        "type": "control_probe",
+        "tag": "button",
+        "input_type": "button",
+        "role": "",
+        "label": "Click me",
+        "id": "timerAlertButton"
+      },
+      {
+        "url": "https://demoqa.com/alerts",
+        "type": "button_probe",
+        "label": "Click me",
+        "id": "confirmButton",
+        "navigated": false
+      },
+      {
+        "url": "https://demoqa.com/alerts",
+        "type": "control_probe",
+        "tag": "button",
+        "input_type": "button",
+        "role": "",
+        "label": "Click me",
+        "id": "confirmButton"
+      },
+      {
+        "url": "https://demoqa.com/alerts",
+        "type": "button_probe",
+        "label": "Click me",
+        "id": "promtButton",
+        "navigated": false
+      },
+      {
+        "url": "https://demoqa.com/alerts",
+        "type": "control_probe",
+        "tag": "button",
+        "input_type": "button",
+        "role": "",
+        "label": "Click me",
+        "id": "promtButton"
+      },
+      {
+        "url": "https://demoqa.com/upload-download",
+        "type": "button_probe",
+        "label": "Download",
+        "id": "downloadButton",
+        "navigated": false
+      },
+      {
+        "url": "https://demoqa.com/upload-download",
+        "type": "control_probe",
+        "tag": "a",
+        "input_type": "",
+        "role": "button",
+        "label": "Download",
+        "id": "downloadButton"
+      },
+      {
+        "url": "https://demoqa.com/upload-download",
+        "type": "control_probe",
+        "tag": "input",
+        "input_type": "file",
+        "role": "",
+        "label": "",
+        "id": "uploadFile"
+      },
+      {
+        "url": "https://demoqa.com/books",
+        "type": "control_probe",
+        "tag": "input",
+        "input_type": "text",
+        "role": "",
+        "label": "Type to search",
+        "id": "searchBox"
+      },
+      {
+        "url": "https://demoqa.com/books",
+        "type": "button_probe",
+        "label": "Login",
+        "id": "login",
+        "navigated": true
+      },
+      {
+        "url": "https://demoqa.com/books",
+        "type": "control_probe",
+        "tag": "button",
+        "input_type": "button",
+        "role": "",
+        "label": "Login",
+        "id": "login"
+      },
+      {
+        "url": "https://demoqa.com/slider",
+        "type": "slider_probe",
+        "label": "",
+        "id": "slider",
+        "value": "25"
+      },
+      {
+        "url": "https://demoqa.com/slider",
+        "type": "control_probe",
+        "tag": "input",
+        "input_type": "",
+        "role": "",
+        "label": "",
+        "id": "sliderValue"
+      },
+      {
+        "url": "https://demoqa.com/tabs",
+        "type": "button_probe",
+        "label": "What",
+        "id": "demo-tab-what",
+        "navigated": false
+      },
+      {
+        "url": "https://demoqa.com/tabs",
+        "type": "control_probe",
+        "tag": "button",
+        "input_type": "button",
+        "role": "tab",
+        "label": "What",
+        "id": "demo-tab-what"
+      },
+      {
+        "url": "https://demoqa.com/tabs",
+        "type": "button_probe",
+        "label": "Origin",
+        "id": "demo-tab-origin",
+        "navigated": false
+      },
+      {
+        "url": "https://demoqa.com/tabs",
+        "type": "control_probe",
+        "tag": "button",
+        "input_type": "button",
+        "role": "tab",
+        "label": "Origin",
+        "id": "demo-tab-origin"
+      },
+      {
+        "url": "https://demoqa.com/tabs",
+        "type": "button_probe",
+        "label": "Use",
+        "id": "demo-tab-use",
+        "navigated": false
+      },
+      {
+        "url": "https://demoqa.com/tabs",
+        "type": "control_probe",
+        "tag": "button",
+        "input_type": "button",
+        "role": "tab",
+        "label": "Use",
+        "id": "demo-tab-use"
+      },
+      {
+        "url": "https://demoqa.com/date-picker",
+        "type": "control_probe",
+        "tag": "input",
+        "input_type": "text",
+        "role": "",
+        "label": "",
+        "id": "datePickerMonthYearInput"
+      },
+      {
+        "url": "https://demoqa.com/date-picker",
+        "type": "button_probe",
+        "label": "Previous Month",
+        "id": "",
+        "navigated": false
+      },
+      {
+        "url": "https://demoqa.com/date-picker",
+        "type": "control_probe",
+        "tag": "button",
+        "input_type": "button",
+        "role": "",
+        "label": "Previous Month",
+        "id": ""
+      },
+      {
+        "url": "https://demoqa.com/auto-complete",
+        "type": "control_probe",
+        "tag": "input",
+        "input_type": "text",
+        "role": "combobox",
+        "label": "",
+        "id": "autoCompleteMultipleInput"
+      },
+      {
+        "url": "https://demoqa.com/auto-complete",
+        "type": "control_probe",
+        "tag": "input",
+        "input_type": "text",
+        "role": "combobox",
+        "label": "",
+        "id": "autoCompleteSingleInput"
+      },
+      {
+        "url": "https://demoqa.com/progress-bar",
+        "type": "button_probe",
+        "label": "Start",
+        "id": "startStopButton",
+        "navigated": false
+      },
+      {
+        "url": "https://demoqa.com/progress-bar",
+        "type": "control_probe",
+        "tag": "button",
+        "input_type": "button",
+        "role": "",
+        "label": "Start",
+        "id": "startStopButton"
+      },
+      {
+        "url": "https://demoqa.com/automation-practice-form",
+        "type": "control_probe",
+        "tag": "input",
+        "input_type": "text",
+        "role": "",
+        "label": "First Name",
+        "id": "firstName"
+      },
+      {
+        "url": "https://demoqa.com/automation-practice-form",
+        "type": "control_probe",
+        "tag": "input",
+        "input_type": "text",
+        "role": "",
+        "label": "Last Name",
+        "id": "lastName"
+      },
+      {
+        "url": "https://demoqa.com/automation-practice-form",
+        "type": "control_probe",
+        "tag": "input",
+        "input_type": "text",
+        "role": "",
+        "label": "name@example.com",
+        "id": "userEmail"
+      },
+      {
+        "url": "https://demoqa.com/automation-practice-form",
+        "type": "control_probe",
+        "tag": "input",
+        "input_type": "radio",
+        "role": "",
+        "label": "",
+        "id": "gender-radio-1"
+      },
+      {
+        "url": "https://demoqa.com/automation-practice-form",
+        "type": "control_probe",
+        "tag": "input",
+        "input_type": "radio",
+        "role": "",
+        "label": "",
+        "id": "gender-radio-2"
+      },
+      {
+        "url": "https://demoqa.com/automation-practice-form",
+        "type": "control_probe",
+        "tag": "input",
+        "input_type": "radio",
+        "role": "",
+        "label": "",
+        "id": "gender-radio-3"
+      },
+      {
+        "url": "https://demoqa.com/automation-practice-form",
+        "type": "control_probe",
+        "tag": "input",
+        "input_type": "text",
+        "role": "",
+        "label": "Mobile Number",
+        "id": "userNumber"
+      },
+      {
+        "url": "https://demoqa.com/automation-practice-form",
+        "type": "control_probe",
+        "tag": "input",
+        "input_type": "text",
+        "role": "",
+        "label": "",
+        "id": "dateOfBirthInput"
+      },
+      {
+        "url": "https://demoqa.com/automation-practice-form",
+        "type": "button_probe",
+        "label": "Previous Month",
+        "id": "",
+        "navigated": false
+      },
+      {
+        "url": "https://demoqa.com/automation-practice-form",
+        "type": "control_probe",
+        "tag": "button",
+        "input_type": "button",
+        "role": "",
+        "label": "Previous Month",
+        "id": ""
+      },
+      {
+        "url": "https://demoqa.com/automation-practice-form",
+        "type": "button_probe",
+        "label": "Next Month",
+        "id": "",
+        "navigated": false
+      },
+      {
+        "url": "https://demoqa.com/automation-practice-form",
+        "type": "control_probe",
+        "tag": "button",
+        "input_type": "button",
+        "role": "",
+        "label": "Next Month",
+        "id": ""
+      },
+      {
+        "url": "https://demoqa.com/automation-practice-form",
+        "type": "control_probe",
+        "tag": "select",
+        "input_type": "",
+        "role": "",
+        "label": "January\nFebruary\nMarch\nApril\nMay\nJune\nJuly\nAugust\nSeptember\nOctober\nNovember\nDecember",
+        "id": ""
+      },
+      {
+        "url": "https://demoqa.com/automation-practice-form",
+        "type": "control_probe",
+        "tag": "select",
+        "input_type": "",
+        "role": "",
+        "label": "1900\n1901\n1902\n1903\n1904\n1905\n1906\n1907\n1908\n1909\n1910\n1911\n1912\n1913\n1914\n1915\n1916\n1917\n1918\n1919\n",
+        "id": ""
+      },
+      {
+        "url": "https://demoqa.com/modal-dialogs",
+        "type": "button_probe",
+        "label": "Small modal",
+        "id": "showSmallModal",
+        "navigated": false
+      },
+      {
+        "url": "https://demoqa.com/modal-dialogs",
+        "type": "control_probe",
+        "tag": "button",
+        "input_type": "button",
+        "role": "",
+        "label": "Small modal",
+        "id": "showSmallModal"
+      },
+      {
+        "url": "https://demoqa.com/dynamic-properties",
+        "type": "button_probe",
+        "label": "Color Change",
+        "id": "colorChange",
+        "navigated": false
+      },
+      {
+        "url": "https://demoqa.com/dynamic-properties",
+        "type": "control_probe",
+        "tag": "button",
+        "input_type": "button",
+        "role": "",
+        "label": "Color Change",
+        "id": "colorChange"
+      },
+      {
+        "url": "https://demoqa.com/text-box",
+        "type": "control_probe",
+        "tag": "input",
+        "input_type": "text",
+        "role": "",
+        "label": "Full Name",
+        "id": "userName"
+      },
+      {
+        "url": "https://demoqa.com/text-box",
+        "type": "control_probe",
+        "tag": "input",
+        "input_type": "email",
+        "role": "",
+        "label": "name@example.com",
+        "id": "userEmail"
+      },
+      {
+        "url": "https://demoqa.com/text-box",
+        "type": "control_probe",
+        "tag": "textarea",
+        "input_type": "",
+        "role": "",
+        "label": "Current Address",
+        "id": "currentAddress"
+      },
+      {
+        "url": "https://demoqa.com/text-box",
+        "type": "control_probe",
+        "tag": "textarea",
+        "input_type": "",
+        "role": "",
+        "label": "",
+        "id": "permanentAddress"
+      },
+      {
+        "url": "https://demoqa.com/text-box",
+        "type": "button_probe",
+        "label": "Submit",
+        "id": "submit",
+        "navigated": false
+      },
+      {
+        "url": "https://demoqa.com/text-box",
+        "type": "control_probe",
+        "tag": "button",
+        "input_type": "button",
+        "role": "",
+        "label": "Submit",
+        "id": "submit"
+      }
+    ],
+    "defects": [
+      {
+        "url": "https://demoqa.com/webtables",
+        "type": "interaction",
+        "reason": "Locator.click: Timeout 3000ms exceeded.\nCall log:\n  - waiting for locator(\"button:visible,input:visible,textarea:visible,select:visible,[role='button']:visible,[role='checkbox']:visible,[role='radio']:visible\").nth(2)\n    - locator resolved to <button type=\"button\" id=\"basic-addon2\" class=\"btn btn-outline-secondary\">\u2026</button>\n  - attempting click action\n    2 \u00d7 waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if nee"
+      },
+      {
+        "url": "https://demoqa.com/automation-practice-form",
+        "type": "input_persistence",
+        "label": "Mobile Number",
+        "id": "userNumber",
+        "reason": "Expected test value, got 'QA_EXPLORE'"
+      },
+      {
+        "url": "https://demoqa.com/modal-dialogs",
+        "type": "interaction",
+        "reason": "Locator.click: Timeout 3000ms exceeded.\nCall log:\n  - waiting for locator(\"button:visible,input:visible,textarea:visible,select:visible,[role='button']:visible,[role='checkbox']:visible,[role='radio']:visible\").nth(1)\n    - locator resolved to <button type=\"button\" id=\"showLargeModal\" class=\"mt-2 btn btn-primary\">Large modal</button>\n  - attempting click action\n    2 \u00d7 waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view"
+      }
+    ],
+    "action_count": 60,
+    "defect_count": 3
+  },
+  "results": [
+    {
+      "type": "dynamic_button",
+      "url": "https://demoqa.com/dynamic-properties",
+      "fingerprint": {
+        "semantic": "button",
+        "tag": "button",
+        "text": "Will enable 5 seconds",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "enableAfter",
+        "input_type": "button",
+        "title": "",
+        "aria_valuenow": "",
+        "value": "",
+        "min": "",
+        "max": "",
+        "step": "",
+        "data_testid": "",
+        "class_name": "mt-4 btn btn-primary",
+        "outer_html": "<button type=\"button\" disabled=\"\" id=\"enableAfter\" class=\"mt-4 btn btn-primary\">Will enable 5 seconds</button>"
+      },
+      "description": "Wait for dynamic button Will enable 5 seconds",
+      "plan": {
+        "priority": 1,
+        "risk_score": 60,
+        "risk_level": "HIGH",
+        "risk_reasons": [
+          "interactive control",
+          "action",
+          "dynamic behavior"
+        ],
+        "original_index": 36
+      },
+      "status": "PASS",
+      "message": "Dynamic control became enabled"
+    },
+    {
+      "type": "button",
+      "url": "https://demoqa.com/alerts",
+      "fingerprint": {
+        "semantic": "button",
+        "tag": "button",
+        "text": "Click me",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "alertButton",
+        "input_type": "button",
+        "title": "",
+        "aria_valuenow": "",
+        "value": "",
+        "min": "",
+        "max": "",
+        "step": "",
+        "data_testid": "",
+        "class_name": "btn btn-primary",
+        "outer_html": "<button type=\"button\" id=\"alertButton\" class=\"btn btn-primary\">Click me</button>"
+      },
+      "description": "Activate Click me",
+      "plan": {
+        "priority": 2,
+        "risk_score": 55,
+        "risk_level": "HIGH",
+        "risk_reasons": [
+          "interactive control",
+          "action",
+          "dialog behavior"
+        ],
+        "original_index": 60
+      },
+      "status": "PASS"
+    },
+    {
+      "type": "button",
+      "url": "https://demoqa.com/alerts",
+      "fingerprint": {
+        "semantic": "button",
+        "tag": "button",
+        "text": "Click me",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "timerAlertButton",
+        "input_type": "button",
+        "title": "",
+        "aria_valuenow": "",
+        "value": "",
+        "min": "",
+        "max": "",
+        "step": "",
+        "data_testid": "",
+        "class_name": "btn btn-primary",
+        "outer_html": "<button type=\"button\" id=\"timerAlertButton\" class=\"btn btn-primary\">Click me</button>"
+      },
+      "description": "Activate Click me",
+      "plan": {
+        "priority": 3,
+        "risk_score": 55,
+        "risk_level": "HIGH",
+        "risk_reasons": [
+          "interactive control",
+          "action",
+          "dialog behavior"
+        ],
+        "original_index": 61
+      },
+      "status": "PASS"
+    },
+    {
+      "type": "button",
+      "url": "https://demoqa.com/alerts",
+      "fingerprint": {
+        "semantic": "button",
+        "tag": "button",
+        "text": "Click me",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "confirmButton",
+        "input_type": "button",
+        "title": "",
+        "aria_valuenow": "",
+        "value": "",
+        "min": "",
+        "max": "",
+        "step": "",
+        "data_testid": "",
+        "class_name": "btn btn-primary",
+        "outer_html": "<button type=\"button\" id=\"confirmButton\" class=\"btn btn-primary\">Click me</button>"
+      },
+      "description": "Activate Click me",
+      "plan": {
+        "priority": 4,
+        "risk_score": 55,
+        "risk_level": "HIGH",
+        "risk_reasons": [
+          "interactive control",
+          "action",
+          "dialog behavior"
+        ],
+        "original_index": 62
+      },
+      "status": "PASS"
+    },
+    {
+      "type": "button",
+      "url": "https://demoqa.com/alerts",
+      "fingerprint": {
+        "semantic": "button",
+        "tag": "button",
+        "text": "Click me",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "promtButton",
+        "input_type": "button",
+        "title": "",
+        "aria_valuenow": "",
+        "value": "",
+        "min": "",
+        "max": "",
+        "step": "",
+        "data_testid": "",
+        "class_name": "btn btn-primary",
+        "outer_html": "<button type=\"button\" id=\"promtButton\" class=\"btn btn-primary\">Click me</button>"
+      },
+      "description": "Activate Click me",
+      "plan": {
+        "priority": 5,
+        "risk_score": 55,
+        "risk_level": "HIGH",
+        "risk_reasons": [
+          "interactive control",
+          "action",
+          "dialog behavior"
+        ],
+        "original_index": 63
+      },
+      "status": "PASS"
+    },
+    {
+      "type": "button",
+      "url": "https://demoqa.com/modal-dialogs",
+      "fingerprint": {
+        "semantic": "button",
+        "tag": "button",
+        "text": "Small modal",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "showSmallModal",
+        "input_type": "button",
+        "title": "",
+        "aria_valuenow": "",
+        "value": "",
+        "min": "",
+        "max": "",
+        "step": "",
+        "data_testid": "",
+        "class_name": "mr-4 mt-2 btn btn-primary",
+        "outer_html": "<button type=\"button\" id=\"showSmallModal\" class=\"mr-4 mt-2 btn btn-primary\">Small modal</button>"
+      },
+      "description": "Activate Small modal",
+      "plan": {
+        "priority": 6,
+        "risk_score": 55,
+        "risk_level": "HIGH",
+        "risk_reasons": [
+          "interactive control",
+          "action",
+          "dialog behavior"
+        ],
+        "original_index": 67
+      },
+      "status": "PASS"
+    },
+    {
+      "type": "button",
+      "url": "https://demoqa.com/modal-dialogs",
+      "fingerprint": {
+        "semantic": "button",
+        "tag": "button",
+        "text": "Large modal",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "showLargeModal",
+        "input_type": "button",
+        "title": "",
+        "aria_valuenow": "",
+        "value": "",
+        "min": "",
+        "max": "",
+        "step": "",
+        "data_testid": "",
+        "class_name": "mt-2 btn btn-primary",
+        "outer_html": "<button type=\"button\" id=\"showLargeModal\" class=\"mt-2 btn btn-primary\">Large modal</button>"
+      },
+      "description": "Activate Large modal",
+      "plan": {
+        "priority": 7,
+        "risk_score": 55,
+        "risk_level": "HIGH",
+        "risk_reasons": [
+          "interactive control",
+          "action",
+          "dialog behavior"
+        ],
+        "original_index": 68
+      },
+      "status": "PASS"
+    },
+    {
+      "type": "button",
+      "url": "https://demoqa.com/automation-practice-form",
+      "fingerprint": {
+        "semantic": "button",
+        "tag": "button",
+        "text": "Submit",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "submit",
+        "input_type": "submit",
+        "title": "",
+        "aria_valuenow": "",
+        "value": "",
+        "min": "",
+        "max": "",
+        "step": "",
+        "data_testid": "",
+        "class_name": "btn btn-primary",
+        "outer_html": "<button type=\"submit\" id=\"submit\" class=\"btn btn-primary\">Submit</button>"
+      },
+      "description": "Activate Submit",
+      "plan": {
+        "priority": 8,
+        "risk_score": 50,
+        "risk_level": "MEDIUM",
+        "risk_reasons": [
+          "interactive control",
+          "action",
+          "form workflow"
+        ],
+        "original_index": 54
+      },
+      "status": "PASS"
+    },
+    {
+      "type": "button",
+      "url": "https://demoqa.com/books",
+      "fingerprint": {
+        "semantic": "button",
+        "tag": "button",
+        "text": "Login",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "login",
+        "input_type": "button",
+        "title": "",
+        "aria_valuenow": "",
+        "value": "",
+        "min": "",
+        "max": "",
+        "step": "",
+        "data_testid": "",
+        "class_name": "btn btn-primary",
+        "outer_html": "<button type=\"button\" id=\"login\" class=\"btn btn-primary\">Login</button>"
+      },
+      "description": "Activate Login",
+      "plan": {
+        "priority": 9,
+        "risk_score": 40,
+        "risk_level": "MEDIUM",
+        "risk_reasons": [
+          "interactive control",
+          "action"
+        ],
+        "original_index": 9
+      },
+      "status": "FAIL",
+      "error": "Semantic element could not be resolved uniquely (semantic='button', id='login', label='Login', type='button')",
+      "evidence": "qa_v6_2_report/screenshots/_books_button_8.png"
+    },
+    {
+      "type": "button",
+      "url": "https://demoqa.com/text-box",
+      "fingerprint": {
+        "semantic": "button",
+        "tag": "button",
+        "text": "Submit",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "submit",
+        "input_type": "button",
+        "title": "",
+        "aria_valuenow": "",
+        "value": "",
+        "min": "",
+        "max": "",
+        "step": "",
+        "data_testid": "",
+        "class_name": "btn btn-primary",
+        "outer_html": "<button type=\"button\" id=\"submit\" class=\"btn btn-primary\">Submit</button>"
+      },
+      "description": "Activate Submit",
+      "plan": {
+        "priority": 10,
+        "risk_score": 40,
+        "risk_level": "MEDIUM",
+        "risk_reasons": [
+          "interactive control",
+          "action"
+        ],
+        "original_index": 15
+      },
+      "status": "PASS"
+    },
+    {
+      "type": "button",
+      "url": "https://demoqa.com/webtables",
+      "fingerprint": {
+        "semantic": "button",
+        "tag": "button",
+        "text": "Add",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "addNewRecordButton",
+        "input_type": "button",
+        "title": "",
+        "aria_valuenow": "",
+        "value": "",
+        "min": "",
+        "max": "",
+        "step": "",
+        "data_testid": "",
+        "class_name": "btn btn-primary",
+        "outer_html": "<button type=\"button\" id=\"addNewRecordButton\" class=\"btn btn-primary\">Add</button>"
+      },
+      "description": "Activate Add",
+      "plan": {
+        "priority": 11,
+        "risk_score": 40,
+        "risk_level": "MEDIUM",
+        "risk_reasons": [
+          "interactive control",
+          "action"
+        ],
+        "original_index": 22
+      },
+      "status": "PASS"
+    },
+    {
+      "type": "button",
+      "url": "https://demoqa.com/webtables",
+      "fingerprint": {
+        "semantic": "button",
+        "tag": "button",
+        "text": "",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "basic-addon2",
+        "input_type": "button",
+        "title": "",
+        "aria_valuenow": "",
+        "value": "",
+        "min": "",
+        "max": "",
+        "step": "",
+        "data_testid": "",
+        "class_name": "btn btn-outline-secondary",
+        "outer_html": "<button type=\"button\" id=\"basic-addon2\" class=\"btn btn-outline-secondary\"><svg stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" viewBox=\"0 0 16 16\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0\"></path></svg></button>"
+      },
+      "description": "Activate button",
+      "plan": {
+        "priority": 12,
+        "risk_score": 40,
+        "risk_level": "MEDIUM",
+        "risk_reasons": [
+          "interactive control",
+          "action"
+        ],
+        "original_index": 24
+      },
+      "status": "PASS"
+    },
+    {
+      "type": "button",
+      "url": "https://demoqa.com/buttons",
+      "fingerprint": {
+        "semantic": "button",
+        "tag": "button",
+        "text": "Double Click Me",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "doubleClickBtn",
+        "input_type": "button",
+        "title": "",
+        "aria_valuenow": "",
+        "value": "",
+        "min": "",
+        "max": "",
+        "step": "",
+        "data_testid": "",
+        "class_name": "btn btn-primary",
+        "outer_html": "<button type=\"button\" id=\"doubleClickBtn\" class=\"btn btn-primary\">Double Click Me</button>"
+      },
+      "description": "Activate Double Click Me",
+      "plan": {
+        "priority": 13,
+        "risk_score": 40,
+        "risk_level": "MEDIUM",
+        "risk_reasons": [
+          "interactive control",
+          "action"
+        ],
+        "original_index": 27
+      },
+      "status": "PASS"
+    },
+    {
+      "type": "button",
+      "url": "https://demoqa.com/buttons",
+      "fingerprint": {
+        "semantic": "button",
+        "tag": "button",
+        "text": "Right Click Me",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "rightClickBtn",
+        "input_type": "button",
+        "title": "",
+        "aria_valuenow": "",
+        "value": "",
+        "min": "",
+        "max": "",
+        "step": "",
+        "data_testid": "",
+        "class_name": "btn btn-primary",
+        "outer_html": "<button type=\"button\" id=\"rightClickBtn\" class=\"btn btn-primary\">Right Click Me</button>"
+      },
+      "description": "Activate Right Click Me",
+      "plan": {
+        "priority": 14,
+        "risk_score": 40,
+        "risk_level": "MEDIUM",
+        "risk_reasons": [
+          "interactive control",
+          "action"
+        ],
+        "original_index": 28
+      },
+      "status": "PASS"
+    },
+    {
+      "type": "button",
+      "url": "https://demoqa.com/buttons",
+      "fingerprint": {
+        "semantic": "button",
+        "tag": "button",
+        "text": "Click Me",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "QKe83",
+        "input_type": "button",
+        "title": "",
+        "aria_valuenow": "",
+        "value": "",
+        "min": "",
+        "max": "",
+        "step": "",
+        "data_testid": "",
+        "class_name": "btn btn-primary",
+        "outer_html": "<button type=\"button\" id=\"QKe83\" class=\"btn btn-primary\">Click Me</button>"
+      },
+      "description": "Activate Click Me",
+      "plan": {
+        "priority": 15,
+        "risk_score": 40,
+        "risk_level": "MEDIUM",
+        "risk_reasons": [
+          "interactive control",
+          "action"
+        ],
+        "original_index": 29
+      },
+      "status": "PASS"
+    },
+    {
+      "type": "button",
+      "url": "https://demoqa.com/upload-download",
+      "fingerprint": {
+        "semantic": "button",
+        "tag": "a",
+        "text": "Download",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "downloadButton",
+        "input_type": "",
+        "title": "",
+        "aria_valuenow": "",
+        "value": "",
+        "min": "",
+        "max": "",
+        "step": "",
+        "data_testid": "",
+        "class_name": "btn btn-primary",
+        "outer_html": "<a role=\"button\" tabindex=\"0\" href=\"data:image/jpeg;base64,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\" target=\"_blank\" id=\"downloadButton\" download=\"sampleFile.jpeg\" class=\"btn btn-primary\">Download</a>"
+      },
+      "description": "Activate Download",
+      "plan": {
+        "priority": 16,
+        "risk_score": 40,
+        "risk_level": "MEDIUM",
+        "risk_reasons": [
+          "interactive control",
+          "action"
+        ],
+        "original_index": 33
+      },
+      "status": "PASS"
+    },
+    {
+      "type": "button",
+      "url": "https://demoqa.com/dynamic-properties",
+      "fingerprint": {
+        "semantic": "button",
+        "tag": "button",
+        "text": "Color Change",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "colorChange",
+        "input_type": "button",
+        "title": "",
+        "aria_valuenow": "",
+        "value": "",
+        "min": "",
+        "max": "",
+        "step": "",
+        "data_testid": "",
+        "class_name": "mt-4 btn btn-primary",
+        "outer_html": "<button type=\"button\" id=\"colorChange\" class=\"mt-4 btn btn-primary\">Color Change</button>"
+      },
+      "description": "Activate Color Change",
+      "plan": {
+        "priority": 17,
+        "risk_score": 40,
+        "risk_level": "MEDIUM",
+        "risk_reasons": [
+          "interactive control",
+          "action"
+        ],
+        "original_index": 37
+      },
+      "status": "PASS"
+    },
+    {
+      "type": "button",
+      "url": "https://demoqa.com/browser-windows",
+      "fingerprint": {
+        "semantic": "button",
+        "tag": "button",
+        "text": "New Tab",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "tabButton",
+        "input_type": "button",
+        "title": "",
+        "aria_valuenow": "",
+        "value": "",
+        "min": "",
+        "max": "",
+        "step": "",
+        "data_testid": "",
+        "class_name": "btn btn-primary",
+        "outer_html": "<button type=\"button\" id=\"tabButton\" class=\"btn btn-primary\">New Tab</button>"
+      },
+      "description": "Activate New Tab",
+      "plan": {
+        "priority": 18,
+        "risk_score": 40,
+        "risk_level": "MEDIUM",
+        "risk_reasons": [
+          "interactive control",
+          "action"
+        ],
+        "original_index": 56
+      },
+      "status": "PASS"
+    },
+    {
+      "type": "button",
+      "url": "https://demoqa.com/browser-windows",
+      "fingerprint": {
+        "semantic": "button",
+        "tag": "button",
+        "text": "New Window",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "windowButton",
+        "input_type": "button",
+        "title": "",
+        "aria_valuenow": "",
+        "value": "",
+        "min": "",
+        "max": "",
+        "step": "",
+        "data_testid": "",
+        "class_name": "mt-4 btn btn-primary",
+        "outer_html": "<button type=\"button\" id=\"windowButton\" class=\"mt-4 btn btn-primary\">New Window</button>"
+      },
+      "description": "Activate New Window",
+      "plan": {
+        "priority": 19,
+        "risk_score": 40,
+        "risk_level": "MEDIUM",
+        "risk_reasons": [
+          "interactive control",
+          "action"
+        ],
+        "original_index": 57
+      },
+      "status": "PASS"
+    },
+    {
+      "type": "button",
+      "url": "https://demoqa.com/browser-windows",
+      "fingerprint": {
+        "semantic": "button",
+        "tag": "button",
+        "text": "New Window Message",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "messageWindowButton",
+        "input_type": "button",
+        "title": "",
+        "aria_valuenow": "",
+        "value": "",
+        "min": "",
+        "max": "",
+        "step": "",
+        "data_testid": "",
+        "class_name": "btn btn-primary",
+        "outer_html": "<button type=\"button\" id=\"messageWindowButton\" class=\"btn btn-primary\">New Window Message</button>"
+      },
+      "description": "Activate New Window Message",
+      "plan": {
+        "priority": 20,
+        "risk_score": 40,
+        "risk_level": "MEDIUM",
+        "risk_reasons": [
+          "interactive control",
+          "action"
+        ],
+        "original_index": 58
+      },
+      "status": "PASS"
+    },
+    {
+      "type": "button",
+      "url": "https://demoqa.com/accordian",
+      "fingerprint": {
+        "semantic": "button",
+        "tag": "button",
+        "text": "What is Lorem Ipsum?",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "",
+        "input_type": "button",
+        "title": "",
+        "aria_valuenow": "",
+        "value": "",
+        "min": "",
+        "max": "",
+        "step": "",
+        "data_testid": "",
+        "class_name": "accordion-button",
+        "outer_html": "<button type=\"button\" aria-expanded=\"true\" class=\"accordion-button\">What is Lorem Ipsum?</button>"
+      },
+      "description": "Activate What is Lorem Ipsum?",
+      "plan": {
+        "priority": 21,
+        "risk_score": 40,
+        "risk_level": "MEDIUM",
+        "risk_reasons": [
+          "interactive control",
+          "action"
+        ],
+        "original_index": 70
+      },
+      "status": "PASS"
+    },
+    {
+      "type": "button",
+      "url": "https://demoqa.com/accordian",
+      "fingerprint": {
+        "semantic": "button",
+        "tag": "button",
+        "text": "Where does it come from?",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "",
+        "input_type": "button",
+        "title": "",
+        "aria_valuenow": "",
+        "value": "",
+        "min": "",
+        "max": "",
+        "step": "",
+        "data_testid": "",
+        "class_name": "accordion-button collapsed",
+        "outer_html": "<button type=\"button\" aria-expanded=\"false\" class=\"accordion-button collapsed\">Where does it come from?</button>"
+      },
+      "description": "Activate Where does it come from?",
+      "plan": {
+        "priority": 22,
+        "risk_score": 40,
+        "risk_level": "MEDIUM",
+        "risk_reasons": [
+          "interactive control",
+          "action"
+        ],
+        "original_index": 71
+      },
+      "status": "PASS"
+    },
+    {
+      "type": "button",
+      "url": "https://demoqa.com/accordian",
+      "fingerprint": {
+        "semantic": "button",
+        "tag": "button",
+        "text": "Why do we use it?",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "",
+        "input_type": "button",
+        "title": "",
+        "aria_valuenow": "",
+        "value": "",
+        "min": "",
+        "max": "",
+        "step": "",
+        "data_testid": "",
+        "class_name": "accordion-button collapsed",
+        "outer_html": "<button type=\"button\" aria-expanded=\"false\" class=\"accordion-button collapsed\">Why do we use it?</button>"
+      },
+      "description": "Activate Why do we use it?",
+      "plan": {
+        "priority": 23,
+        "risk_score": 40,
+        "risk_level": "MEDIUM",
+        "risk_reasons": [
+          "interactive control",
+          "action"
+        ],
+        "original_index": 72
+      },
+      "status": "PASS"
+    },
+    {
+      "type": "button",
+      "url": "https://demoqa.com/progress-bar",
+      "fingerprint": {
+        "semantic": "button",
+        "tag": "button",
+        "text": "Start",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "startStopButton",
+        "input_type": "button",
+        "title": "",
+        "aria_valuenow": "",
+        "value": "",
+        "min": "",
+        "max": "",
+        "step": "",
+        "data_testid": "",
+        "class_name": "mt-3 btn btn-primary",
+        "outer_html": "<button type=\"button\" id=\"startStopButton\" class=\"mt-3 btn btn-primary\">Start</button>"
+      },
+      "description": "Activate Start",
+      "plan": {
+        "priority": 24,
+        "risk_score": 40,
+        "risk_level": "MEDIUM",
+        "risk_reasons": [
+          "interactive control",
+          "action"
+        ],
+        "original_index": 83
+      },
+      "status": "PASS"
+    },
+    {
+      "type": "button",
+      "url": "https://demoqa.com/tool-tips",
+      "fingerprint": {
+        "semantic": "button",
+        "tag": "button",
+        "text": "Hover me to see",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "toolTipButton",
+        "input_type": "button",
+        "title": "",
+        "aria_valuenow": "",
+        "value": "",
+        "min": "",
+        "max": "",
+        "step": "",
+        "data_testid": "",
+        "class_name": "btn btn-success",
+        "outer_html": "<button type=\"button\" id=\"toolTipButton\" class=\"btn btn-success\">Hover me to see</button>"
+      },
+      "description": "Activate Hover me to see",
+      "plan": {
+        "priority": 25,
+        "risk_score": 40,
+        "risk_level": "MEDIUM",
+        "risk_reasons": [
+          "interactive control",
+          "action"
+        ],
+        "original_index": 89
+      },
+      "status": "PASS"
+    },
+    {
+      "type": "text_input",
+      "url": "https://demoqa.com/automation-practice-form",
+      "fingerprint": {
+        "semantic": "text_input",
+        "tag": "input",
+        "text": "",
+        "aria_label": "",
+        "placeholder": "First Name",
+        "name": "",
+        "id": "firstName",
+        "input_type": "text",
+        "title": "",
+        "aria_valuenow": "",
+        "value": "",
+        "min": "",
+        "max": "",
+        "step": "",
+        "data_testid": "",
+        "class_name": "mr-sm-2 form-control",
+        "outer_html": "<input required=\"\" autocomplete=\"off\" placeholder=\"First Name\" id=\"firstName\" class=\" mr-sm-2 form-control\" type=\"text\">"
+      },
+      "description": "Enter valid data into First Name",
+      "plan": {
+        "priority": 26,
+        "risk_score": 35,
+        "risk_level": "MEDIUM",
+        "risk_reasons": [
+          "interactive control",
+          "form workflow"
+        ],
+        "original_index": 39
+      },
+      "status": "PASS",
+      "message": "Value persisted"
+    },
+    {
+      "type": "text_input",
+      "url": "https://demoqa.com/automation-practice-form",
+      "fingerprint": {
+        "semantic": "text_input",
+        "tag": "input",
+        "text": "",
+        "aria_label": "",
+        "placeholder": "Last Name",
+        "name": "",
+        "id": "lastName",
+        "input_type": "text",
+        "title": "",
+        "aria_valuenow": "",
+        "value": "",
+        "min": "",
+        "max": "",
+        "step": "",
+        "data_testid": "",
+        "class_name": "mr-sm-2 form-control",
+        "outer_html": "<input required=\"\" autocomplete=\"off\" placeholder=\"Last Name\" id=\"lastName\" class=\" mr-sm-2 form-control\" type=\"text\">"
+      },
+      "description": "Enter valid data into Last Name",
+      "plan": {
+        "priority": 27,
+        "risk_score": 35,
+        "risk_level": "MEDIUM",
+        "risk_reasons": [
+          "interactive control",
+          "form workflow"
+        ],
+        "original_index": 40
+      },
+      "status": "PASS",
+      "message": "Value persisted"
+    },
+    {
+      "type": "text_input",
+      "url": "https://demoqa.com/automation-practice-form",
+      "fingerprint": {
+        "semantic": "text_input",
+        "tag": "input",
+        "text": "",
+        "aria_label": "",
+        "placeholder": "name@example.com",
+        "name": "",
+        "id": "userEmail",
+        "input_type": "text",
+        "title": "",
+        "aria_valuenow": "",
+        "value": "",
+        "min": "",
+        "max": "",
+        "step": "",
+        "data_testid": "",
+        "class_name": "mr-sm-2 form-control",
+        "outer_html": "<input autocomplete=\"off\" pattern=\"^([a-zA-Z0-9_\\-\\.]+)@([a-zA-Z0-9_\\-\\.]+)\\.([a-zA-Z]{2,5})$\" placeholder=\"name@example.com\" id=\"userEmail\" class=\"mr-sm-2 form-control\" type=\"text\">"
+      },
+      "description": "Enter valid data into name@example.com",
+      "plan": {
+        "priority": 28,
+        "risk_score": 35,
+        "risk_level": "MEDIUM",
+        "risk_reasons": [
+          "interactive control",
+          "form workflow"
+        ],
+        "original_index": 41
+      },
+      "status": "PASS",
+      "message": "Value persisted"
+    },
+    {
+      "type": "radio",
+      "url": "https://demoqa.com/automation-practice-form",
+      "fingerprint": {
+        "semantic": "radio",
+        "tag": "input",
+        "text": "",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "gender",
+        "id": "gender-radio-1",
+        "input_type": "radio",
+        "title": "",
+        "aria_valuenow": "",
+        "value": "Male",
+        "min": "",
+        "max": "",
+        "step": "",
+        "data_testid": "",
+        "class_name": "form-check-input",
+        "outer_html": "<input required=\"\" id=\"gender-radio-1\" class=\"form-check-input\" type=\"radio\" value=\"Male\" name=\"gender\">"
+      },
+      "description": "Select gender",
+      "plan": {
+        "priority": 29,
+        "risk_score": 35,
+        "risk_level": "MEDIUM",
+        "risk_reasons": [
+          "interactive control",
+          "form workflow"
+        ],
+        "original_index": 42
+      },
+      "status": "PASS"
+    },
+    {
+      "type": "radio",
+      "url": "https://demoqa.com/automation-practice-form",
+      "fingerprint": {
+        "semantic": "radio",
+        "tag": "input",
+        "text": "",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "gender",
+        "id": "gender-radio-2",
+        "input_type": "radio",
+        "title": "",
+        "aria_valuenow": "",
+        "value": "Female",
+        "min": "",
+        "max": "",
+        "step": "",
+        "data_testid": "",
+        "class_name": "form-check-input",
+        "outer_html": "<input required=\"\" id=\"gender-radio-2\" class=\"form-check-input\" type=\"radio\" value=\"Female\" name=\"gender\">"
+      },
+      "description": "Select gender",
+      "plan": {
+        "priority": 30,
+        "risk_score": 35,
+        "risk_level": "MEDIUM",
+        "risk_reasons": [
+          "interactive control",
+          "form workflow"
+        ],
+        "original_index": 43
+      },
+      "status": "PASS"
+    },
+    {
+      "type": "radio",
+      "url": "https://demoqa.com/automation-practice-form",
+      "fingerprint": {
+        "semantic": "radio",
+        "tag": "input",
+        "text": "",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "gender",
+        "id": "gender-radio-3",
+        "input_type": "radio",
+        "title": "",
+        "aria_valuenow": "",
+        "value": "Other",
+        "min": "",
+        "max": "",
+        "step": "",
+        "data_testid": "",
+        "class_name": "form-check-input",
+        "outer_html": "<input required=\"\" id=\"gender-radio-3\" class=\"form-check-input\" type=\"radio\" value=\"Other\" name=\"gender\">"
+      },
+      "description": "Select gender",
+      "plan": {
+        "priority": 31,
+        "risk_score": 35,
+        "risk_level": "MEDIUM",
+        "risk_reasons": [
+          "interactive control",
+          "form workflow"
+        ],
+        "original_index": 44
+      },
+      "status": "PASS"
+    },
+    {
+      "type": "text_input",
+      "url": "https://demoqa.com/automation-practice-form",
+      "fingerprint": {
+        "semantic": "text_input",
+        "tag": "input",
+        "text": "",
+        "aria_label": "",
+        "placeholder": "Mobile Number",
+        "name": "",
+        "id": "userNumber",
+        "input_type": "text",
+        "title": "",
+        "aria_valuenow": "",
+        "value": "",
+        "min": "",
+        "max": "",
+        "step": "",
+        "data_testid": "",
+        "class_name": "mr-sm-2 form-control",
+        "outer_html": "<input required=\"\" autocomplete=\"off\" pattern=\"\\d*\" minlength=\"10\" maxlength=\"10\" placeholder=\"Mobile Number\" id=\"userNumber\" class=\" mr-sm-2 form-control\" type=\"text\">"
+      },
+      "description": "Enter valid data into Mobile Number",
+      "plan": {
+        "priority": 32,
+        "risk_score": 35,
+        "risk_level": "MEDIUM",
+        "risk_reasons": [
+          "interactive control",
+          "form workflow"
+        ],
+        "original_index": 45
+      },
+      "status": "PASS",
+      "message": "Value persisted"
+    },
+    {
+      "type": "text_input",
+      "url": "https://demoqa.com/automation-practice-form",
+      "fingerprint": {
+        "semantic": "text_input",
+        "tag": "input",
+        "text": "",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "dateOfBirthInput",
+        "input_type": "text",
+        "title": "",
+        "aria_valuenow": "",
+        "value": "30 Aug 2026",
+        "min": "",
+        "max": "",
+        "step": "",
+        "data_testid": "",
+        "class_name": "form-control",
+        "outer_html": "<input id=\"dateOfBirthInput\" class=\"form-control\" type=\"text\" value=\"30 Aug 2026\">"
+      },
+      "description": "Enter valid data into text_input",
+      "plan": {
+        "priority": 33,
+        "risk_score": 35,
+        "risk_level": "MEDIUM",
+        "risk_reasons": [
+          "interactive control",
+          "form workflow"
+        ],
+        "original_index": 46
+      },
+      "status": "PASS",
+      "message": "Value persisted"
+    },
+    {
+      "type": "combobox",
+      "url": "https://demoqa.com/automation-practice-form",
+      "fingerprint": {
+        "semantic": "combobox",
+        "tag": "input",
+        "text": "",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "subjectsInput",
+        "input_type": "text",
+        "title": "",
+        "aria_valuenow": "",
+        "value": "",
+        "min": "",
+        "max": "",
+        "step": "",
+        "data_testid": "",
+        "class_name": "subjects-auto-complete__input",
+        "outer_html": "<input class=\"subjects-auto-complete__input\" autocapitalize=\"none\" autocomplete=\"off\" autocorrect=\"off\" id=\"subjectsInput\" spellcheck=\"false\" tabindex=\"0\" aria-autocomplete=\"list\" aria-expanded=\"false\" aria-haspopup=\"true\" role=\"combobox\" aria-describedby=\"react-select-2-placeholder\" type=\"text\" value=\"\" style=\"color: inherit; background: 0px center; opacity: 1; width: 100%; grid-area: 1 / 2; font: inherit; min-width: 2px; border: 0px; margin: 0px; outline: 0px; padding: 0px;\">"
+      },
+      "description": "Test combobox combobox",
+      "plan": {
+        "priority": 34,
+        "risk_score": 35,
+        "risk_level": "MEDIUM",
+        "risk_reasons": [
+          "interactive control",
+          "form workflow"
+        ],
+        "original_index": 47
+      },
+      "status": "PASS",
+      "message": "Combobox activated"
+    },
+    {
+      "type": "checkbox",
+      "url": "https://demoqa.com/automation-practice-form",
+      "fingerprint": {
+        "semantic": "checkbox",
+        "tag": "input",
+        "text": "",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "hobbies-checkbox-1",
+        "input_type": "checkbox",
+        "title": "",
+        "aria_valuenow": "",
+        "value": "1",
+        "min": "",
+        "max": "",
+        "step": "",
+        "data_testid": "",
+        "class_name": "form-check-input",
+        "outer_html": "<input id=\"hobbies-checkbox-1\" class=\"form-check-input\" type=\"checkbox\" value=\"1\">"
+      },
+      "description": "Toggle checkbox",
+      "plan": {
+        "priority": 35,
+        "risk_score": 35,
+        "risk_level": "MEDIUM",
+        "risk_reasons": [
+          "interactive control",
+          "form workflow"
+        ],
+        "original_index": 48
+      },
+      "status": "PASS"
+    },
+    {
+      "type": "checkbox",
+      "url": "https://demoqa.com/automation-practice-form",
+      "fingerprint": {
+        "semantic": "checkbox",
+        "tag": "input",
+        "text": "",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "hobbies-checkbox-2",
+        "input_type": "checkbox",
+        "title": "",
+        "aria_valuenow": "",
+        "value": "2",
+        "min": "",
+        "max": "",
+        "step": "",
+        "data_testid": "",
+        "class_name": "form-check-input",
+        "outer_html": "<input id=\"hobbies-checkbox-2\" class=\"form-check-input\" type=\"checkbox\" value=\"2\">"
+      },
+      "description": "Toggle checkbox",
+      "plan": {
+        "priority": 36,
+        "risk_score": 35,
+        "risk_level": "MEDIUM",
+        "risk_reasons": [
+          "interactive control",
+          "form workflow"
+        ],
+        "original_index": 49
+      },
+      "status": "PASS"
+    },
+    {
+      "type": "checkbox",
+      "url": "https://demoqa.com/automation-practice-form",
+      "fingerprint": {
+        "semantic": "checkbox",
+        "tag": "input",
+        "text": "",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "hobbies-checkbox-3",
+        "input_type": "checkbox",
+        "title": "",
+        "aria_valuenow": "",
+        "value": "3",
+        "min": "",
+        "max": "",
+        "step": "",
+        "data_testid": "",
+        "class_name": "form-check-input",
+        "outer_html": "<input id=\"hobbies-checkbox-3\" class=\"form-check-input\" type=\"checkbox\" value=\"3\">"
+      },
+      "description": "Toggle checkbox",
+      "plan": {
+        "priority": 37,
+        "risk_score": 35,
+        "risk_level": "MEDIUM",
+        "risk_reasons": [
+          "interactive control",
+          "form workflow"
+        ],
+        "original_index": 50
+      },
+      "status": "PASS"
+    },
+    {
+      "type": "file_upload",
+      "url": "https://demoqa.com/automation-practice-form",
+      "fingerprint": {
+        "semantic": "file_upload",
+        "tag": "input",
+        "text": "",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "uploadPicture",
+        "input_type": "file",
+        "title": "",
+        "aria_valuenow": "",
+        "value": "",
+        "min": "",
+        "max": "",
+        "step": "",
+        "data_testid": "",
+        "class_name": "form-control",
+        "outer_html": "<input label=\"Select picture\" lang=\"en\" id=\"uploadPicture\" class=\"form-control\" type=\"file\">"
+      },
+      "description": "Verify upload control file_upload",
+      "plan": {
+        "priority": 38,
+        "risk_score": 35,
+        "risk_level": "MEDIUM",
+        "risk_reasons": [
+          "interactive control",
+          "form workflow"
+        ],
+        "original_index": 51
+      },
+      "status": "PASS"
+    },
+    {
+      "type": "text_area",
+      "url": "https://demoqa.com/automation-practice-form",
+      "fingerprint": {
+        "semantic": "text_area",
+        "tag": "textarea",
+        "text": "",
+        "aria_label": "",
+        "placeholder": "Current Address",
+        "name": "",
+        "id": "currentAddress",
+        "input_type": "",
+        "title": "",
+        "aria_valuenow": "",
+        "value": "",
+        "min": "",
+        "max": "",
+        "step": "",
+        "data_testid": "",
+        "class_name": "form-control",
+        "outer_html": "<textarea placeholder=\"Current Address\" rows=\"5\" cols=\"20\" id=\"currentAddress\" class=\"form-control\"></textarea>"
+      },
+      "description": "Enter text into Current Address",
+      "plan": {
+        "priority": 39,
+        "risk_score": 35,
+        "risk_level": "MEDIUM",
+        "risk_reasons": [
+          "interactive control",
+          "form workflow"
+        ],
+        "original_index": 52
+      },
+      "status": "PASS"
+    },
+    {
+      "type": "combobox",
+      "url": "https://demoqa.com/automation-practice-form",
+      "fingerprint": {
+        "semantic": "combobox",
+        "tag": "input",
+        "text": "",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "react-select-3-input",
+        "input_type": "text",
+        "title": "",
+        "aria_valuenow": "",
+        "value": "",
+        "min": "",
+        "max": "",
+        "step": "",
+        "data_testid": "",
+        "class_name": "",
+        "outer_html": "<input class=\"\" autocapitalize=\"none\" autocomplete=\"off\" autocorrect=\"off\" id=\"react-select-3-input\" spellcheck=\"false\" tabindex=\"0\" aria-autocomplete=\"list\" aria-expanded=\"false\" aria-haspopup=\"true\" role=\"combobox\" aria-describedby=\"react-select-3-placeholder\" type=\"text\" value=\"\" style=\"color: inherit; background: 0px center; opacity: 1; width: 100%; grid-area: 1 / 2; font: inherit; min-width: 2px; border: 0px; margin: 0px; outline: 0px; padding: 0px;\">"
+      },
+      "description": "Test combobox combobox",
+      "plan": {
+        "priority": 40,
+        "risk_score": 35,
+        "risk_level": "MEDIUM",
+        "risk_reasons": [
+          "interactive control",
+          "form workflow"
+        ],
+        "original_index": 53
+      },
+      "status": "PASS",
+      "message": "Combobox activated"
+    },
+    {
+      "type": "text_input",
+      "url": "https://demoqa.com/books",
+      "fingerprint": {
+        "semantic": "text_input",
+        "tag": "input",
+        "text": "",
+        "aria_label": "",
+        "placeholder": "Type to search",
+        "name": "",
+        "id": "searchBox",
+        "input_type": "text",
+        "title": "",
+        "aria_valuenow": "",
+        "value": "",
+        "min": "",
+        "max": "",
+        "step": "",
+        "data_testid": "",
+        "class_name": "form-control",
+        "outer_html": "<input placeholder=\"Type to search\" id=\"searchBox\" class=\"form-control\" type=\"text\">"
+      },
+      "description": "Enter valid data into Type to search",
+      "plan": {
+        "priority": 41,
+        "risk_score": 25,
+        "risk_level": "LOW",
+        "risk_reasons": [
+          "interactive control"
+        ],
+        "original_index": 8
+      },
+      "status": "PASS",
+      "message": "Value persisted"
+    },
+    {
+      "type": "text_input",
+      "url": "https://demoqa.com/text-box",
+      "fingerprint": {
+        "semantic": "text_input",
+        "tag": "input",
+        "text": "",
+        "aria_label": "",
+        "placeholder": "Full Name",
+        "name": "",
+        "id": "userName",
+        "input_type": "text",
+        "title": "",
+        "aria_valuenow": "",
+        "value": "",
+        "min": "",
+        "max": "",
+        "step": "",
+        "data_testid": "",
+        "class_name": "mr-sm-2 form-control",
+        "outer_html": "<input autocomplete=\"off\" placeholder=\"Full Name\" id=\"userName\" class=\" mr-sm-2 form-control\" type=\"text\">"
+      },
+      "description": "Enter valid data into Full Name",
+      "plan": {
+        "priority": 42,
+        "risk_score": 25,
+        "risk_level": "LOW",
+        "risk_reasons": [
+          "interactive control"
+        ],
+        "original_index": 11
+      },
+      "status": "PASS",
+      "message": "Value persisted"
+    },
+    {
+      "type": "text_input",
+      "url": "https://demoqa.com/text-box",
+      "fingerprint": {
+        "semantic": "text_input",
+        "tag": "input",
+        "text": "",
+        "aria_label": "",
+        "placeholder": "name@example.com",
+        "name": "",
+        "id": "userEmail",
+        "input_type": "email",
+        "title": "",
+        "aria_valuenow": "",
+        "value": "",
+        "min": "",
+        "max": "",
+        "step": "",
+        "data_testid": "",
+        "class_name": "mr-sm-2 form-control",
+        "outer_html": "<input autocomplete=\"off\" placeholder=\"name@example.com\" id=\"userEmail\" class=\"mr-sm-2 form-control\" type=\"email\">"
+      },
+      "description": "Enter valid data into name@example.com",
+      "plan": {
+        "priority": 43,
+        "risk_score": 25,
+        "risk_level": "LOW",
+        "risk_reasons": [
+          "interactive control"
+        ],
+        "original_index": 12
+      },
+      "status": "PASS",
+      "message": "Value persisted"
+    },
+    {
+      "type": "text_area",
+      "url": "https://demoqa.com/text-box",
+      "fingerprint": {
+        "semantic": "text_area",
+        "tag": "textarea",
+        "text": "",
+        "aria_label": "",
+        "placeholder": "Current Address",
+        "name": "",
+        "id": "currentAddress",
+        "input_type": "",
+        "title": "",
+        "aria_valuenow": "",
+        "value": "",
+        "min": "",
+        "max": "",
+        "step": "",
+        "data_testid": "",
+        "class_name": "form-control",
+        "outer_html": "<textarea placeholder=\"Current Address\" rows=\"5\" cols=\"20\" id=\"currentAddress\" class=\"form-control\"></textarea>"
+      },
+      "description": "Enter text into Current Address",
+      "plan": {
+        "priority": 44,
+        "risk_score": 25,
+        "risk_level": "LOW",
+        "risk_reasons": [
+          "interactive control"
+        ],
+        "original_index": 13
+      },
+      "status": "PASS"
+    },
+    {
+      "type": "text_area",
+      "url": "https://demoqa.com/text-box",
+      "fingerprint": {
+        "semantic": "text_area",
+        "tag": "textarea",
+        "text": "",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "permanentAddress",
+        "input_type": "",
+        "title": "",
+        "aria_valuenow": "",
+        "value": "",
+        "min": "",
+        "max": "",
+        "step": "",
+        "data_testid": "",
+        "class_name": "form-control",
+        "outer_html": "<textarea rows=\"5\" cols=\"20\" id=\"permanentAddress\" class=\"form-control\"></textarea>"
+      },
+      "description": "Enter text into text_area",
+      "plan": {
+        "priority": 45,
+        "risk_score": 25,
+        "risk_level": "LOW",
+        "risk_reasons": [
+          "interactive control"
+        ],
+        "original_index": 14
+      },
+      "status": "PASS"
+    },
+    {
+      "type": "checkbox",
+      "url": "https://demoqa.com/checkbox",
+      "fingerprint": {
+        "semantic": "checkbox",
+        "tag": "span",
+        "text": "",
+        "aria_label": "Select Home",
+        "placeholder": "",
+        "name": "",
+        "id": "",
+        "input_type": "",
+        "title": "",
+        "aria_valuenow": "",
+        "value": "",
+        "min": "",
+        "max": "",
+        "step": "",
+        "data_testid": "",
+        "class_name": "rc-tree-checkbox",
+        "outer_html": "<span class=\"rc-tree-checkbox\" role=\"checkbox\" aria-checked=\"false\" aria-label=\"Select Home\"></span>"
+      },
+      "description": "Toggle Select Home",
+      "plan": {
+        "priority": 46,
+        "risk_score": 25,
+        "risk_level": "LOW",
+        "risk_reasons": [
+          "interactive control"
+        ],
+        "original_index": 17
+      },
+      "status": "PASS"
+    },
+    {
+      "type": "radio",
+      "url": "https://demoqa.com/radio-button",
+      "fingerprint": {
+        "semantic": "radio",
+        "tag": "input",
+        "text": "",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "like",
+        "id": "yesRadio",
+        "input_type": "radio",
+        "title": "",
+        "aria_valuenow": "",
+        "value": "",
+        "min": "",
+        "max": "",
+        "step": "",
+        "data_testid": "",
+        "class_name": "form-check-input",
+        "outer_html": "<input id=\"yesRadio\" class=\"form-check-input\" type=\"radio\" name=\"like\">"
+      },
+      "description": "Select like",
+      "plan": {
+        "priority": 47,
+        "risk_score": 25,
+        "risk_level": "LOW",
+        "risk_reasons": [
+          "interactive control"
+        ],
+        "original_index": 19
+      },
+      "status": "PASS"
+    },
+    {
+      "type": "radio",
+      "url": "https://demoqa.com/radio-button",
+      "fingerprint": {
+        "semantic": "radio",
+        "tag": "input",
+        "text": "",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "like",
+        "id": "impressiveRadio",
+        "input_type": "radio",
+        "title": "",
+        "aria_valuenow": "",
+        "value": "",
+        "min": "",
+        "max": "",
+        "step": "",
+        "data_testid": "",
+        "class_name": "form-check-input",
+        "outer_html": "<input id=\"impressiveRadio\" class=\"form-check-input\" type=\"radio\" name=\"like\">"
+      },
+      "description": "Select like",
+      "plan": {
+        "priority": 48,
+        "risk_score": 25,
+        "risk_level": "LOW",
+        "risk_reasons": [
+          "interactive control"
+        ],
+        "original_index": 20
+      },
+      "status": "PASS"
+    },
+    {
+      "type": "text_input",
+      "url": "https://demoqa.com/webtables",
+      "fingerprint": {
+        "semantic": "text_input",
+        "tag": "input",
+        "text": "",
+        "aria_label": "",
+        "placeholder": "Type to search",
+        "name": "",
+        "id": "searchBox",
+        "input_type": "text",
+        "title": "",
+        "aria_valuenow": "",
+        "value": "",
+        "min": "",
+        "max": "",
+        "step": "",
+        "data_testid": "",
+        "class_name": "form-control",
+        "outer_html": "<input autocomplete=\"off\" placeholder=\"Type to search\" id=\"searchBox\" class=\"form-control\" type=\"text\" value=\"\">"
+      },
+      "description": "Enter valid data into Type to search",
+      "plan": {
+        "priority": 49,
+        "risk_score": 25,
+        "risk_level": "LOW",
+        "risk_reasons": [
+          "interactive control"
+        ],
+        "original_index": 23
+      },
+      "status": "PASS",
+      "message": "Value persisted"
+    },
+    {
+      "type": "dropdown",
+      "url": "https://demoqa.com/webtables",
+      "fingerprint": {
+        "semantic": "dropdown",
+        "tag": "select",
+        "text": "Show 10 Show 20 Show 30 Show 40 Show 50",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "",
+        "input_type": "",
+        "title": "",
+        "aria_valuenow": "",
+        "value": "",
+        "min": "",
+        "max": "",
+        "step": "",
+        "data_testid": "",
+        "class_name": "form-control",
+        "outer_html": "<select class=\"form-control\" style=\"width: auto;\"><option value=\"10\">Show 10</option><option value=\"20\">Show 20</option><option value=\"30\">Show 30</option><option value=\"40\">Show 40</option><option value=\"50\">Show 50</option></select>"
+      },
+      "description": "Test dropdown Show 10\nShow 20\nShow 30\nShow 40\nShow 50",
+      "plan": {
+        "priority": 50,
+        "risk_score": 25,
+        "risk_level": "LOW",
+        "risk_reasons": [
+          "interactive control"
+        ],
+        "original_index": 25
+      },
+      "status": "PASS"
+    },
+    {
+      "type": "file_upload",
+      "url": "https://demoqa.com/upload-download",
+      "fingerprint": {
+        "semantic": "file_upload",
+        "tag": "input",
+        "text": "",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "uploadFile",
+        "input_type": "file",
+        "title": "",
+        "aria_valuenow": "",
+        "value": "",
+        "min": "",
+        "max": "",
+        "step": "",
+        "data_testid": "",
+        "class_name": "form-control",
+        "outer_html": "<input label=\"Select a File\" lang=\"en\" id=\"uploadFile\" class=\"form-control\" type=\"file\">"
+      },
+      "description": "Verify upload control file_upload",
+      "plan": {
+        "priority": 51,
+        "risk_score": 25,
+        "risk_level": "LOW",
+        "risk_reasons": [
+          "interactive control"
+        ],
+        "original_index": 34
+      },
+      "status": "PASS"
+    },
+    {
+      "type": "combobox",
+      "url": "https://demoqa.com/auto-complete",
+      "fingerprint": {
+        "semantic": "combobox",
+        "tag": "input",
+        "text": "",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "autoCompleteMultipleInput",
+        "input_type": "text",
+        "title": "",
+        "aria_valuenow": "",
+        "value": "",
+        "min": "",
+        "max": "",
+        "step": "",
+        "data_testid": "",
+        "class_name": "auto-complete__input",
+        "outer_html": "<input class=\"auto-complete__input\" autocapitalize=\"none\" autocomplete=\"off\" autocorrect=\"off\" id=\"autoCompleteMultipleInput\" spellcheck=\"false\" tabindex=\"0\" aria-autocomplete=\"list\" aria-expanded=\"false\" aria-haspopup=\"true\" role=\"combobox\" aria-describedby=\"react-select-2-placeholder\" type=\"text\" value=\"\" style=\"color: inherit; background: 0px center; opacity: 1; width: 100%; grid-area: 1 / 2; font: inherit; min-width: 2px; border: 0px; margin: 0px; outline: 0px; padding: 0px;\">"
+      },
+      "description": "Test combobox combobox",
+      "plan": {
+        "priority": 52,
+        "risk_score": 25,
+        "risk_level": "LOW",
+        "risk_reasons": [
+          "interactive control"
+        ],
+        "original_index": 74
+      },
+      "status": "PASS",
+      "message": "Combobox activated"
+    },
+    {
+      "type": "combobox",
+      "url": "https://demoqa.com/auto-complete",
+      "fingerprint": {
+        "semantic": "combobox",
+        "tag": "input",
+        "text": "",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "autoCompleteSingleInput",
+        "input_type": "text",
+        "title": "",
+        "aria_valuenow": "",
+        "value": "",
+        "min": "",
+        "max": "",
+        "step": "",
+        "data_testid": "",
+        "class_name": "auto-complete__input",
+        "outer_html": "<input class=\"auto-complete__input\" autocapitalize=\"none\" autocomplete=\"off\" autocorrect=\"off\" id=\"autoCompleteSingleInput\" spellcheck=\"false\" tabindex=\"0\" aria-autocomplete=\"list\" aria-expanded=\"false\" aria-haspopup=\"true\" role=\"combobox\" aria-describedby=\"react-select-3-placeholder\" type=\"text\" value=\"\" style=\"color: inherit; background: 0px center; opacity: 1; width: 100%; grid-area: 1 / 2; font: inherit; min-width: 2px; border: 0px; margin: 0px; outline: 0px; padding: 0px;\">"
+      },
+      "description": "Test combobox combobox",
+      "plan": {
+        "priority": 53,
+        "risk_score": 25,
+        "risk_level": "LOW",
+        "risk_reasons": [
+          "interactive control"
+        ],
+        "original_index": 75
+      },
+      "status": "PASS",
+      "message": "Combobox activated"
+    },
+    {
+      "type": "text_input",
+      "url": "https://demoqa.com/date-picker",
+      "fingerprint": {
+        "semantic": "text_input",
+        "tag": "input",
+        "text": "",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "datePickerMonthYearInput",
+        "input_type": "text",
+        "title": "",
+        "aria_valuenow": "",
+        "value": "08/30/2026",
+        "min": "",
+        "max": "",
+        "step": "",
+        "data_testid": "",
+        "class_name": "",
+        "outer_html": "<input id=\"datePickerMonthYearInput\" class=\"\" type=\"text\" value=\"08/30/2026\">"
+      },
+      "description": "Enter valid data into text_input",
+      "plan": {
+        "priority": 54,
+        "risk_score": 25,
+        "risk_level": "LOW",
+        "risk_reasons": [
+          "interactive control"
+        ],
+        "original_index": 77
+      },
+      "status": "PASS",
+      "message": "Value persisted"
+    },
+    {
+      "type": "text_input",
+      "url": "https://demoqa.com/date-picker",
+      "fingerprint": {
+        "semantic": "text_input",
+        "tag": "input",
+        "text": "",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "dateAndTimePickerInput",
+        "input_type": "text",
+        "title": "",
+        "aria_valuenow": "",
+        "value": "August 30, 2026 11:57 AM",
+        "min": "",
+        "max": "",
+        "step": "",
+        "data_testid": "",
+        "class_name": "",
+        "outer_html": "<input id=\"dateAndTimePickerInput\" class=\"\" type=\"text\" value=\"August 30, 2026 11:57 AM\">"
+      },
+      "description": "Enter valid data into text_input",
+      "plan": {
+        "priority": 55,
+        "risk_score": 25,
+        "risk_level": "LOW",
+        "risk_reasons": [
+          "interactive control"
+        ],
+        "original_index": 78
+      },
+      "status": "PASS",
+      "message": "Value persisted"
+    },
+    {
+      "type": "slider",
+      "url": "https://demoqa.com/slider",
+      "fingerprint": {
+        "semantic": "slider",
+        "tag": "input",
+        "text": "",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "slider",
+        "input_type": "range",
+        "title": "",
+        "aria_valuenow": "25",
+        "value": "25",
+        "min": "0",
+        "max": "100",
+        "step": "",
+        "data_testid": "",
+        "class_name": "range-slider range-slider--primary",
+        "outer_html": "<input min=\"0\" max=\"100\" class=\"range-slider range-slider--primary\" aria-valuenow=\"25\" aria-valuemin=\"0\" aria-valuemax=\"100\" id=\"slider\" type=\"range\" value=\"25\">"
+      },
+      "description": "Change slider",
+      "plan": {
+        "priority": 56,
+        "risk_score": 25,
+        "risk_level": "LOW",
+        "risk_reasons": [
+          "interactive control"
+        ],
+        "original_index": 80
+      },
+      "status": "PASS",
+      "message": "Slider 25 -> 26"
+    },
+    {
+      "type": "slider",
+      "url": "https://demoqa.com/slider",
+      "fingerprint": {
+        "semantic": "slider",
+        "tag": "input",
+        "text": "",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "sliderValue",
+        "input_type": "",
+        "title": "",
+        "aria_valuenow": "",
+        "value": "25",
+        "min": "",
+        "max": "",
+        "step": "",
+        "data_testid": "",
+        "class_name": "form-control",
+        "outer_html": "<input id=\"sliderValue\" class=\"form-control\" value=\"25\">"
+      },
+      "description": "Change slider",
+      "plan": {
+        "priority": 57,
+        "risk_score": 25,
+        "risk_level": "LOW",
+        "risk_reasons": [
+          "interactive control"
+        ],
+        "original_index": 81
+      },
+      "status": "PASS",
+      "message": "Slider 25 -> 26"
+    },
+    {
+      "type": "text_input",
+      "url": "https://demoqa.com/tool-tips",
+      "fingerprint": {
+        "semantic": "text_input",
+        "tag": "input",
+        "text": "",
+        "aria_label": "",
+        "placeholder": "Hover me to see",
+        "name": "",
+        "id": "toolTipTextField",
+        "input_type": "text",
+        "title": "",
+        "aria_valuenow": "",
+        "value": "",
+        "min": "",
+        "max": "",
+        "step": "",
+        "data_testid": "",
+        "class_name": "mr-sm-2 form-control",
+        "outer_html": "<input autocomplete=\"off\" placeholder=\"Hover me to see\" id=\"toolTipTextField\" class=\" mr-sm-2 form-control\" type=\"text\">"
+      },
+      "description": "Enter valid data into Hover me to see",
+      "plan": {
+        "priority": 58,
+        "risk_score": 25,
+        "risk_level": "LOW",
+        "risk_reasons": [
+          "interactive control"
+        ],
+        "original_index": 90
+      },
+      "status": "PASS",
+      "message": "Value persisted"
+    },
+    {
+      "type": "page_load",
+      "url": "https://demoqa.com/forms",
+      "fingerprint": null,
+      "description": "Page should load successfully",
+      "plan": {
+        "priority": 59,
+        "risk_score": 20,
+        "risk_level": "LOW",
+        "risk_reasons": [
+          "form workflow",
+          "baseline"
+        ],
+        "original_index": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "type": "page_load",
+      "url": "https://demoqa.com/alertsWindows",
+      "fingerprint": null,
+      "description": "Page should load successfully",
+      "plan": {
+        "priority": 60,
+        "risk_score": 20,
+        "risk_level": "LOW",
+        "risk_reasons": [
+          "dialog behavior",
+          "baseline"
+        ],
+        "original_index": 4
+      },
+      "status": "PASS"
+    },
+    {
+      "type": "page_load",
+      "url": "https://demoqa.com/automation-practice-form",
+      "fingerprint": null,
+      "description": "Page should load successfully",
+      "plan": {
+        "priority": 61,
+        "risk_score": 20,
+        "risk_level": "LOW",
+        "risk_reasons": [
+          "form workflow",
+          "baseline"
+        ],
+        "original_index": 38
+      },
+      "status": "PASS"
+    },
+    {
+      "type": "page_load",
+      "url": "https://demoqa.com/alerts",
+      "fingerprint": null,
+      "description": "Page should load successfully",
+      "plan": {
+        "priority": 62,
+        "risk_score": 20,
+        "risk_level": "LOW",
+        "risk_reasons": [
+          "dialog behavior",
+          "baseline"
+        ],
+        "original_index": 59
+      },
+      "status": "PASS"
+    },
+    {
+      "type": "page_load",
+      "url": "https://demoqa.com/modal-dialogs",
+      "fingerprint": null,
+      "description": "Page should load successfully",
+      "plan": {
+        "priority": 63,
+        "risk_score": 20,
+        "risk_level": "LOW",
+        "risk_reasons": [
+          "dialog behavior",
+          "baseline"
+        ],
+        "original_index": 66
+      },
+      "status": "PASS"
+    },
+    {
+      "type": "page_load",
+      "url": "https://demoqa.com",
+      "fingerprint": null,
+      "description": "Page should load successfully",
+      "plan": {
+        "priority": 64,
+        "risk_score": 10,
+        "risk_level": "LOW",
+        "risk_reasons": [
+          "baseline"
+        ],
+        "original_index": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "type": "page_load",
+      "url": "https://demoqa.com/",
+      "fingerprint": null,
+      "description": "Page should load successfully",
+      "plan": {
+        "priority": 65,
+        "risk_score": 10,
+        "risk_level": "LOW",
+        "risk_reasons": [
+          "baseline"
+        ],
+        "original_index": 1
+      },
+      "status": "PASS"
+    },
+    {
+      "type": "page_load",
+      "url": "https://demoqa.com/elements",
+      "fingerprint": null,
+      "description": "Page should load successfully",
+      "plan": {
+        "priority": 66,
+        "risk_score": 10,
+        "risk_level": "LOW",
+        "risk_reasons": [
+          "baseline"
+        ],
+        "original_index": 2
+      },
+      "status": "PASS"
+    },
+    {
+      "type": "page_load",
+      "url": "https://demoqa.com/widgets",
+      "fingerprint": null,
+      "description": "Page should load successfully",
+      "plan": {
+        "priority": 67,
+        "risk_score": 10,
+        "risk_level": "LOW",
+        "risk_reasons": [
+          "baseline"
+        ],
+        "original_index": 5
+      },
+      "status": "PASS"
+    },
+    {
+      "type": "page_load",
+      "url": "https://demoqa.com/interaction",
+      "fingerprint": null,
+      "description": "Page should load successfully",
+      "plan": {
+        "priority": 68,
+        "risk_score": 10,
+        "risk_level": "LOW",
+        "risk_reasons": [
+          "baseline"
+        ],
+        "original_index": 6
+      },
+      "status": "PASS"
+    },
+    {
+      "type": "page_load",
+      "url": "https://demoqa.com/books",
+      "fingerprint": null,
+      "description": "Page should load successfully",
+      "plan": {
+        "priority": 69,
+        "risk_score": 10,
+        "risk_level": "LOW",
+        "risk_reasons": [
+          "baseline"
+        ],
+        "original_index": 7
+      },
+      "status": "PASS"
+    },
+    {
+      "type": "page_load",
+      "url": "https://demoqa.com/text-box",
+      "fingerprint": null,
+      "description": "Page should load successfully",
+      "plan": {
+        "priority": 70,
+        "risk_score": 10,
+        "risk_level": "LOW",
+        "risk_reasons": [
+          "baseline"
+        ],
+        "original_index": 10
+      },
+      "status": "PASS"
+    },
+    {
+      "type": "page_load",
+      "url": "https://demoqa.com/checkbox",
+      "fingerprint": null,
+      "description": "Page should load successfully",
+      "plan": {
+        "priority": 71,
+        "risk_score": 10,
+        "risk_level": "LOW",
+        "risk_reasons": [
+          "baseline"
+        ],
+        "original_index": 16
+      },
+      "status": "PASS"
+    },
+    {
+      "type": "page_load",
+      "url": "https://demoqa.com/radio-button",
+      "fingerprint": null,
+      "description": "Page should load successfully",
+      "plan": {
+        "priority": 72,
+        "risk_score": 10,
+        "risk_level": "LOW",
+        "risk_reasons": [
+          "baseline"
+        ],
+        "original_index": 18
+      },
+      "status": "PASS"
+    },
+    {
+      "type": "page_load",
+      "url": "https://demoqa.com/webtables",
+      "fingerprint": null,
+      "description": "Page should load successfully",
+      "plan": {
+        "priority": 73,
+        "risk_score": 10,
+        "risk_level": "LOW",
+        "risk_reasons": [
+          "baseline"
+        ],
+        "original_index": 21
+      },
+      "status": "PASS"
+    },
+    {
+      "type": "page_load",
+      "url": "https://demoqa.com/buttons",
+      "fingerprint": null,
+      "description": "Page should load successfully",
+      "plan": {
+        "priority": 74,
+        "risk_score": 10,
+        "risk_level": "LOW",
+        "risk_reasons": [
+          "baseline"
+        ],
+        "original_index": 26
+      },
+      "status": "PASS"
+    },
+    {
+      "type": "page_load",
+      "url": "https://demoqa.com/links",
+      "fingerprint": null,
+      "description": "Page should load successfully",
+      "plan": {
+        "priority": 75,
+        "risk_score": 10,
+        "risk_level": "LOW",
+        "risk_reasons": [
+          "baseline"
+        ],
+        "original_index": 30
+      },
+      "status": "PASS"
+    },
+    {
+      "type": "page_load",
+      "url": "https://demoqa.com/broken",
+      "fingerprint": null,
+      "description": "Page should load successfully",
+      "plan": {
+        "priority": 76,
+        "risk_score": 10,
+        "risk_level": "LOW",
+        "risk_reasons": [
+          "baseline"
+        ],
+        "original_index": 31
+      },
+      "status": "PASS"
+    },
+    {
+      "type": "page_load",
+      "url": "https://demoqa.com/upload-download",
+      "fingerprint": null,
+      "description": "Page should load successfully",
+      "plan": {
+        "priority": 77,
+        "risk_score": 10,
+        "risk_level": "LOW",
+        "risk_reasons": [
+          "baseline"
+        ],
+        "original_index": 32
+      },
+      "status": "PASS"
+    },
+    {
+      "type": "page_load",
+      "url": "https://demoqa.com/dynamic-properties",
+      "fingerprint": null,
+      "description": "Page should load successfully",
+      "plan": {
+        "priority": 78,
+        "risk_score": 10,
+        "risk_level": "LOW",
+        "risk_reasons": [
+          "baseline"
+        ],
+        "original_index": 35
+      },
+      "status": "PASS"
+    },
+    {
+      "type": "page_load",
+      "url": "https://demoqa.com/browser-windows",
+      "fingerprint": null,
+      "description": "Page should load successfully",
+      "plan": {
+        "priority": 79,
+        "risk_score": 10,
+        "risk_level": "LOW",
+        "risk_reasons": [
+          "baseline"
+        ],
+        "original_index": 55
+      },
+      "status": "PASS"
+    },
+    {
+      "type": "page_load",
+      "url": "https://demoqa.com/frames",
+      "fingerprint": null,
+      "description": "Page should load successfully",
+      "plan": {
+        "priority": 80,
+        "risk_score": 10,
+        "risk_level": "LOW",
+        "risk_reasons": [
+          "baseline"
+        ],
+        "original_index": 64
+      },
+      "status": "PASS"
+    },
+    {
+      "type": "page_load",
+      "url": "https://demoqa.com/nestedframes",
+      "fingerprint": null,
+      "description": "Page should load successfully",
+      "plan": {
+        "priority": 81,
+        "risk_score": 10,
+        "risk_level": "LOW",
+        "risk_reasons": [
+          "baseline"
+        ],
+        "original_index": 65
+      },
+      "status": "PASS"
+    },
+    {
+      "type": "page_load",
+      "url": "https://demoqa.com/accordian",
+      "fingerprint": null,
+      "description": "Page should load successfully",
+      "plan": {
+        "priority": 82,
+        "risk_score": 10,
+        "risk_level": "LOW",
+        "risk_reasons": [
+          "baseline"
+        ],
+        "original_index": 69
+      },
+      "status": "PASS"
+    },
+    {
+      "type": "page_load",
+      "url": "https://demoqa.com/auto-complete",
+      "fingerprint": null,
+      "description": "Page should load successfully",
+      "plan": {
+        "priority": 83,
+        "risk_score": 10,
+        "risk_level": "LOW",
+        "risk_reasons": [
+          "baseline"
+        ],
+        "original_index": 73
+      },
+      "status": "PASS"
+    },
+    {
+      "type": "page_load",
+      "url": "https://demoqa.com/date-picker",
+      "fingerprint": null,
+      "description": "Page should load successfully",
+      "plan": {
+        "priority": 84,
+        "risk_score": 10,
+        "risk_level": "LOW",
+        "risk_reasons": [
+          "baseline"
+        ],
+        "original_index": 76
+      },
+      "status": "PASS"
+    },
+    {
+      "type": "page_load",
+      "url": "https://demoqa.com/slider",
+      "fingerprint": null,
+      "description": "Page should load successfully",
+      "plan": {
+        "priority": 85,
+        "risk_score": 10,
+        "risk_level": "LOW",
+        "risk_reasons": [
+          "baseline"
+        ],
+        "original_index": 79
+      },
+      "status": "PASS"
+    },
+    {
+      "type": "page_load",
+      "url": "https://demoqa.com/progress-bar",
+      "fingerprint": null,
+      "description": "Page should load successfully",
+      "plan": {
+        "priority": 86,
+        "risk_score": 10,
+        "risk_level": "LOW",
+        "risk_reasons": [
+          "baseline"
+        ],
+        "original_index": 82
+      },
+      "status": "PASS"
+    },
+    {
+      "type": "page_load",
+      "url": "https://demoqa.com/tabs",
+      "fingerprint": null,
+      "description": "Page should load successfully",
+      "plan": {
+        "priority": 87,
+        "risk_score": 10,
+        "risk_level": "LOW",
+        "risk_reasons": [
+          "baseline"
+        ],
+        "original_index": 84
+      },
+      "status": "PASS"
+    },
+    {
+      "type": "tab",
+      "url": "https://demoqa.com/tabs",
+      "fingerprint": {
+        "semantic": "tab",
+        "tag": "button",
+        "text": "What",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "demo-tab-what",
+        "input_type": "button",
+        "title": "",
+        "aria_valuenow": "",
+        "value": "",
+        "min": "",
+        "max": "",
+        "step": "",
+        "data_testid": "",
+        "class_name": "nav-link active",
+        "outer_html": "<button type=\"button\" id=\"demo-tab-what\" role=\"tab\" data-rr-ui-event-key=\"what\" aria-controls=\"demo-tabpane-what\" aria-selected=\"true\" class=\"nav-link active\">What</button>"
+      },
+      "description": "Activate tab What",
+      "plan": {
+        "priority": 88,
+        "risk_score": 10,
+        "risk_level": "LOW",
+        "risk_reasons": [],
+        "original_index": 85
+      },
+      "status": "PASS"
+    },
+    {
+      "type": "tab",
+      "url": "https://demoqa.com/tabs",
+      "fingerprint": {
+        "semantic": "tab",
+        "tag": "button",
+        "text": "Origin",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "demo-tab-origin",
+        "input_type": "button",
+        "title": "",
+        "aria_valuenow": "",
+        "value": "",
+        "min": "",
+        "max": "",
+        "step": "",
+        "data_testid": "",
+        "class_name": "nav-link",
+        "outer_html": "<button type=\"button\" id=\"demo-tab-origin\" role=\"tab\" data-rr-ui-event-key=\"origin\" aria-controls=\"demo-tabpane-origin\" aria-selected=\"false\" tabindex=\"-1\" class=\"nav-link\">Origin</button>"
+      },
+      "description": "Activate tab Origin",
+      "plan": {
+        "priority": 89,
+        "risk_score": 10,
+        "risk_level": "LOW",
+        "risk_reasons": [],
+        "original_index": 86
+      },
+      "status": "PASS"
+    },
+    {
+      "type": "tab",
+      "url": "https://demoqa.com/tabs",
+      "fingerprint": {
+        "semantic": "tab",
+        "tag": "button",
+        "text": "Use",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "demo-tab-use",
+        "input_type": "button",
+        "title": "",
+        "aria_valuenow": "",
+        "value": "",
+        "min": "",
+        "max": "",
+        "step": "",
+        "data_testid": "",
+        "class_name": "nav-link",
+        "outer_html": "<button type=\"button\" id=\"demo-tab-use\" role=\"tab\" data-rr-ui-event-key=\"use\" aria-controls=\"demo-tabpane-use\" aria-selected=\"false\" tabindex=\"-1\" class=\"nav-link\">Use</button>"
+      },
+      "description": "Activate tab Use",
+      "plan": {
+        "priority": 90,
+        "risk_score": 10,
+        "risk_level": "LOW",
+        "risk_reasons": [],
+        "original_index": 87
+      },
+      "status": "PASS"
+    },
+    {
+      "type": "page_load",
+      "url": "https://demoqa.com/tool-tips",
+      "fingerprint": null,
+      "description": "Page should load successfully",
+      "plan": {
+        "priority": 91,
+        "risk_score": 10,
+        "risk_level": "LOW",
+        "risk_reasons": [
+          "baseline"
+        ],
+        "original_index": 88
+      },
+      "status": "PASS"
+    }
+  ]
+}

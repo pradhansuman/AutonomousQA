@@ -1,0 +1,16 @@
+{
+  "version": "8.3",
+  "canonical": true,
+  "graph_nodes": 29,
+  "graph_edges": 657,
+  "behavioral_surfaces": 29,
+  "journeys_discovered": 24,
+  "journeys_executed": 24,
+  "journeys_executable": 24,
+  "journeys_passed": 24,
+  "journeys_failed": 0,
+  "journey_coverage": 51.72,
+  "journey_execution_coverage": 100.0,
+  "journey_pass_rate": 100.0,
+  "outcome_truth": "Observed outcomes are reported. Unobserved backend outcomes remain UNKNOWN."
+}

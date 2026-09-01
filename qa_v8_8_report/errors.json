@@ -1,0 +1,11 @@
+[
+  {
+    "run_id": "4b8aa28df3b240c0bf6a73efe106e784",
+    "version": "8.8",
+    "current_run": true,
+    "timestamp": "2026-09-01T07:56:55.306119+00:00",
+    "phase": "navigation_execution",
+    "message": "Error: Page.goto: net::ERR_ABORTED at https://the-internet.herokuapp.com/download/testFile_large_20260901_130129.txt\nCall log:\n  - navigating to \"https://the-internet.herokuapp.com/download/testFile_large_20260901_130129.txt\", waiting until \"commit\"\n",
+    "url": "https://the-internet.herokuapp.com/download/testFile_large_20260901_130129.txt"
+  }
+]

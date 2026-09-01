@@ -1,0 +1,1217 @@
+[
+  {
+    "behavior_id": "7a20a70a48c92c8e9c52",
+    "run_id": "f7d9171955024206bdb43b91e551d5de",
+    "version": "8.7.16",
+    "current_run": true,
+    "page": "https://demoqa.com/books",
+    "surface": "https://demoqa.com/books",
+    "semantic": "TEXT_INPUT",
+    "action": "fill",
+    "selector": "#searchBox",
+    "label": "Type to search",
+    "risk": 60,
+    "status": "PASS",
+    "evidence_ids": [
+      "049353c0262924d28f68"
+    ]
+  },
+  {
+    "behavior_id": "aa4db1e29bdb0a0e8ea0",
+    "run_id": "f7d9171955024206bdb43b91e551d5de",
+    "version": "8.7.16",
+    "current_run": true,
+    "page": "https://demoqa.com/books",
+    "surface": "https://demoqa.com/books",
+    "semantic": "BUTTON",
+    "action": "click",
+    "selector": "button",
+    "label": "button",
+    "risk": 50,
+    "status": "PASS",
+    "evidence_ids": [
+      "0f73e15f76230c886707"
+    ]
+  },
+  {
+    "behavior_id": "5845211515e773b7a61d",
+    "run_id": "f7d9171955024206bdb43b91e551d5de",
+    "version": "8.7.16",
+    "current_run": true,
+    "page": "https://demoqa.com/books",
+    "surface": "https://demoqa.com/books",
+    "semantic": "BUTTON",
+    "action": "click",
+    "selector": "#login",
+    "label": "Login",
+    "risk": 65,
+    "status": "PASS",
+    "evidence_ids": [
+      "ab6252a95811011aeb65"
+    ]
+  },
+  {
+    "behavior_id": "54ef0cc9ddb3ff79d15e",
+    "run_id": "f7d9171955024206bdb43b91e551d5de",
+    "version": "8.7.16",
+    "current_run": true,
+    "page": "https://demoqa.com/accordian",
+    "surface": "https://demoqa.com/accordian",
+    "semantic": "BUTTON",
+    "action": "click",
+    "selector": "button",
+    "label": "What is Lorem Ipsum?",
+    "risk": 50,
+    "status": "FAIL",
+    "evidence_ids": [
+      "a15b22e10c791bf70b2b"
+    ]
+  },
+  {
+    "behavior_id": "e8daf33f636705d1bfed",
+    "run_id": "f7d9171955024206bdb43b91e551d5de",
+    "version": "8.7.16",
+    "current_run": true,
+    "page": "https://demoqa.com/alerts",
+    "surface": "https://demoqa.com/alerts",
+    "semantic": "BUTTON",
+    "action": "click",
+    "selector": "#alertButton",
+    "label": "Click me",
+    "risk": 50,
+    "status": "PASS",
+    "evidence_ids": [
+      "83b7d219af772a63497a"
+    ]
+  },
+  {
+    "behavior_id": "389e53b68f4d3909eca5",
+    "run_id": "f7d9171955024206bdb43b91e551d5de",
+    "version": "8.7.16",
+    "current_run": true,
+    "page": "https://demoqa.com/auto-complete",
+    "surface": "https://demoqa.com/auto-complete",
+    "semantic": "COMBOBOX",
+    "action": "type",
+    "selector": "#autoCompleteMultipleInput",
+    "label": "input",
+    "risk": 60,
+    "status": "FAIL",
+    "evidence_ids": [
+      "3ff1995430c8a8f22fdc"
+    ]
+  },
+  {
+    "behavior_id": "59b92caac67cec8bdfa4",
+    "run_id": "f7d9171955024206bdb43b91e551d5de",
+    "version": "8.7.16",
+    "current_run": true,
+    "page": "https://demoqa.com/automation-practice-form",
+    "surface": "https://demoqa.com/automation-practice-form",
+    "semantic": "TEXT_INPUT",
+    "action": "fill",
+    "selector": "#firstName",
+    "label": "First Name",
+    "risk": 60,
+    "status": "PASS",
+    "evidence_ids": [
+      "3bc07c72211708a1ce0d"
+    ]
+  },
+  {
+    "behavior_id": "fa1f8aea9f132f76a513",
+    "run_id": "f7d9171955024206bdb43b91e551d5de",
+    "version": "8.7.16",
+    "current_run": true,
+    "page": "https://demoqa.com/automation-practice-form",
+    "surface": "https://demoqa.com/automation-practice-form",
+    "semantic": "TEXT_INPUT",
+    "action": "fill",
+    "selector": "#lastName",
+    "label": "Last Name",
+    "risk": 60,
+    "status": "PASS",
+    "evidence_ids": [
+      "5457e5d7c8889fc7b7b5"
+    ]
+  },
+  {
+    "behavior_id": "7c7289e03cd9e23c27d5",
+    "run_id": "f7d9171955024206bdb43b91e551d5de",
+    "version": "8.7.16",
+    "current_run": true,
+    "page": "https://demoqa.com/automation-practice-form",
+    "surface": "https://demoqa.com/automation-practice-form",
+    "semantic": "TEXT_INPUT",
+    "action": "fill",
+    "selector": "#userEmail",
+    "label": "name@example.com",
+    "risk": 60,
+    "status": "PASS",
+    "evidence_ids": [
+      "d6f1469572b0e03672bc"
+    ]
+  },
+  {
+    "behavior_id": "4f8f925dd471d1504c9e",
+    "run_id": "f7d9171955024206bdb43b91e551d5de",
+    "version": "8.7.16",
+    "current_run": true,
+    "page": "https://demoqa.com/automation-practice-form",
+    "surface": "https://demoqa.com/automation-practice-form",
+    "semantic": "RADIO",
+    "action": "check",
+    "selector": "#gender-radio-1",
+    "label": "gender",
+    "risk": 55,
+    "status": "PASS",
+    "evidence_ids": [
+      "92f3098dcc48e9e0bb8a"
+    ]
+  },
+  {
+    "behavior_id": "76e82da168c171a4aae1",
+    "run_id": "f7d9171955024206bdb43b91e551d5de",
+    "version": "8.7.16",
+    "current_run": true,
+    "page": "https://demoqa.com/automation-practice-form",
+    "surface": "https://demoqa.com/automation-practice-form",
+    "semantic": "TEXT_INPUT",
+    "action": "fill",
+    "selector": "#userNumber",
+    "label": "Mobile Number",
+    "risk": 60,
+    "status": "PASS",
+    "evidence_ids": [
+      "b6d7fe004a8fb007537c"
+    ]
+  },
+  {
+    "behavior_id": "b8cb55afa4901d7daa86",
+    "run_id": "f7d9171955024206bdb43b91e551d5de",
+    "version": "8.7.16",
+    "current_run": true,
+    "page": "https://demoqa.com/automation-practice-form",
+    "surface": "https://demoqa.com/automation-practice-form",
+    "semantic": "TEXT_INPUT",
+    "action": "fill",
+    "selector": "#dateOfBirthInput",
+    "label": "input",
+    "risk": 60,
+    "status": "PASS",
+    "evidence_ids": [
+      "fb6fe7516a236b48853b"
+    ]
+  },
+  {
+    "behavior_id": "6c211a8ea7579885d4be",
+    "run_id": "f7d9171955024206bdb43b91e551d5de",
+    "version": "8.7.16",
+    "current_run": true,
+    "page": "https://demoqa.com/automation-practice-form",
+    "surface": "https://demoqa.com/automation-practice-form",
+    "semantic": "COMBOBOX",
+    "action": "type",
+    "selector": "#subjectsInput",
+    "label": "input",
+    "risk": 60,
+    "status": "PASS",
+    "evidence_ids": [
+      "c02dc546b3c83f7345a2"
+    ]
+  },
+  {
+    "behavior_id": "13495fc90b3ffad90612",
+    "run_id": "f7d9171955024206bdb43b91e551d5de",
+    "version": "8.7.16",
+    "current_run": true,
+    "page": "https://demoqa.com/automation-practice-form",
+    "surface": "https://demoqa.com/automation-practice-form",
+    "semantic": "CHECKBOX",
+    "action": "check",
+    "selector": "#hobbies-checkbox-1",
+    "label": "input",
+    "risk": 55,
+    "status": "PASS",
+    "evidence_ids": [
+      "04f2ed6dc6953d9f988e"
+    ]
+  },
+  {
+    "behavior_id": "f22d3ead87d290cbaa40",
+    "run_id": "f7d9171955024206bdb43b91e551d5de",
+    "version": "8.7.16",
+    "current_run": true,
+    "page": "https://demoqa.com/automation-practice-form",
+    "surface": "https://demoqa.com/automation-practice-form",
+    "semantic": "FILE_UPLOAD",
+    "action": "upload",
+    "selector": "#uploadPicture",
+    "label": "input",
+    "risk": 70,
+    "status": "PASS",
+    "evidence_ids": [
+      "cd694570b3986f8baebd"
+    ]
+  },
+  {
+    "behavior_id": "5d9db2e3cbb2c2667c6d",
+    "run_id": "f7d9171955024206bdb43b91e551d5de",
+    "version": "8.7.16",
+    "current_run": true,
+    "page": "https://demoqa.com/automation-practice-form",
+    "surface": "https://demoqa.com/automation-practice-form",
+    "semantic": "TEXTAREA",
+    "action": "fill",
+    "selector": "#currentAddress",
+    "label": "Current Address",
+    "risk": 60,
+    "status": "FAIL",
+    "evidence_ids": [
+      "e3dd62e6dcac4d71d9a2"
+    ]
+  },
+  {
+    "behavior_id": "8eea17c7dd00b850473b",
+    "run_id": "f7d9171955024206bdb43b91e551d5de",
+    "version": "8.7.16",
+    "current_run": true,
+    "page": "https://demoqa.com/automation-practice-form",
+    "surface": "https://demoqa.com/automation-practice-form",
+    "semantic": "BUTTON",
+    "action": "click",
+    "selector": "#submit",
+    "label": "Submit",
+    "risk": 65,
+    "status": "FAIL",
+    "evidence_ids": [
+      "292587d4dd35c52dba6b"
+    ]
+  },
+  {
+    "behavior_id": "25d7e2917680f8dd837c",
+    "run_id": "f7d9171955024206bdb43b91e551d5de",
+    "version": "8.7.16",
+    "current_run": true,
+    "page": "https://demoqa.com/browser-windows",
+    "surface": "https://demoqa.com/browser-windows",
+    "semantic": "BUTTON",
+    "action": "click",
+    "selector": "#tabButton",
+    "label": "New Tab",
+    "risk": 50,
+    "status": "PASS",
+    "evidence_ids": [
+      "cdae398c1233096a7e76"
+    ]
+  },
+  {
+    "behavior_id": "11fb63bf1dcf3441fe4d",
+    "run_id": "f7d9171955024206bdb43b91e551d5de",
+    "version": "8.7.16",
+    "current_run": true,
+    "page": "https://demoqa.com/browser-windows",
+    "surface": "https://demoqa.com/browser-windows",
+    "semantic": "BUTTON",
+    "action": "click",
+    "selector": "#windowButton",
+    "label": "New Window",
+    "risk": 50,
+    "status": "PASS",
+    "evidence_ids": [
+      "06afff7ae5b02d5e604d"
+    ]
+  },
+  {
+    "behavior_id": "fa601517182b9793779c",
+    "run_id": "f7d9171955024206bdb43b91e551d5de",
+    "version": "8.7.16",
+    "current_run": true,
+    "page": "https://demoqa.com/browser-windows",
+    "surface": "https://demoqa.com/browser-windows",
+    "semantic": "BUTTON",
+    "action": "click",
+    "selector": "#messageWindowButton",
+    "label": "New Window Message",
+    "risk": 50,
+    "status": "FAIL",
+    "evidence_ids": [
+      "8f1984b86f8a53f73dc6"
+    ]
+  },
+  {
+    "behavior_id": "efc1da30f034fa58623a",
+    "run_id": "f7d9171955024206bdb43b91e551d5de",
+    "version": "8.7.16",
+    "current_run": true,
+    "page": "https://demoqa.com/buttons",
+    "surface": "https://demoqa.com/buttons",
+    "semantic": "BUTTON",
+    "action": "click",
+    "selector": "#doubleClickBtn",
+    "label": "Double Click Me",
+    "risk": 50,
+    "status": "PASS",
+    "evidence_ids": [
+      "509e7673eea78083bcb4"
+    ]
+  },
+  {
+    "behavior_id": "b3149acd5d41199e058b",
+    "run_id": "f7d9171955024206bdb43b91e551d5de",
+    "version": "8.7.16",
+    "current_run": true,
+    "page": "https://demoqa.com/buttons",
+    "surface": "https://demoqa.com/buttons",
+    "semantic": "BUTTON",
+    "action": "click",
+    "selector": "#rightClickBtn",
+    "label": "Right Click Me",
+    "risk": 50,
+    "status": "PASS",
+    "evidence_ids": [
+      "8ec3363ad80192577c27"
+    ]
+  },
+  {
+    "behavior_id": "7f84e15c31acb41c157b",
+    "run_id": "f7d9171955024206bdb43b91e551d5de",
+    "version": "8.7.16",
+    "current_run": true,
+    "page": "https://demoqa.com/buttons",
+    "surface": "https://demoqa.com/buttons",
+    "semantic": "BUTTON",
+    "action": "click",
+    "selector": "#QteVH",
+    "label": "Click Me",
+    "risk": 50,
+    "status": "FAIL",
+    "evidence_ids": [
+      "0bace0610304f29c4e55"
+    ]
+  },
+  {
+    "behavior_id": "5cdc63670de008481224",
+    "run_id": "f7d9171955024206bdb43b91e551d5de",
+    "version": "8.7.16",
+    "current_run": true,
+    "page": "https://demoqa.com/checkbox",
+    "surface": "https://demoqa.com/checkbox",
+    "semantic": "CHECKBOX",
+    "action": "check",
+    "selector": "[role=\"checkbox\"]",
+    "label": "Select Home",
+    "risk": 55,
+    "status": "FAIL",
+    "evidence_ids": [
+      "4ebb298403c73c1c680e"
+    ]
+  },
+  {
+    "behavior_id": "8230e75e3385ad9a14fe",
+    "run_id": "f7d9171955024206bdb43b91e551d5de",
+    "version": "8.7.16",
+    "current_run": true,
+    "page": "https://demoqa.com/date-picker",
+    "surface": "https://demoqa.com/date-picker",
+    "semantic": "TEXT_INPUT",
+    "action": "fill",
+    "selector": "#datePickerMonthYearInput",
+    "label": "input",
+    "risk": 60,
+    "status": "PASS",
+    "evidence_ids": [
+      "64eb4d4a79746d7b99b3"
+    ]
+  },
+  {
+    "behavior_id": "33a86e51f6e257cc6dc3",
+    "run_id": "f7d9171955024206bdb43b91e551d5de",
+    "version": "8.7.16",
+    "current_run": true,
+    "page": "https://demoqa.com/dragabble",
+    "surface": "https://demoqa.com/dragabble",
+    "semantic": "TAB",
+    "action": "click",
+    "selector": "#draggableExample-tab-simple",
+    "label": "Simple",
+    "risk": 50,
+    "status": "FAIL",
+    "evidence_ids": [
+      "b1a1eeefeaccf129497b"
+    ]
+  },
+  {
+    "behavior_id": "41f3490a5d722cf75ee7",
+    "run_id": "f7d9171955024206bdb43b91e551d5de",
+    "version": "8.7.16",
+    "current_run": true,
+    "page": "https://demoqa.com/dragabble",
+    "surface": "https://demoqa.com/dragabble",
+    "semantic": "TAB",
+    "action": "click",
+    "selector": "#draggableExample-tab-axisRestriction",
+    "label": "Axis Restricted",
+    "risk": 50,
+    "status": "FAIL",
+    "evidence_ids": [
+      "633c34c3bb5eb0b85d96"
+    ]
+  },
+  {
+    "behavior_id": "1b839b5aecdc4296e70c",
+    "run_id": "f7d9171955024206bdb43b91e551d5de",
+    "version": "8.7.16",
+    "current_run": true,
+    "page": "https://demoqa.com/dragabble",
+    "surface": "https://demoqa.com/dragabble",
+    "semantic": "TAB",
+    "action": "click",
+    "selector": "#draggableExample-tab-containerRestriction",
+    "label": "Container Restricted",
+    "risk": 50,
+    "status": "FAIL",
+    "evidence_ids": [
+      "91d6b7c9c79d3861d58e"
+    ]
+  },
+  {
+    "behavior_id": "6cebc63c20ea389fb4ac",
+    "run_id": "f7d9171955024206bdb43b91e551d5de",
+    "version": "8.7.16",
+    "current_run": true,
+    "page": "https://demoqa.com/dragabble",
+    "surface": "https://demoqa.com/dragabble",
+    "semantic": "TAB",
+    "action": "click",
+    "selector": "#draggableExample-tab-cursorStyle",
+    "label": "Cursor Style",
+    "risk": 50,
+    "status": "PASS",
+    "evidence_ids": [
+      "b414f3b307c3ab363e65"
+    ]
+  },
+  {
+    "behavior_id": "c8882c10090f6855feb9",
+    "run_id": "f7d9171955024206bdb43b91e551d5de",
+    "version": "8.7.16",
+    "current_run": true,
+    "page": "https://demoqa.com/droppable",
+    "surface": "https://demoqa.com/droppable",
+    "semantic": "TAB",
+    "action": "click",
+    "selector": "#droppableExample-tab-simple",
+    "label": "Simple",
+    "risk": 50,
+    "status": "PASS",
+    "evidence_ids": [
+      "af240aa0382a43440073"
+    ]
+  },
+  {
+    "behavior_id": "c1ae43869dd09021cf8b",
+    "run_id": "f7d9171955024206bdb43b91e551d5de",
+    "version": "8.7.16",
+    "current_run": true,
+    "page": "https://demoqa.com/droppable",
+    "surface": "https://demoqa.com/droppable",
+    "semantic": "TAB",
+    "action": "click",
+    "selector": "#droppableExample-tab-accept",
+    "label": "Accept",
+    "risk": 50,
+    "status": "FAIL",
+    "evidence_ids": [
+      "fad1c67f094773686710"
+    ]
+  },
+  {
+    "behavior_id": "8039d557fa356f41539e",
+    "run_id": "f7d9171955024206bdb43b91e551d5de",
+    "version": "8.7.16",
+    "current_run": true,
+    "page": "https://demoqa.com/droppable",
+    "surface": "https://demoqa.com/droppable",
+    "semantic": "TAB",
+    "action": "click",
+    "selector": "#droppableExample-tab-preventPropogation",
+    "label": "Prevent Propogation",
+    "risk": 50,
+    "status": "PASS",
+    "evidence_ids": [
+      "efca644e54d284f2f419"
+    ]
+  },
+  {
+    "behavior_id": "3d32f5523a4c61231eeb",
+    "run_id": "f7d9171955024206bdb43b91e551d5de",
+    "version": "8.7.16",
+    "current_run": true,
+    "page": "https://demoqa.com/droppable",
+    "surface": "https://demoqa.com/droppable",
+    "semantic": "TAB",
+    "action": "click",
+    "selector": "#droppableExample-tab-revertable",
+    "label": "Revert Draggable",
+    "risk": 50,
+    "status": "PASS",
+    "evidence_ids": [
+      "c93a3b36ab943d9f237b"
+    ]
+  },
+  {
+    "behavior_id": "8225803c8e0116743647",
+    "run_id": "f7d9171955024206bdb43b91e551d5de",
+    "version": "8.7.16",
+    "current_run": true,
+    "page": "https://demoqa.com/dynamic-properties",
+    "surface": "https://demoqa.com/dynamic-properties",
+    "semantic": "BUTTON",
+    "action": "click",
+    "selector": "#colorChange",
+    "label": "Color Change",
+    "risk": 50,
+    "status": "PASS",
+    "evidence_ids": [
+      "603969ab5e94d8960003"
+    ]
+  },
+  {
+    "behavior_id": "5e143876b23c633522fd",
+    "run_id": "f7d9171955024206bdb43b91e551d5de",
+    "version": "8.7.16",
+    "current_run": true,
+    "page": "https://demoqa.com/login",
+    "surface": "https://demoqa.com/login",
+    "semantic": "TEXT_INPUT",
+    "action": "fill",
+    "selector": "#userName",
+    "label": "UserName",
+    "risk": 75,
+    "status": "PASS",
+    "evidence_ids": [
+      "7d60d6cb15be6aa7ffa4"
+    ]
+  },
+  {
+    "behavior_id": "345084045b43eab8d391",
+    "run_id": "f7d9171955024206bdb43b91e551d5de",
+    "version": "8.7.16",
+    "current_run": true,
+    "page": "https://demoqa.com/login",
+    "surface": "https://demoqa.com/login",
+    "semantic": "TEXT_INPUT",
+    "action": "fill",
+    "selector": "#password",
+    "label": "Password",
+    "risk": 75,
+    "status": "PASS",
+    "evidence_ids": [
+      "6cda46eb48bbd7dfcf42"
+    ]
+  },
+  {
+    "behavior_id": "357e393a3a4b6b1a4693",
+    "run_id": "f7d9171955024206bdb43b91e551d5de",
+    "version": "8.7.16",
+    "current_run": true,
+    "page": "https://demoqa.com/login",
+    "surface": "https://demoqa.com/login",
+    "semantic": "BUTTON",
+    "action": "click",
+    "selector": "#login",
+    "label": "Login",
+    "risk": 65,
+    "status": "PASS",
+    "evidence_ids": [
+      "f575742674b125c99fbe"
+    ]
+  },
+  {
+    "behavior_id": "c806838dd20b26138d0d",
+    "run_id": "f7d9171955024206bdb43b91e551d5de",
+    "version": "8.7.16",
+    "current_run": true,
+    "page": "https://demoqa.com/login",
+    "surface": "https://demoqa.com/login",
+    "semantic": "BUTTON",
+    "action": "click",
+    "selector": "#newUser",
+    "label": "New User",
+    "risk": 65,
+    "status": "FAIL",
+    "evidence_ids": [
+      "1c38bd565bf4117f4e00"
+    ]
+  },
+  {
+    "behavior_id": "5d2bb71c416f66bb343c",
+    "run_id": "f7d9171955024206bdb43b91e551d5de",
+    "version": "8.7.16",
+    "current_run": true,
+    "page": "https://demoqa.com/modal-dialogs",
+    "surface": "https://demoqa.com/modal-dialogs",
+    "semantic": "BUTTON",
+    "action": "click",
+    "selector": "#showSmallModal",
+    "label": "Small modal",
+    "risk": 50,
+    "status": "UNKNOWN",
+    "evidence_ids": []
+  },
+  {
+    "behavior_id": "e8408ed88fe643c005fd",
+    "run_id": "f7d9171955024206bdb43b91e551d5de",
+    "version": "8.7.16",
+    "current_run": true,
+    "page": "https://demoqa.com/modal-dialogs",
+    "surface": "https://demoqa.com/modal-dialogs",
+    "semantic": "BUTTON",
+    "action": "click",
+    "selector": "#showLargeModal",
+    "label": "Large modal",
+    "risk": 50,
+    "status": "PASS",
+    "evidence_ids": [
+      "9214de3abad4c61dd555"
+    ]
+  },
+  {
+    "behavior_id": "9b072252bda9160efaba",
+    "run_id": "f7d9171955024206bdb43b91e551d5de",
+    "version": "8.7.16",
+    "current_run": true,
+    "page": "https://demoqa.com/progress-bar",
+    "surface": "https://demoqa.com/progress-bar",
+    "semantic": "BUTTON",
+    "action": "click",
+    "selector": "#startStopButton",
+    "label": "Start",
+    "risk": 50,
+    "status": "UNKNOWN",
+    "evidence_ids": []
+  },
+  {
+    "behavior_id": "3159245ba3acec2595da",
+    "run_id": "f7d9171955024206bdb43b91e551d5de",
+    "version": "8.7.16",
+    "current_run": true,
+    "page": "https://demoqa.com/radio-button",
+    "surface": "https://demoqa.com/radio-button",
+    "semantic": "RADIO",
+    "action": "check",
+    "selector": "#yesRadio",
+    "label": "like",
+    "risk": 55,
+    "status": "FAIL",
+    "evidence_ids": [
+      "327ec3179452b18d7a16"
+    ]
+  },
+  {
+    "behavior_id": "fc76e8663ffc18c29687",
+    "run_id": "f7d9171955024206bdb43b91e551d5de",
+    "version": "8.7.16",
+    "current_run": true,
+    "page": "https://demoqa.com/select-menu",
+    "surface": "https://demoqa.com/select-menu",
+    "semantic": "COMBOBOX",
+    "action": "type",
+    "selector": "#react-select-2-input",
+    "label": "input",
+    "risk": 60,
+    "status": "PASS",
+    "evidence_ids": [
+      "f0b1bb1411ca9221544b"
+    ]
+  },
+  {
+    "behavior_id": "a22ba963ae3ecd8753cb",
+    "run_id": "f7d9171955024206bdb43b91e551d5de",
+    "version": "8.7.16",
+    "current_run": true,
+    "page": "https://demoqa.com/select-menu",
+    "surface": "https://demoqa.com/select-menu",
+    "semantic": "SELECT",
+    "action": "select",
+    "selector": "#oldSelectMenu",
+    "label": "Red\nBlue\nGreen\nYellow\nPurple\nBlack\nWhite\nVoilet\nIndigo\nMagenta\nAqua",
+    "risk": 60,
+    "status": "PASS",
+    "evidence_ids": [
+      "8bab01e8510395cdfa80"
+    ]
+  },
+  {
+    "behavior_id": "052b5fdb37f525f0bf80",
+    "run_id": "f7d9171955024206bdb43b91e551d5de",
+    "version": "8.7.16",
+    "current_run": true,
+    "page": "https://demoqa.com/select-menu",
+    "surface": "https://demoqa.com/select-menu",
+    "semantic": "SELECT",
+    "action": "select",
+    "selector": "#cars",
+    "label": "cars",
+    "risk": 60,
+    "status": "PASS",
+    "evidence_ids": [
+      "dcecc738f49666524fc6"
+    ]
+  },
+  {
+    "behavior_id": "7919c832f337d4207154",
+    "run_id": "f7d9171955024206bdb43b91e551d5de",
+    "version": "8.7.16",
+    "current_run": true,
+    "page": "https://demoqa.com/selectable",
+    "surface": "https://demoqa.com/selectable",
+    "semantic": "TAB",
+    "action": "click",
+    "selector": "#demo-tab-list",
+    "label": "List",
+    "risk": 50,
+    "status": "UNKNOWN",
+    "evidence_ids": []
+  },
+  {
+    "behavior_id": "ae95b7a03e6e0e1a5712",
+    "run_id": "f7d9171955024206bdb43b91e551d5de",
+    "version": "8.7.16",
+    "current_run": true,
+    "page": "https://demoqa.com/selectable",
+    "surface": "https://demoqa.com/selectable",
+    "semantic": "TAB",
+    "action": "click",
+    "selector": "#demo-tab-grid",
+    "label": "Grid",
+    "risk": 50,
+    "status": "UNKNOWN",
+    "evidence_ids": []
+  },
+  {
+    "behavior_id": "22378b408e14f8790876",
+    "run_id": "f7d9171955024206bdb43b91e551d5de",
+    "version": "8.7.16",
+    "current_run": true,
+    "page": "https://demoqa.com/slider",
+    "surface": "https://demoqa.com/slider",
+    "semantic": "SLIDER",
+    "action": "adjust",
+    "selector": "#slider",
+    "label": "input",
+    "risk": 55,
+    "status": "FAIL",
+    "evidence_ids": [
+      "865740000425596ca992"
+    ]
+  },
+  {
+    "behavior_id": "e59b9ee2b2579e2d944b",
+    "run_id": "f7d9171955024206bdb43b91e551d5de",
+    "version": "8.7.16",
+    "current_run": true,
+    "page": "https://demoqa.com/slider",
+    "surface": "https://demoqa.com/slider",
+    "semantic": "TEXT_INPUT",
+    "action": "fill",
+    "selector": "#sliderValue",
+    "label": "input",
+    "risk": 60,
+    "status": "FAIL",
+    "evidence_ids": [
+      "58f65bba77ba56c7d17d"
+    ]
+  },
+  {
+    "behavior_id": "8eee47fe97524d052fb2",
+    "run_id": "f7d9171955024206bdb43b91e551d5de",
+    "version": "8.7.16",
+    "current_run": true,
+    "page": "https://demoqa.com/sortable",
+    "surface": "https://demoqa.com/sortable",
+    "semantic": "TAB",
+    "action": "click",
+    "selector": "#demo-tab-list",
+    "label": "List",
+    "risk": 50,
+    "status": "UNKNOWN",
+    "evidence_ids": []
+  },
+  {
+    "behavior_id": "3c50d9dcc9466f53b52e",
+    "run_id": "f7d9171955024206bdb43b91e551d5de",
+    "version": "8.7.16",
+    "current_run": true,
+    "page": "https://demoqa.com/sortable",
+    "surface": "https://demoqa.com/sortable",
+    "semantic": "TAB",
+    "action": "click",
+    "selector": "#demo-tab-grid",
+    "label": "Grid",
+    "risk": 50,
+    "status": "UNKNOWN",
+    "evidence_ids": []
+  },
+  {
+    "behavior_id": "bd1e627519f489e2f804",
+    "run_id": "f7d9171955024206bdb43b91e551d5de",
+    "version": "8.7.16",
+    "current_run": true,
+    "page": "https://demoqa.com/swagger",
+    "surface": "https://demoqa.com/swagger",
+    "semantic": "BUTTON",
+    "action": "click",
+    "selector": "button",
+    "label": "Authorize",
+    "risk": 50,
+    "status": "UNKNOWN",
+    "evidence_ids": []
+  },
+  {
+    "behavior_id": "dd10b2a26599842f4711",
+    "run_id": "f7d9171955024206bdb43b91e551d5de",
+    "version": "8.7.16",
+    "current_run": true,
+    "page": "https://demoqa.com/tabs",
+    "surface": "https://demoqa.com/tabs",
+    "semantic": "TAB",
+    "action": "click",
+    "selector": "#demo-tab-what",
+    "label": "What",
+    "risk": 50,
+    "status": "UNKNOWN",
+    "evidence_ids": []
+  },
+  {
+    "behavior_id": "5b6a12161e84cc673810",
+    "run_id": "f7d9171955024206bdb43b91e551d5de",
+    "version": "8.7.16",
+    "current_run": true,
+    "page": "https://demoqa.com/tabs",
+    "surface": "https://demoqa.com/tabs",
+    "semantic": "TAB",
+    "action": "click",
+    "selector": "#demo-tab-origin",
+    "label": "Origin",
+    "risk": 50,
+    "status": "UNKNOWN",
+    "evidence_ids": []
+  },
+  {
+    "behavior_id": "0ef9acb2d06ec8c38243",
+    "run_id": "f7d9171955024206bdb43b91e551d5de",
+    "version": "8.7.16",
+    "current_run": true,
+    "page": "https://demoqa.com/tabs",
+    "surface": "https://demoqa.com/tabs",
+    "semantic": "TAB",
+    "action": "click",
+    "selector": "#demo-tab-use",
+    "label": "Use",
+    "risk": 50,
+    "status": "UNKNOWN",
+    "evidence_ids": []
+  },
+  {
+    "behavior_id": "a5a37d6b8dc962ea4507",
+    "run_id": "f7d9171955024206bdb43b91e551d5de",
+    "version": "8.7.16",
+    "current_run": true,
+    "page": "https://demoqa.com/text-box",
+    "surface": "https://demoqa.com/text-box",
+    "semantic": "TEXT_INPUT",
+    "action": "fill",
+    "selector": "#userName",
+    "label": "Full Name",
+    "risk": 60,
+    "status": "PASS",
+    "evidence_ids": [
+      "c97214196cb32876ff4a"
+    ]
+  },
+  {
+    "behavior_id": "ac71befaa2150c649b77",
+    "run_id": "f7d9171955024206bdb43b91e551d5de",
+    "version": "8.7.16",
+    "current_run": true,
+    "page": "https://demoqa.com/text-box",
+    "surface": "https://demoqa.com/text-box",
+    "semantic": "TEXT_INPUT",
+    "action": "fill",
+    "selector": "#userEmail",
+    "label": "name@example.com",
+    "risk": 60,
+    "status": "PASS",
+    "evidence_ids": [
+      "d68f270ed793c917dc8b"
+    ]
+  },
+  {
+    "behavior_id": "dbb4ca90bfcae0b0f578",
+    "run_id": "f7d9171955024206bdb43b91e551d5de",
+    "version": "8.7.16",
+    "current_run": true,
+    "page": "https://demoqa.com/text-box",
+    "surface": "https://demoqa.com/text-box",
+    "semantic": "TEXTAREA",
+    "action": "fill",
+    "selector": "#currentAddress",
+    "label": "Current Address",
+    "risk": 60,
+    "status": "PASS",
+    "evidence_ids": [
+      "9f1e7fe2822a813bbf25"
+    ]
+  },
+  {
+    "behavior_id": "29d84390f0288a10d8cb",
+    "run_id": "f7d9171955024206bdb43b91e551d5de",
+    "version": "8.7.16",
+    "current_run": true,
+    "page": "https://demoqa.com/text-box",
+    "surface": "https://demoqa.com/text-box",
+    "semantic": "TEXTAREA",
+    "action": "fill",
+    "selector": "#permanentAddress",
+    "label": "textarea",
+    "risk": 60,
+    "status": "PASS",
+    "evidence_ids": [
+      "10cf0735bc930951d24e"
+    ]
+  },
+  {
+    "behavior_id": "369e10bf19b476e4ac21",
+    "run_id": "f7d9171955024206bdb43b91e551d5de",
+    "version": "8.7.16",
+    "current_run": true,
+    "page": "https://demoqa.com/text-box",
+    "surface": "https://demoqa.com/text-box",
+    "semantic": "BUTTON",
+    "action": "click",
+    "selector": "#submit",
+    "label": "Submit",
+    "risk": 65,
+    "status": "PASS",
+    "evidence_ids": [
+      "87da58f25542cce26299"
+    ]
+  },
+  {
+    "behavior_id": "e3bdb93e2929aa024d74",
+    "run_id": "f7d9171955024206bdb43b91e551d5de",
+    "version": "8.7.16",
+    "current_run": true,
+    "page": "https://demoqa.com/tool-tips",
+    "surface": "https://demoqa.com/tool-tips",
+    "semantic": "BUTTON",
+    "action": "click",
+    "selector": "#toolTipButton",
+    "label": "Hover me to see",
+    "risk": 50,
+    "status": "UNKNOWN",
+    "evidence_ids": []
+  },
+  {
+    "behavior_id": "cd994303a8d55e2f4a8e",
+    "run_id": "f7d9171955024206bdb43b91e551d5de",
+    "version": "8.7.16",
+    "current_run": true,
+    "page": "https://demoqa.com/tool-tips",
+    "surface": "https://demoqa.com/tool-tips",
+    "semantic": "TEXT_INPUT",
+    "action": "fill",
+    "selector": "#toolTipTextField",
+    "label": "Hover me to see",
+    "risk": 60,
+    "status": "PASS",
+    "evidence_ids": [
+      "9aa636468fd600a0481d"
+    ]
+  },
+  {
+    "behavior_id": "e19e96156cc4f1dc6668",
+    "run_id": "f7d9171955024206bdb43b91e551d5de",
+    "version": "8.7.16",
+    "current_run": true,
+    "page": "https://demoqa.com/upload-download",
+    "surface": "https://demoqa.com/upload-download",
+    "semantic": "FILE_UPLOAD",
+    "action": "upload",
+    "selector": "#uploadFile",
+    "label": "input",
+    "risk": 85,
+    "status": "PASS",
+    "evidence_ids": [
+      "4e66c44be2d9385dc6d6"
+    ]
+  },
+  {
+    "behavior_id": "9e6f527ef09263bcf6e7",
+    "run_id": "f7d9171955024206bdb43b91e551d5de",
+    "version": "8.7.16",
+    "current_run": true,
+    "page": "https://demoqa.com/webtables",
+    "surface": "https://demoqa.com/webtables",
+    "semantic": "BUTTON",
+    "action": "click",
+    "selector": "#addNewRecordButton",
+    "label": "Add",
+    "risk": 50,
+    "status": "UNKNOWN",
+    "evidence_ids": []
+  },
+  {
+    "behavior_id": "8b838aa085af9817be4c",
+    "run_id": "f7d9171955024206bdb43b91e551d5de",
+    "version": "8.7.16",
+    "current_run": true,
+    "page": "https://demoqa.com/webtables",
+    "surface": "https://demoqa.com/webtables",
+    "semantic": "TEXT_INPUT",
+    "action": "fill",
+    "selector": "#searchBox",
+    "label": "Type to search",
+    "risk": 60,
+    "status": "PASS",
+    "evidence_ids": [
+      "a459734e9ae8c7656a6f"
+    ]
+  },
+  {
+    "behavior_id": "6e4bd4acee7a39dee78f",
+    "run_id": "f7d9171955024206bdb43b91e551d5de",
+    "version": "8.7.16",
+    "current_run": true,
+    "page": "https://demoqa.com/webtables",
+    "surface": "https://demoqa.com/webtables",
+    "semantic": "BUTTON",
+    "action": "click",
+    "selector": "#basic-addon2",
+    "label": "button",
+    "risk": 50,
+    "status": "UNKNOWN",
+    "evidence_ids": []
+  },
+  {
+    "behavior_id": "f10da7b4de33a78b0f68",
+    "run_id": "f7d9171955024206bdb43b91e551d5de",
+    "version": "8.7.16",
+    "current_run": true,
+    "page": "https://demoqa.com/webtables",
+    "surface": "https://demoqa.com/webtables",
+    "semantic": "SELECT",
+    "action": "select",
+    "selector": "select",
+    "label": "Show 10\nShow 20\nShow 30\nShow 40\nShow 50",
+    "risk": 60,
+    "status": "PASS",
+    "evidence_ids": [
+      "83c6abe5cfa927c1e0b0"
+    ]
+  },
+  {
+    "behavior_id": "bd8d722d3873afcfd7f3",
+    "run_id": "f7d9171955024206bdb43b91e551d5de",
+    "version": "8.7.16",
+    "current_run": true,
+    "page": "https://demoqa.com/register",
+    "surface": "https://demoqa.com/register",
+    "semantic": "TEXT_INPUT",
+    "action": "fill",
+    "selector": "#firstname",
+    "label": "First Name",
+    "risk": 75,
+    "status": "PASS",
+    "evidence_ids": [
+      "486a162396f4ec738d02"
+    ]
+  },
+  {
+    "behavior_id": "9d5786228e8e981ff745",
+    "run_id": "f7d9171955024206bdb43b91e551d5de",
+    "version": "8.7.16",
+    "current_run": true,
+    "page": "https://demoqa.com/register",
+    "surface": "https://demoqa.com/register",
+    "semantic": "TEXT_INPUT",
+    "action": "fill",
+    "selector": "#lastname",
+    "label": "Last Name",
+    "risk": 75,
+    "status": "PASS",
+    "evidence_ids": [
+      "eb51794131988ce503a4"
+    ]
+  },
+  {
+    "behavior_id": "e461c81bbc3379d9f11e",
+    "run_id": "f7d9171955024206bdb43b91e551d5de",
+    "version": "8.7.16",
+    "current_run": true,
+    "page": "https://demoqa.com/register",
+    "surface": "https://demoqa.com/register",
+    "semantic": "TEXT_INPUT",
+    "action": "fill",
+    "selector": "#userName",
+    "label": "UserName",
+    "risk": 75,
+    "status": "PASS",
+    "evidence_ids": [
+      "b629177b04702b81266c"
+    ]
+  },
+  {
+    "behavior_id": "ec80ffd84119384c4ae8",
+    "run_id": "f7d9171955024206bdb43b91e551d5de",
+    "version": "8.7.16",
+    "current_run": true,
+    "page": "https://demoqa.com/register",
+    "surface": "https://demoqa.com/register",
+    "semantic": "TEXT_INPUT",
+    "action": "fill",
+    "selector": "#password",
+    "label": "Password",
+    "risk": 75,
+    "status": "PASS",
+    "evidence_ids": [
+      "d35ee78de8216f4f8912"
+    ]
+  },
+  {
+    "behavior_id": "ac01455fb5f102d53279",
+    "run_id": "f7d9171955024206bdb43b91e551d5de",
+    "version": "8.7.16",
+    "current_run": true,
+    "page": "https://demoqa.com/register",
+    "surface": "https://demoqa.com/register",
+    "semantic": "BUTTON",
+    "action": "click",
+    "selector": "#register",
+    "label": "Register",
+    "risk": 65,
+    "status": "PASS",
+    "evidence_ids": [
+      "1863327c12ee7d7005fc"
+    ]
+  },
+  {
+    "behavior_id": "d79d3bec1edaf252d634",
+    "run_id": "f7d9171955024206bdb43b91e551d5de",
+    "version": "8.7.16",
+    "current_run": true,
+    "page": "https://demoqa.com/register",
+    "surface": "https://demoqa.com/register",
+    "semantic": "BUTTON",
+    "action": "click",
+    "selector": "#gotologin",
+    "label": "Back to Login",
+    "risk": 65,
+    "status": "PASS",
+    "evidence_ids": [
+      "7562ae64b5a0abfdf605"
+    ]
+  }
+]

@@ -1,0 +1,1376 @@
+{
+  "agent": "Autonomous QA Agent",
+  "version": "3.5.3",
+  "target": "https://demoqa.com",
+  "pages_discovered": 30,
+  "tests_generated": 92,
+  "tests_executed": 92,
+  "pass": 85,
+  "fail": 7,
+  "dialogs_handled": 0,
+  "generation_stats": {
+    "expected_skips": 6,
+    "dynamic_tests": 1,
+    "behavioral_tests": 62
+  },
+  "results": [
+    {
+      "type": "page_load",
+      "url": "https://demoqa.com",
+      "fingerprint": null,
+      "description": "Page should load successfully",
+      "status": "PASS"
+    },
+    {
+      "type": "page_load",
+      "url": "https://demoqa.com/",
+      "fingerprint": null,
+      "description": "Page should load successfully",
+      "status": "PASS"
+    },
+    {
+      "type": "page_load",
+      "url": "https://demoqa.com/elements",
+      "fingerprint": null,
+      "description": "Page should load successfully",
+      "status": "PASS"
+    },
+    {
+      "type": "page_load",
+      "url": "https://demoqa.com/forms",
+      "fingerprint": null,
+      "description": "Page should load successfully",
+      "status": "PASS"
+    },
+    {
+      "type": "page_load",
+      "url": "https://demoqa.com/alertsWindows",
+      "fingerprint": null,
+      "description": "Page should load successfully",
+      "status": "PASS"
+    },
+    {
+      "type": "page_load",
+      "url": "https://demoqa.com/widgets",
+      "fingerprint": null,
+      "description": "Page should load successfully",
+      "status": "PASS"
+    },
+    {
+      "type": "page_load",
+      "url": "https://demoqa.com/interaction",
+      "fingerprint": null,
+      "description": "Page should load successfully",
+      "status": "PASS"
+    },
+    {
+      "type": "page_load",
+      "url": "https://demoqa.com/books",
+      "fingerprint": null,
+      "description": "Page should load successfully",
+      "status": "PASS"
+    },
+    {
+      "type": "text_input",
+      "url": "https://demoqa.com/books",
+      "fingerprint": {
+        "semantic": "text_input",
+        "tag": "input",
+        "text": "",
+        "aria_label": "",
+        "placeholder": "Type to search",
+        "name": "",
+        "id": "searchBox",
+        "input_type": "text",
+        "title": "",
+        "aria_valuenow": ""
+      },
+      "description": "Enter valid data into Type to search",
+      "status": "PASS",
+      "message": "Value persisted"
+    },
+    {
+      "type": "button",
+      "url": "https://demoqa.com/books",
+      "fingerprint": {
+        "semantic": "button",
+        "tag": "button",
+        "text": "",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "",
+        "input_type": "button",
+        "title": "",
+        "aria_valuenow": ""
+      },
+      "description": "Activate button",
+      "status": "FAIL",
+      "error": "Semantic element could not be resolved uniquely (semantic='button', id='', label='', type='button')",
+      "evidence": "qa_v3_5_3_report/screenshots/_books_button_9.png"
+    },
+    {
+      "type": "button",
+      "url": "https://demoqa.com/books",
+      "fingerprint": {
+        "semantic": "button",
+        "tag": "button",
+        "text": "Login",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "login",
+        "input_type": "button",
+        "title": "",
+        "aria_valuenow": ""
+      },
+      "description": "Activate Login",
+      "status": "PASS"
+    },
+    {
+      "type": "page_load",
+      "url": "https://demoqa.com/text-box",
+      "fingerprint": null,
+      "description": "Page should load successfully",
+      "status": "PASS"
+    },
+    {
+      "type": "text_input",
+      "url": "https://demoqa.com/text-box",
+      "fingerprint": {
+        "semantic": "text_input",
+        "tag": "input",
+        "text": "",
+        "aria_label": "",
+        "placeholder": "Full Name",
+        "name": "",
+        "id": "userName",
+        "input_type": "text",
+        "title": "",
+        "aria_valuenow": ""
+      },
+      "description": "Enter valid data into Full Name",
+      "status": "PASS",
+      "message": "Value persisted"
+    },
+    {
+      "type": "text_input",
+      "url": "https://demoqa.com/text-box",
+      "fingerprint": {
+        "semantic": "text_input",
+        "tag": "input",
+        "text": "",
+        "aria_label": "",
+        "placeholder": "name@example.com",
+        "name": "",
+        "id": "userEmail",
+        "input_type": "email",
+        "title": "",
+        "aria_valuenow": ""
+      },
+      "description": "Enter valid data into name@example.com",
+      "status": "PASS",
+      "message": "Value persisted"
+    },
+    {
+      "type": "text_area",
+      "url": "https://demoqa.com/text-box",
+      "fingerprint": {
+        "semantic": "text_area",
+        "tag": "textarea",
+        "text": "",
+        "aria_label": "",
+        "placeholder": "Current Address",
+        "name": "",
+        "id": "currentAddress",
+        "input_type": "",
+        "title": "",
+        "aria_valuenow": ""
+      },
+      "description": "Enter text into Current Address",
+      "status": "PASS"
+    },
+    {
+      "type": "text_area",
+      "url": "https://demoqa.com/text-box",
+      "fingerprint": {
+        "semantic": "text_area",
+        "tag": "textarea",
+        "text": "",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "permanentAddress",
+        "input_type": "",
+        "title": "",
+        "aria_valuenow": ""
+      },
+      "description": "Enter text into text_area",
+      "status": "PASS"
+    },
+    {
+      "type": "button",
+      "url": "https://demoqa.com/text-box",
+      "fingerprint": {
+        "semantic": "button",
+        "tag": "button",
+        "text": "Submit",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "submit",
+        "input_type": "button",
+        "title": "",
+        "aria_valuenow": ""
+      },
+      "description": "Activate Submit",
+      "status": "PASS"
+    },
+    {
+      "type": "page_load",
+      "url": "https://demoqa.com/checkbox",
+      "fingerprint": null,
+      "description": "Page should load successfully",
+      "status": "PASS"
+    },
+    {
+      "type": "checkbox",
+      "url": "https://demoqa.com/checkbox",
+      "fingerprint": {
+        "semantic": "checkbox",
+        "tag": "span",
+        "text": "",
+        "aria_label": "Select Home",
+        "placeholder": "",
+        "name": "",
+        "id": "",
+        "input_type": "",
+        "title": "",
+        "aria_valuenow": ""
+      },
+      "description": "Toggle Select Home",
+      "status": "PASS"
+    },
+    {
+      "type": "page_load",
+      "url": "https://demoqa.com/radio-button",
+      "fingerprint": null,
+      "description": "Page should load successfully",
+      "status": "PASS"
+    },
+    {
+      "type": "radio",
+      "url": "https://demoqa.com/radio-button",
+      "fingerprint": {
+        "semantic": "radio",
+        "tag": "input",
+        "text": "",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "like",
+        "id": "yesRadio",
+        "input_type": "radio",
+        "title": "",
+        "aria_valuenow": ""
+      },
+      "description": "Select like",
+      "status": "PASS"
+    },
+    {
+      "type": "radio",
+      "url": "https://demoqa.com/radio-button",
+      "fingerprint": {
+        "semantic": "radio",
+        "tag": "input",
+        "text": "",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "like",
+        "id": "impressiveRadio",
+        "input_type": "radio",
+        "title": "",
+        "aria_valuenow": ""
+      },
+      "description": "Select like",
+      "status": "PASS"
+    },
+    {
+      "type": "page_load",
+      "url": "https://demoqa.com/webtables",
+      "fingerprint": null,
+      "description": "Page should load successfully",
+      "status": "PASS"
+    },
+    {
+      "type": "button",
+      "url": "https://demoqa.com/webtables",
+      "fingerprint": {
+        "semantic": "button",
+        "tag": "button",
+        "text": "Add",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "addNewRecordButton",
+        "input_type": "button",
+        "title": "",
+        "aria_valuenow": ""
+      },
+      "description": "Activate Add",
+      "status": "PASS"
+    },
+    {
+      "type": "text_input",
+      "url": "https://demoqa.com/webtables",
+      "fingerprint": {
+        "semantic": "text_input",
+        "tag": "input",
+        "text": "",
+        "aria_label": "",
+        "placeholder": "Type to search",
+        "name": "",
+        "id": "searchBox",
+        "input_type": "text",
+        "title": "",
+        "aria_valuenow": ""
+      },
+      "description": "Enter valid data into Type to search",
+      "status": "PASS",
+      "message": "Value persisted"
+    },
+    {
+      "type": "button",
+      "url": "https://demoqa.com/webtables",
+      "fingerprint": {
+        "semantic": "button",
+        "tag": "button",
+        "text": "",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "basic-addon2",
+        "input_type": "button",
+        "title": "",
+        "aria_valuenow": ""
+      },
+      "description": "Activate button",
+      "status": "PASS"
+    },
+    {
+      "type": "dropdown",
+      "url": "https://demoqa.com/webtables",
+      "fingerprint": {
+        "semantic": "dropdown",
+        "tag": "select",
+        "text": "Show 10 Show 20 Show 30 Show 40 Show 50",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "",
+        "input_type": "",
+        "title": "",
+        "aria_valuenow": ""
+      },
+      "description": "Test dropdown Show 10\nShow 20\nShow 30\nShow 40\nShow 50",
+      "status": "FAIL",
+      "error": "Semantic element could not be resolved uniquely (semantic='dropdown', id='', label='Show 10 Show 20 Show 30 Show 40 Show 50', type='')",
+      "evidence": "qa_v3_5_3_report/screenshots/_webtables_dropdown_26.png"
+    },
+    {
+      "type": "page_load",
+      "url": "https://demoqa.com/buttons",
+      "fingerprint": null,
+      "description": "Page should load successfully",
+      "status": "PASS"
+    },
+    {
+      "type": "button",
+      "url": "https://demoqa.com/buttons",
+      "fingerprint": {
+        "semantic": "button",
+        "tag": "button",
+        "text": "Double Click Me",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "doubleClickBtn",
+        "input_type": "button",
+        "title": "",
+        "aria_valuenow": ""
+      },
+      "description": "Activate Double Click Me",
+      "status": "PASS"
+    },
+    {
+      "type": "button",
+      "url": "https://demoqa.com/buttons",
+      "fingerprint": {
+        "semantic": "button",
+        "tag": "button",
+        "text": "Right Click Me",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "rightClickBtn",
+        "input_type": "button",
+        "title": "",
+        "aria_valuenow": ""
+      },
+      "description": "Activate Right Click Me",
+      "status": "PASS"
+    },
+    {
+      "type": "button",
+      "url": "https://demoqa.com/buttons",
+      "fingerprint": {
+        "semantic": "button",
+        "tag": "button",
+        "text": "Click Me",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "4aooB",
+        "input_type": "button",
+        "title": "",
+        "aria_valuenow": ""
+      },
+      "description": "Activate Click Me",
+      "status": "PASS"
+    },
+    {
+      "type": "page_load",
+      "url": "https://demoqa.com/links",
+      "fingerprint": null,
+      "description": "Page should load successfully",
+      "status": "PASS"
+    },
+    {
+      "type": "page_load",
+      "url": "https://demoqa.com/broken",
+      "fingerprint": null,
+      "description": "Page should load successfully",
+      "status": "PASS"
+    },
+    {
+      "type": "page_load",
+      "url": "https://demoqa.com/upload-download",
+      "fingerprint": null,
+      "description": "Page should load successfully",
+      "status": "PASS"
+    },
+    {
+      "type": "button",
+      "url": "https://demoqa.com/upload-download",
+      "fingerprint": {
+        "semantic": "button",
+        "tag": "a",
+        "text": "Download",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "downloadButton",
+        "input_type": "",
+        "title": "",
+        "aria_valuenow": ""
+      },
+      "description": "Activate Download",
+      "status": "PASS"
+    },
+    {
+      "type": "file_upload",
+      "url": "https://demoqa.com/upload-download",
+      "fingerprint": {
+        "semantic": "file_upload",
+        "tag": "input",
+        "text": "",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "uploadFile",
+        "input_type": "file",
+        "title": "",
+        "aria_valuenow": ""
+      },
+      "description": "Verify upload control file_upload",
+      "status": "PASS"
+    },
+    {
+      "type": "page_load",
+      "url": "https://demoqa.com/dynamic-properties",
+      "fingerprint": null,
+      "description": "Page should load successfully",
+      "status": "PASS"
+    },
+    {
+      "type": "dynamic_button",
+      "url": "https://demoqa.com/dynamic-properties",
+      "fingerprint": {
+        "semantic": "button",
+        "tag": "button",
+        "text": "Will enable 5 seconds",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "enableAfter",
+        "input_type": "button",
+        "title": "",
+        "aria_valuenow": ""
+      },
+      "description": "Wait for dynamic button Will enable 5 seconds",
+      "status": "PASS",
+      "message": "Dynamic control became enabled"
+    },
+    {
+      "type": "button",
+      "url": "https://demoqa.com/dynamic-properties",
+      "fingerprint": {
+        "semantic": "button",
+        "tag": "button",
+        "text": "Color Change",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "colorChange",
+        "input_type": "button",
+        "title": "",
+        "aria_valuenow": ""
+      },
+      "description": "Activate Color Change",
+      "status": "PASS"
+    },
+    {
+      "type": "page_load",
+      "url": "https://demoqa.com/automation-practice-form",
+      "fingerprint": null,
+      "description": "Page should load successfully",
+      "status": "PASS"
+    },
+    {
+      "type": "text_input",
+      "url": "https://demoqa.com/automation-practice-form",
+      "fingerprint": {
+        "semantic": "text_input",
+        "tag": "input",
+        "text": "",
+        "aria_label": "",
+        "placeholder": "First Name",
+        "name": "",
+        "id": "firstName",
+        "input_type": "text",
+        "title": "",
+        "aria_valuenow": ""
+      },
+      "description": "Enter valid data into First Name",
+      "status": "PASS",
+      "message": "Value persisted"
+    },
+    {
+      "type": "text_input",
+      "url": "https://demoqa.com/automation-practice-form",
+      "fingerprint": {
+        "semantic": "text_input",
+        "tag": "input",
+        "text": "",
+        "aria_label": "",
+        "placeholder": "Last Name",
+        "name": "",
+        "id": "lastName",
+        "input_type": "text",
+        "title": "",
+        "aria_valuenow": ""
+      },
+      "description": "Enter valid data into Last Name",
+      "status": "PASS",
+      "message": "Value persisted"
+    },
+    {
+      "type": "text_input",
+      "url": "https://demoqa.com/automation-practice-form",
+      "fingerprint": {
+        "semantic": "text_input",
+        "tag": "input",
+        "text": "",
+        "aria_label": "",
+        "placeholder": "name@example.com",
+        "name": "",
+        "id": "userEmail",
+        "input_type": "text",
+        "title": "",
+        "aria_valuenow": ""
+      },
+      "description": "Enter valid data into name@example.com",
+      "status": "PASS",
+      "message": "Value persisted"
+    },
+    {
+      "type": "radio",
+      "url": "https://demoqa.com/automation-practice-form",
+      "fingerprint": {
+        "semantic": "radio",
+        "tag": "input",
+        "text": "",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "gender",
+        "id": "gender-radio-1",
+        "input_type": "radio",
+        "title": "",
+        "aria_valuenow": ""
+      },
+      "description": "Select gender",
+      "status": "PASS"
+    },
+    {
+      "type": "radio",
+      "url": "https://demoqa.com/automation-practice-form",
+      "fingerprint": {
+        "semantic": "radio",
+        "tag": "input",
+        "text": "",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "gender",
+        "id": "gender-radio-2",
+        "input_type": "radio",
+        "title": "",
+        "aria_valuenow": ""
+      },
+      "description": "Select gender",
+      "status": "PASS"
+    },
+    {
+      "type": "radio",
+      "url": "https://demoqa.com/automation-practice-form",
+      "fingerprint": {
+        "semantic": "radio",
+        "tag": "input",
+        "text": "",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "gender",
+        "id": "gender-radio-3",
+        "input_type": "radio",
+        "title": "",
+        "aria_valuenow": ""
+      },
+      "description": "Select gender",
+      "status": "PASS"
+    },
+    {
+      "type": "text_input",
+      "url": "https://demoqa.com/automation-practice-form",
+      "fingerprint": {
+        "semantic": "text_input",
+        "tag": "input",
+        "text": "",
+        "aria_label": "",
+        "placeholder": "Mobile Number",
+        "name": "",
+        "id": "userNumber",
+        "input_type": "text",
+        "title": "",
+        "aria_valuenow": ""
+      },
+      "description": "Enter valid data into Mobile Number",
+      "status": "PASS",
+      "message": "Value persisted"
+    },
+    {
+      "type": "text_input",
+      "url": "https://demoqa.com/automation-practice-form",
+      "fingerprint": {
+        "semantic": "text_input",
+        "tag": "input",
+        "text": "",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "dateOfBirthInput",
+        "input_type": "text",
+        "title": "",
+        "aria_valuenow": ""
+      },
+      "description": "Enter valid data into text_input",
+      "status": "PASS",
+      "message": "Value persisted"
+    },
+    {
+      "type": "combobox",
+      "url": "https://demoqa.com/automation-practice-form",
+      "fingerprint": {
+        "semantic": "combobox",
+        "tag": "input",
+        "text": "",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "subjectsInput",
+        "input_type": "text",
+        "title": "",
+        "aria_valuenow": ""
+      },
+      "description": "Test combobox combobox",
+      "status": "PASS",
+      "message": "Combobox activated"
+    },
+    {
+      "type": "checkbox",
+      "url": "https://demoqa.com/automation-practice-form",
+      "fingerprint": {
+        "semantic": "checkbox",
+        "tag": "input",
+        "text": "",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "hobbies-checkbox-1",
+        "input_type": "checkbox",
+        "title": "",
+        "aria_valuenow": ""
+      },
+      "description": "Toggle checkbox",
+      "status": "PASS"
+    },
+    {
+      "type": "checkbox",
+      "url": "https://demoqa.com/automation-practice-form",
+      "fingerprint": {
+        "semantic": "checkbox",
+        "tag": "input",
+        "text": "",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "hobbies-checkbox-2",
+        "input_type": "checkbox",
+        "title": "",
+        "aria_valuenow": ""
+      },
+      "description": "Toggle checkbox",
+      "status": "PASS"
+    },
+    {
+      "type": "checkbox",
+      "url": "https://demoqa.com/automation-practice-form",
+      "fingerprint": {
+        "semantic": "checkbox",
+        "tag": "input",
+        "text": "",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "hobbies-checkbox-3",
+        "input_type": "checkbox",
+        "title": "",
+        "aria_valuenow": ""
+      },
+      "description": "Toggle checkbox",
+      "status": "PASS"
+    },
+    {
+      "type": "file_upload",
+      "url": "https://demoqa.com/automation-practice-form",
+      "fingerprint": {
+        "semantic": "file_upload",
+        "tag": "input",
+        "text": "",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "uploadPicture",
+        "input_type": "file",
+        "title": "",
+        "aria_valuenow": ""
+      },
+      "description": "Verify upload control file_upload",
+      "status": "PASS"
+    },
+    {
+      "type": "text_area",
+      "url": "https://demoqa.com/automation-practice-form",
+      "fingerprint": {
+        "semantic": "text_area",
+        "tag": "textarea",
+        "text": "",
+        "aria_label": "",
+        "placeholder": "Current Address",
+        "name": "",
+        "id": "currentAddress",
+        "input_type": "",
+        "title": "",
+        "aria_valuenow": ""
+      },
+      "description": "Enter text into Current Address",
+      "status": "PASS"
+    },
+    {
+      "type": "combobox",
+      "url": "https://demoqa.com/automation-practice-form",
+      "fingerprint": {
+        "semantic": "combobox",
+        "tag": "input",
+        "text": "",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "react-select-3-input",
+        "input_type": "text",
+        "title": "",
+        "aria_valuenow": ""
+      },
+      "description": "Test combobox combobox",
+      "status": "PASS",
+      "message": "Combobox activated"
+    },
+    {
+      "type": "button",
+      "url": "https://demoqa.com/automation-practice-form",
+      "fingerprint": {
+        "semantic": "button",
+        "tag": "button",
+        "text": "Submit",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "submit",
+        "input_type": "submit",
+        "title": "",
+        "aria_valuenow": ""
+      },
+      "description": "Activate Submit",
+      "status": "PASS"
+    },
+    {
+      "type": "page_load",
+      "url": "https://demoqa.com/browser-windows",
+      "fingerprint": null,
+      "description": "Page should load successfully",
+      "status": "PASS"
+    },
+    {
+      "type": "button",
+      "url": "https://demoqa.com/browser-windows",
+      "fingerprint": {
+        "semantic": "button",
+        "tag": "button",
+        "text": "New Tab",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "tabButton",
+        "input_type": "button",
+        "title": "",
+        "aria_valuenow": ""
+      },
+      "description": "Activate New Tab",
+      "status": "PASS"
+    },
+    {
+      "type": "button",
+      "url": "https://demoqa.com/browser-windows",
+      "fingerprint": {
+        "semantic": "button",
+        "tag": "button",
+        "text": "New Window",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "windowButton",
+        "input_type": "button",
+        "title": "",
+        "aria_valuenow": ""
+      },
+      "description": "Activate New Window",
+      "status": "PASS"
+    },
+    {
+      "type": "button",
+      "url": "https://demoqa.com/browser-windows",
+      "fingerprint": {
+        "semantic": "button",
+        "tag": "button",
+        "text": "New Window Message",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "messageWindowButton",
+        "input_type": "button",
+        "title": "",
+        "aria_valuenow": ""
+      },
+      "description": "Activate New Window Message",
+      "status": "PASS"
+    },
+    {
+      "type": "page_load",
+      "url": "https://demoqa.com/alerts",
+      "fingerprint": null,
+      "description": "Page should load successfully",
+      "status": "PASS"
+    },
+    {
+      "type": "button",
+      "url": "https://demoqa.com/alerts",
+      "fingerprint": {
+        "semantic": "button",
+        "tag": "button",
+        "text": "Click me",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "alertButton",
+        "input_type": "button",
+        "title": "",
+        "aria_valuenow": ""
+      },
+      "description": "Activate Click me",
+      "status": "FAIL",
+      "error": "Semantic element could not be resolved uniquely (semantic='button', id='alertButton', label='Click me', type='button')",
+      "evidence": "qa_v3_5_3_report/screenshots/_alerts_button_61.png"
+    },
+    {
+      "type": "button",
+      "url": "https://demoqa.com/alerts",
+      "fingerprint": {
+        "semantic": "button",
+        "tag": "button",
+        "text": "Click me",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "timerAlertButton",
+        "input_type": "button",
+        "title": "",
+        "aria_valuenow": ""
+      },
+      "description": "Activate Click me",
+      "status": "FAIL",
+      "error": "Semantic element could not be resolved uniquely (semantic='button', id='timerAlertButton', label='Click me', type='button')",
+      "evidence": "qa_v3_5_3_report/screenshots/_alerts_button_62.png"
+    },
+    {
+      "type": "button",
+      "url": "https://demoqa.com/alerts",
+      "fingerprint": {
+        "semantic": "button",
+        "tag": "button",
+        "text": "Click me",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "confirmButton",
+        "input_type": "button",
+        "title": "",
+        "aria_valuenow": ""
+      },
+      "description": "Activate Click me",
+      "status": "FAIL",
+      "error": "Semantic element could not be resolved uniquely (semantic='button', id='confirmButton', label='Click me', type='button')",
+      "evidence": "qa_v3_5_3_report/screenshots/_alerts_button_63.png"
+    },
+    {
+      "type": "button",
+      "url": "https://demoqa.com/alerts",
+      "fingerprint": {
+        "semantic": "button",
+        "tag": "button",
+        "text": "Click me",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "promtButton",
+        "input_type": "button",
+        "title": "",
+        "aria_valuenow": ""
+      },
+      "description": "Activate Click me",
+      "status": "FAIL",
+      "error": "Semantic element could not be resolved uniquely (semantic='button', id='promtButton', label='Click me', type='button')",
+      "evidence": "qa_v3_5_3_report/screenshots/_alerts_button_64.png"
+    },
+    {
+      "type": "page_load",
+      "url": "https://demoqa.com/frames",
+      "fingerprint": null,
+      "description": "Page should load successfully",
+      "status": "PASS"
+    },
+    {
+      "type": "page_load",
+      "url": "https://demoqa.com/nestedframes",
+      "fingerprint": null,
+      "description": "Page should load successfully",
+      "status": "PASS"
+    },
+    {
+      "type": "page_load",
+      "url": "https://demoqa.com/modal-dialogs",
+      "fingerprint": null,
+      "description": "Page should load successfully",
+      "status": "PASS"
+    },
+    {
+      "type": "button",
+      "url": "https://demoqa.com/modal-dialogs",
+      "fingerprint": {
+        "semantic": "button",
+        "tag": "button",
+        "text": "Small modal",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "showSmallModal",
+        "input_type": "button",
+        "title": "",
+        "aria_valuenow": ""
+      },
+      "description": "Activate Small modal",
+      "status": "PASS"
+    },
+    {
+      "type": "button",
+      "url": "https://demoqa.com/modal-dialogs",
+      "fingerprint": {
+        "semantic": "button",
+        "tag": "button",
+        "text": "Large modal",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "showLargeModal",
+        "input_type": "button",
+        "title": "",
+        "aria_valuenow": ""
+      },
+      "description": "Activate Large modal",
+      "status": "PASS"
+    },
+    {
+      "type": "page_load",
+      "url": "https://demoqa.com/accordian",
+      "fingerprint": null,
+      "description": "Page should load successfully",
+      "status": "PASS"
+    },
+    {
+      "type": "button",
+      "url": "https://demoqa.com/accordian",
+      "fingerprint": {
+        "semantic": "button",
+        "tag": "button",
+        "text": "What is Lorem Ipsum?",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "",
+        "input_type": "button",
+        "title": "",
+        "aria_valuenow": ""
+      },
+      "description": "Activate What is Lorem Ipsum?",
+      "status": "PASS"
+    },
+    {
+      "type": "button",
+      "url": "https://demoqa.com/accordian",
+      "fingerprint": {
+        "semantic": "button",
+        "tag": "button",
+        "text": "Where does it come from?",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "",
+        "input_type": "button",
+        "title": "",
+        "aria_valuenow": ""
+      },
+      "description": "Activate Where does it come from?",
+      "status": "PASS"
+    },
+    {
+      "type": "button",
+      "url": "https://demoqa.com/accordian",
+      "fingerprint": {
+        "semantic": "button",
+        "tag": "button",
+        "text": "Why do we use it?",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "",
+        "input_type": "button",
+        "title": "",
+        "aria_valuenow": ""
+      },
+      "description": "Activate Why do we use it?",
+      "status": "PASS"
+    },
+    {
+      "type": "page_load",
+      "url": "https://demoqa.com/auto-complete",
+      "fingerprint": null,
+      "description": "Page should load successfully",
+      "status": "PASS"
+    },
+    {
+      "type": "combobox",
+      "url": "https://demoqa.com/auto-complete",
+      "fingerprint": {
+        "semantic": "combobox",
+        "tag": "input",
+        "text": "",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "autoCompleteMultipleInput",
+        "input_type": "text",
+        "title": "",
+        "aria_valuenow": ""
+      },
+      "description": "Test combobox combobox",
+      "status": "PASS",
+      "message": "Combobox activated"
+    },
+    {
+      "type": "combobox",
+      "url": "https://demoqa.com/auto-complete",
+      "fingerprint": {
+        "semantic": "combobox",
+        "tag": "input",
+        "text": "",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "autoCompleteSingleInput",
+        "input_type": "text",
+        "title": "",
+        "aria_valuenow": ""
+      },
+      "description": "Test combobox combobox",
+      "status": "PASS",
+      "message": "Combobox activated"
+    },
+    {
+      "type": "page_load",
+      "url": "https://demoqa.com/date-picker",
+      "fingerprint": null,
+      "description": "Page should load successfully",
+      "status": "PASS"
+    },
+    {
+      "type": "text_input",
+      "url": "https://demoqa.com/date-picker",
+      "fingerprint": {
+        "semantic": "text_input",
+        "tag": "input",
+        "text": "",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "datePickerMonthYearInput",
+        "input_type": "text",
+        "title": "",
+        "aria_valuenow": ""
+      },
+      "description": "Enter valid data into text_input",
+      "status": "PASS",
+      "message": "Value persisted"
+    },
+    {
+      "type": "text_input",
+      "url": "https://demoqa.com/date-picker",
+      "fingerprint": {
+        "semantic": "text_input",
+        "tag": "input",
+        "text": "",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "dateAndTimePickerInput",
+        "input_type": "text",
+        "title": "",
+        "aria_valuenow": ""
+      },
+      "description": "Enter valid data into text_input",
+      "status": "PASS",
+      "message": "Value persisted"
+    },
+    {
+      "type": "page_load",
+      "url": "https://demoqa.com/slider",
+      "fingerprint": null,
+      "description": "Page should load successfully",
+      "status": "PASS"
+    },
+    {
+      "type": "slider",
+      "url": "https://demoqa.com/slider",
+      "fingerprint": {
+        "semantic": "slider",
+        "tag": "input",
+        "text": "",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "slider",
+        "input_type": "range",
+        "title": "",
+        "aria_valuenow": "25"
+      },
+      "description": "Change slider",
+      "status": "PASS",
+      "message": "Slider 25 -> 26"
+    },
+    {
+      "type": "text_input",
+      "url": "https://demoqa.com/slider",
+      "fingerprint": {
+        "semantic": "text_input",
+        "tag": "input",
+        "text": "",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "sliderValue",
+        "input_type": "",
+        "title": "",
+        "aria_valuenow": ""
+      },
+      "description": "Enter valid data into text_input",
+      "status": "FAIL",
+      "error": "Expected 'QA_AGENT_TEST', got '25'",
+      "evidence": "qa_v3_5_3_report/screenshots/_slider_text_input_82.png"
+    },
+    {
+      "type": "page_load",
+      "url": "https://demoqa.com/progress-bar",
+      "fingerprint": null,
+      "description": "Page should load successfully",
+      "status": "PASS"
+    },
+    {
+      "type": "button",
+      "url": "https://demoqa.com/progress-bar",
+      "fingerprint": {
+        "semantic": "button",
+        "tag": "button",
+        "text": "Start",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "startStopButton",
+        "input_type": "button",
+        "title": "",
+        "aria_valuenow": ""
+      },
+      "description": "Activate Start",
+      "status": "PASS"
+    },
+    {
+      "type": "page_load",
+      "url": "https://demoqa.com/tabs",
+      "fingerprint": null,
+      "description": "Page should load successfully",
+      "status": "PASS"
+    },
+    {
+      "type": "tab",
+      "url": "https://demoqa.com/tabs",
+      "fingerprint": {
+        "semantic": "tab",
+        "tag": "button",
+        "text": "What",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "demo-tab-what",
+        "input_type": "button",
+        "title": "",
+        "aria_valuenow": ""
+      },
+      "description": "Activate tab What",
+      "status": "PASS"
+    },
+    {
+      "type": "tab",
+      "url": "https://demoqa.com/tabs",
+      "fingerprint": {
+        "semantic": "tab",
+        "tag": "button",
+        "text": "Origin",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "demo-tab-origin",
+        "input_type": "button",
+        "title": "",
+        "aria_valuenow": ""
+      },
+      "description": "Activate tab Origin",
+      "status": "PASS"
+    },
+    {
+      "type": "tab",
+      "url": "https://demoqa.com/tabs",
+      "fingerprint": {
+        "semantic": "tab",
+        "tag": "button",
+        "text": "Use",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "demo-tab-use",
+        "input_type": "button",
+        "title": "",
+        "aria_valuenow": ""
+      },
+      "description": "Activate tab Use",
+      "status": "PASS"
+    },
+    {
+      "type": "page_load",
+      "url": "https://demoqa.com/tool-tips",
+      "fingerprint": null,
+      "description": "Page should load successfully",
+      "status": "PASS"
+    },
+    {
+      "type": "button",
+      "url": "https://demoqa.com/tool-tips",
+      "fingerprint": {
+        "semantic": "button",
+        "tag": "button",
+        "text": "Hover me to see",
+        "aria_label": "",
+        "placeholder": "",
+        "name": "",
+        "id": "toolTipButton",
+        "input_type": "button",
+        "title": "",
+        "aria_valuenow": ""
+      },
+      "description": "Activate Hover me to see",
+      "status": "PASS"
+    },
+    {
+      "type": "text_input",
+      "url": "https://demoqa.com/tool-tips",
+      "fingerprint": {
+        "semantic": "text_input",
+        "tag": "input",
+        "text": "",
+        "aria_label": "",
+        "placeholder": "Hover me to see",
+        "name": "",
+        "id": "toolTipTextField",
+        "input_type": "text",
+        "title": "",
+        "aria_valuenow": ""
+      },
+      "description": "Enter valid data into Hover me to see",
+      "status": "PASS",
+      "message": "Value persisted"
+    }
+  ]
+}

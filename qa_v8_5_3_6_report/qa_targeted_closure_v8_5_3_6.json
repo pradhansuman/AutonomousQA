@@ -1,0 +1,8 @@
+{
+  "version": "8.5.3.6",
+  "current_run_only": true,
+  "failed_journeys_before_closure": 0,
+  "unknown_behaviors_before_closure": 0,
+  "closure_attempts": [],
+  "backend_claims_fabricated": 0
+}

@@ -1,0 +1,42 @@
+{
+  "version": "8.2.4",
+  "intent_plan": {
+    "smoke": [],
+    "sanity": [],
+    "regression": [],
+    "e2e": []
+  },
+  "execution_coverage": {
+    "smoke": {
+      "planned": 0,
+      "executed": 0,
+      "passed": 0,
+      "failed": 0,
+      "status": "PLANNED_NOT_EXECUTED"
+    },
+    "sanity": {
+      "planned": 0,
+      "executed": 0,
+      "passed": 0,
+      "failed": 0,
+      "status": "PLANNED_NOT_EXECUTED"
+    },
+    "regression": {
+      "planned": 0,
+      "executed": 0,
+      "passed": 0,
+      "failed": 0,
+      "status": "PLANNED_NOT_EXECUTED"
+    },
+    "e2e": {
+      "planned": 0,
+      "executed": 0,
+      "passed": 0,
+      "failed": 0,
+      "status": "PLANNED_NOT_EXECUTED"
+    }
+  },
+  "credentials_stored": false,
+  "tokens_stored": false,
+  "cookies_stored": false
+}

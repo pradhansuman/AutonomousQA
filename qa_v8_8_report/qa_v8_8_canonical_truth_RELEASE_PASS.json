@@ -1,0 +1,37 @@
+{
+  "version": "8.8",
+  "run_id": "96fd32c24afc4e538e3e80549ced8d15",
+  "target": "https://the-internet.herokuapp.com/",
+  "discovery_pages": 50,
+  "behavioral_surfaces": 17,
+  "covered_behaviors": 17,
+  "unknown_behaviors": 0,
+  "behavioral_coverage": 100.0,
+  "navigation_surfaces": 134,
+  "navigation_covered": 49,
+  "executions": 17,
+  "execution_pass": 17,
+  "execution_fail": 0,
+  "evidence_records": 116,
+  "legacy_state_reused": false,
+  "negative_conditions": {
+    "legacy_state_reused": false,
+    "synthetic_evidence": false,
+    "foreign_evidence": false,
+    "fabricated_backend_claims": false
+  },
+  "gates": {
+    "current_discovery": true,
+    "canonical_model": true,
+    "legacy_state_reused": true,
+    "synthetic_evidence": true,
+    "foreign_evidence": true,
+    "execution_failures": true,
+    "unknown_behaviors": true,
+    "evidence_exists": true,
+    "executed_behaviors_have_evidence": true,
+    "fabricated_backend_claims": true
+  },
+  "release_truth_gate": true,
+  "generated_at": "2026-09-01T07:39:00.919877+00:00"
+}
