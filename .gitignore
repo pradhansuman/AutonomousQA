@@ -7,3 +7,14 @@ venv/
 node_modules/
 playwright-report/
 test-results/
+
+# Generated QA reports
+qa_v*_report/
+*_report/
+
+# Local QA backups
+*.backup_*
+*.before_*
+*.SYNTAX_CLEAN
+*.FINAL_SAFE_BACKUP
+*.RELEASE_PASS_*
