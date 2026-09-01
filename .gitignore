@@ -1,17 +1,19 @@
-# Generated QA reports
+__pycache__/
+*.py[cod]
+
+venv/
+.venv/
+env/
+
 qa_v*_report/
 reports/
+results/
 
-# Python backups
 *.backup*
 *.before_*
 *.SYNTAX_CLEAN
 *.FINAL_SAFE_BACKUP
-*.RELEASE_PASS_*
+*.RELEASE_PASS*
+*.LOCAL_SAFETY_COPY
 
-# Python cache
-__pycache__/
-*.pyc
-
-# OS files
 .DS_Store
