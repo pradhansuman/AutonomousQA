@@ -1,20 +1,17 @@
-__pycache__/
-*.pyc
-.DS_Store
-.env
-.venv/
-venv/
-node_modules/
-playwright-report/
-test-results/
-
 # Generated QA reports
 qa_v*_report/
-*_report/
+reports/
 
-# Local QA backups
-*.backup_*
+# Python backups
+*.backup*
 *.before_*
 *.SYNTAX_CLEAN
 *.FINAL_SAFE_BACKUP
 *.RELEASE_PASS_*
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
